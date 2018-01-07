@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mobile Keyboard Test</title>
+<script src="/js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<input id="field" type="text"/>
+<button id="button">btn</button>
+<script>
+$(document).ready(function() {
+    $('#field').click(function(e){
+        $(this).focus();
+    });
+    $('#button').click(function(e) {
+        $('#field').trigger('click');
+    });
+});
+</script>
+</body>
+</html>
