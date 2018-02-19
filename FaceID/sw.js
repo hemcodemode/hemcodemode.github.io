@@ -1,35 +1,35 @@
-self.addEventListener('notificationclick', function(event) {
-    console.log(event);
-    let url = 'https://plchat.herokuapp.com';
-    event.notification.close(); // Android needs explicit close.
-    event.waitUntil(
-        clients.matchAll({
-            includeUncontrolled: true, 
-            type: 'window'
-        }).then(function(windowClients) {
-            // Check if there is already a window/tab open with the target URL
-            for (var i = 0; i < windowClients.length; i++) {
-                var client = windowClients[i];
-                // If so, just focus it.
-                if (client.url.indexOf(url)!=-1  && 'focus' in client) {
-                    return client.focus();
-                }
-        }
-            // If not, then open the target URL in a new window/tab.
-            if (clients.openWindow) {
-                return clients.openWindow(url);
-            }
-        })
-    );
-});
+// self.addEventListener('notificationclick', function(event) {
+//     console.log(event);
+//     let url = 'https://plchat.herokuapp.com';
+//     event.notification.close(); // Android needs explicit close.
+//     event.waitUntil(
+//         clients.matchAll({
+//             includeUncontrolled: true, 
+//             type: 'window'
+//         }).then(function(windowClients) {
+//             // Check if there is already a window/tab open with the target URL
+//             for (var i = 0; i < windowClients.length; i++) {
+//                 var client = windowClients[i];
+//                 // If so, just focus it.
+//                 if (client.url.indexOf(url)!=-1  && 'focus' in client) {
+//                     return client.focus();
+//                 }
+//         }
+//             // If not, then open the target URL in a new window/tab.
+//             if (clients.openWindow) {
+//                 return clients.openWindow(url);
+//             }
+//         })
+//     );
+// });
 
 
-var CACHE_NAME = 'plchat-v2';
+var CACHE_NAME = 'faceid-v2';
 var urlsToCache = [
     '/css/main.css',
-    '/Fonts/font-awesome.min.css',
-    '/js/jquery-3.2.1.min.js',
-    '/js/socket.io.js'
+    '../Fonts/font-awesome.min.css',
+    '../js/jquery-3.2.1.min.js',
+    '../js/socket.io.js'
 ];
 
 self.addEventListener('fetch', function(event) {
