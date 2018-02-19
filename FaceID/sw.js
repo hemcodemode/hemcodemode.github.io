@@ -26,7 +26,7 @@
 
 var CACHE_NAME = 'faceid-v2';
 var urlsToCache = [
-    '/css/main.css',
+    'css/main.css',
     '../Fonts/font-awesome.min.css',
     '../js/jquery-3.2.1.min.js',
     '../js/socket.io.js'
