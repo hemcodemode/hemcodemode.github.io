@@ -43,7 +43,7 @@ self.addEventListener('fetch', function(event) {
             return fetch(event.request);
           }
         ).catch(function(ex) {
-          return caches.match(event.request);
+          return "no cache available";
         })
       );
     }
