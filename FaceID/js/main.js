@@ -58,7 +58,7 @@ function TrackFaceInit() {
         event.data.forEach(function(rect) {   
             context.strokeStyle = '#f00';
             context.strokeRect(canvas.width-rect.width-rect.x, rect.y, rect.width, rect.height);
-            console.log(rect.x, rect.y);
+            // console.log(rect.x, rect.y);
             context.font = '14px Helvetica';
             context.fillStyle = "#fff";
             context.lineWidth = 4;   
@@ -123,7 +123,7 @@ function GetFace(rawimg,callback){
             }
         }
     });
-    xhr.open("POST", "http://localhost:8585/FaceRecogApi/GetFaceMatch");
+    xhr.open("POST", "https://52.172.181.47:8000/FaceRecogApi/GetFaceMatch");
     xhr.setRequestHeader("content-type", "application/json");
     // xhr.setRequestHeader("cache-control", "no-cache");
     xhr.send(data);
