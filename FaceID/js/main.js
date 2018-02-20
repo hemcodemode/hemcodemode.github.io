@@ -24,15 +24,11 @@ function umSuccess(stream) {
     }
     vid.play();
     vidReady = true;
-    
-}
-
-window.onload = function() {
     detecting = true;
     Capture();
-    TrackFaceInit();
-
+     TrackFaceInit();
 }
+
 $(document).ready(function(){
     vid = $('#main_video').get(0);
     vidReady = false;
