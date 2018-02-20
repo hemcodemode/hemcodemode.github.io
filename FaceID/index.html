@@ -18,13 +18,27 @@
 	<link rel="stylesheet" id="style" href="css/main.css">
 	<link rel="stylesheet" href="../Fonts/font-awesome.min.css">
 	<script src="../js/jquery-3.2.1.min.js"></script>
-	<script src="../js/socket.io.js"></script>
+	<script src="js/tracking-min.js"></script>  
+  	<script src="js/data/face-min.js"></script>
 	<script src="js/main.js"></script>
 </head>
 <body>
-<h3>Authorised as hemant</h3>
+<div id="container">
+	<div id="faceid">
+		<canvas id="canvas" width="400"  height="300"></canvas>
+		<video id="main_video"  width="400"  height="300" preload autoplay loop muted></video>
+	</div>
+	<div id="main">
+		<div id="personName"></div>
+		<button id="lock">Lock</button>
+	</div>
+</div>	
 
-
+<div id="progressLoader">
+	<div id="LoadingArea"></div>
+	<div id="loaderSpin"></div>
+	<div id="loaderText"></div>
+</div>
 <script type="text/javascript">
 
 try{
