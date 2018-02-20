@@ -28,7 +28,7 @@ function umSuccess(stream) {
 }
 
 window.onload = function() {
-    //TrackFaceInit();    
+    TrackFaceInit();    
 }
 $(document).ready(function(){
     vid = $('#main_video').get(0);
@@ -103,6 +103,7 @@ function GetFace(rawimg,callback){
             username = []
             if(data.data.length==0){
                document.getElementById('personName').innerHTML = "Please try again.";
+               detecting = false;
             }else{
               for(var i=0;i<data.data.length;i++){
                 $("#faceid").hide();
@@ -122,9 +123,9 @@ function GetFace(rawimg,callback){
             }
         }
     });
-    xhr.open("POST", "https://52.172.181.47:8000/FaceRecogApi/GetFaceMatch");
+    xhr.open("POST", "http://localhost:8585/FaceRecogApi/GetFaceMatch");
     xhr.setRequestHeader("content-type", "application/json");
-    xhr.setRequestHeader("cache-control", "no-cache");
+    // xhr.setRequestHeader("cache-control", "no-cache");
     xhr.send(data);
 }
 
