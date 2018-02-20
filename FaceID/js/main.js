@@ -28,7 +28,10 @@ function umSuccess(stream) {
 }
 
 window.onload = function() {
-    TrackFaceInit();    
+    detecting = true;
+    Capture();
+    TrackFaceInit();
+
 }
 $(document).ready(function(){
     vid = $('#main_video').get(0);
@@ -106,14 +109,21 @@ function GetFace(rawimg,callback){
                detecting = false;
             }else{
               for(var i=0;i<data.data.length;i++){
-                $("#faceid").hide();
-                $("#main").show();
                 if(i>0){
                   document.getElementById('personName').innerHTML += ', ';
                 }
-                document.getElementById('personName').innerHTML += Math.max(...data.data[i].slice(129).slice(0,-1))>=threshold?data.data[i][data.data[i].length-1]:"not detected";
-                username.push(Math.max(...data.data[i].slice(129).slice(0,-1))>=threshold?data.data[i][data.data[i].length-1]:"unknown");
-                console.log(Math.max(...data.data[i].slice(129).slice(0,-1)));
+                if(Math.max(...data.data[i].slice(129).slice(0,-1))<threshold){
+                    $("#faceid").show();
+                    $("#main").hide();
+                    detecting = false;
+                }else{
+                    $("#faceid").hide();
+                    $("#main").show();
+                    document.getElementById('personName').innerHTML += Math.max(...data.data[i].slice(129).slice(0,-1))>=threshold?data.data[i][data.data[i].length-1]:"not detected";
+                    username.push(Math.max(...data.data[i].slice(129).slice(0,-1))>=threshold?data.data[i][data.data[i].length-1]:"unknown");
+                    console.log(Math.max(...data.data[i].slice(129).slice(0,-1)));
+                }
+
               }
             }
             
