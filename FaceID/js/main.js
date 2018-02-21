@@ -26,7 +26,7 @@ function umSuccess(stream) {
     vidReady = true;
     detecting = true;
     Capture();
-     TrackFaceInit();
+    TrackFaceInit();
 }
 
 $(document).ready(function(){
@@ -98,7 +98,7 @@ function GetFace(rawimg,callback){
             Loader('hide');
             console.log(this.responseText);
             var data = JSON.parse(this.responseText);
-            document.getElementById('personName').innerHTML = "";
+            document.getElementById('personName').innerHTML = "Welcome back ";
             username = []
             if(data.data.length==0){
                document.getElementById('personName').innerHTML = "Please try again.";
