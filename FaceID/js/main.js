@@ -77,7 +77,7 @@ function Capture(x,y,w,h){
     canvas.height = vid.height;
     var cc = canvas.getContext('2d');
     cc.drawImage(vid, 0, 0);
-    var dataURL = canvas.toDataURL('image/jpeg', 0.8)
+    var dataURL = canvas.toDataURL('image/jpeg', 0.3)
     GetFace(dataURL.split(',')[1]);
 }
 
