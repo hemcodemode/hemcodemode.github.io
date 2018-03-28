@@ -24,7 +24,7 @@
 // });
 
 
-var CACHE_NAME = 'faceid-v2';
+var CACHE_NAME = 'faceid-v3';
 var urlsToCache = [
     'css/main.css',
     '../Fonts/font-awesome.min.css',
