@@ -24,8 +24,8 @@ function umSuccess(stream) {
     }
     vid.play();
     vidReady = true;
-    detecting = true;
-    Capture();
+    //detecting = true;
+    //Capture();
     TrackFaceInit();
 }
 
@@ -56,7 +56,7 @@ function TrackFaceInit() {
         context.clearRect(0, 0, canvas.width, canvas.height);
         event.data.forEach(function(rect) {   
             context.strokeStyle = '#f00';
-            context.strokeRect(canvas.width-rect.width-rect.x, rect.y, rect.width, rect.height);
+            //context.strokeRect(canvas.width-rect.width-rect.x, rect.y, rect.width, rect.height);
             // console.log(rect.x, rect.y);
             context.font = '14px Helvetica';
             context.fillStyle = "#fff";
