@@ -16,12 +16,62 @@ function InitCamera(){
      }
 }
 
+var FrontCam = 0;
+function StartCam(){
+  if (window.stream) {
+      window.stream.getTracks().forEach(function(track) {
+        track.stop();
+      });
+  }
+  if (navigator.getUserMedia) {
+         var videoSelector = {video : {
+          width: 400, 
+          height: 300,
+          deviceId: {exact: Camdevices[FrontCam].value}
+        }};
+         navigator.getUserMedia(videoSelector, umSuccess, function() {
+             alert("Error fetching video from webcam");
+         });
+     } else {
+         alert("No webcam detected.");
+     }
+}
+var Camdevices = [];
+var Audiodevices = [];
+function gotDevices(deviceInfos) {
+  for (var i = 0; i !== deviceInfos.length; ++i) {
+    var deviceInfo = deviceInfos[i];
+    var option = {};
+    option.value = deviceInfo.deviceId;
+    if (deviceInfo.kind === 'audioinput') {
+      option.text = deviceInfo.label ||
+        'microphone ' + (Audiodevices.length + 1);
+      Audiodevices.push(option);
+    } else if (deviceInfo.kind === 'videoinput') {
+      option.text = deviceInfo.label || 'cam' +
+        (Camdevices.length + 1);
+      Camdevices.push(option);
+    } else {
+      console.log('Found one other kind of source/device: ', deviceInfo);
+    }
+  }
+}    
+
+function InitCams(){
+  navigator.mediaDevices.enumerateDevices()
+  .then(gotDevices).then(StartCam).catch(function(e){
+    console.log(e);
+    alert("No webcam detected.");
+  });
+}
+
 function umSuccess(stream) {
     if (vid.mozCaptureStream) {
         vid.mozSrcObject = stream;
     } else {
-        vid.src = vid.src||(window.URL && window.URL.createObjectURL(stream)) || stream;
+        vid.src = (window.URL && window.URL.createObjectURL(stream)) || stream;
     }
+    window.stream = stream;
     vid.play();
     vidReady = true;
     //detecting = true;
@@ -32,11 +82,17 @@ function umSuccess(stream) {
 $(document).ready(function(){
     vid = $('#main_video').get(0);
     vidReady = false;
-    InitCamera();
+    //InitCamera();
+    InitCams();
     $("#lock").click(function(){
         $("#faceid").show();
         $("#main").hide();
         detecting = false;
+    });
+    $("#camselect").click(function(){
+        $("#camselect").toggleClass("","")
+       FrontCam = FrontCam==0?1:0;
+       StartCam();
     })
 
 })

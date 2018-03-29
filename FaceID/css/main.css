@@ -12,7 +12,16 @@
   transition: opacity 1s;
   width: 100%;
 }
-
+#camselect{
+    position: absolute;
+    color: #fff;
+    margin: 10px;
+    bottom: 0px;
+    background: #000;
+    padding: 3px 8px;
+    z-index: 1000;
+    cursor: pointer;
+}
 #canvas,#canvas2,#canvas3 {
     position: absolute;
     z-index: 12;
