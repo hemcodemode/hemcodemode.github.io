@@ -185,7 +185,7 @@ function GetFace(rawimg,callback){
             }
         }
     });
-    xhr.open("POST", "https://52.172.181.47:8000/FaceRecogApi/GetFaceMatch");
+    xhr.open("POST", "https://dev.zinghr.com/Recruitment/Route/ModelAPI/GetFaceMatch");
     xhr.setRequestHeader("content-type", "application/json");
     // xhr.setRequestHeader("cache-control", "no-cache");
     xhr.send(data);
