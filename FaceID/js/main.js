@@ -153,7 +153,7 @@ function GetFace(rawimg,callback){
         if (this.readyState === 4) {
             Loader('hide');
             console.log(this.responseText);
-            var data = JSON.parse(this.responseText);
+            var data = JSON.parse(JSON.parse(this.responseText))
             document.getElementById('personName').innerHTML = "Welcome back ";
             username = []
             if(data.data.length==0){
