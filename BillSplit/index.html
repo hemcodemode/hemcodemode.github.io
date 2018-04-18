@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Biil Split</title>
+	<link href="css/main.css" rel="stylesheet" type="text/css" href="">
+	<link rel="stylesheet" href="../Fonts/font-awesome.min.css">
+	<script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+<div>
+<div id="imageSrc">
+Drop image here
+</div>
+<div id="imgContainer">
+</div>
+<input type="file" id="myfile" accept="image/.*"/>
+<div id="totalAmount">
+	<table>
+		<thead>
+			<tr><th>Name</th><th>Amount</th></tr>
+		</thead>
+		<tbody>
+			<tr id="user1"><td>Hemant</td><td id="userTotal1">0</td></tr>
+			<tr id="user2"><td>Piyush</td><td id="userTotal2">0</td></tr>
+			<tr id="user3"><td>Anshul</td><td id="userTotal3">0</td></tr>
+			<tr id="total"><td>Total</td><td id="usersTotal">0</td></tr>
+		</tbody>
+	</table>
+</div>
+</div>
+
+<div id="BillDropdown">
+	<input id='currentValue' type='text' placeholder='Enter amount'/>
+	<div id="billMembers">
+		<div class="members" data-value="1">Hemant</div>
+		<div class="members" data-value="2">Piyush</div>
+		<div class="members" data-value="3">Anshul</div>
+		<div class="members" data-value="equally">Split equally</div>
+		<button id="submitEachValue">Done</button>
+	</div>
+</div>
+</body>
+</html>

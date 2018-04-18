@@ -1,0 +1,31 @@
+#imageSrc{
+	border: 3px dashed #bbb;
+	width: 500px;
+    height: 200px;
+    cursor: pointer;
+    padding-top: 150px;
+}
+#imgContainer{
+	border: 1px solid green;
+	display: none;
+	width: 500px;
+    cursor: pointer;
+}
+#imgContainer img{
+	width: 100%;
+}
+#myfile{
+	display: none;
+}
+#BillDropdown{
+	display: none;
+	border: 1px solid #bbb;
+	position: absolute;
+    background: rgb(187, 187, 187);
+    padding: 5px;
+    cursor: pointer;
+}
+.added{
+	background-color: green;
+	color: #fff;
+}
