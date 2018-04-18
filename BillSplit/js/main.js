@@ -22,12 +22,12 @@ $(document).ready(function(){
 			if($(this).attr("data-value")=="equally"){
 				$("[id^=userTotal]").each(function(x,y){
 					var amount = parseFloat($(this).html()); 
-					amount = parseFloat(amount+parseFloat($("#currentValue").val()/$("[id^=userTotal]").length));
+					amount = parseFloat(amount+(parseFloat($("#currentValue").val()/$("[id^=userTotal]").length)));
 					$(this).html(amount);
 				});
 			}else{
 				var amount = parseFloat($("#userTotal"+$(this).attr("data-value")).html()); 
-				amount = parseFloat(amount+parseFloat($("#currentValue").val()));
+				amount = parseFloat(amount+(parseFloat($("#currentValue").val()/$("#billMembers .added").length)));
 				$("#userTotal"+$(this).attr("data-value")).html(amount);
 			}
 		});
@@ -55,10 +55,20 @@ function handleFileInputChange() {
 function readFile(file) {    
 	var reader= new FileReader();   
 	reader.addEventListener("load", function(e) {
-		$("#imgContainer").show();
+		$("#imgContainer").css("display","inline-block");
 		$("#imageSrc").hide();
 		$("#imgContainer").html("<img class='uploadedImg' src='"+e.target.result+"' />");
 		$("#status").html('uploading...');
+		 $(".uploadedImg").get(0).onload = function(){
+		 	$("#imgCover").css("height",$(".uploadedImg").get(0).height);
+			$("#imgCover").css("display","inline-block");
+			$("#imgCover").animate({ height: "0px" },10000);
+			window.setTimeout(function(){
+				$("#imgCover").hide();
+			},10000);
+
+		 }
+		
 		GetAnnonateText(e.target.result);
 	}); 
 	reader.readAsDataURL(file);
@@ -129,7 +139,7 @@ function HandleBillClick(evt){
 		console.log("Probable element",result,result[0].description);
 		$("#BillDropdown").css({"left":mousePos.x+20+"px","top":mousePos.y+20+"px"});
 		$("#currentValue").val(result[0].description);
-		$("#BillDropdown").show();
+		$("#BillDropdown").css("display","inline-block");
 	}else{
 		$("#BillDropdown").hide();
 	}
