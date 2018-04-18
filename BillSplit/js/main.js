@@ -58,6 +58,7 @@ function readFile(file) {
 		$("#imgContainer").show();
 		$("#imageSrc").hide();
 		$("#imgContainer").html("<img class='uploadedImg' src='"+e.target.result+"' />");
+		$("#status").html('uploading...');
 		GetAnnonateText(e.target.result);
 	}); 
 	reader.readAsDataURL(file);
@@ -81,6 +82,7 @@ function GetAnnonateText(base64String){
 	var xhr = new XMLHttpRequest();
 	xhr.addEventListener("readystatechange", function () {
 	  if (this.readyState === 4) {
+	  	$("#status").html('done');
 	    var textoutput = JSON.parse(this.responseText);
 	    console.log(textoutput);
 	    BillSplit.billDetails = textoutput;
