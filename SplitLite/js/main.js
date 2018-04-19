@@ -56,6 +56,9 @@ $(document).ready(function(){
 		ctx.font = "10px Arial";
 		ctx.fillStyle = "#FF0000";
 		ctx.fillText(selectedUser.join(", "),BillSplit.boxX+BillSplit.boxWidth+2,BillSplit.boxY);
+		ctx.clearRect(BillSplit.boxX-1,BillSplit.boxY-1,BillSplit.boxWidth+2,BillSplit.boxHeight+2);
+		ctx.strokeStyle="#00FF00";
+		ctx.strokeRect(BillSplit.boxX,BillSplit.boxY,BillSplit.boxWidth,BillSplit.boxHeight);
 		BillSplit.boxX = 0;
 		$("#submitEachValue").attr("disabled",true);
 	});
@@ -186,6 +189,13 @@ function HandleBillClick(evt){
 				boxWidth *= (BillSplit.picDetails.dW/BillSplit.picDetails.sW);
 				boxWidth+=2;
 			}
+			if(allBillTexts[digitIndex-1].description=="."){
+				finalDigit = allBillTexts[digitIndex-2].description+"."+finalDigit;
+				boxWidth = allBillTexts[digitIndex].boundingPoly.vertices[1].x - allBillTexts[digitIndex-2].boundingPoly.vertices[0].x;
+				boxWidth *= (BillSplit.picDetails.dW/BillSplit.picDetails.sW);
+				boxWidth+=2;
+				boxX = (allBillTexts[digitIndex-2].boundingPoly.vertices[0].x)*(BillSplit.picDetails.dW/BillSplit.picDetails.sW);
+			}
 		}
 		console.log("Probable element",result,result[0].description);
 		console.log("Final Digit",finalDigit);
@@ -203,6 +213,7 @@ function HandleBillClick(evt){
 			BillSplit.boxY = boxY;
 			BillSplit.boxWidth = boxWidth;
 			BillSplit.boxHeight = boxHeight;
+			ctx.strokeStyle="#000000";
 			ctx.strokeRect(boxX,boxY,boxWidth,boxHeight);
 		}else{
 			$("#BillDropdown").hide();
