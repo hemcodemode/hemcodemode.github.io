@@ -23,6 +23,7 @@
     opacity: 0.6;
     position: absolute;
     bottom:0px;
+    z-index: 100;
 }
 #imgContainer img{
 	width: 100%;
@@ -37,6 +38,7 @@
     background: rgb(187, 187, 187);
     padding: 5px;
     cursor: pointer;
+    z-index: 100;
 }
 .added{
 	background-color: green;
@@ -58,4 +60,10 @@
     color: #fff;
     top: 20px;
     font-weight: bold;
+    z-index: 100;
+}
+#canvas{
+	position: absolute;
+    left: 0px;
+    z-index: 100;
 }

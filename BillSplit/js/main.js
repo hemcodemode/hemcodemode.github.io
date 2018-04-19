@@ -1,4 +1,5 @@
 var BillSplit = {};
+var Users = ['H','P','A'];
 $(document).ready(function(){
 	$("input#myfile").on('change',function(e){
 		handleFileInputChange();
@@ -9,15 +10,25 @@ $(document).ready(function(){
 	$("#imgContainer").on('click','img',function(e){
 		HandleBillClick(e);
 	})
+	$("#imgContainer").on('click','canvas',function(e){
+		HandleBillClick(e);
+	})
 	$(".members").click(function(e){
 		if($(this).attr("data-value")=="equally"){
 			$(".members").removeClass('added');
+		}else{
+			$('.members[data-value=equally]').removeClass('added');
 		}
 		$(this).toggleClass('added');
+		if($(".members").length>0){
+			$("#submitEachValue").attr("disabled",false);
+		}else{
+			$("#submitEachValue").attr("disabled",true);
+		}
 	});
 
 	$("#submitEachValue").click(function(e){
-
+		var selectedUser = [];
 		$("#billMembers .added").each(function(e,i){
 			if($(this).attr("data-value")=="equally"){
 				$("[id^=userTotal]").each(function(x,y){
@@ -25,10 +36,12 @@ $(document).ready(function(){
 					amount = parseFloat(amount+(parseFloat($("#currentValue").val()/$("[id^=userTotal]").length)));
 					$(this).html(amount);
 				});
+				selectedUser.push('All');
 			}else{
 				var amount = parseFloat($("#userTotal"+$(this).attr("data-value")).html()); 
 				amount = parseFloat(amount+(parseFloat($("#currentValue").val()/$("#billMembers .added").length)));
 				$("#userTotal"+$(this).attr("data-value")).html(amount);
+				selectedUser.push(Users[parseFloat($(this).attr("data-value"))-1]);
 			}
 		});
 		var totalAmount = 0;
@@ -39,6 +52,12 @@ $(document).ready(function(){
 		$("#usersTotal").html(totalAmount);
 		$(".members").removeClass('added');
 		$("#BillDropdown").hide();
+		var ctx=document.getElementById("canvas").getContext("2d");
+		ctx.font = "10px Arial";
+		ctx.fillStyle = "#FF0000";
+		ctx.fillText(selectedUser.join(", "),BillSplit.boxX+BillSplit.boxWidth+2,BillSplit.boxY);
+		BillSplit.boxX = 0;
+		$("#submitEachValue").attr("disabled",true);
 	});
 });
 function handleFileInputChange() {
@@ -58,10 +77,16 @@ function readFile(file) {
 		$("#imgContainer").css("display","inline-block");
 		$("#imageSrc").hide();
 		$("#imgContainer").html("<img class='uploadedImg' src='"+e.target.result+"' />");
+		$("#imgContainer").append("<canvas id='canvas'></canvas>");
 		$("#status").html('uploading...');
 		 $(".uploadedImg").get(0).onload = function(){
 		 	$("#imgCover").css("height",$(".uploadedImg").get(0).height);
 			$("#imgCover").css("display","inline-block");
+			var c = document.getElementById("canvas");
+			c.width = $(".uploadedImg").get(0).width;
+			c.height = $(".uploadedImg").get(0).height;
+			var ctx=c.getContext("2d");
+			ctx.drawImage($(".uploadedImg").get(0),0,0,$(".uploadedImg").get(0).width,$(".uploadedImg").get(0).height);
 			$("#imgCover").animate({ height: "0px" },10000);
 			window.setTimeout(function(){
 				$("#imgCover").hide();
@@ -127,6 +152,10 @@ function HandleBillClick(evt){
     console.log("Original postion",translatedCoord);
     var allBillTexts = BillSplit.billDetails.responses[0].textAnnotations.slice(1);
     var digitIndex = 0;
+    var boxHeight = 0;
+    var boxWidth = 0;
+    var boxX = 0;
+    var boxY = 0;
     var result = allBillTexts.filter(function(elem,index){
     	var v =  elem.boundingPoly.vertices;
     	var polygon = [
@@ -139,22 +168,42 @@ function HandleBillClick(evt){
     	isMatch = inside([translatedCoord.x,translatedCoord.y],polygon);
     	if(isMatch){
     		digitIndex = index;
+    		boxHeight = (v[2].y - v[1].y)*(BillSplit.picDetails.dH/BillSplit.picDetails.sH);
+    		boxWidth = (v[1].x - v[0].x)*(BillSplit.picDetails.dW/BillSplit.picDetails.sW);
+    		boxWidth+=2;
+    		boxX = (v[0].x)*(BillSplit.picDetails.dW/BillSplit.picDetails.sW);
+    		boxY = (v[0].y)*(BillSplit.picDetails.dW/BillSplit.picDetails.sW);
     	}
 	    return isMatch;
 	});
 	if(result.length>0){
 		var finalDigit = result[0].description;
+
 		if(digitIndex+1<allBillTexts.length-1){
 			if(allBillTexts[digitIndex+1].description=="."){
 				finalDigit +="."+ allBillTexts[digitIndex+2].description;
+				boxWidth = allBillTexts[digitIndex+2].boundingPoly.vertices[1].x - allBillTexts[digitIndex].boundingPoly.vertices[0].x;
+				boxWidth *= (BillSplit.picDetails.dW/BillSplit.picDetails.sW);
+				boxWidth+=2;
 			}
 		}
 		console.log("Probable element",result,result[0].description);
 		console.log("Final Digit",finalDigit);
 		if(parseFloat(finalDigit)){
-			$("#BillDropdown").css({"left":mousePos.x+20+"px","top":mousePos.y+20+"px"});
+			$("#BillDropdown").css({"left":boxX+boxWidth+"px","top":mousePos.y+20+"px"});
 			$("#currentValue").val(parseFloat(finalDigit));
 			$("#BillDropdown").css("display","inline-block");
+			var c=document.getElementById("canvas");
+			var ctx=c.getContext("2d");
+			ctx.lineWidth = 1;
+			if(!!BillSplit.boxX){
+				ctx.clearRect(BillSplit.boxX-1,BillSplit.boxY-1,BillSplit.boxWidth+2,BillSplit.boxHeight+2);
+			}
+			BillSplit.boxX = boxX;
+			BillSplit.boxY = boxY;
+			BillSplit.boxWidth = boxWidth;
+			BillSplit.boxHeight = boxHeight;
+			ctx.strokeRect(boxX,boxY,boxWidth,boxHeight);
 		}else{
 			$("#BillDropdown").hide();
 		}
