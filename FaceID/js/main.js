@@ -128,7 +128,7 @@ function detectNewImage() {
         //ctx.strokeRect(canvas.width-comp[i].width-comp[i].x, comp[i].y, comp[i].width, comp[i].height);
         ctx.strokeStyle = randomColors[i%randomColors.length];
         ctx.beginPath();
-        ctx.arc(canvas.width-(comp[i].x + comp[i].width * 0.5) * scale, (comp[i].y + comp[i].height * 0.5) * scale,
+        ctx.arc(canvas.width-(comp[i].x + comp[i].width) * scale, (comp[i].y/2 + comp[i].height) * scale,
             (comp[i].width + comp[i].height) * 0.25 * scale * 1.2, 0, Math.PI * 2);
         ctx.stroke();
       }
