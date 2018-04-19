@@ -119,13 +119,15 @@ function ProcessImage(){
 	
 }
 function HandleBillClick(evt){
+	$(".members").removeClass('added');
 	var mousePos = getMousePos($(".uploadedImg").get(0), evt);
     var message = 'Mouse position: ' + mousePos.x + ',' + mousePos.y;
     console.log(message);
     var translatedCoord = TransLateCoordinates(mousePos.x,mousePos.y,BillSplit.picDetails.sW,BillSplit.picDetails.sH,BillSplit.picDetails.dW,BillSplit.picDetails.dH);    
     console.log("Original postion",translatedCoord);
     var allBillTexts = BillSplit.billDetails.responses[0].textAnnotations.slice(1);
-    var result = allBillTexts.filter(function(elem){
+    var digitIndex = 0;
+    var result = allBillTexts.filter(function(elem,index){
     	var v =  elem.boundingPoly.vertices;
     	var polygon = [
     		[v[0].x,v[0].y],
@@ -133,19 +135,34 @@ function HandleBillClick(evt){
     		[v[2].x,v[2].y],
     		[v[3].x,v[3].y],
     	];
-	    return inside([translatedCoord.x,translatedCoord.y],polygon);
+    	var isMatch = false;
+    	isMatch = inside([translatedCoord.x,translatedCoord.y],polygon);
+    	if(isMatch){
+    		digitIndex = index;
+    	}
+	    return isMatch;
 	});
 	if(result.length>0){
+		var finalDigit = result[0].description;
+		if(digitIndex+1<allBillTexts.length-1){
+			if(allBillTexts[digitIndex+1].description=="."){
+				finalDigit +="."+ allBillTexts[digitIndex+2].description;
+			}
+		}
 		console.log("Probable element",result,result[0].description);
-		$("#BillDropdown").css({"left":mousePos.x+20+"px","top":mousePos.y+20+"px"});
-		$("#currentValue").val(result[0].description);
-		$("#BillDropdown").css("display","inline-block");
+		console.log("Final Digit",finalDigit);
+		if(parseFloat(finalDigit)){
+			$("#BillDropdown").css({"left":mousePos.x+20+"px","top":mousePos.y+20+"px"});
+			$("#currentValue").val(parseFloat(finalDigit));
+			$("#BillDropdown").css("display","inline-block");
+		}else{
+			$("#BillDropdown").hide();
+		}
 	}else{
 		$("#BillDropdown").hide();
 	}
-	
-
 }
+
 function TransLateCoordinates(x,y,sW,sH,dW,dH){
 	return {
 		x:(sW/dW)*x,
