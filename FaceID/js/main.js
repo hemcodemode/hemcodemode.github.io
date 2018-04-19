@@ -76,7 +76,8 @@ function umSuccess(stream) {
     vidReady = true;
     //detecting = true;
     //Capture();
-    TrackFaceInit();
+    //TrackFaceInit();
+    detectNewImageInterval = window.setInterval(detectNewImage,60);
 }
 
 $(document).ready(function(){
@@ -97,8 +98,53 @@ $(document).ready(function(){
 
 })
 
-
-
+var detectNewImageInterval = null;
+var randomColors = [
+          'blue',
+          'cyan',
+          'green',
+          'magenta',
+          'red',
+          'white',
+          'yellow'
+        ]
+        
+function detectNewImage() {
+    var canvas = document.createElement('canvas');
+    var ctx = canvas.getContext('2d');  
+    canvas.width = vid.width;
+    canvas.height = vid.height; 
+    ctx.drawImage(vid, 0,0);  
+    function post(comp) {
+      var canvas = document.getElementById('canvas');
+      var ctx = canvas.getContext('2d');
+      ctx.lineWidth = 3;
+      //ctx.strokeStyle = 'rgba(230,87,0,0.8)';
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      /* draw detected area */
+      scale = 1;
+      //console.log(comp);
+      for (var i = 0; i < comp.length; i++) {
+        //ctx.strokeRect(canvas.width-comp[i].width-comp[i].x, comp[i].y, comp[i].width, comp[i].height);
+        ctx.strokeStyle = randomColors[i%randomColors.length];
+        ctx.beginPath();
+        ctx.arc(canvas.width-(comp[i].x + comp[i].width * 0.5) * scale, (comp[i].y + comp[i].height * 0.5) * scale,
+            (comp[i].width + comp[i].height) * 0.25 * scale * 1.2, 0, Math.PI * 2);
+        ctx.stroke();
+      }
+      if(!detecting && comp.length>0){          
+          detecting = true;
+          Capture();
+      }       
+    }
+    /* call main detect_objects function */
+    
+      var comp = ccv.detect_objects({ "canvas" : canvas,
+                      "cascade" : cascade,
+                      "interval" : 5,
+                      "min_neighbors" : 1 });
+      post(comp);
+}
 function TrackFaceInit() {
     var video = document.getElementById('main_video');
     var canvas = document.getElementById('canvas');
