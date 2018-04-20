@@ -1,5 +1,5 @@
 var BillSplit = {};
-var Users = ['H','P','A'];
+var Users = ['H','P','A','Ab','D'];
 $(document).ready(function(){
 	$("input#myfile").on('change',function(e){
 		handleFileInputChange();
