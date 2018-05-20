@@ -1,0 +1,107 @@
+#main_video {
+  height: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;  /* no letterboxing */
+  position: absolute;
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  transition: opacity 1s;
+  width: 100%;
+}
+#camselect{
+    position: absolute;
+    color: #fff;
+    margin: 10px;
+    bottom: 0px;
+    background: #000;
+    padding: 3px 8px;
+    z-index: 1000;
+    cursor: pointer;
+}
+#canvas,#canvas2,#canvas3 {
+    position: absolute;
+    z-index: 12;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    position: absolute;
+    transition: opacity 1s;
+    width: 100%;
+  }
+#main{
+  display: none;
+}
+
+#LoadingArea{
+    opacity: .2;
+    background-color: black;
+    z-index: 100000;
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display:none;
+}
+#loaderSpin {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  margin: -75px 0 0 -75px;
+  border: 10px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 10px solid #1c88e4;
+  border-bottom: 10px solid #1c88e4;
+  width: 80px;
+  height: 80px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 1s linear infinite;
+  display:none;
+}
+#loaderText{
+  display: block;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    margin: -47px 0 0px -35px;
+    height: 65px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    display:none;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}

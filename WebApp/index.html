@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>WebaApp</title>
+	<meta name="viewport" content="width=device-width">
+	<meta name="google" content="notranslate">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="description" content="Open App Using Face">
+	<meta name="og:description" content="Open App Using Face">
+	<meta name="og:url" content="https://hemcodemode.github.io/WebaApp">
+	<meta name="og:title" content="WebaApp">
+	<meta name="og:image" content="icon.png">
+	<link rel="manifest" href="manifest.json"/>
+	<link rel="apple-touch-icon" sizes="194x194" href="icon.png" type="image/png">
+	<link rel="shortcut icon" href="icon.png">
+</head>
+<body>
+<div id="container">
+	WebApp
+</div>	
+<script type="text/javascript">
+
+try{
+	
+	navigator.serviceWorker.register('sw.js').then(function(registration) {
+    	console.log('sw Registration succeeded.');
+     	registration.update();
+  	}).catch(function(error) {
+    	// registration failed
+    	console.log('sw Registration failed with ' + error);
+  	});
+}catch(ex){
+	console.log('sw not available' + ex);
+}
+
+</script>
+</body>
+</html>
