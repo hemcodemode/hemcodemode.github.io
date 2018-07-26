@@ -36,6 +36,33 @@ try{
 	console.log('sw not available' + ex);
 }
 
+
+var PHPSESSID = 'csfktvj0nf95q45i9ic2h3ico1';
+var o = function(e) {
+        var t = e + "|" + PHPSESSID + "|03:40:31 sec"
+          , a = CryptoJS.enc.Utf8.parse(t);
+        return t = CryptoJS.MD5(a).toString(),
+        t = t + PHPSESSID.slice(3, 9) + "="
+    }
+track_id = 1534450;
+ht = o(track_id)
+l = {"ht":ht,"request_type":"web","track_id":track_id,"quality":"medium","st":"hls","t_o_i_origin":"toiwidget","ssl":true}
+$.ajax({
+                    url: "https://apiv2.gaana.com/track/stream",
+                    type: "POST",
+                data: l,
+                xhrFields: {
+                withCredentials: !0
+            },
+                success: function (e) {
+                    console.log(e);
+                },
+                error: function (e) {
+                    console.log(e);
+                }});
+
+
+"https://css375.gaanacdn.com/min/?b=js&f=gaana.min.js&version=901.27&901.27:formatted"
 </script>
 </body>
 </html>

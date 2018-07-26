@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<style type="text/css">
+		
+		#container{
+			width:500px;
+			margin:0px auto;
+		}
+	</style>
+</head>
+<body>
+<div id="container">
+<span id="listenStatus">Speak something to convert it to text</span>
+<div id="MyResult" style="border:1px solid #bbb;width:500px;height:200px;padding:10px;">
+<span id="final_span"></span>
+<span id="Mytext" style="color:grey"></span>
+</div>
+<input type="button" id="toggleStart" value="Start" onclick="StartTesting()"/>
+<select id="textAnalysisApi">
+  <option value="select">Select text analysis</option>
+  <option value="google">Google</option>
+  <option value="microsoft">Microsoft</option>
+  <option value="python">Python</option>
+</select>
+
+
+<div id="curve_chart" style="width: 700px; height: 300px;margin-left:-70px"></div>
+</div>
+<script type="text/javascript" src="js/speechRecognition.js"></script>
+<script type="text/javascript">
+
+
+var interim_text = document.getElementById('Mytext')
+var final_text = document.getElementById('final_span')
+
+function StartTesting(){
+  speechObj = SpeechClass.init({
+        continuous : false,
+        interimResults : false,
+        lang : "en-US"
+  });
+  speechObj.start();
+}
+
+</script>
+
+
+</body>
+</html>
+
+
+
+
