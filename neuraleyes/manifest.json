@@ -1,7 +1,7 @@
 {
-  "name": "Neuaral Eyes",
-  "description": "Neuaral Eyes",
-  "short_name": "Neuaral Eyes",
+  "name": "Neural Eyes",
+  "description": "Neural Eyes",
+  "short_name": "Neural Eyes",
   "serviceworker": {
     "src": "sw.js"
   },
