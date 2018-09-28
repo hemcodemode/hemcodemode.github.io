@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<style type="text/css">
+		
+		#container{
+			width:500px;
+			margin:0px auto;
+		}
+	</style>
+</head>
+<body>
+<div id="container">
+<span id="listenStatus">Speak something to convert it to text</span>
+<div id="MyResult" style="border:1px solid #bbb;width:500px;height:200px;padding:10px;">
+<span id="final_span"></span>
+<span id="Mytext" style="color:grey"></span>
+</div>
+<input type="button" id="toggleStart" value="Start" onclick="StartTesting()"/>
+<select id="textAnalysisApi">
+  <option value="select">Select text analysis</option>
+  <option value="google">Google</option>
+  <option value="microsoft">Microsoft</option>
+  <option value="python">Python</option>
+</select>
+
+
+<div id="curve_chart" style="width: 700px; height: 300px;margin-left:-70px"></div>
+</div>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+
+var recognizing = false;
+var ignore_onend;
+var start_timestamp;
+var recognition = new webkitSpeechRecognition();
+recognition.continuous = true;
+recognition.interimResults = true;
+recognition.lang = "en-IN";
+// recognition.lang = "hi-IN";
+var interim_text = document.getElementById('Mytext')
+var final_text = document.getElementById('final_span')
+var textExtracted = "";
+var final_transcript = '';
+recognition.onstart = function() {
+    recognizing = true;
+  };
+
+
+recognition.onerror = function(event) {
+  console.log("some error ouccured");
+  console.log(event)
+  recognition.stop();
+  try{
+      recognition.start();
+    }catch(ex){
+      console.log(ex)
+    }
+   if (event.error == 'no-speech') {   
+      ignore_onend = true;
+    }
+    if (event.error == 'audio-capture') {
+      ignore_onend = true;
+    }
+    if (event.error == 'not-allowed') {
+      ignore_onend = true;
+    }
+  };
+   
+   recognition.onend = function() {
+    recognizing = false;
+    console.log("ended")
+    recognition.stop();
+    try{
+      recognition.start();
+    }catch(ex){
+      console.log(ex)
+    }
+    switchApi();
+    if (ignore_onend) {
+    	$("#toggleStart").text("Start");
+    	$("#listenStatus").text("Speak something to convert it to text");    	
+    	clearInterval(StartAnalyzing);
+    	
+      return;
+    }
+    // if (window.getSelection) {
+    // 	recognition.start();
+    // 	switchApi();
+    //   window.getSelection().removeAllRanges();
+    //   var range = document.createRange();
+    //   range.selectNode(document.getElementById('final_span'));
+    //   window.getSelection().addRange(range);
+    // }
+  };
+
+recognition.onresult = function(event) { 
+
+	var interim_transcript = '';
+    if (typeof(event.results) == 'undefined') {
+      recognition.onend = null;
+      recognition.stop();
+      return;
+    }
+
+    for (var i = event.resultIndex; i < event.results.length; ++i) {
+      if (event.results[i].isFinal) {
+        final_transcript += event.results[i][0].transcript;
+      } else {
+        interim_transcript += event.results[i][0].transcript;
+      }
+    }
+    final_text.innerHTML = final_transcript;
+    interim_text.innerHTML = interim_transcript;
+    textExtracted = final_transcript+interim_transcript;
+}
+
+var StartAnalyzing = null;
+var StopAnalyzing = true;
+function StartTesting(){
+    if(StopAnalyzing){
+    	recognition.start();
+    	switchApi();
+    	$("#toggleStart").text("Stop");
+    	$("#listenStatus").text("Listening.....");
+    }else{
+    	$("#toggleStart").text("Start");
+    	$("#listenStatus").text("Speak something to convert it to text");
+      	StopAnalyzing=true;
+      	recognition.stop();
+      	clearInterval(StartAnalyzing);
+    }
+
+}
+var myTimeLine = 0;
+function GetSentimentsFromText(txt){
+	StopAnalyzing = false;
+	if(textExtracted.trim() =="")
+		return;
+	var params ={
+	"documents": [{
+	"language": "en",
+	 "id": "1",
+	 "text": textExtracted}
+	]};
+
+	$.ajax({
+		url: "https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment?" + $.param( params ),
+		beforeSend: function(xhrObj){
+			// Request headers
+			xhrObj.setRequestHeader("Content-Type","application/json");
+			xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key","cd4aad6c8fa84b759ce4ab76ec0a63db");
+			xhrObj.setRequestHeader("Accept","application/json");
+		},
+		type: "POST",
+		data: JSON.stringify(params)
+		})
+		.done(function(data) {
+		        console.log("Sentiment score is " + data.documents[0].score);
+		        // $("#interim_result").text(data.documents[0].score);
+		        drawChart([String(myTimeLine),data.documents[0].score])
+		        myTimeLine +=1;
+		    })
+		.fail(function() {
+		        console.log("error");
+		    });
+}
+
+
+function switchApi(){
+	clearInterval(StartAnalyzing);
+	switch($("#textAnalysisApi").val()){
+		case 'google':
+			console.log('ggggggggg');
+			break;
+		case 'microsoft':
+			console.log('micccccccc');
+			GetSentimentsFromText(interim_text.innerHTML); 
+         	StartAnalyzing = setInterval(GetSentimentsFromText , 3000,interim_text.innerHTML);
+			break;
+		case 'python':
+			console.log('pyyyyyy');
+			break;
+		default:
+			console.log('dddddddddddd');
+			break;
+	}
+}
+
+$("#textAnalysisApi").on("change",function(e){
+	 switchApi();
+});
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+function drawChart(a) {
+  if(a!=null){
+     myChartData.push(a);
+    var data = google.visualization.arrayToDataTable(myChartData);
+    //console.log(data);
+    var options = {
+      title: 'Text Emotion vs Time',
+      curveType: 'function',
+      legend: { position: 'bottom' },
+      animation:{
+        duration: 2000,
+        easing: 'out',
+      },
+      vAxis: {'title': 'Positivity',
+              'minValue': 0, 
+              'maxValue': 1},
+    };
+    var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+    chart.draw(data, options);
+  }       
+}
+var myChartData = [['Time', 'Positivity']];
+
+
+
+
+
+// [
+//  'onaudiostart',
+//  'onaudioend',
+//  'onend',
+//  'onerror',
+//  'onnomatch',
+//  'onsoundstart',
+//  'onsoundend',
+//  'onspeechend',
+//  'onstart'
+// ].forEach(function(eventName) {
+//     recognition[eventName] = function(e) {
+//         console.log(eventName, e);
+//     };
+// });
+
+
+</script>
+
+
+</body>
+</html>
+
+
+
+

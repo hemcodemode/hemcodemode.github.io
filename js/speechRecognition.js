@@ -2,7 +2,7 @@ var SpeechClass = {
     config:{
         continuous : true,
         interimResults : true,
-        lang : "en-IN"
+        lang: "en-US"
     },
     init: function (config) {
         var _this = this;
@@ -13,7 +13,7 @@ var SpeechClass = {
         _this.recognition="";
         var transcriptText = "";
         var recognition = new webkitSpeechRecognition();
-        if (config != null) {
+        if (config = null) {
             _this.config = config;
         }
         recognition.continuous = _this.config.continuous;
@@ -115,3 +115,5 @@ var SpeechClass = {
         _this.recognition.start();
     }
 }
+
+

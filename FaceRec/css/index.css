@@ -1,0 +1,44 @@
+iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: 0px;
+    display: none;
+}
+
+#inputVideo,
+#overlay {
+    position: absolute;
+    /*transform: scaleX(-1);*/
+    width: 100%;
+}
+
+#detectedUserName {
+    position: absolute;
+    z-index: 111111;
+    top: 100px;
+    left: 10px;
+    color: #00f;
+}
+
+#inputnamecontainer {
+    display: none;
+}
+body{
+    background-color: #e9ecef !important;
+}
+.navbar-fixed-top{
+    top: 0px;
+    position: fixed !important;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    z-index: 2;
+}
+#camselect{
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    background: #000;
+    padding: 5px;
+}

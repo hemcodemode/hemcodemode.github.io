@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css">
+    <title>Face Recognition App</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary navbar-fixed-top">
+        <a class="navbar-brand" href="#">FÜN</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="hide">
+            <h1 style="display: none">Test page</h1>
+            <div id="deviceready" class="blink" style="display: none;">
+                <p class="event listening">Connecting to Device</p>
+                <p class="event received">Device is Ready</p>
+            </div>
+            <iframe allow="geolocation; microphone; camera"></iframe>
+        </div>
+        <div class="jumbotron mb-0 mt-5" id="Features">
+            <h1 class="display-5">Face Recognition</h1>
+            <p class="lead">This is a simple app to demonstrate standalone face recognition system without internet.</p>
+            <hr class="my-4">
+            <p>It uses prebuilt face recognition model to get features of faces and use to them to train a new model which classify new faces.</p>
+            <a id="detect" class="btn btn-primary" href="#videocontainer" role="button">Recognise</a>
+            <a  id="train" class="btn btn-primary" href="#videocontainer" role="button">Add new person</a>
+            <div id="inputnamecontainer" class="form-inline my-3">
+                <input class="form-control mr-2" type="text" id="inputname" placeholder="input name">
+                <button class="btn btn-primary my-3 my-0" id="submitfortrain">Train</button>
+            </div>
+            <div id="detectedUserName"></div>
+            <div class="card text-white bg-primary mt-3" id="About">
+                <div class="card-header">About</div>
+                <div class="card-body">
+                    <h4 class="card-title">Just doing fun</h4>
+                    <p class="card-text">Using various features developing various things :p.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+
+                <div id="videocontainer" style="position: relative;display: none" class="margin">
+                    <span id="camselect" class="btn btn-primary fa fa-camera"></span>
+                    <video onplay="onPlay(this)" id="inputVideo" autoplay muted class="mb-3"></video>
+                    <canvas id="overlay" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/fetch.js"></script>
+    <script type="text/javascript" src="js/svm.js"></script>
+    <script type="text/javascript" src="js/face-api.js"></script>
+    <script type="text/javascript" src="js/commons.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
