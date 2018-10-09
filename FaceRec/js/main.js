@@ -167,18 +167,25 @@ async function onPlay(videoEl) {
          }else{
             var face_encodings =  Array.prototype.slice.call(descriptors);
             if(!localStorage.getItem('ModelData')){
-              localStorage.setItem("ModelData",JSON.stringify([{"name":$.trim($('#inputname').val()),"encodings":[face_encodings]}]));
-              LoadDescriptors();
+              var ModelData={};
+              ModelData[$.trim($('#inputname').val())] = [face_encodings]
+              localStorage.setItem("ModelData",JSON.stringify(ModelData));
+              //LoadDescriptors();
             }else{
                var oldModels = JSON.parse(localStorage.getItem("ModelData"));
-               oldModels.push({"name":$.trim($('#inputname').val()),"encodings":[face_encodings]})
+               if(!oldModels[$.trim($('#inputname').val())]){
+                  oldModels[$.trim($('#inputname').val())] = [];
+               }
+               oldModels[$.trim($('#inputname').val())].push(face_encodings);
                localStorage.setItem("ModelData",JSON.stringify(oldModels))
-               LoadDescriptors();
+               //LoadDescriptors();
             }
             numTrain++;
             if(numTrain>=5){
+                  numTrain = 0;
+                  LoadDescriptors();
                   console.log('training done');
-                  alert('training done')
+                  alert('training done');
                   state = 'recog';
                   onPlay(videoEl);
                   return;
@@ -316,11 +323,12 @@ function LoadDescriptors(){
       return;
   }
   var oldModels = JSON.parse(localStorage.getItem("ModelData"));
-  for(var i=0;i<oldModels.length;i++){
+  trainDescriptorsByClass = [];
+  for(var i=0;i<Object.keys(oldModels).length;i++){
     trainDescriptorsByClass.push({
 
-         descriptors : oldModels[i].encodings,
-        className : oldModels[i].name
+         descriptors : oldModels[Object.keys(oldModels)[i]],
+        className : Object.keys(oldModels)[i]
         }
       );
 
