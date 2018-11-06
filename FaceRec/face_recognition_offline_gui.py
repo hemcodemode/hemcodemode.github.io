@@ -329,7 +329,7 @@ def FaceRecognitionMain():
     global facepredicted,facepredicted2,threshold,start1,previousName,vistedList,threshold2,speak,frameWidth,LoadingStatus
     global isStart
     global r
-    global VideoCanvas,popupstatus
+    global VideoCanvas,popupstatus,bgphoto
     faces_dict = {}
     known_face_encodings = []
     known_face_names = []
@@ -488,6 +488,7 @@ def FaceRecognitionMain():
     isStart = False
     video_capture.release()
     cv2.destroyAllWindows()
+    VideoCanvas.create_image(0, 0, image = bgphoto,anchor=tk.NW)
 
 class VerticalScrolledFrame(Frame):
     """A pure Tkinter scrollable frame that actually works!
@@ -535,9 +536,10 @@ class VerticalScrolledFrame(Frame):
 
 def StopCam():
     HideActions()
-    global isStart,r
+    global isStart,r,VideoCanvas,bgphoto
     isStart = False
     r.title('Face Recogntion System')
+    VideoCanvas.create_image(0, 0, image = bgphoto,anchor=tk.NW)  
 
 def AddNewAction():
     E1.delete(0, 'end')
@@ -560,13 +562,15 @@ def Save():
 def TogglePopUpVideo():
     global popupstatus,button7
     popupstatus = not popupstatus
-    button7["text"] = "5. Smallscreen Mode" if popupstatus else "5. Fullscreen Mode"
+    button7["text"] = "Smallscreen Mode" if popupstatus else "Fullscreen Mode"
 
 def ShowRegisteredEmployees():
     HideActions()
     LoadOfflineModel()
     global r
     global AllClasses
+    allemployees = []
+    AllClassesTemp = sorted(AllClasses)
     window = tk.Toplevel(r)
     try:
         window.iconbitmap(resource_path("assets")+"\\favicon.ico") 
@@ -576,13 +580,10 @@ def ShowRegisteredEmployees():
     window.geometry("300x400")
     window.configure(background='white')
     window.resizable(0, 0)
-    lb = tk.Button(window, text='Registered Employee List',bd =0, width=25,height=2,font='Helvetica 15 bold', bg ='white', fg='#4cc140') 
+    lb = tk.Button(window, text='Registered Employee List('+str(len(AllClassesTemp))+')',bd =0, width=25,height=2,font='Helvetica 15 bold', bg ='white', fg='#4cc140') 
     lb.pack()
     frame = VerticalScrolledFrame(window)
     frame.pack()
-
-    allemployees = []
-    AllClassesTemp = sorted(AllClasses)
     for i in range(len(AllClassesTemp)):
         allemployees.append(Label(frame.interior, font='Helvetica 10 bold', text=str(AllClassesTemp[i])))
         allemployees[-1].pack()
@@ -649,7 +650,7 @@ def camPreview(previewName, camID):
     
     cv2.destroyWindow("CCTVVideo")
     IsCCTVCamRunning = False
-    button9["text"] = "7. Show CCTV"
+    button9["text"] = "Show CCTV"
 
 def StartStopCCTVView():
     global IsCCTVCamRunning,button9,allCCTVCamsUrls,App_Setting,allFrames 
@@ -657,7 +658,7 @@ def StartStopCCTVView():
         IsCCTVCamRunning = False
     else:
         allCCTVCamsUrls = []
-        CamsUrls = [x.strip() for x in re.split(r",|\n",App_Setting["cctcvstreams"].strip()) if x]
+        CamsUrls = [x.strip() for x in re.split(r"\n",App_Setting["cctcvstreams"].strip()) if x]
         for v in CamsUrls:
             try:
                 allCCTVCamsUrls.append(int(v.strip()))
@@ -672,7 +673,7 @@ def StartStopCCTVView():
             IsCCTVCamRunning = True
             thread1 = camThread("Camera 1", 0)
             thread1.start()
-    button9["text"] = "7. Hide CCTV" if IsCCTVCamRunning else "7. Show CCTV"
+    button9["text"] = "Hide CCTV" if IsCCTVCamRunning else "Show CCTV"
 
 def entry_sel_all(event):
         if("select_range" in dir(event.widget)):
@@ -721,6 +722,7 @@ def ShowConfig():
     default_settings = App_Setting
     window = tk.Toplevel(r)
     window.title('App settings')
+    window.grab_set()
     try:
         window.iconbitmap(resource_path("assets")+"\\favicon.ico") 
     except Exception as e:
@@ -802,29 +804,32 @@ speak.Rate = -1
 r = tk.Tk() 
 r.title('Face Recogntion System')
 r.configure(background='white')
-r.geometry("1000x600") #You want the size of the app to be 500x500
+r.geometry("960x570") #You want the size of the app to be 500x500
 r.resizable(0, 0) #Don't allow resizing in the x or y direction
 print('Welcome, please choose options\n')
 label1 = tk.Label(r, text="\nWelcome, please choose options\n")
-button1 = tk.Button(r, text='1. Start Recognition', bd =1, width=25,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140', command=FaceRecognitionMain) 
-button4 = tk.Button(r, text='2. Stop Recognition', bd =1, width=25,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140', command=StopCam) 
-button2 = tk.Button(r, text='3. Add new face', bd =1, width=25,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140',command=AddNewAction) 
-button3 = tk.Button(r, text='4. Train existing model', bd =1, width=25,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140', command=TrainFace) 
-button5 = tk.Button(r, text='8. Exit', bd =1, width=25,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140', command=r.destroy) 
+button1 = tk.Button(r, text='Start Recognition', bd =1, width=25,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140', command=FaceRecognitionMain) 
+button4 = tk.Button(r, text='Stop Recognition', bd =1, width=25,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140', command=StopCam) 
+button2 = tk.Button(r, text='Add New Face', bd =1, width=25,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140',command=AddNewAction) 
+button3 = tk.Button(r, text='Train Existing Model', bd =1, width=25,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140', command=TrainFace) 
+button5 = tk.Button(r, text='Exit', bd =1, width=25,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140', command=r.destroy) 
 button6 = tk.Button(r, text='Save', bd =1, width=10,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140', command=Save) 
-button7 = tk.Button(r, text='5. Fullscreen Mode',bd =1, width=25,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140', command=TogglePopUpVideo) 
-button8 = tk.Button(r, text='6. Employee List',bd =1, width=25,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140', command=ShowRegisteredEmployees) 
-button9 = tk.Button(r, text='7. Show CCTV',bd =1, width=25,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140', command=StartStopCCTVView) 
+button7 = tk.Button(r, text='Fullscreen Mode',bd =1, width=25,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140', command=TogglePopUpVideo) 
+button8 = tk.Button(r, text='Employee List',bd =1, width=25,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140', command=ShowRegisteredEmployees) 
+button9 = tk.Button(r, text='Show CCTV',bd =1, width=25,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140', command=StartStopCCTVView) 
 
 canvas_width = 640
 canvas_height = 480
 VideoCanvas = tk.Canvas(r, width = canvas_width, height = canvas_height)
-VideoCanvas.create_text(canvas_width / 2,canvas_height / 2,text="Video frames will be shown here")  
-VideoCanvas.pack(side = "right")
+# VideoCanvas.create_text(canvas_width / 2,canvas_height / 2,text="Video frames will be shown here")  
+bgimg = cv2.resize(np.array(Image.open(resource_path("assets")+"\\face_recognition.jpg")),(canvas_width,canvas_height))
+bgphoto = ImageTk.PhotoImage(image = Image.fromarray(bgimg))
+VideoCanvas.create_image(0, 0, image = bgphoto,anchor=tk.NW)  
+VideoCanvas.pack(side = "right",padx=(0, 40))
 
 
 img = ImageTk.PhotoImage(Image.open(resource_path("assets")+"\\logo.jpg"))
-panel = tk.Label(r,bd =0,bg='white',height=120, image = img)
+panel = tk.Label(r,bd =0,bg='white',height=140, image = img)
 panel.pack()
 # label1.pack() 
 button1.pack() 
