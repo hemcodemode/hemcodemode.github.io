@@ -132,6 +132,7 @@ function getobject(){
         }
       });
       xhr.open("POST", "//limitless-chamber-95260.herokuapp.com/getobject",true);
+      
       // xhr.crossDomain=true;
       xhr.setRequestHeader("Content-Type", "application/json");
       xhr.setRequestHeader("cache-control", "no-cache");
