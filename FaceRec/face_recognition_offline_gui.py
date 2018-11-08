@@ -14,8 +14,10 @@ try:
     import webbrowser
     from numpy import random
     import tkinter as tk 
+    import tkFileDialog
+    from tkinter import messagebox
     from Tkinter import *   # from x import * is bad practice
-    from ttk import *
+    # from ttk import *
     import numpy as np
     import face_recognition2 as face_recognition
     import cv2,os,json,time,timeit
@@ -90,7 +92,8 @@ def LoadOfflineModel():
     MODELFILE  = os.path.join(BASE,'face_model_data','classifier_svm.pkl')
     if(not os.path.exists(CSVFILE)):
         print('No Models available right now. You can create it by adding faces')
-        exit()
+        # exit()
+        return False
     with open(CSVFILE, 'rb') as csvfile:
         reader = csv.reader(csvfile, delimiter=',', quotechar='|')
         for row in reader:
@@ -101,9 +104,15 @@ def LoadOfflineModel():
     AllClasses = list(set(AllClasses))
     Classes = AllClasses
     le.fit(Classes)
-    with open(MODELFILE, 'rb') as fid:
-        clf = cPickle.load(fid)
+    try:
+        with open(MODELFILE, 'rb') as fid:
+            clf = cPickle.load(fid)
+    except Exception as e:
+        print('No Models available right now. You can create it by adding faces')
+        return False
+    
     print('offline model loaded')
+    return True
 
 def GetImageInThread(multiClassList):
     global facepredicted
@@ -297,6 +306,7 @@ def TrainFace():
         print('Training successful')
     except Exception as e:
        print('Since you are first member, please add another person and complete the training process')
+       messagebox.showinfo("Add another","Since you are only person in the system, please add another person and complete the training process")
     r.title('Training done ready for recognition')
     
 def ReloadConfig(event, x, y, flags, param):
@@ -316,7 +326,9 @@ def ReloadConfig(event, x, y, flags, param):
 def FaceRecognitionMain():
     HideActions()
     LoadSettings()
-    LoadOfflineModel()
+    if(not LoadOfflineModel()):
+        messagebox.showinfo("Error","No data found, please add atleast two person in the system")
+        return False
     video_capture = cv2.VideoCapture(App_Setting['camera_source'])
     # video_capture = cv2.VideoCapture("rtsp://hemantm:Admin@147@192.168.100.20/h264/ch6/sub/av_stream?videoResolutionWidth=1920&videoResolutionHeight=1080")
     datapath = resource_path("data")
@@ -545,7 +557,7 @@ def AddNewAction():
     E1.delete(0, 'end')
     L1.pack()
     E1.pack()
-    button6.pack()
+    button6.pack(pady=3)
 
 def HideActions():
     L1.pack_forget()
@@ -566,7 +578,10 @@ def TogglePopUpVideo():
 
 def ShowRegisteredEmployees():
     HideActions()
-    LoadOfflineModel()
+    if(not LoadOfflineModel()):
+        messagebox.showinfo("Error","No data found, please add atleast two person in the system")
+        return False
+
     global r
     global AllClasses
     allemployees = []
@@ -580,10 +595,10 @@ def ShowRegisteredEmployees():
     window.geometry("300x400")
     window.configure(background='white')
     window.resizable(0, 0)
-    lb = tk.Button(window, text='Registered Employee List('+str(len(AllClassesTemp))+')',bd =0, width=25,height=2,font='Helvetica 15 bold', bg ='white', fg='#4cc140') 
+    lb = tk.Label(window, text='Registered Employee List ('+str(len(AllClassesTemp))+')',bd =0, width=25,height=2,font='Helvetica 15 bold', bg ='white', fg='#4cc140') 
     lb.pack()
     frame = VerticalScrolledFrame(window)
-    frame.pack()
+    frame.pack(fill=BOTH, expand=1)
     for i in range(len(AllClassesTemp)):
         allemployees.append(Label(frame.interior, font='Helvetica 10 bold', text=str(AllClassesTemp[i])))
         allemployees[-1].pack()
@@ -744,6 +759,97 @@ def ShowConfig():
         font='Helvetica 9 bold', fg ='white', bg='#4cc140', command=lambda: SaveConfig(window)) 
     buttonsaveConfig.grid(column=1,padx=10,pady=5)
 
+def ShowDailyttendance():
+    global r
+    global frame2
+    global frameBtn
+
+    AttendanceDataFolder = os.path.join(BASE,'face_model_data','AttendanceData')
+    datelists = []
+    # print(AttendanceDataFolder)
+    if(os.path.exists(AttendanceDataFolder)):
+        datelists = [x for x in os.listdir(AttendanceDataFolder) if os.path.isdir(os.path.join(AttendanceDataFolder,x))]
+        datelists.sort(key=lambda x: os.path.getmtime(os.path.join(AttendanceDataFolder,x)),reverse=True)
+    else:
+        print('AttendanceDataFolder does not exists!')
+    print(datelists)
+    window = tk.Toplevel(r)
+    window.geometry("450x300")
+    window.resizable(0, 0)
+    window.config(bg="#fff")
+    window.title('Daily Attendance')
+    window.grab_set()
+    try:
+        window.iconbitmap(resource_path("assets")+"\\favicon.ico") 
+    except Exception as e:
+        print('icon loading failed')
+    frameBtn = VerticalScrolledFrame(window)
+    tk.Label(window, text="Select Date",font='Helvetica 11 bold', fg ='#4cc140',bg="#fff").pack(anchor=tk.NW,padx=20)
+    frameBtn.pack(side=LEFT)
+    tk.Button(window, text="export",font='Helvetica 8 bold', bg ='#4cc140',fg="#fff", command=lambda:ExportAttendance(datelists)).place(relx=0.88,rely=0.023)
+    frame2 = VerticalScrolledFrame(window)
+    tk.Label(window,text="Employee Code     Punchin Time",font='Helvetica 11 bold',bg='#fff',fg='#4cc140').pack(anchor=tk.NW)
+    
+    for i,v in enumerate(datelists):
+        tk.Button(frameBtn.interior,command=lambda i=i:GetAttendanceFromDate(i,datelists,window), 
+            text=v,bd =1, width=15,height=2,font='Helvetica 9 bold', 
+            fg ='white', bg='#4cc140').grid(row=i,column=0,sticky=W,padx=5)
+    if(len(datelists)>0):
+        GetAttendanceFromDate(0,datelists,window)
+
+
+def ShowAttendance(l,window):
+    global frame2
+    frame2.destroy()
+    frame2 = VerticalScrolledFrame(window)
+    frame2.pack(fill=BOTH, expand=1)
+    frame2.config(bg="white")
+    frame2.interior.config(bg="white")
+    for i,v in enumerate(l):
+        tk.Label(frame2.interior, text=v["empcode"],font='Helvetica 9 bold',bg='#fff').grid(row=i+1,column=0,sticky=W,padx=27,pady=5)
+        tk.Label(frame2.interior, text=v["time"],font='Helvetica 9 bold',bg='#fff').grid(row=i+1,column=1,sticky=W,padx=27,pady=5)
+
+def GetAttendanceFromDate(i,datelists,window):
+    global frameBtn,clickedAttendanceDate
+    clickedAttendanceDate = i
+    print("getting attendance from ",datelists[i])
+    attendancelists = []
+    AttendanceCSVFILE  = os.path.join(BASE,'face_model_data','AttendanceData',datelists[i])
+    AttendanceCSVFILE = os.path.join(AttendanceCSVFILE,'attendace.csv') 
+    if(os.path.exists(AttendanceCSVFILE)):
+        with open(AttendanceCSVFILE, 'rb') as fp:
+            reader =  csv.reader(fp)
+            for line in reader:
+                attendancelists.append({
+                    "empcode":line[0],
+                    "time":line[1]
+                })
+    for x,v in enumerate(frameBtn.interior.winfo_children()):
+        if(v.winfo_class()=="Button"):
+            if x==i:
+                v["relief"] = SUNKEN
+            else:
+                v["relief"] = RAISED
+    ShowAttendance(attendancelists,window)
+def ExportAttendance(datelists):
+    global clickedAttendanceDate
+    AttendanceCSVFILE  = os.path.join(BASE,'face_model_data','AttendanceData',datelists[clickedAttendanceDate])
+    AttendanceCSVFILE = os.path.join(AttendanceCSVFILE,'attendace.csv')
+    if(os.path.exists(AttendanceCSVFILE)):
+        file_name = tkFileDialog.asksaveasfilename(initialfile=datelists[clickedAttendanceDate]+"_attendace.csv", 
+            title = "Export Attendance File",
+            defaultextension=".csv"
+            )
+        if file_name:
+            with open(AttendanceCSVFILE, 'rb') as fp:
+                f = open(file_name, 'wb')
+                contents = fp.read()
+                f.write(contents)
+                f.close()
+                messagebox.showinfo("Success","file exported successfully at location \n"+file_name)
+
+
+
 def OpenUrl():
     demourl = 'https://www.zinghr.com/labs/face-recognition/'
     webbrowser.open_new(demourl)
@@ -787,7 +893,7 @@ frameWidth = 0
 LoadingStatus = 'Reload Config'
 speak = wincl.Dispatch("SAPI.SpVoice")
 voices =  speak.GetVoices()
-print("available voices")
+# print("available voices")
 # for v in voices:
 #     print(v.GetDescription())
 #     if(v.GetDescription().find('Zira') !=-1):
@@ -813,10 +919,11 @@ button4 = tk.Button(r, text='Stop Recognition', bd =1, width=25,height=2,font='H
 button2 = tk.Button(r, text='Add New Face', bd =1, width=25,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140',command=AddNewAction) 
 button3 = tk.Button(r, text='Train Existing Model', bd =1, width=25,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140', command=TrainFace) 
 button5 = tk.Button(r, text='Exit', bd =1, width=25,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140', command=r.destroy) 
-button6 = tk.Button(r, text='Save', bd =1, width=10,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140', command=Save) 
+button6 = tk.Button(r, text='Save', bd =1, width=10,height=1,font='Helvetica 9 bold', fg ='white', bg='#4cc140', command=Save) 
 button7 = tk.Button(r, text='Fullscreen Mode',bd =1, width=25,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140', command=TogglePopUpVideo) 
 button8 = tk.Button(r, text='Employee List',bd =1, width=25,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140', command=ShowRegisteredEmployees) 
 button9 = tk.Button(r, text='Show CCTV',bd =1, width=25,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140', command=StartStopCCTVView) 
+button10 = tk.Button(r, text='Show Attendance',bd =1, width=25,height=2,font='Helvetica 9 bold', fg ='white', bg='#4cc140', command=ShowDailyttendance) 
 
 canvas_width = 640
 canvas_height = 480
@@ -829,7 +936,7 @@ VideoCanvas.pack(side = "right",padx=(0, 40))
 
 
 img = ImageTk.PhotoImage(Image.open(resource_path("assets")+"\\logo.jpg"))
-panel = tk.Label(r,bd =0,bg='white',height=140, image = img)
+panel = tk.Label(r,bd =0,bg='white',height=115, image = img)
 panel.pack()
 # label1.pack() 
 button1.pack() 
@@ -839,6 +946,7 @@ button3.pack()
 button7.pack()
 button8.pack()
 button9.pack()
+button10.pack()
 button5.pack()
 
 menubar = tk.Menu(r)
