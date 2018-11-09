@@ -59,7 +59,7 @@ def LoadSettings():
                             'ispunchin':False,
                             'subscription':'product',
                             'punchinurl':'https://dev.zinghr.com/Recruitment/ZingHRTC/FacePunchIn',
-                            'cctcvstreams':""
+                            'cctvstreams':""
                         }
 
             fid.write(json.dumps(default_settings,sort_keys=True,indent=4, separators=(',', ': ')))
@@ -76,7 +76,7 @@ def LoadSettings():
                             'detection_threshold':0.75,
                             'ispunchin':False,
                             'subscription':'product',
-                            'cctcvstreams':""  
+                            'cctvstreams':""  
                         }
                 print(default_settings)
     App_Setting = default_settings 
@@ -266,6 +266,7 @@ def AddNewFace(name):
         a.writerows(multiClassList)
     print("Images processed")
     r.title('20 images processed, now training')
+    r.update()
     speak.Speak("Face Successfully added into the system")
     # TextToSpeech("Face Successfully added into the system")
     TrainFace()
@@ -274,6 +275,7 @@ def TrainFace():
     global r
     print('Training...')
     r.title('Training...')
+    r.update()
     global le
     vectorData = []
     CSVFILE  = os.path.join(BASE,'face_model_data')
@@ -308,6 +310,8 @@ def TrainFace():
        print('Since you are first member, please add another person and complete the training process')
        messagebox.showinfo("Add another","Since you are only person in the system, please add another person and complete the training process")
     r.title('Training done ready for recognition')
+    r.update()
+    messagebox.showinfo("Success","Training done ready for recognition")
     
 def ReloadConfig(event, x, y, flags, param):
     global threshold2
@@ -673,7 +677,7 @@ def StartStopCCTVView():
         IsCCTVCamRunning = False
     else:
         allCCTVCamsUrls = []
-        CamsUrls = [x.strip() for x in re.split(r"\n",App_Setting["cctcvstreams"].strip()) if x]
+        CamsUrls = [x.strip() for x in re.split(r"\n",App_Setting["cctvstreams"].strip()) if x]
         for v in CamsUrls:
             try:
                 allCCTVCamsUrls.append(int(v.strip()))
@@ -745,7 +749,7 @@ def ShowConfig():
     settingsInput = []
     for i,v in enumerate(default_settings):
         tk.Label(window, text=v+":",font='Helvetica 9 bold').grid(row=i,column=0,sticky=W,padx=5,pady=5)
-        if(v=="cctcvstreams"):
+        if(v=="cctvstreams"):
             e1 = tk.Text(window,bd =1,width=26,height=5,font='Helvetica 9')
             
         else:
