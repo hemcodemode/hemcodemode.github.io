@@ -1,0 +1,69 @@
+#imageSrc{
+	border: 3px dashed #bbb;
+	width: 500px;
+    height: 200px;
+    cursor: pointer;
+    padding-top: 150px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+}
+#imgContainer{
+	border: 1px solid green;
+	display: none;
+	width: 500px;
+    cursor: pointer;
+    position: absolute;
+}
+#imgCover{
+	display: none;
+	width: 500px;
+    cursor: pointer;
+    background-color: #bbb;
+    opacity: 0.6;
+    position: absolute;
+    bottom:0px;
+    z-index: 100;
+}
+#imgContainer img{
+	width: 100%;
+}
+#myfile{
+	display: none;
+}
+#BillDropdown{
+	display: none;
+	border: 1px solid #bbb;
+	position: absolute;
+    background: rgb(187, 187, 187);
+    padding: 5px;
+    cursor: pointer;
+    z-index: 100;
+}
+.added{
+	background-color: green;
+	color: #fff;
+}
+#totalAmount{
+	display: inline-block;
+	margin-left: 20px;
+    top: 0px;
+    left: 500px;
+    position: absolute;
+}
+#totalAmount th{
+	text-align: left;
+}
+#status{
+	position: absolute;
+    left: 20px;
+    color: #fff;
+    top: 20px;
+    font-weight: bold;
+    z-index: 100;
+}
+#canvas{
+	position: absolute;
+    left: 0px;
+    z-index: 100;
+}
