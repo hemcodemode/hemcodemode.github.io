@@ -51,7 +51,7 @@ function ProcessImage(filedata){
 	var settings = {
 	  "async": true,
 	  "crossDomain": true,
-	  "url": "http://localhost:8080/bw2colorupload",
+	  "url": "https://hemantmeena.net/bw2colorupload",
 	  "method": "POST",
 	  "processData": false,
 	  "contentType": false,
