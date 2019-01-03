@@ -62,15 +62,17 @@ function ProcessImage(filedata){
 		$('#status').text('getting image...');
 	  	console.log(response);
 	  	if(response!=""){
-	  		var input = response.output;
-			Algorithmia.client("simpnbh+HmxRiE+xS83sj3NrFlV1")
-			    .algo("util/Data2Base64/0.1.0")
-			    .pipe(input)
-			    .then(function(output) {
-			    	$('#status').text('');
-			        console.log(output);
-			        $("#imgResult").html("<img style='width:100%' src='data:image/png;base64,"+output.result+"'></img>");
-			    });
+	  		// 		var input = response.output;
+			// Algorithmia.client("simpnbh+HmxRiE+xS83sj3NrFlV1")
+			//     .algo("util/Data2Base64/0.1.0")
+			//     .pipe(input)
+			//     .then(function(output) {
+			//     	$('#status').text('');
+			//         console.log(output);
+			//         $("#imgResult").html("<img style='width:100%' src='data:image/png;base64,"+output.result+"'></img>");
+			//     });
+			 $("#imgResult").html("<img style='width:100%' src='data:image/png;base64,"+response.result+"'></img>");
+			 $('#status').text('');
 	  	}
 	});
 }
