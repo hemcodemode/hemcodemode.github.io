@@ -55,7 +55,8 @@ function ProcessImage(filedata){
 	  "method": "POST",
 	  "processData": false,
 	  "contentType": false,
-	  "data": form
+	  "data": form,
+	  "timeout": 300000
 	}
 	$.ajax(settings).done(function (response) {
 		$('#status').text('done');
