@@ -62,8 +62,8 @@ function ProcessImage(filedata){
 		$('#status').text('done');
 	  	console.log(response);
 	  	if(response!=""){
-	  		var src= response.replace("data://",'https://algorithmia.com/v1/data/')
-	  		$("#imgResult").html("<img src='"+src+"'></img>");
+	  		var src= response.output.replace("data://",'https://algorithmia.com/v1/data/')
+	  		$("#imgResult").html("<img style='width:100%' src='"+src+"'></img>");
 	  	}
 	});
 }
