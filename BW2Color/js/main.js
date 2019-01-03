@@ -71,7 +71,7 @@ function ProcessImage(filedata){
 			//         console.log(output);
 			//         $("#imgResult").html("<img style='width:100%' src='data:image/png;base64,"+output.result+"'></img>");
 			//     });
-			 $("#imgResult").html("<img style='width:100%' src='data:image/png;base64,"+response.result+"'></img>");
+			 $("#imgResult").html("<img style='width:100%' src='data:image/png;base64,"+response+"'></img>");
 			 $('#status').text('');
 	  	}
 	});
