@@ -59,11 +59,18 @@ function ProcessImage(filedata){
 	  "timeout": 300000
 	}
 	$.ajax(settings).done(function (response) {
-		$('#status').text('done');
+		$('#status').text('getting image...');
 	  	console.log(response);
 	  	if(response!=""){
-	  		var src= response.output.replace("data://",'https://algorithmia.com/v1/data/')
-	  		$("#imgResult").html("<img style='width:100%' src='"+src+"'></img>");
+	  		var input = response.output;
+			Algorithmia.client("simpnbh+HmxRiE+xS83sj3NrFlV1")
+			    .algo("util/Data2Base64/0.1.0")
+			    .pipe(input)
+			    .then(function(output) {
+			    	$('#status').text('');
+			        console.log(output);
+			        $("#imgResult").html("<img style='width:100%' src='data:image/png;base64,"+output.result+"'></img>");
+			    });
 	  	}
 	});
 }
