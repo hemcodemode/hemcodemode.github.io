@@ -60,7 +60,7 @@ function ProcessImage(filedata){
 	}
 	$.ajax(settings).done(function (response) {
 		$('#status').text('getting image...');
-	  	console.log(response);
+	  	//console.log(response);
 	  	if(response!=""){
 	  		// 		var input = response.output;
 			// Algorithmia.client("simpnbh+HmxRiE+xS83sj3NrFlV1")
@@ -71,7 +71,7 @@ function ProcessImage(filedata){
 			//         console.log(output);
 			//         $("#imgResult").html("<img style='width:100%' src='data:image/png;base64,"+output.result+"'></img>");
 			//     });
-			 $("#imgResult").html("<img style='width:100%' src='data:image/png;base64,"+response+"'></img>");
+			 $("#imgResult").html("<img style='width:100%' src='data:image/png;base64,"+response.replace(/\n+/gi,'') +"'></img>");
 			 $('#status').text('');
 	  	}
 	});
