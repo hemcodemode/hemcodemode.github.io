@@ -33,13 +33,16 @@ function readFile(file) {
 			c.height = $(".uploadedImg").get(0).height;
 			var ctx=c.getContext("2d");
 			ctx.drawImage($(".uploadedImg").get(0),0,0,$(".uploadedImg").get(0).width,$(".uploadedImg").get(0).height);
+			var dataURL = c.toDataURL('image/jpeg', 0.5);
+        	var rawimg = dataURL.split(',')[1];
+        	ProcessImage2(rawimg);
 			$("#imgCover").animate({ height: "0px" },10000);
 			window.setTimeout(function(){
 				$("#imgCover").hide();
 			},10000);
 
 		 }
-		ProcessImage(file);
+		// ProcessImage(file);
 	}); 
 	reader.readAsDataURL(file);
  }  
@@ -72,6 +75,33 @@ function ProcessImage(filedata){
 			//         $("#imgResult").html("<img style='width:100%' src='data:image/png;base64,"+output.result+"'></img>");
 			//     });
 			 $("#imgResult").html("<img style='width:100%' src='data:image/png;base64,"+response.replace(/\n+/gi,'') +"'></img>");
+			 $('#status').text('');
+	  	}
+	});
+}
+
+function ProcessImage2(rawimg){
+	$('#status').text('processing');
+	var settings = {
+	  "async": true,
+	  "crossDomain": true,
+	  "url": "https://hemiam.pythonanywhere.com/bw2color",
+	  "method": "POST",
+	  "processData": false,
+	  "headers": {
+        	"Content-Type": "application/json",
+        },
+       "processData": false,
+       "data": JSON.stringify({
+            rawimg: rawimg
+       }),
+	  "timeout": 300000
+	}
+	$.ajax(settings).done(function (response) {
+		$('#status').text('getting image...');
+	  	//console.log(response);
+	  	if(response.status){	  		
+			 $("#imgResult").html("<img style='width:100%' src='data:image/png;base64,"+response.data +"'></img>");
 			 $('#status').text('');
 	  	}
 	});
