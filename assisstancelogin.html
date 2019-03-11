@@ -12,8 +12,9 @@ function getUrlVars() {
         return vars;
 }
 function dologin(){
-        
-        redirect =  getUrlVars()["redirect_uri"]+"#access_token=MTIzOTg3&token_type=bearer&state="+getUrlVars()["state"]+"&subscriptionname=product"
+        d = {"employeecode":2136,"subscriptionname":"product","token":"fewgerhherwggewg"}
+        var access_token = btoa(JSON.stringify(d);
+        redirect =  getUrlVars()["redirect_uri"]+"#access_token="+access_token+"&token_type=bearer&state="+getUrlVars()["state"]+"&subscriptionname=product"
         location.href = redirect;        
 }
 
