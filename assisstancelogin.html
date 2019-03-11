@@ -1,6 +1,14 @@
 <h1>Login in </h1>
 <script>
+var redirect = ""
+function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+            vars[key] = value;
+        });
+        return vars;
+}
 
-location.href = "https://oauth-redirect.googleusercontent.com/r/skvw-a529e#access_token=MTIzOTg3&token_type=bearer&state=1"
-
+redirect =  getUrlVars()["redirect_uri"]+"#access_token=MTIzOTg3&token_type=bearer&state="+getUrlVars()["state"]+"&subscriptionname=product"
+location.href = redirect;
 </script>
