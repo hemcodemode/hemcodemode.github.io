@@ -1,4 +1,7 @@
-<h1>Login in </h1>
+<h1>Login in form</h1>
+<input placeholder="username">
+<input placeholder="password">
+<button onclick="dologin()">Login</button
 <script>
 var redirect = ""
 function getUrlVars() {
@@ -8,7 +11,10 @@ function getUrlVars() {
         });
         return vars;
 }
+function dologin(){
+        
+        redirect =  getUrlVars()["redirect_uri"]+"#access_token=MTIzOTg3&token_type=bearer&state="+getUrlVars()["state"]+"&subscriptionname=product"
+        location.href = redirect;        
+}
 
-redirect =  getUrlVars()["redirect_uri"]+"#access_token=MTIzOTg3&token_type=bearer&state="+getUrlVars()["state"]+"&subscriptionname=product"
-location.href = redirect;
 </script>
