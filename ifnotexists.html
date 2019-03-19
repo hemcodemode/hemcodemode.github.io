@@ -1,0 +1,41 @@
+<b>Table</b>
+<pre>
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[schema].[tablename]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [schema].[tablename](
+	[ID] [bigint] IDENTITY(1,1) NOT NULL,
+  PRIMARY KEY CLUSTERED 
+  (
+    [ID] ASC
+  )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+  ) ON [PRIMARY]
+END
+GO
+</pre>
+
+<b>Stored Procedure</b>
+
+<pre>
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[schema].[spname]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [schema].[spname]
+GO
+</pre>
+
+<b>Alter Column</b>
+<pre>
+IF NOT EXISTS(SELECT * FROM sys.columns 
+WHERE Name = N'ColumnName' AND Object_ID = Object_ID(N'schema.tablename'))
+BEGIN
+ALTER TABLE schema.tablename
+ADD ColumnName varchar(30)
+END
+GO
+</pre>
+
+<b>Drop Constraint</b>
+
+<pre>
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[schema].[FK_ConstrainName]') AND parent_object_id = OBJECT_ID(N'[schema].[tablename]'))
+ALTER TABLE [schema].[tablename] DROP CONSTRAINT [FK_ConstrainName]
+GO
+</pre>
