@@ -1,0 +1,21 @@
+<h1>Login in form</h1>
+<input placeholder="username">
+<input placeholder="password">
+<button onclick="dologin()">Login</button>
+<script>
+var redirect = ""
+function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+            vars[key] = value;
+        });
+        return vars;
+}
+function dologin(){
+        d = {"employeecode":2136,"subscriptionname":"product","token":"fewgerhherwggewg"};
+        var access_token = btoa(JSON.stringify(d));
+        redirect =  getUrlVars()["redirect_uri"]+"#access_token="+access_token+"&token_type=bearer&state="+getUrlVars()["state"]+"&subscriptionname=product"
+        location.href = redirect;        
+}
+
+</script>
