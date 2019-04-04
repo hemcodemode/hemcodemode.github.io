@@ -24,6 +24,7 @@ self.addEventListener('notificationclick', function(event) {
 });
 
 
+
 var CACHE_NAME = 'plchat-v2';
 var urlsToCache = [
     '/css/main.css',
