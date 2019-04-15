@@ -16,10 +16,16 @@ function InitCamera(){
      }
 }
 
+
 var FrontCam = 0;
 function StartCam(){
   if (window.stream) {
       window.stream.getTracks().forEach(function(track) {
+        track.stop();
+      });
+  }
+  if (window.stream2) {
+      window.stream2.getTracks().forEach(function(track) {
         track.stop();
       });
   }
@@ -29,9 +35,25 @@ function StartCam(){
           height: 300,
           deviceId: {exact: Camdevices[FrontCam].value}
         }};
-         navigator.getUserMedia(videoSelector, umSuccess, function() {
+         navigator.getUserMedia(videoSelector, umSuccess, function(err) {
+           console.log(err);
              alert("Error fetching video from webcam");
          });
+         if($("#bothcam").prop('checked')){
+           $('#second_video').show();
+           var videoSelector2 = {video : {
+            width: 400, 
+            height: 300,
+            deviceId: {exact: Camdevices[FrontCam==0?1:0].value}
+          }};
+           navigator.getUserMedia(videoSelector2, umSuccess2, function(err) {
+             console.log(err);
+               alert("Error fetching video from webcam");
+           });
+         }else{
+           $('#second_video').hide();
+         }
+         
      } else {
          alert("No webcam detected.");
      }
@@ -69,7 +91,8 @@ function umSuccess(stream) {
     if (vid.mozCaptureStream) {
         vid.mozSrcObject = stream;
     } else {
-        vid.src = (window.URL && window.URL.createObjectURL(stream)) || stream;
+        //vid.src = (window.URL && window.URL.createObjectURL(stream)) || stream;
+        vid.srcObject = stream;
     }
     window.stream = stream;
     vid.play();
@@ -78,6 +101,22 @@ function umSuccess(stream) {
     //Capture();
     //TrackFaceInit();
     detectNewImageInterval = window.setInterval(detectNewImage,60);
+}
+function umSuccess2(stream) {
+    var vid = $("#second_video").get(0);
+    if (vid.mozCaptureStream) {
+        vid.mozSrcObject = stream;
+    } else {
+        //vid.src = (window.URL && window.URL.createObjectURL(stream)) || stream;
+        vid.srcObject = stream;
+    }
+    window.stream2 = stream;
+    vid.play();
+    vidReady = true;
+    //detecting = true;
+    //Capture();
+    //TrackFaceInit();
+    //detectNewImageInterval = window.setInterval(detectNewImage,60);
 }
 
 $(document).ready(function(){
@@ -95,7 +134,21 @@ $(document).ready(function(){
        FrontCam = FrontCam==0?1:0;
        StartCam();
     })
-
+    $("#bothcam").click(function(){
+      var isBoth =  $(this).prop('checked');
+      console.log(isBoth);
+      if(isBoth){
+         FrontCam = 0;
+         StartCam();
+      }else{
+        $('#second_video').hide();
+        if (window.stream2) {
+          window.stream2.getTracks().forEach(function(track) {
+            track.stop();
+          });
+        }
+      }
+    });
 })
 
 var detectNewImageInterval = null;
