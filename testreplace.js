@@ -50,6 +50,14 @@ var r=n(666),o=n(667),i=n(668);function a(){return s.TYPED_ARRAY_SUPPORT?2147483
 
 // custom code 
 
+function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+
 (function(history){
     var pushState = history.pushState;
     history.pushState = function(state) {
