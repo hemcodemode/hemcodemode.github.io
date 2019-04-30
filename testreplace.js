@@ -88,7 +88,7 @@ function CheckForEpisodeLink(){
 			if(document.querySelectorAll(".episode-card  a").length>0){
 				episodelink = document.querySelectorAll(".episode-card  a")[0];
 			}else{
-				episodelink = document.querySelectorAll(".tray-container card-wrapper")[0];
+				episodelink = document.querySelectorAll(".tray-container .card-wrapper")[0];
 			}
 			newEl.href = episodelink.href;
 			d[i].parentNode.replaceChild(newEl, d[i]);
