@@ -84,7 +84,13 @@ function CheckForEpisodeLink(){
 			var newEl = document.createElement('a');
 			newEl.innerHTML = d[i].innerHTML;
 			newEl.classList =  d[i].classList;
-			newEl.href = document.querySelectorAll(".tray-container .card-wrapper")[0].href;
+			var episodelink;
+			if(document.querySelectorAll(".episode-card  a").length>0){
+				episodelink = document.querySelectorAll(".episode-card  a")[0];
+			}else{
+				episodelink = document.querySelectorAll(".tray-container card-wrapper")[0];
+			}
+			newEl.href = episodelink.href;
 			d[i].parentNode.replaceChild(newEl, d[i]);
 		}catch(ex){
 
