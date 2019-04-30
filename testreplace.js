@@ -77,7 +77,24 @@ function CheckForSubscribePage(){
 		}
 	}
 }
+function CheckForEpisodeLink(){
+	var d = document.querySelectorAll("a[href^='/subscribe'].cover-link, a[href^='/subscribe'].action-container");
+	for(var i=0;i<d.length;i++){
+		try{
+			var newEl = document.createElement('a');
+			newEl.innerHTML = d[i].innerHTML;
+			newEl.classList =  d[i].classList;
+			newEl.href = document.querySelectorAll(".tray-container .card-wrapper")[0].href;
+			d[i].parentNode.replaceChild(newEl, d[i]);
+		}catch(ex){
+
+		}
+		
+	}	
+}
 window.onpopstate = history.onpushstate = function(e) { 
 	console.log('history change',e); 
 	window.setTimeout(CheckForSubscribePage,1000);
+	CheckForEpisodeLink();
 }
+CheckForEpisodeLink();
