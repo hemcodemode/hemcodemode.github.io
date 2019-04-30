@@ -95,6 +95,6 @@ function CheckForEpisodeLink(){
 window.onpopstate = history.onpushstate = function(e) { 
 	console.log('history change',e); 
 	window.setTimeout(CheckForSubscribePage,1000);
-	CheckForEpisodeLink();
+	window.setTimeout(CheckForEpisodeLink,2000);
 }
-CheckForEpisodeLink();
+window.setTimeout(CheckForEpisodeLink,2000);
