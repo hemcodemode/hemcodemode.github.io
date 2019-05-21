@@ -20,6 +20,8 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
    ismobile = true;
 }
 function startRecord(){
+	$("#videoPreview").show();
+	$('#recordedVideo').remove();
 	if(isRecording){
 		$("#startRecord").text('Start');
 		$("#download").removeClass('d-none');
@@ -148,7 +150,7 @@ function StartScreenShareMobile(){
 function Recorder(stream){
 	this.mediaRecorder;
 	window.recordedBlobs = [];
-	this.recordedVideo =  $("#videoPreview").get(0);
+	//this.recordedVideo =  $("#videoPreview").get(0);
 	this.handleDataAvailable = function(event) {
 		if (event.data && event.data.size > 0) {
 			window.recordedBlobs.push(event.data);
@@ -204,10 +206,15 @@ function Recorder(stream){
 		}else{
 			var superBuffer = new Blob(window.recordedBlobs, {type: 'video/webm'});
 			var recordedVideo = document.createElement('video');
+			recordedVideo.id = 'recordedVideo';
 	  		recordedVideo.src = window.URL.createObjectURL(superBuffer);
 	  		recordedVideo.controls = true;
+	  		recordedVideo.height = '300';
+	  		recordedVideo.width = '100%';
+	  		recordedVideo.classList.add('border');
 	  		recordedVideo.setAttribute('autoplay','');
-	  		document.body.appendChild(recordedVideo);
+	  		$("#videoPreview").parent().append(recordedVideo);
+	  		$("#videoPreview").hide();
 		}
 	}
 
