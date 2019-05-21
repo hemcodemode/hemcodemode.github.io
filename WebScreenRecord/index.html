@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Web Screen Record</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="Open App Using Face">
+    <meta name="og:description" content="Open App Using Face">
+    <meta name="og:url" content="https://hemcodemode.github.io/WebScreenRecord">
+    <meta name="og:title" content="FaceID">
+    <meta name="og:image" content="icon.png">
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" sizes="194x194" href="icon.png" type="image/png">
+    <link rel="shortcut icon" href="icon.png">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="../Fonts/font-awesome.min.css">
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">Web Screen Record</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="#">Home</a>
+          </nav>
+        </div>
+      </header>
+
+      <main id="main" role="main" class="inner cover">
+        <h1 class="cover-heading">Dead simple screen recorder.</h1>
+        <p class="lead">Record mobile or web screen by just one click without any plugin.</p>
+        <p class="lead">
+          <a href="#" id="startRecordSection" class="btn btn-lg btn-secondary">Start Recording</a>
+        </p>
+      </main>
+      <div id="recordSection" class="row">
+          <div class="col-12">
+                <div id="msg">Recording will be shown here</div>
+                <video id="videoPreview" autoplay controls alt="wdpmwd" src="" class="border" width="400" height="300">Recording will be shown here</video>
+          </div>
+          <div class="col-12">
+                <button id="startRecord" class="btn btn-info text-white" role="button">Start</button>
+                <button id="download" class="btn btn-success d-none text-white"  role="button">Download</button>
+          </div>
+          <div class="col-12">
+            <p>Start by clicking on start button</p>
+          </div>
+                    
+
+      </div>
+
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>Created by <a href="https://github.com/hemcodemode/">Hemant Meena</a></p>
+        </div>
+      </footer>
+    </div>
+    <script>
+        try {
+            navigator.serviceWorker.register('sw.js').then(function(registration) {
+                console.log('sw Registration succeeded.');
+                registration.update();
+            }).catch(function(error) {
+                // registration failed
+                console.log('sw Registration failed with ' + error);
+            });
+        } catch (ex) {
+            console.log('sw not available' + ex);
+        }
+   
+    </script>
+</body>
+
+</html>
