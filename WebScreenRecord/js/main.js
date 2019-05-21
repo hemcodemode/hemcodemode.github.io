@@ -4,6 +4,7 @@ $(document).ready(function(){
 	$("#startRecordSection").click(function(){
 		$("#recordSection").show();
 		$("#main").hide();
+		$("#startRecord").click();
 	})
 	$("#download").click(function(){
 		RecorderObj.download();
