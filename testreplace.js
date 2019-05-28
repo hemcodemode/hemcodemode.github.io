@@ -15,7 +15,7 @@ function ScriptReplacer(){
 		    if (this.readyState == 4 && this.status == 200) {     
 		      	var testtext2 = this.responseText;
 				testtext2 = testtext2.replace(/\(e\.userId\)/gi,function(m){return m.replace(")","")+"||true)"});
-				testtext2 = testtext2.replace(/n\["x-hid"\]/gi,function(m){return "p.hid='sfeffff',"+m+"='sfeffff',var ss="});
+				testtext2 = testtext2.replace(/n\["x-hid"\]/gi,function(m){return "p.hid='sfeffff',"+m+"='sfeffff',ss="});
 				var el = document.createElement('script');
 				el.id = 'ScriptReplacer';
 				el.innerText = testtext2;
