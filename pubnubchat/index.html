@@ -5,14 +5,25 @@
     <title>Pub Nub Chat</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../Fonts/font-awesome.min.css" />
     <link rel="stylesheet" href="./css/botui.min.css" />
     <link rel="stylesheet" href="./css/botui-theme-default.css" />
-     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
 
   </head>
   <body>
     <div class="container-fluid">
       <div class="row">
+        <div class="menu">
+          <ul id="userlist">
+          </ul>
+        </div>
+        <div class="col-12 p-0">
+          <div id="header">
+            <span class="toggle-menu pl-2"><i class="fa fa-bars"></i></span>
+            <span id="groupname"></span>
+          </div>
+        </div>
         <div class="col-12 p-0 mb-2">
           <div id="my-botui-app">
             <bot-ui></bot-ui>
@@ -21,9 +32,9 @@
         <div class="col-12 p-0">
           <div id="input-box">
             <div class="input-group">
-              <input type="text" id="msginput" class="form-control" placeholder="type a message">
+              <input type="text" id="msginput" class="form-control rounded-0" placeholder="type a message">
               <div class="input-group-append">
-                <button id="sendbtn" class="btn btn-success" type="submit">Send</button> 
+                <button id="sendbtn" class="btn btn-success rounded-0" type="submit">Send</button> 
               </div>
             </div>
           </div>

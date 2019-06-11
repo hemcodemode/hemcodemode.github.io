@@ -31,10 +31,37 @@ function MsgUUID(){
 function safe_text(text) {
         return (''+text).replace( /[<>]/g, '' );
 }
+function SetUUID(){
+	var isuuidset = false;
+	var setuuid = "";
+	for ( var i = 0; i<localStorage.length; i++ ) {
+	 	if(localStorage.key(i).indexOf('sub-c')!=-1){
+	 		try{
+				var name = atob(atob(localStorage.getItem(localStorage.key(i))).split("_")[0]);
+				isuuidset = true;
+	 			setuui = localStorage.getItem(localStorage.key(i));
+			}catch(ex){
+				console.log(ex);
+			}
+	 	}
+	}
+ 	if(!isuuidset){
+  		uuid = btoa(btoa(username)+"_"+btoa(room)+"_"+PubNub.generateUUID());
+  	}else{
+  		uuid = setuuid;
+  	} 
+}
 function InitPubNub(room){
-      pubnub = new PubNub({ publishKey : 'pub-c-727b948f-ebc8-474a-a470-091e781b3300', subscribeKey : 'sub-c-35051a54-6200-11e9-87e8-f2af15a79e05' });
+	  SetUUID()
+      pubnub = new PubNub({ 
+      	publishKey : 'pub-c-727b948f-ebc8-474a-a470-091e781b3300', 
+      	subscribeKey : 'sub-c-35051a54-6200-11e9-87e8-f2af15a79e05',
+      	uuid: uuid 
+      });
       //function $(id) { return document.getElementById(id); }
-      //var box = $('box'), input = $('input'), 
+      //var box = $('box'), input = $('input'),
+      
+      
       channel = room;
       pubnub.addListener({
       status: function(statusEvent) {
@@ -63,13 +90,39 @@ function InitPubNub(room){
       }});
       pubnub.subscribe({
       	channels:[channel],
+      	uuid:uuid,
       	withPresence: true
       });
+      pubnub.hereNow({
+	        channels: [channel],
+	        includeState: true
+	    },
+	    function(status, response) {
+	        console.log(response);
+			filluserlist(response);
+	    }
+	  );
+
      
 };
 
+function filluserlist(res){
+	$("#userlist").empty();
+	var data = res.channels[channel].occupants;
+	$.each(data,function(i,el){
+		try{
+			var name = atob(atob(el.uuid).split("_")[0]);
+			var state = el.state;
+			$("#userlist").append("<li data-uuid='"+el.uuid+"'>"+safe_text(name)+"</li>");
+		}catch(ex){
+			console.log(ex);
+		}
+	})
+}
+
 var username = "";
 var room = "";
+var uuid = "";
 $(document).ready(function(){
 	room  = window.location.hash.split("#");
 	if(room.length==1){
@@ -84,7 +137,7 @@ $(document).ready(function(){
 	}else{
 		room = room[1];
 	}
-
+	$("#groupname").text(room);
 	if(getCookieNew("username")==undefined){
 		var input  = prompt('enter user name');
 		if(input){
@@ -93,6 +146,8 @@ $(document).ready(function(){
 		}else{
 			return false;
 		}
+	}else{
+		username = getCookieNew("username");
 	}
 
 	InitPubNub(room);
@@ -104,6 +159,18 @@ $(document).ready(function(){
 	});
 	$('#sendbtn').click(function (e) {
 	   	SendMsg();
+	});
+	$(".toggle-menu").click(function(e){
+		e.stopPropagation();
+		$(".menu").toggleClass('open');
+		$(".toggle-menu").toggleClass('slide');
+	});
+	$(".menu").click(function(e){
+		e.stopPropagation();
+	});
+	$(document).click(function(e){
+		$(".menu").removeClass('open');
+		$(".toggle-menu").removeClass('slide');
 	});
 });
 
