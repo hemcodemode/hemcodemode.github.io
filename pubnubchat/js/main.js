@@ -61,7 +61,10 @@ function InitPubNub(room){
           }
           
       }});
-      pubnub.subscribe({channels:[channel]});
+      pubnub.subscribe({
+      	channels:[channel],
+      	withPresence: true
+      });
      
 };
 
