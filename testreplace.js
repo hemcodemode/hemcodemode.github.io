@@ -14,15 +14,15 @@ function ScriptReplacer(){
 	 	xhttp.onreadystatechange = function() {
 		    if (this.readyState == 4 && this.status == 200) {     
 		      	var testtext2 = this.responseText;
-				testtext2 = testtext2.replace(/\(e\.userId\)/gi,function(m){return m.replace(")","")+"||true)"});
-				testtext2 = testtext2.replace(/n\["x-hid"\]/gi,function(m){return "p.hid='sfeffff',"+m+"='sfeffff',p.hid="});
+				testtext2 = testtext2.replace(/\(\(.\.userId\)/gi,function(m){return m.replace(")","")+"||true)"});
+				testtext2 = testtext2.replace(/\["x-hid"\]/gi,function(m){return "p.hid='sfeffff',"+m+"='sfeffff',p.hid="});
 				var el = document.createElement('script');
 				el.id = 'ScriptReplacer';
 				el.innerText = testtext2;
 				(document.head||document.documentElement).appendChild(el);
 		    }
 		};
-		xhttp.open("GET", document.querySelectorAll('script[src*="vendor"]')[0].src, false);
+		xhttp.open("GET", document.querySelectorAll('script[src*="common-chunk-main"]')[0].src, false);
 		xhttp.send(); 
 	}
 }
