@@ -65,8 +65,9 @@ function InitPubNub(room){
       channel = room;
       pubnub.addListener({
       status: function(statusEvent) {
+      	  console.log("statusEvent",statusEvent)
           if (statusEvent.category === "PNConnectedCategory") {
-              console.log("statusEvent",statusEvent)
+              //console.log("statusEvent",statusEvent)
           }
       },
       presence: function(presenceEvent) {
