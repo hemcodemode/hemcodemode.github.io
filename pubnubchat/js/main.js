@@ -39,7 +39,7 @@ function SetUUID(){
 	 		try{
 				var name = atob(atob(localStorage.getItem(localStorage.key(i))).split("_")[0]);
 				isuuidset = true;
-	 			setuui = localStorage.getItem(localStorage.key(i));
+	 			setuuid = localStorage.getItem(localStorage.key(i));
 			}catch(ex){
 				console.log(ex);
 			}
@@ -71,7 +71,8 @@ function InitPubNub(room){
           }
       },
       presence: function(presenceEvent) {
-          console.log("presenceEvent",presenceEvent)
+          console.log("presenceEvent",presenceEvent);
+          GetUserList();
       },
       message: function(obj) {
           console.log(obj);
@@ -94,7 +95,12 @@ function InitPubNub(room){
       	uuid:uuid,
       	withPresence: true
       });
-      pubnub.hereNow({
+     GetUserList();
+};
+
+function GetUserList(){
+	 channel = room;
+	 pubnub.hereNow({
 	        channels: [channel],
 	        includeState: true
 	    },
@@ -102,10 +108,8 @@ function InitPubNub(room){
 	        console.log(response);
 			filluserlist(response);
 	    }
-	  );
-
-     
-};
+	  );  
+}
 
 function filluserlist(res){
 	$("#userlist").empty();

@@ -7,7 +7,13 @@ function getUrlVars() {
     });
     return vars;
 }
-
+function setCookie(cname, cvalue, exdays) {
+  var d = new Date();
+  d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+  var expires = "expires="+d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+setCookie('userMemberCoockieObj','{"userMemberState":"SR"}',365);
 function ScriptReplacer(){
 	if(document.querySelectorAll('#ScriptReplacer').length==0){
 		var xhttp = new XMLHttpRequest();
@@ -77,3 +83,7 @@ window.onpopstate = history.onpushstate = function(e) {
 window.setTimeout(CheckForEpisodeLink,5000);
 
 //https://www.hotstar.com/assets/vendor.62f2f7a3b14a0682a055.js
+/*
+	fetch("https://api.hotstar.com/o/v1/episode/detail?tao=0&tas=20&contentId=1224110444", {"credentials":"omit","headers":{"hotstarauth":"st=1560802528~exp=1560808528~acl=/*~hmac=d4851a2537f3aee205f62ee18113d40dea0a83d7b07189e4ea40ceafa887a0d2","x-client-code":"LR","x-country-code":"IN","x-platform-code":"PCTV","x-region-code":"undefined"},"referrer":"https://www.hotstar.com/tv/gotham/s-1673/they-did-what/1224110444?bookmarkTime=1302","referrerPolicy":"no-referrer-when-downgrade","body":null,"method":"GET","mode":"cors"}).then(m=>m.json()).then(m=>console.log(m));
+
+*/
