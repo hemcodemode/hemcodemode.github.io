@@ -13,7 +13,9 @@ function setCookie(cname, cvalue, exdays) {
   var expires = "expires="+d.toUTCString();
   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
-setCookie('userMemberCoockieObj','{"userMemberState":"SR"}',365);
+//renderProfile
+//setCookie('userMemberCoockieObj','{"userMemberState":"SR"}',365);
+setCookie('userMemberCoockieObj','{"userMemberState":"SR","loginMethod":"EMAIL"}',365)
 function ScriptReplacer(){
 	if(document.querySelectorAll('#ScriptReplacer').length==0){
 		var xhttp = new XMLHttpRequest();
