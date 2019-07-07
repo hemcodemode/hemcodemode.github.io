@@ -25,6 +25,8 @@ function ScriptReplacer(){
 				testtext2 = testtext2.replace(/\(.\.userId\)/gi,function(m){return m.replace(")","")+"||true)"});
 				testtext2 = testtext2.replace(/.\["x-hid"\]/gi,function(m){return "p.hid='sfeffff',"+m+"='sfeffff',p.hid="});
 				testtext2 = testtext2.replace(/checkAggreGatedContentRightsResponse=function\((.)\){/gi,function(m,m1){console.log(m,m1);return m+m1+".httpStatus = 200;"+m1+".isError = false;"});
+				testtext2 = testtext2.replace(/checkConcurrencyResponse=function\((.)\){/gi,function(m,m1){console.log(m,m1);return m+m1+".httpStatus = 200;"+m1+".isError = false;"});
+
 				var el = document.createElement('script');
 				el.id = 'ScriptReplacer';
 				el.innerText = testtext2;
