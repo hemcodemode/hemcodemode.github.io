@@ -55,3 +55,12 @@
     color: #333;
     font-weight: 500;
 }
+#my-botui-app{
+	max-height: 85vh;
+    overflow-y: auto;
+}
+.header-container{
+	position: fixed;
+    top: 0px;
+    z-index: 1;
+}
