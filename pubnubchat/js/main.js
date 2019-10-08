@@ -72,6 +72,20 @@ function InitPubNub(room){
       },
       presence: function(presenceEvent) {
           console.log("presenceEvent",presenceEvent);
+          try{
+          	msg = "";
+          	var name = atob(atob(presenceEvent.uuid).split("_")[0]);
+			msg +="<strong>"+safe_text(name)+"</strong>";
+          	if(presenceEvent.action=="join"){
+          		msg +=" has joined";
+          	}
+          	if(presenceEvent.action=="timeout" || presenceEvent.action=="leave"){
+          		msg +=" has left";
+          	}
+          	$('.botui-messages-container').append('<div class="botui-message" style="text-align: center;"><div class=""><div class="botui-message-content text" style=""><span>'+(msg)+'</span></div></div></div>');
+          }catch(ex){
+
+          }
           GetUserList();
       },
       message: function(obj) {
