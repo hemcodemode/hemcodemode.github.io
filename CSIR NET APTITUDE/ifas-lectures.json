@@ -1,0 +1,1754 @@
+{
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "162",
+    "msg": "Recorded lectures fetched successfully.",
+    "data": [
+        {
+            "subjectTopicInfoRecorded": {
+                "count": 17,
+                "data": [
+                    {
+                        "_id": "667ab805e28583a9c21cb5c4",
+                        "name": "PART A: GENERAL APTITUDE",
+                        "videoCount": 17,
+                        "duration": 1799.8081965166666,
+                        "order": 16,
+                        "topics": [
+                            {
+                                "_id": "667ab807e28583a9c21cb621",
+                                "name": "UNIT I : NUMBER SYSTEM",
+                                "videoCount": 17,
+                                "duration": 1799.8081965166666,
+                                "order": 1,
+                                "lectureTitle": [
+                                    {
+                                        "lectureId": "672f3b7d936c60883b7d0ad7",
+                                        "lectureTitle": "L01\t: NUMBER SYSTEM",
+                                        "duration": 121.5
+                                    }
+                                ],
+                                "subTopics": [
+                                    {
+                                        "_id": "667ab807e28583a9c21cb63a",
+                                        "name": "NUMBER SYSTEM BY DINESH SIR",
+                                        "videoCount": 17,
+                                        "duration": 1799.8081965166666,
+                                        "order": null,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "672f3b7d936c60883b7d0ad7",
+                                                "lectureTitle": "L01\t: NUMBER SYSTEM",
+                                                "duration": 121.5
+                                            },
+                                            {
+                                                "lectureId": "672f3b7d936c60883b7d0ae9",
+                                                "lectureTitle": "L02\t: MISSING SERIES",
+                                                "duration": 99.06
+                                            },
+                                            {
+                                                "lectureId": "673595409e1796b7c0fec8ca",
+                                                "lectureTitle": "L03 : OBSERVATIONAL SKILLS 01",
+                                                "duration": 124.64355555
+                                            },
+                                            {
+                                                "lectureId": "672f3b7d936c60883b7d0b04",
+                                                "lectureTitle": "L04\t: OBSERVATIONAL SKILLS 02",
+                                                "duration": 77.04
+                                            },
+                                            {
+                                                "lectureId": "672f3b7d936c60883b7d0b0e",
+                                                "lectureTitle": "L05\t: PERCENTAGE",
+                                                "duration": 89.51
+                                            },
+                                            {
+                                                "lectureId": "672f3b7d936c60883b7d0b11",
+                                                "lectureTitle": "L06\t: PROFIT LOSS , SIMPLE AND COMPOUND INTEREST",
+                                                "duration": 91.75
+                                            },
+                                            {
+                                                "lectureId": "673890cbcf6a3ece98181190",
+                                                "lectureTitle": "L07 : SPEED TIME DISTANCE 01",
+                                                "duration": 93.53
+                                            },
+                                            {
+                                                "lectureId": "673890cbcf6a3ece9818119f",
+                                                "lectureTitle": "L08 : SPEED TIME DISTANCE 02",
+                                                "duration": 97.65
+                                            },
+                                            {
+                                                "lectureId": "673890cbcf6a3ece981811ab",
+                                                "lectureTitle": "L09 : LOGICAL DEDUCTION",
+                                                "duration": 105.24
+                                            },
+                                            {
+                                                "lectureId": "673890cbcf6a3ece981811b8",
+                                                "lectureTitle": "L10 : DATA INTERPRETATION",
+                                                "duration": 112.54
+                                            },
+                                            {
+                                                "lectureId": "6741c46b0b82a8be3b3a803a",
+                                                "lectureTitle": "L11 : calendar and blood relation",
+                                                "duration": 101.90464096666666
+                                            },
+                                            {
+                                                "lectureId": "673890cbcf6a3ece981811cb",
+                                                "lectureTitle": "L12 : CLOCK AND PARTNERSHIP",
+                                                "duration": 112.25
+                                            },
+                                            {
+                                                "lectureId": "674180990b82a8be3b39a257",
+                                                "lectureTitle": "L13 : WORK AND TIME",
+                                                "duration": 101.13
+                                            },
+                                            {
+                                                "lectureId": "674180990b82a8be3b39a26b",
+                                                "lectureTitle": "L14 : HEIGHT AND DISTANCE",
+                                                "duration": 100.46
+                                            },
+                                            {
+                                                "lectureId": "674180990b82a8be3b39a287",
+                                                "lectureTitle": "L15 : PERMUTATION AND COMBINATION",
+                                                "duration": 102.12,
+                                                "order": 14
+                                            },
+                                            {
+                                                "lectureId": "674180990b82a8be3b39a28e",
+                                                "lectureTitle": "L16 : Probability",
+                                                "duration": 123.98,
+                                                "order": 15
+                                            },
+                                            {
+                                                "lectureId": "6741809a0b82a8be3b39a291",
+                                                "lectureTitle": "L17 : Geometry and mensuration",
+                                                "duration": 145.5,
+                                                "order": 16
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "_id": "671f8b9ae02f1891782f02e6",
+            "name": "CSIR NET APTITUDE: LIVE ONLINE COURSE (HINGLISH) - 11 NOV 2024",
+            "oldBatchId": "662cc1a895a9bcd0fce5a044",
+            "bannerImage": "https://media.ifasonline.com/production/courses/de9b3c15-7329-428a-ab67-4a22731dad5c.jpg",
+            "isDummyCourse": false
+        },
+        {
+            "subjectTopicInfoRecorded": {
+                "count": 86,
+                "data": [
+                    {
+                        "_id": "65d74e9f3faa920ab5b848d4",
+                        "name": "INTRODUCTION TO COURSE",
+                        "videoCount": 1,
+                        "duration": 6.832216666666667,
+                        "order": 0,
+                        "topics": [
+                            {
+                                "_id": "65d74edd7011a0a810de6b6b",
+                                "name": "INTRODUCTION TO COURSE",
+                                "order": null,
+                                "videoCount": 1,
+                                "duration": 6.832216666666667,
+                                "lectureTitle": [],
+                                "subTopics": [
+                                    {
+                                        "_id": "667a8b37ddc42dbdccc992c4",
+                                        "name": "INTRODUCTION TO COURSE",
+                                        "videoCount": 1,
+                                        "duration": 6.832216666666667,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "67349b33aabcb43c34cd052a",
+                                                "lectureTitle": "INTRODUCTION",
+                                                "duration": 6.832216666666667
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "669f710adce7f009302edc67",
+                        "name": "APP FEATURES",
+                        "videoCount": 13,
+                        "duration": 29.65,
+                        "order": 1,
+                        "topics": [
+                            {
+                                "_id": "669f7123dce7f009302edc9f",
+                                "name": "APP FEATURES",
+                                "order": 0,
+                                "videoCount": 13,
+                                "duration": 29.65,
+                                "lectureTitle": [],
+                                "subTopics": [
+                                    {
+                                        "_id": "669f712fdce7f009302edcb8",
+                                        "name": "APP FEATURES",
+                                        "videoCount": 13,
+                                        "duration": 29.65,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "669f76ecc11234297d47acc7",
+                                                "lectureTitle": "Rating Video",
+                                                "duration": 1.9333333333333333,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "669f76ecc11234297d47ad32",
+                                                "lectureTitle": "How Download Video",
+                                                "duration": 3.033333333333333,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "669f76edc11234297d47ad89",
+                                                "lectureTitle": "Order History",
+                                                "duration": 2.1666666666666665,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "669f76edc11234297d47addf",
+                                                "lectureTitle": "Edit Profile",
+                                                "duration": 1.7833333333333332,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "669f76edc11234297d47ae22",
+                                                "lectureTitle": "Technical Support",
+                                                "duration": 3.466666666666667,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "669f76edc11234297d47ae6e",
+                                                "lectureTitle": "Course Support",
+                                                "duration": 3.35,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "669f76edc11234297d47aeb2",
+                                                "lectureTitle": "How to attend Sunday Test And Test Analysis",
+                                                "duration": 4.166666666666667,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "669f76edc11234297d47aef9",
+                                                "lectureTitle": "How To Attend DPP",
+                                                "duration": 3.2,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "669f76edc11234297d47af43",
+                                                "lectureTitle": "How To Attend Recorded Video",
+                                                "duration": 1.2,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "669f76eec11234297d47af85",
+                                                "lectureTitle": "How To Check Notification",
+                                                "duration": 1.45,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "669f76eec11234297d47afca",
+                                                "lectureTitle": "How To Check Daily Lecture Schedule",
+                                                "duration": 1.1833333333333333,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "669f76eec11234297d47b013",
+                                                "lectureTitle": "How To Join Live",
+                                                "duration": 1.4166666666666667,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "669f76eec11234297d47b05c",
+                                                "lectureTitle": "IFAS App Login",
+                                                "duration": 1.3,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "650584908a1d5b42cf96c604",
+                        "name": "NUMBER SYSTEM",
+                        "videoCount": 2,
+                        "duration": 129.285,
+                        "topics": [
+                            {
+                                "_id": "65058e127c4da8fbcc2c97e6",
+                                "name": "NUMBER SYSTEM",
+                                "videoCount": 2,
+                                "duration": 129.285,
+                                "lectureTitle": [
+                                    {
+                                        "lectureId": "662f7ac7d549f977b2889aa8",
+                                        "lectureTitle": "L01 : NUMBER SYSTEM 01",
+                                        "duration": 63.54666666666667
+                                    }
+                                ],
+                                "subTopics": [
+                                    {
+                                        "_id": "65058e1e7c4da8fbcc2c9992",
+                                        "name": "NUMBER SYSTEM LECTURES",
+                                        "videoCount": 2,
+                                        "duration": 129.285,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "662f7ac7d549f977b2889aa8",
+                                                "lectureTitle": "L01 : NUMBER SYSTEM 01",
+                                                "duration": 63.54666666666667,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "662f7e833ee8dc7da02f4fa0",
+                                                "lectureTitle": "L02 : NUMBER SYSTEM 02",
+                                                "duration": 65.73833333333333,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "order": 2
+                    },
+                    {
+                        "_id": "650584ae0ad1aa19a86412fb",
+                        "name": "MISSING SERIES",
+                        "videoCount": 1,
+                        "duration": 98.19833333333332,
+                        "topics": [
+                            {
+                                "_id": "65058e300ad1aa19a868a4f7",
+                                "name": "MISSING SERIES",
+                                "videoCount": 1,
+                                "duration": 98.19833333333332,
+                                "lectureTitle": [
+                                    {
+                                        "lectureId": "662f82081655fdc3b79951b2",
+                                        "lectureTitle": "L01 : MISSING SERIES",
+                                        "duration": 98.19833333333332
+                                    }
+                                ],
+                                "subTopics": [
+                                    {
+                                        "_id": "65058e457c4da8fbcc2c9c73",
+                                        "name": "MISSING SERIES LECTURES",
+                                        "videoCount": 1,
+                                        "duration": 98.19833333333332,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "662f82081655fdc3b79951b2",
+                                                "lectureTitle": "L01 : MISSING SERIES",
+                                                "duration": 98.19833333333332,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "order": 2
+                    },
+                    {
+                        "_id": "650a7b4dbc1d4198f9702b92",
+                        "name": "OBSERVATIONAL SKILLS",
+                        "videoCount": 1,
+                        "duration": 116.60666666666665,
+                        "topics": [
+                            {
+                                "_id": "650a7bcc10d1d382b06b2955",
+                                "name": "OBSERVATIONAL SKILLS",
+                                "videoCount": 1,
+                                "duration": 116.60666666666665,
+                                "lectureTitle": [
+                                    {
+                                        "lectureId": "662f86483ee8dc7da032b736",
+                                        "lectureTitle": "L01 : OBSERVATIONAL SKILL",
+                                        "duration": 116.60666666666665
+                                    }
+                                ],
+                                "subTopics": [
+                                    {
+                                        "_id": "650a7bda2e7001b6207252b4",
+                                        "name": "OBSERVATIONAL SKILLS LECTURES",
+                                        "videoCount": 1,
+                                        "duration": 116.60666666666665,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "662f86483ee8dc7da032b736",
+                                                "lectureTitle": "L01 : OBSERVATIONAL SKILL",
+                                                "duration": 116.60666666666665,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "order": 3
+                    },
+                    {
+                        "_id": "651417f88fa6161d205d23fc",
+                        "name": "LOGICAL DEDUCTION",
+                        "videoCount": 2,
+                        "duration": 134.12720000000002,
+                        "topics": [
+                            {
+                                "_id": "65141858dc0ebca59d6719cc",
+                                "name": "LOGICAL DEDUCTION",
+                                "videoCount": 2,
+                                "duration": 134.12720000000002,
+                                "lectureTitle": [
+                                    {
+                                        "lectureId": "662f8aa8d549f977b2986ae7",
+                                        "lectureTitle": "L01 : LOGICAL DEDUCTION 01",
+                                        "duration": 89.2911
+                                    }
+                                ],
+                                "subTopics": [
+                                    {
+                                        "_id": "6514187b1905980d043a0ead",
+                                        "name": "LOGICAL DEDUCTION LECTURES",
+                                        "videoCount": 2,
+                                        "duration": 134.12720000000002,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "662f8aa8d549f977b2986ae7",
+                                                "lectureTitle": "L01 : LOGICAL DEDUCTION 01",
+                                                "duration": 89.2911,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "662f8c5c3ee8dc7da0346065",
+                                                "lectureTitle": "L02 : LOGICAL DEDUCTION 02",
+                                                "duration": 44.8361,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "order": 4
+                    },
+                    {
+                        "_id": "651418078fa6161d205d2533",
+                        "name": "PERCENTAGE",
+                        "videoCount": 1,
+                        "duration": 85.17443333333334,
+                        "topics": [
+                            {
+                                "_id": "65141896dc0ebca59d671bba",
+                                "name": "PERCENTAGE",
+                                "videoCount": 1,
+                                "duration": 85.17443333333334,
+                                "lectureTitle": [
+                                    {
+                                        "lectureId": "663f6d773040a25558b811d1",
+                                        "lectureTitle": "L01 : PERCENTAGE",
+                                        "duration": 85.17443333333334
+                                    }
+                                ],
+                                "subTopics": [
+                                    {
+                                        "_id": "651418a98fa6161d205d4b31",
+                                        "name": "PERCENTAGE LECTURES",
+                                        "videoCount": 1,
+                                        "duration": 85.17443333333334,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "663f6d773040a25558b811d1",
+                                                "lectureTitle": "L01 : PERCENTAGE",
+                                                "duration": 85.17443333333334,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "order": 5
+                    },
+                    {
+                        "_id": "6520e65f2f70a49505dcf920",
+                        "name": "PROFIT AND LOSS",
+                        "videoCount": 2,
+                        "duration": 119.75055,
+                        "topics": [
+                            {
+                                "_id": "6520e67cad2bf08e657d4090",
+                                "name": "PROFIT AND LOSS",
+                                "videoCount": 2,
+                                "duration": 119.75055,
+                                "lectureTitle": [
+                                    {
+                                        "lectureId": "6633812961c91ddbbb87413b",
+                                        "lectureTitle": "L01 : PROFIT AND LOSS 01",
+                                        "duration": 72.71221666666666
+                                    }
+                                ],
+                                "subTopics": [
+                                    {
+                                        "_id": "6520e695ad2bf08e657d4487",
+                                        "name": "PROFIT AND LOSS LECTURES",
+                                        "videoCount": 2,
+                                        "duration": 119.75055,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "6633812961c91ddbbb87413b",
+                                                "lectureTitle": "L01 : PROFIT AND LOSS 01",
+                                                "duration": 72.71221666666666,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "66338282a6141ef72b09e03b",
+                                                "lectureTitle": "L02 : PROFIT AND LOSS 02",
+                                                "duration": 47.038333333333334,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "order": 6
+                    },
+                    {
+                        "_id": "6520e66bad2bf08e657d3f74",
+                        "name": "SIMPLE AND COMPOUND INTEREST",
+                        "videoCount": 1,
+                        "duration": 82.54443333333333,
+                        "topics": [
+                            {
+                                "_id": "6520e6872f70a49505dcfb89",
+                                "name": "SIMPLE AND COMPOUND INTEREST",
+                                "videoCount": 1,
+                                "duration": 82.54443333333333,
+                                "lectureTitle": [
+                                    {
+                                        "lectureId": "663de4c2e2e9e8004fc6ee6b",
+                                        "lectureTitle": "L01 : SIMPLE AND COMPOUND INTEREST",
+                                        "duration": 82.54443333333333
+                                    }
+                                ],
+                                "subTopics": [
+                                    {
+                                        "_id": "6520e6a22f70a49505dcfec3",
+                                        "name": "SIMPLE AND COMPOUND INTEREST LECTURES",
+                                        "videoCount": 1,
+                                        "duration": 82.54443333333333,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "663de4c2e2e9e8004fc6ee6b",
+                                                "lectureTitle": "L01 : SIMPLE AND COMPOUND INTEREST",
+                                                "duration": 82.54443333333333,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "order": 7
+                    },
+                    {
+                        "_id": "650bf38d159a91c4291566ce",
+                        "name": "SPEED TIME DISTANCE",
+                        "videoCount": 3,
+                        "duration": 212.50500000000002,
+                        "topics": [
+                            {
+                                "_id": "650bf3a151c590476eb18fc2",
+                                "name": "SPEED TIME DISTANCE",
+                                "videoCount": 3,
+                                "duration": 212.50500000000002,
+                                "lectureTitle": [
+                                    {
+                                        "lectureId": "663de47f746ccbe471251bb4",
+                                        "lectureTitle": "L01 : SPEED TIME DISTANCE 01",
+                                        "duration": 63.586666666666666
+                                    }
+                                ],
+                                "subTopics": [
+                                    {
+                                        "_id": "650bf3b751c590476eb1913d",
+                                        "name": "SPEED TIME DISTANCE LECTURES",
+                                        "videoCount": 3,
+                                        "duration": 212.50500000000002,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "663de47f746ccbe471251bb4",
+                                                "lectureTitle": "L01 : SPEED TIME DISTANCE 01",
+                                                "duration": 63.586666666666666,
+                                                "order": 1
+                                            },
+                                            {
+                                                "lectureId": "6638b1fd48ef8cb170c40da9",
+                                                "lectureTitle": "L02 : SPEED TIME DISTANCE 02",
+                                                "duration": 75.15,
+                                                "order": 2
+                                            },
+                                            {
+                                                "lectureId": "6638bb5936dc81784501a7fe",
+                                                "lectureTitle": "L03 : SPEED TIME DISTANCE 03",
+                                                "duration": 73.76833333333335,
+                                                "order": 3
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "order": 8
+                    },
+                    {
+                        "_id": "6524e48d85732fa474308e3a",
+                        "name": "RATIO AND PROPORTION",
+                        "videoCount": 2,
+                        "duration": 144.6461,
+                        "topics": [
+                            {
+                                "_id": "6524e49a64cd807946e41a54",
+                                "name": "RATIO AND PROPORTION",
+                                "videoCount": 2,
+                                "duration": 144.6461,
+                                "lectureTitle": [
+                                    {
+                                        "lectureId": "6633843ed5ccf813b16abbb9",
+                                        "lectureTitle": "L01 : RATIO AND PROPORTION 01",
+                                        "duration": 71.52109999999999
+                                    }
+                                ],
+                                "subTopics": [
+                                    {
+                                        "_id": "6524e4a985732fa474309547",
+                                        "name": "RATIO AND PROPORTION LECTURES",
+                                        "videoCount": 2,
+                                        "duration": 144.6461,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "6633843ed5ccf813b16abbb9",
+                                                "lectureTitle": "L01 : RATIO AND PROPORTION 01",
+                                                "duration": 71.52109999999999,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "663385bbd5ccf813b16bf316",
+                                                "lectureTitle": "L02 : RATIO AND PROPORTION 02",
+                                                "duration": 73.125,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "order": 9
+                    },
+                    {
+                        "_id": "6527d3271f3858c8153c225c",
+                        "name": "STATISTICS",
+                        "videoCount": 1,
+                        "duration": 71.94776666666667,
+                        "topics": [
+                            {
+                                "_id": "664c2a08fde9add55b39ec90",
+                                "name": "STATISTICS",
+                                "videoCount": 1,
+                                "duration": 71.94776666666667,
+                                "lectureTitle": [
+                                    {
+                                        "lectureId": "664c2b7da406b9a23ddfa1f4",
+                                        "lectureTitle": "L01 : STATISTICS 01",
+                                        "duration": 71.94776666666667
+                                    }
+                                ],
+                                "subTopics": [
+                                    {
+                                        "_id": "664c2a1ca406b9a23ddb600b",
+                                        "name": "STATISTICS LECTURES",
+                                        "videoCount": 1,
+                                        "duration": 71.94776666666667,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "664c2b7da406b9a23ddfa1f4",
+                                                "lectureTitle": "L01 : STATISTICS 01",
+                                                "duration": 71.94776666666667,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "order": 10
+                    },
+                    {
+                        "_id": "664b4a4345209d78a0f8d993",
+                        "name": "PARTNERSHIP",
+                        "videoCount": 1,
+                        "duration": 64.16443333333333,
+                        "topics": [
+                            {
+                                "_id": "664b4e8a484b8250dce0d996",
+                                "name": "PARTNERSHIP",
+                                "videoCount": 1,
+                                "duration": 64.16443333333333,
+                                "lectureTitle": [
+                                    {
+                                        "lectureId": "664b55091a35a7261614b627",
+                                        "lectureTitle": "L01 : PARTNERSHIP 01",
+                                        "duration": 64.16443333333333
+                                    }
+                                ],
+                                "subTopics": [
+                                    {
+                                        "_id": "664b4e9745209d78a009f472",
+                                        "name": "PARTNERSHIP LECTURES",
+                                        "videoCount": 1,
+                                        "duration": 64.16443333333333,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "664b55091a35a7261614b627",
+                                                "lectureTitle": "L01 : PARTNERSHIP 01",
+                                                "duration": 64.16443333333333,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "order": 11
+                    },
+                    {
+                        "_id": "65058dfa7c4da8fbcc2c95ef",
+                        "name": "WORK AND TIME",
+                        "videoCount": 1,
+                        "duration": 60.47833333333333,
+                        "topics": [
+                            {
+                                "_id": "65058e570ad1aa19a868a7e7",
+                                "name": "WORK AND TIME",
+                                "videoCount": 1,
+                                "duration": 60.47833333333333,
+                                "lectureTitle": [
+                                    {
+                                        "lectureId": "6638b1323aec7d7ff83064b4",
+                                        "lectureTitle": "L01 : WORK AND TIME",
+                                        "duration": 60.47833333333333
+                                    }
+                                ],
+                                "subTopics": [
+                                    {
+                                        "_id": "65058e65faa619ee634d19a3",
+                                        "name": "WORK AND TIME LECTURES",
+                                        "videoCount": 1,
+                                        "duration": 60.47833333333333,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "6638b1323aec7d7ff83064b4",
+                                                "lectureTitle": "L01 : WORK AND TIME",
+                                                "duration": 60.47833333333333,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "order": 12
+                    },
+                    {
+                        "_id": "664b4a4345209d78a0f8d995",
+                        "name": "HEIGHT AND DISTANCE",
+                        "videoCount": 2,
+                        "duration": 129.39055000000002,
+                        "topics": [
+                            {
+                                "_id": "664b4eaa45209d78a00b15e5",
+                                "name": "HEIGHT AND DISTANCE",
+                                "videoCount": 2,
+                                "duration": 129.39055000000002,
+                                "lectureTitle": [
+                                    {
+                                        "lectureId": "664c2924a406b9a23dd81e11",
+                                        "lectureTitle": "L01 : HEIGHT AND DISTANCE 01",
+                                        "duration": 67.17221666666667
+                                    }
+                                ],
+                                "subTopics": [
+                                    {
+                                        "_id": "664b4ebd484b8250dce3775b",
+                                        "name": "HEIGHT AND DISTANCE LECTURES",
+                                        "videoCount": 2,
+                                        "duration": 129.39055000000002,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "664c2924a406b9a23dd81e11",
+                                                "lectureTitle": "L01 : HEIGHT AND DISTANCE 01",
+                                                "duration": 67.17221666666667,
+                                                "order": 1
+                                            },
+                                            {
+                                                "lectureId": "664c2925a406b9a23dd81e92",
+                                                "lectureTitle": "L02 : HEIGHT AND DISTANCE 02",
+                                                "duration": 62.218333333333334,
+                                                "order": 2
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "order": 13
+                    },
+                    {
+                        "_id": "650a7a11bc1d4198f9700df2",
+                        "name": "PERMUTATION AND COMBINATIONS",
+                        "videoCount": 2,
+                        "duration": 114.31221666666667,
+                        "topics": [
+                            {
+                                "_id": "650a7a2310d1d382b06b0390",
+                                "name": "PERMUTATION AND COMBINATION",
+                                "videoCount": 2,
+                                "duration": 114.31221666666667,
+                                "lectureTitle": [
+                                    {
+                                        "lectureId": "663de008e2e9e8004fc5fb6e",
+                                        "lectureTitle": "L01 : PERMUTATION AND COMBINATION 01",
+                                        "duration": 62.47055
+                                    }
+                                ],
+                                "subTopics": [
+                                    {
+                                        "_id": "650a7a3210d1d382b06b05d9",
+                                        "name": "PERMUTATION AND COMBINATION LECTURES",
+                                        "videoCount": 2,
+                                        "duration": 114.31221666666667,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "663de008e2e9e8004fc5fb6e",
+                                                "lectureTitle": "L01 : PERMUTATION AND COMBINATION 01",
+                                                "duration": 62.47055,
+                                                "order": 1
+                                            },
+                                            {
+                                                "lectureId": "663cab658d535e2c25cff113",
+                                                "lectureTitle": "L02 : PERMUTATION AND COMBINATION 02",
+                                                "duration": 51.84166666666667,
+                                                "order": 2
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "order": 14
+                    },
+                    {
+                        "_id": "65058e72faa619ee634d1c6a",
+                        "name": "PROBABILITY",
+                        "videoCount": 2,
+                        "duration": 125.32333333333332,
+                        "topics": [
+                            {
+                                "_id": "65058e7e7c4da8fbcc2ca917",
+                                "name": "PROBABILITY",
+                                "videoCount": 2,
+                                "duration": 125.32333333333332,
+                                "lectureTitle": [
+                                    {
+                                        "lectureId": "664351543c748f5448f7739d",
+                                        "lectureTitle": "L01 : PROBABILITY 01",
+                                        "duration": 62.195
+                                    }
+                                ],
+                                "subTopics": [
+                                    {
+                                        "_id": "65058e8d7c4da8fbcc2caa4c",
+                                        "name": "PROBABILITY LECTURES",
+                                        "videoCount": 2,
+                                        "duration": 125.32333333333332,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "664351543c748f5448f7739d",
+                                                "lectureTitle": "L01 : PROBABILITY 01",
+                                                "duration": 62.195,
+                                                "order": 1
+                                            },
+                                            {
+                                                "lectureId": "663cab748d535e2c25d02a5e",
+                                                "lectureTitle": "L02 : PROBABILITY 02",
+                                                "duration": 63.12833333333333,
+                                                "order": 2
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "order": 15
+                    },
+                    {
+                        "_id": "652ce231347a0acc1fe4eb6e",
+                        "name": "DATA INTERPRETATION",
+                        "videoCount": 2,
+                        "duration": 115.13165000000001,
+                        "topics": [
+                            {
+                                "_id": "652ce255347a0acc1fe4f1a8",
+                                "name": "DATA INTERPRETATION",
+                                "videoCount": 2,
+                                "duration": 115.13165000000001,
+                                "lectureTitle": [
+                                    {
+                                        "lectureId": "6641e588ef5a4264ea10834d",
+                                        "lectureTitle": "L01 : DATA INTERPRETATION 01",
+                                        "duration": 48.7761
+                                    }
+                                ],
+                                "subTopics": [
+                                    {
+                                        "_id": "652ce285347a0acc1fe4f9ae",
+                                        "name": "DATA INTERPRETATION LECTURES",
+                                        "videoCount": 2,
+                                        "duration": 115.13165000000001,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "6641e588ef5a4264ea10834d",
+                                                "lectureTitle": "L01 : DATA INTERPRETATION 01",
+                                                "duration": 48.7761,
+                                                "order": 1
+                                            },
+                                            {
+                                                "lectureId": "663b536a1ed5022a0c0a721a",
+                                                "lectureTitle": "L02 : DATA INTERPRETATION 02",
+                                                "duration": 66.35555000000001,
+                                                "order": 2
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "order": 16
+                    },
+                    {
+                        "_id": "6520e2722f70a49505dae243",
+                        "name": "GEOMETRY AND MENSURATION",
+                        "videoCount": 3,
+                        "duration": 163.63775,
+                        "topics": [
+                            {
+                                "_id": "6520e2802f70a49505dae53f",
+                                "name": "GEOMETRY AND MENSURATION",
+                                "videoCount": 3,
+                                "duration": 163.63775,
+                                "lectureTitle": [
+                                    {
+                                        "lectureId": "663b58c07be81f13f8058fc8",
+                                        "lectureTitle": "L01 : GEOMETRY AND MENSURATION 01",
+                                        "duration": 62.91388333333334
+                                    }
+                                ],
+                                "subTopics": [
+                                    {
+                                        "_id": "6520e2906bc138015746372e",
+                                        "name": "GEOMETRY AND MENSURATION LECTURES",
+                                        "videoCount": 3,
+                                        "duration": 163.63775,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "663b58c07be81f13f8058fc8",
+                                                "lectureTitle": "L01 : GEOMETRY AND MENSURATION 01",
+                                                "duration": 62.91388333333334,
+                                                "order": 1
+                                            },
+                                            {
+                                                "lectureId": "663ca8b98d535e2c25c2c2cb",
+                                                "lectureTitle": "L02 : GEOMETRY AND MENSURATION 02",
+                                                "duration": 50.3611,
+                                                "order": 2
+                                            },
+                                            {
+                                                "lectureId": "663f03801f510017cf079657",
+                                                "lectureTitle": "L03 : GEOMETRY AND MENSURATION 03",
+                                                "duration": 50.362766666666666,
+                                                "order": 3
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "order": 17
+                    },
+                    {
+                        "_id": "6528ce3ae15987136707d202",
+                        "name": "CALENDER",
+                        "videoCount": 2,
+                        "duration": 94.8411,
+                        "topics": [
+                            {
+                                "_id": "6528ce4928ad900d7cf6eb65",
+                                "name": "CALENDER",
+                                "videoCount": 2,
+                                "duration": 94.8411,
+                                "lectureTitle": [
+                                    {
+                                        "lectureId": "663f02451f510017cf064241",
+                                        "lectureTitle": "L01 : CALENDAR 01",
+                                        "duration": 63.17333333333333
+                                    }
+                                ],
+                                "subTopics": [
+                                    {
+                                        "_id": "6528ce54db0adb71e9f1f131",
+                                        "name": "CALENDER LECTURES",
+                                        "videoCount": 2,
+                                        "duration": 94.8411,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "663f02451f510017cf064241",
+                                                "lectureTitle": "L01 : CALENDAR 01",
+                                                "duration": 63.17333333333333,
+                                                "order": 1
+                                            },
+                                            {
+                                                "lectureId": "663f6649a9465dd10a0f19a9",
+                                                "lectureTitle": "L02 : CALENDAR 02",
+                                                "duration": 31.66776666666667,
+                                                "order": 2
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "order": 18
+                    },
+                    {
+                        "_id": "65324b4560ba635a6fd0c71e",
+                        "name": "CLOCK",
+                        "videoCount": 1,
+                        "duration": 55.8911,
+                        "topics": [
+                            {
+                                "_id": "6548815fc4275bcf6b4aabe1",
+                                "name": "CLOCK",
+                                "videoCount": 1,
+                                "duration": 55.8911,
+                                "lectureTitle": [
+                                    {
+                                        "lectureId": "663f5bc63040a25558a23d3f",
+                                        "lectureTitle": "L01 : CLOCK",
+                                        "duration": 55.8911
+                                    }
+                                ],
+                                "subTopics": [
+                                    {
+                                        "_id": "6548816a84754f6186293167",
+                                        "name": "CLOCK LECTURES",
+                                        "videoCount": 1,
+                                        "duration": 55.8911,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "663f5bc63040a25558a23d3f",
+                                                "lectureTitle": "L01 : CLOCK",
+                                                "duration": 55.8911,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "order": 19
+                    },
+                    {
+                        "_id": "6569d508a3ff342dd700d25e",
+                        "name": "BLOOD RELATIONSHIP",
+                        "videoCount": 1,
+                        "duration": 51.94055,
+                        "topics": [
+                            {
+                                "_id": "6569d51615cf686a8d395438",
+                                "name": "BLOOD RELATIONSHIP",
+                                "videoCount": 1,
+                                "duration": 51.94055,
+                                "lectureTitle": [
+                                    {
+                                        "lectureId": "6642067cd2770d2ca2f54c5a",
+                                        "lectureTitle": "L01 : BLOOD RELATIONSHIP",
+                                        "duration": 51.94055
+                                    }
+                                ],
+                                "subTopics": [
+                                    {
+                                        "_id": "6569d522a3ff342dd701493c",
+                                        "name": "BLOOD RELATIONSHIP LECTURES",
+                                        "videoCount": 1,
+                                        "duration": 51.94055,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "6642067cd2770d2ca2f54c5a",
+                                                "lectureTitle": "L01 : BLOOD RELATIONSHIP",
+                                                "duration": 51.94055,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "order": 20
+                    },
+                    {
+                        "_id": "6538b56f9d1b297f490c6031",
+                        "name": "PAPER FOLDING AND CUTTING",
+                        "videoCount": 1,
+                        "duration": 40.10505894999999,
+                        "topics": [
+                            {
+                                "_id": "6538b588640e05d28fcaff18",
+                                "name": "PAPER FOLDING AND CUTTING",
+                                "videoCount": 1,
+                                "duration": 40.10505894999999,
+                                "lectureTitle": [
+                                    {
+                                        "lectureId": "6645febb933c6d0d797b6752",
+                                        "lectureTitle": "L01 : PAPER FOLDING AND CUTTING",
+                                        "duration": 40.10505894999999
+                                    }
+                                ],
+                                "subTopics": [
+                                    {
+                                        "_id": "6538b5a89d1b297f490c6c2f",
+                                        "name": "PAPER FOLDING AND CUTTING LECTURES",
+                                        "videoCount": 1,
+                                        "duration": 40.10505894999999,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "6645febb933c6d0d797b6752",
+                                                "lectureTitle": "L01 : PAPER FOLDING AND CUTTING",
+                                                "duration": 40.10505894999999,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "order": 21
+                    },
+                    {
+                        "_id": "65324b4660ba635a6fd0c724",
+                        "name": "BASIC SCIENCE",
+                        "videoCount": 1,
+                        "duration": 57.69721666666667,
+                        "topics": [
+                            {
+                                "_id": "654ddca3c06052e8d8219e75",
+                                "name": "BASIC SCIENCE",
+                                "videoCount": 1,
+                                "duration": 57.69721666666667,
+                                "lectureTitle": [
+                                    {
+                                        "lectureId": "66420723d2770d2ca2f57361",
+                                        "lectureTitle": "L01 : BASIC SCIENCE",
+                                        "duration": 57.69721666666667
+                                    }
+                                ],
+                                "subTopics": [
+                                    {
+                                        "_id": "654ddcb17d08841f117b4057",
+                                        "name": "BASIC SCIENCE LECTURES",
+                                        "videoCount": 1,
+                                        "duration": 57.69721666666667,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "66420723d2770d2ca2f57361",
+                                                "lectureTitle": "L01 : BASIC SCIENCE",
+                                                "duration": 57.69721666666667,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "order": 22
+                    },
+                    {
+                        "_id": "667ab805e28583a9c21cb5ba",
+                        "name": "PYQ EXAM PAPERS",
+                        "videoCount": 28,
+                        "duration": 1511.4971913166667,
+                        "order": 22,
+                        "topics": [
+                            {
+                                "_id": "66975422c0e364cf143a3694",
+                                "name": "NUMBER SYSTEM",
+                                "order": 1,
+                                "videoCount": 2,
+                                "duration": 150,
+                                "lectureTitle": [],
+                                "subTopics": [
+                                    {
+                                        "_id": "669754abc0e364cf143a3891",
+                                        "name": "NUMBER SYSTEM LECTURES",
+                                        "videoCount": 2,
+                                        "duration": 150,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "669756d9d337bb8f8a1879d5",
+                                                "lectureTitle": "Number System 01",
+                                                "duration": 77,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "669756d9d337bb8f8a187ade",
+                                                "lectureTitle": "Number System 02",
+                                                "duration": 73,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "66975422c0e364cf143a3695",
+                                "name": "MISSING SERIES",
+                                "order": 2,
+                                "videoCount": 1,
+                                "duration": 58,
+                                "lectureTitle": [],
+                                "subTopics": [
+                                    {
+                                        "_id": "669754bcc0e364cf143a38f1",
+                                        "name": "MISSING SERIES LECTURES",
+                                        "videoCount": 1,
+                                        "duration": 58,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "6697582dd337bb8f8a272a95",
+                                                "lectureTitle": "Missing Series",
+                                                "duration": 58,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "66975422c0e364cf143a3696",
+                                "name": "OBSERVATIONAL SKILLS",
+                                "order": 3,
+                                "videoCount": 4,
+                                "duration": 241.41058333333334,
+                                "lectureTitle": [],
+                                "subTopics": [
+                                    {
+                                        "_id": "669754cec0e364cf143a3933",
+                                        "name": "OBSERVATIONAL SKILLS LECTURES",
+                                        "videoCount": 4,
+                                        "duration": 241.41058333333334,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "6697593c72f38c0e630decd7",
+                                                "lectureTitle": "L01 : OBSERVATIONAL SKILLS",
+                                                "duration": 63,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "6697593f72f38c0e630e3ee3",
+                                                "lectureTitle": "L02 : OBSERVATIONAL SKILLS",
+                                                "duration": 59,
+                                                "order": 2
+                                            },
+                                            {
+                                                "lectureId": "66b37d925c624f91f5093fc5",
+                                                "lectureTitle": "L04 : OBSERVATIONAL SKILLS",
+                                                "duration": 44.27223333333333,
+                                                "order": 4
+                                            },
+                                            {
+                                                "lectureId": "66b37e375c624f91f5094032",
+                                                "lectureTitle": "L03 : OBSERVATIONAL SKILLS",
+                                                "duration": 75.13835,
+                                                "order": 3
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "66975422c0e364cf143a3697",
+                                "name": "LOGICAL DEDUCTION",
+                                "order": 4,
+                                "videoCount": 3,
+                                "duration": 186.2911,
+                                "lectureTitle": [],
+                                "subTopics": [
+                                    {
+                                        "_id": "669754e2c0e364cf143a3968",
+                                        "name": "LOGICAL DEDUCTION LECTURES",
+                                        "videoCount": 3,
+                                        "duration": 186.2911,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "66975a5d72f38c0e631edf54",
+                                                "lectureTitle": "Logical Deduction 01",
+                                                "duration": 44,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "66975a5d72f38c0e631edfaf",
+                                                "lectureTitle": "Logical Deduction 02",
+                                                "duration": 53,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "66ab70f9e6c654971c6a69ea",
+                                                "lectureTitle": "Logical Deduction 03",
+                                                "duration": 89.2911,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "66975422c0e364cf143a3698",
+                                "name": "FINDING THE X",
+                                "order": 5,
+                                "videoCount": 1,
+                                "duration": 90,
+                                "lectureTitle": [],
+                                "subTopics": [
+                                    {
+                                        "_id": "669754f7c0e364cf143a39a6",
+                                        "name": "FINDING THE X LECTURES",
+                                        "videoCount": 1,
+                                        "duration": 90,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "66975b8a72f38c0e632a1365",
+                                                "lectureTitle": "Finding The X",
+                                                "duration": 90,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "66975422c0e364cf143a3699",
+                                "name": "PERCENTAGE",
+                                "order": 6,
+                                "videoCount": 2,
+                                "duration": 68,
+                                "lectureTitle": [],
+                                "subTopics": [
+                                    {
+                                        "_id": "66975511c0e364cf143a39d5",
+                                        "name": "PERCENTAGE LECTURES",
+                                        "videoCount": 2,
+                                        "duration": 68,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "66975cb672f38c0e6331b82d",
+                                                "lectureTitle": "Problems Based On Percentage 01",
+                                                "duration": 32,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "66975cb672f38c0e6331b8a5",
+                                                "lectureTitle": "Problems Based On Percentage 02",
+                                                "duration": 36,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "66975422c0e364cf143a369a",
+                                "name": "MOVING OBJECT DYNAMICS",
+                                "order": 7,
+                                "videoCount": 2,
+                                "duration": 112,
+                                "lectureTitle": [],
+                                "subTopics": [
+                                    {
+                                        "_id": "66975525c0e364cf143a3a18",
+                                        "name": "MOVING OBJECT DYNAMICS LECTURES",
+                                        "videoCount": 2,
+                                        "duration": 112,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "66975e1172f38c0e63445a01",
+                                                "lectureTitle": "Moving Object Dynamics 01",
+                                                "duration": 53,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "66975e2072f38c0e63449695",
+                                                "lectureTitle": "Moving Object Dynamics 02",
+                                                "duration": 59,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "66975422c0e364cf143a369b",
+                                "name": "WORK AND TIME",
+                                "order": 8,
+                                "videoCount": 1,
+                                "duration": 7,
+                                "lectureTitle": [],
+                                "subTopics": [
+                                    {
+                                        "_id": "6697553bc0e364cf143a3a40",
+                                        "name": "WORK AND TIME LECTURES",
+                                        "videoCount": 1,
+                                        "duration": 7,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "66975f0eb4c8c4cf3aff2abd",
+                                                "lectureTitle": "Work And Time",
+                                                "duration": 7,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "66975422c0e364cf143a369c",
+                                "name": "CALENDER",
+                                "order": 9,
+                                "videoCount": 1,
+                                "duration": 21,
+                                "lectureTitle": [],
+                                "subTopics": [
+                                    {
+                                        "_id": "66975554c0e364cf143a3a53",
+                                        "name": "CALENDER LECTURES",
+                                        "videoCount": 1,
+                                        "duration": 21,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "6697616609736f93f4b63d43",
+                                                "lectureTitle": "Calender",
+                                                "duration": 21,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "66975422c0e364cf143a369d",
+                                "name": "DATA INRTERPRETATION",
+                                "order": 10,
+                                "videoCount": 4,
+                                "duration": 238.51774999999998,
+                                "lectureTitle": [],
+                                "subTopics": [
+                                    {
+                                        "_id": "66975566c0e364cf143a3a6e",
+                                        "name": "DATA INRTERPRETATION LECTURES",
+                                        "videoCount": 4,
+                                        "duration": 238.51774999999998,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "66aa1f92e6c654971c6931d2",
+                                                "lectureTitle": "L01 : DATA INTERPRETATION 01",
+                                                "duration": 48.7761
+                                            },
+                                            {
+                                                "lectureId": "66aa2086e6c654971c69349a",
+                                                "lectureTitle": "L02 : DATA INTERPRETATION 02",
+                                                "duration": 66.35555000000001
+                                            },
+                                            {
+                                                "lectureId": "670cce496f08f8f852e49b17",
+                                                "lectureTitle": "DATA INTERPRETATION 1 (PYQ)1",
+                                                "duration": 61.60276666666667
+                                            },
+                                            {
+                                                "lectureId": "670d1bedf2e02e6f97c5ab5c",
+                                                "lectureTitle": "DATA INTERPRETATION (PYQ)",
+                                                "duration": 61.78333333333333
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "66975422c0e364cf143a369e",
+                                "name": "CLOCK",
+                                "order": 11,
+                                "videoCount": 1,
+                                "duration": 23,
+                                "lectureTitle": [],
+                                "subTopics": [
+                                    {
+                                        "_id": "6697558cc0e364cf143a3a91",
+                                        "name": "CLOCK LECTURES",
+                                        "videoCount": 1,
+                                        "duration": 23,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "669763d02f11df2d1655f2aa",
+                                                "lectureTitle": "Clock Hand Problems",
+                                                "duration": 23,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "66975422c0e364cf143a369f",
+                                "name": "PROBABILITY",
+                                "order": 12,
+                                "videoCount": 1,
+                                "duration": 32,
+                                "lectureTitle": [],
+                                "subTopics": [
+                                    {
+                                        "_id": "669755a5c0e364cf143a3ad3",
+                                        "name": "PROBABILITY LECTURES",
+                                        "videoCount": 1,
+                                        "duration": 32,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "669764eb2f11df2d1672a04e",
+                                                "lectureTitle": "Probability",
+                                                "duration": 32,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "66975422c0e364cf143a36a0",
+                                "name": "PERMUTATION AND COMBINATION",
+                                "order": 13,
+                                "videoCount": 1,
+                                "duration": 51,
+                                "lectureTitle": [],
+                                "subTopics": [
+                                    {
+                                        "_id": "669755b9c0e364cf143a3b32",
+                                        "name": "PERMUTATION AND COMBINATION LECTURES",
+                                        "videoCount": 1,
+                                        "duration": 51,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "66976615aaba8ba2fedbc3e3",
+                                                "lectureTitle": "Permutation And Combination",
+                                                "duration": 51,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "66975422c0e364cf143a36a1",
+                                "name": "MEASUREMENT",
+                                "order": 14,
+                                "videoCount": 3,
+                                "duration": 161.32999131666668,
+                                "lectureTitle": [],
+                                "subTopics": [
+                                    {
+                                        "_id": "669755ccc0e364cf143a3b67",
+                                        "name": "MEASUREMENT LECTURES",
+                                        "videoCount": 3,
+                                        "duration": 161.32999131666668,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "66976744aaba8ba2fef480de",
+                                                "lectureTitle": "Measurement 01",
+                                                "duration": 61,
+                                                "order": 1
+                                            },
+                                            {
+                                                "lectureId": "66a0e40b6ca10056bc6379c4",
+                                                "lectureTitle": "Measurement 03",
+                                                "duration": 50.062773433333334,
+                                                "order": 3
+                                            },
+                                            {
+                                                "lectureId": "66a0e43b6ca10056bc637a68",
+                                                "lectureTitle": "Measurement 02",
+                                                "duration": 50.26721788333334,
+                                                "order": 2
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "669f7755dce7f009302eef5c",
+                                "name": "STATISTICS",
+                                "order": 1,
+                                "videoCount": 1,
+                                "duration": 71.94776666666667,
+                                "lectureTitle": [],
+                                "subTopics": [
+                                    {
+                                        "_id": "669f776bdce7f009302eef94",
+                                        "name": "STATISTICS LECTURES",
+                                        "videoCount": 1,
+                                        "duration": 71.94776666666667,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "66aa1e86e6c654971c692d89",
+                                                "lectureTitle": "STATISTICS",
+                                                "duration": 71.94776666666667,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "672ef3d6936c60883b7c43e3",
+                        "name": "TOPPER'S TALK",
+                        "videoCount": 8,
+                        "duration": 152.38559638333334,
+                        "order": 24,
+                        "topics": [
+                            {
+                                "_id": "672ef40e936c60883b7c443d",
+                                "name": "TOPPER'S TALK",
+                                "order": 0,
+                                "videoCount": 8,
+                                "duration": 152.38559638333334,
+                                "lectureTitle": [],
+                                "subTopics": [
+                                    {
+                                        "_id": "672ef418936c60883b7c4461",
+                                        "name": "TOPPER'S TALK",
+                                        "videoCount": 8,
+                                        "duration": 152.38559638333334,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "672ef48533bdb3f1aa6c8aad",
+                                                "lectureTitle": "Monika Sen",
+                                                "duration": 23.945191233333333,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "672ef48533bdb3f1aa6c8b97",
+                                                "lectureTitle": "Ajit Pradhan",
+                                                "duration": 12.8514709,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "672ef5b12fe5953069ead6d4",
+                                                "lectureTitle": "Argha Dey",
+                                                "duration": 24.511758133333334,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "672ef5b12fe5953069ead734",
+                                                "lectureTitle": "Durgesh Pande",
+                                                "duration": 24.814391533333332,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "672ef6dc2fe5953069eedf89",
+                                                "lectureTitle": "Payal",
+                                                "duration": 21.418860166666665,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "672ef6dd2fe5953069eee024",
+                                                "lectureTitle": "Sourish Goswami",
+                                                "duration": 9.796885866666665,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "672ef9362fe595306905f097",
+                                                "lectureTitle": "Prayag Sharma",
+                                                "duration": 19.438198033333332,
+                                                "order": 0
+                                            },
+                                            {
+                                                "lectureId": "672ef9382fe595306905f21a",
+                                                "lectureTitle": "Reechak Nayak",
+                                                "duration": 15.608840516666667,
+                                                "order": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "67036ff11ae84fbbe60fc3cc",
+                        "name": "STRATEGY SESSION",
+                        "videoCount": 1,
+                        "duration": 45.07833333333333,
+                        "order": 25,
+                        "topics": [
+                            {
+                                "_id": "670370091ae84fbbe60fc429",
+                                "name": "STRATEGY SESSION",
+                                "order": 25,
+                                "videoCount": 1,
+                                "duration": 45.07833333333333,
+                                "lectureTitle": [],
+                                "subTopics": [
+                                    {
+                                        "_id": "6703701f1ae84fbbe60fc45a",
+                                        "name": "STRATEGY SESSION",
+                                        "videoCount": 1,
+                                        "duration": 45.07833333333333,
+                                        "lectureTitle": [
+                                            {
+                                                "lectureId": "6708d4c02d721f5662fd8641",
+                                                "lectureTitle": "STRATEGY SESSION",
+                                                "duration": 45.07833333333333
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "_id": "662cc1a895a9bcd0fce5a044",
+            "name": "CSIR NET GENERAL  APTITUDE : RECORDED ONLINE COURSE (HINGLISH)",
+            "bannerImage": "https://media.ifasonline.com/production/courses/3fd160ae-c716-4fd9-816b-bbf5c9006aa0.jpg",
+            "isDummyCourse": false
+        }
+    ]
+}

@@ -1,0 +1,1426 @@
+[
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "67349b33aabcb43c34cd052a",
+      "lectureTitle": "INTRODUCTION",
+      "duration": 6.832216666666667,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/INTRODUCTION+TO+COURSE/INTRODUCTION+TO+COURSE/INTRODUCTION+TO+COURSE/CSIR+NET+GENERAL+APTITUDE+RECORDED+ONLINE+COURSE+HINGLISH+/INTRODUCTION+1731500198.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/INTRODUCTION+TO+COURSE/INTRODUCTION+TO+COURSE/INTRODUCTION+TO+COURSE/CSIR+NET+GENERAL+APTITUDE+RECORDED+ONLINE+COURSE+HINGLISH+/INTRODUCTION+1731500198.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FINTRODUCTION%20TO%20COURSE%2FINTRODUCTION%20TO%20COURSE%2FINTRODUCTION%20TO%20COURSE%2FCSIR%20NET%20GENERAL%20APTITUDE%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/INTRODUCTION%201731500198/720/INTRODUCTION%201731500198.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FINTRODUCTION%20TO%20COURSE%2FINTRODUCTION%20TO%20COURSE%2FINTRODUCTION%20TO%20COURSE%2FCSIR%20NET%20GENERAL%20APTITUDE%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/INTRODUCTION%201731500198/720/INTRODUCTION%201731500198.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/INTRODUCTION TO COURSE/INTRODUCTION TO COURSE/INTRODUCTION TO COURSE/CSIR NET GENERAL APTITUDE RECORDED ONLINE COURSE HINGLISH 83dbfc06-856d-4776-a81d-7cd1c54c6365.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/INTRODUCTION TO COURSE/INTRODUCTION TO COURSE/INTRODUCTION TO COURSE/CSIR NET GENERAL APTITUDE RECORDED ONLINE COURSE HINGLISH 83dbfc06-856d-4776-a81d-7cd1c54c6365.pdf",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FINTRODUCTION%20TO%20COURSE%2FINTRODUCTION%20TO%20COURSE%2FINTRODUCTION%20TO%20COURSE%2FCSIR%20NET%20GENERAL%20APTITUDE%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/INTRODUCTION%201731500198/720/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FINTRODUCTION%20TO%20COURSE%2FINTRODUCTION%20TO%20COURSE%2FINTRODUCTION%20TO%20COURSE%2FCSIR%20NET%20GENERAL%20APTITUDE%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/INTRODUCTION%201731500198/720/hls-master.m3u8",
+      "examStatus": 0,
+      "unitName": "INTRODUCTION TO COURSE"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "669f76ecc11234297d47acc7",
+      "lectureTitle": "Rating Video",
+      "duration": 1.9333333333333333,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F720/16_Rating_Video/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F360/16_Rating_Video/hls-master.m3u8",
+      "filePathHigh": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/720/16_Rating_Video.mp4",
+      "filePathLow": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/360/16_Rating_Video.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F720/16_Rating_Video.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F360/16_Rating_Video.mp4",
+      "youtubeLink": "www.youtube.com",
+      "examStatus": 0,
+      "unitName": "APP FEATURES"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "669f76ecc11234297d47ad32",
+      "lectureTitle": "How Download Video",
+      "duration": 3.033333333333333,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F720/15_How_Download_Video/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F360/15_How_Download_Video/hls-master.m3u8",
+      "filePathHigh": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/720/15_How_Download_Video.mp4",
+      "filePathLow": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/360/15_How_Download_Video.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F720/15_How_Download_Video.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F360/15_How_Download_Video.mp4",
+      "youtubeLink": "www.youtube.com",
+      "examStatus": 0,
+      "unitName": "APP FEATURES"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "669f76edc11234297d47ad89",
+      "lectureTitle": "Order History",
+      "duration": 2.1666666666666665,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F720/14_Order_History/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F360/14_Order_History/hls-master.m3u8",
+      "filePathHigh": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/720/14_Order_History.mp4",
+      "filePathLow": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/360/14_Order_History.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F720/14_Order_History.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F360/14_Order_History.mp4",
+      "youtubeLink": "www.youtube.com",
+      "examStatus": 0,
+      "unitName": "APP FEATURES"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "669f76edc11234297d47addf",
+      "lectureTitle": "Edit Profile",
+      "duration": 1.7833333333333332,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F720/13_Edit_Profile/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F360/13_Edit_Profile/hls-master.m3u8",
+      "filePathHigh": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/720/13_Edit_Profile.mp4",
+      "filePathLow": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/360/13_Edit_Profile.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F720/13_Edit_Profile.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F360/13_Edit_Profile.mp4",
+      "youtubeLink": "www.youtube.com",
+      "examStatus": 0,
+      "unitName": "APP FEATURES"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "669f76edc11234297d47ae22",
+      "lectureTitle": "Technical Support",
+      "duration": 3.466666666666667,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F720/11_12_Technical_Support/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F360/11_12_Technical_Support/hls-master.m3u8",
+      "filePathHigh": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/720/11_12_Technical_Support.mp4",
+      "filePathLow": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/360/11_12_Technical_Support.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F720/11_12_Technical_Support.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F360/11_12_Technical_Support.mp4",
+      "youtubeLink": "www.youtube.com",
+      "examStatus": 0,
+      "unitName": "APP FEATURES"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "669f76edc11234297d47ae6e",
+      "lectureTitle": "Course Support",
+      "duration": 3.35,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F720/10_Course_Support/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F360/10_Course_Support/hls-master.m3u8",
+      "filePathHigh": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/720/10_Course_Support.mp4",
+      "filePathLow": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/360/10_Course_Support.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F720/10_Course_Support.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F360/10_Course_Support.mp4",
+      "youtubeLink": "www.youtube.com",
+      "examStatus": 0,
+      "unitName": "APP FEATURES"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "669f76edc11234297d47aeb2",
+      "lectureTitle": "How to attend Sunday Test And Test Analysis",
+      "duration": 4.166666666666667,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F720/7_How_to_attend_Sunday_Test_Test_Analysis/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F360/7_How_To_attend_Sunday_Test_Test_Analysis/hls-master.m3u8",
+      "filePathHigh": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/720/7_How_to_attend_Sunday_Test_Test_Analysis.mp4",
+      "filePathLow": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/360/7_How_To_attend_Sunday_Test_Test_Analysis.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F720/7_How_to_attend_Sunday_Test_Test_Analysis.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F360/7_How_To_attend_Sunday_Test_Test_Analysis.mp4",
+      "youtubeLink": "www.youtube.com",
+      "examStatus": 0,
+      "unitName": "APP FEATURES"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "669f76edc11234297d47aef9",
+      "lectureTitle": "How To Attend DPP",
+      "duration": 3.2,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F720/6_How_To_Attend_DPP/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F360/6_How_To_Attend_DPP/hls-master.m3u8",
+      "filePathHigh": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/720/6_How_To_Attend_DPP.mp4",
+      "filePathLow": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/360/6_How_To_Attend_DPP.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F720/6_How_To_Attend_DPP.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F360/6_How_To_Attend_DPP.mp4",
+      "youtubeLink": "www.youtube.com",
+      "examStatus": 0,
+      "unitName": "APP FEATURES"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "669f76edc11234297d47af43",
+      "lectureTitle": "How To Attend Recorded Video",
+      "duration": 1.2,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F720/5_How_To__Attend_Recorded_Video/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F360/5_How_To_Attend_Recorded_Video/hls-master.m3u8",
+      "filePathHigh": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/720/5_How_To__Attend_Recorded_Video.mp4",
+      "filePathLow": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/360/5_How_To_Attend_Recorded_Video.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F720/5_How_To__Attend_Recorded_Video.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F360/5_How_To_Attend_Recorded_Video.mp4",
+      "youtubeLink": "www.youtube.com",
+      "examStatus": 0,
+      "unitName": "APP FEATURES"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "669f76eec11234297d47af85",
+      "lectureTitle": "How To Check Notification",
+      "duration": 1.45,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F720/4_How_To_Check_Notification/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F360/4_How_To_Check_Notification/hls-master.m3u8",
+      "filePathHigh": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/720/4_How_To_Check_Notification.mp4",
+      "filePathLow": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/360/4_How_To_Check_Notification.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F720/4_How_To_Check_Notification.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F360/4_How_To_Check_Notification.mp4",
+      "youtubeLink": "www.youtube.com",
+      "examStatus": 0,
+      "unitName": "APP FEATURES"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "669f76eec11234297d47afca",
+      "lectureTitle": "How To Check Daily Lecture Schedule",
+      "duration": 1.1833333333333333,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F720/3_How_To_Check_Daily_Lecture_Schedule/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F360/3_How_To_Check_Daily_Lecture_Schedule/hls-master.m3u8",
+      "filePathHigh": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/720/3_How_To_Check_Daily_Lecture_Schedule.mp4",
+      "filePathLow": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/360/3_How_To_Check_Daily_Lecture_Schedule.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F720/3_How_To_Check_Daily_Lecture_Schedule.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F360/3_How_To_Check_Daily_Lecture_Schedule.mp4",
+      "youtubeLink": "www.youtube.com",
+      "examStatus": 0,
+      "unitName": "APP FEATURES"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "669f76eec11234297d47b013",
+      "lectureTitle": "How To Join Live",
+      "duration": 1.4166666666666667,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F720/2_How_To_Join_Live/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F360/2_How_To_Join_Live/hls-master.m3u8",
+      "filePathHigh": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/720/2_How_To_Join_Live.mp4",
+      "filePathLow": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/360/2_How_To_Join_Live.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F720/2_How_To_Join_Live.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F360/2_How_To_Join_Live.mp4",
+      "youtubeLink": "www.youtube.com",
+      "examStatus": 0,
+      "unitName": "APP FEATURES"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "669f76eec11234297d47b05c",
+      "lectureTitle": "IFAS App Login",
+      "duration": 1.3,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F720/1_IFAS_APP_Login/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/2023%2FA_IFAS_FEATURES%2F360/1_IFAS_APP_Login/hls-master.m3u8",
+      "filePathHigh": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/720/1_IFAS_APP_Login.mp4",
+      "filePathLow": "https://ifas-video.s3.ap-south-1.amazonaws.com/2023/A_IFAS_FEATURES/360/1_IFAS_APP_Login.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F720/1_IFAS_APP_Login.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/2023%2FA_IFAS_FEATURES%2F360/1_IFAS_APP_Login.mp4",
+      "youtubeLink": "www.youtube.com",
+      "examStatus": 0,
+      "unitName": "APP FEATURES"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "662f7ac7d549f977b2889aa8",
+      "lectureTitle": "L01 : NUMBER SYSTEM 01",
+      "duration": 63.54666666666667,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+I+++NUMBER+SYSTEM/NUMBER+SYSTEM/NUMBER+SYSTEM/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/NUMBER+SYSTEM+1+1714387461.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+I+++NUMBER+SYSTEM/NUMBER+SYSTEM/NUMBER+SYSTEM/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/NUMBER+SYSTEM+1+1714387461.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20I%20%20%20NUMBER%20SYSTEM%2FNUMBER%20SYSTEM%2FNUMBER%20SYSTEM%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/NUMBER%20SYSTEM%201%201714387461/720/NUMBER%20SYSTEM%201%201714387461.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20I%20%20%20NUMBER%20SYSTEM%2FNUMBER%20SYSTEM%2FNUMBER%20SYSTEM%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/NUMBER%20SYSTEM%201%201714387461/360/NUMBER%20SYSTEM%201%201714387461.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT I   NUMBER SYSTEM/NUMBER SYSTEM/NUMBER SYSTEM/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 64bb06b8-65fb-425f-a16c-41eb6937f04e.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT I   NUMBER SYSTEM/NUMBER SYSTEM/NUMBER SYSTEM/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 64bb06b8-65fb-425f-a16c-41eb6937f04e.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20I%20%20%20NUMBER%20SYSTEM%2FNUMBER%20SYSTEM%2FNUMBER%20SYSTEM%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/NUMBER%20SYSTEM%201%201714387461/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20I%20%20%20NUMBER%20SYSTEM%2FNUMBER%20SYSTEM%2FNUMBER%20SYSTEM%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/NUMBER%20SYSTEM%201%201714387461/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c28dbfde9add55b3991db",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 2,
+      "unitName": "NUMBER SYSTEM"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "662f7e833ee8dc7da02f4fa0",
+      "lectureTitle": "L02 : NUMBER SYSTEM 02",
+      "duration": 65.73833333333333,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+I+++NUMBER+SYSTEM/NUMBER+SYSTEM/NUMBER+SYSTEM/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/NUMBER+SYSTEM+2+1714388470.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+I+++NUMBER+SYSTEM/NUMBER+SYSTEM/NUMBER+SYSTEM/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/NUMBER+SYSTEM+2+1714388470.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20I%20%20%20NUMBER%20SYSTEM%2FNUMBER%20SYSTEM%2FNUMBER%20SYSTEM%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/NUMBER%20SYSTEM%202%201714388470/720/NUMBER%20SYSTEM%202%201714388470.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20I%20%20%20NUMBER%20SYSTEM%2FNUMBER%20SYSTEM%2FNUMBER%20SYSTEM%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/NUMBER%20SYSTEM%202%201714388470/360/NUMBER%20SYSTEM%202%201714388470.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT I   NUMBER SYSTEM/NUMBER SYSTEM/NUMBER SYSTEM/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 7dd7b118-f005-495c-af01-592b82977bd7.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT I   NUMBER SYSTEM/NUMBER SYSTEM/NUMBER SYSTEM/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 7dd7b118-f005-495c-af01-592b82977bd7.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20I%20%20%20NUMBER%20SYSTEM%2FNUMBER%20SYSTEM%2FNUMBER%20SYSTEM%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/NUMBER%20SYSTEM%202%201714388470/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20I%20%20%20NUMBER%20SYSTEM%2FNUMBER%20SYSTEM%2FNUMBER%20SYSTEM%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/NUMBER%20SYSTEM%202%201714388470/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c2907a406b9a23dd7c404",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 2,
+      "unitName": "NUMBER SYSTEM"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "662f82081655fdc3b79951b2",
+      "lectureTitle": "L01 : MISSING SERIES",
+      "duration": 98.19833333333332,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+II+++MISSING+SERIES/MISSING+SERIES/MISSING+SERIES/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/MISSING+SERIES+++1+1714389172.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+II+++MISSING+SERIES/MISSING+SERIES/MISSING+SERIES/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/MISSING+SERIES+++1+1714389172.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20II%20%20%20MISSING%20SERIES%2FMISSING%20SERIES%2FMISSING%20SERIES%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/MISSING%20SERIES%20%20%201%201714389172/720/MISSING%20SERIES%20%20%201%201714389172.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20II%20%20%20MISSING%20SERIES%2FMISSING%20SERIES%2FMISSING%20SERIES%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/MISSING%20SERIES%20%20%201%201714389172/360/MISSING%20SERIES%20%20%201%201714389172.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT II   MISSING SERIES/MISSING SERIES/MISSING SERIES/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH ebd85474-ff48-449e-85ca-c9dff44cdd49.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT II   MISSING SERIES/MISSING SERIES/MISSING SERIES/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH ebd85474-ff48-449e-85ca-c9dff44cdd49.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20II%20%20%20MISSING%20SERIES%2FMISSING%20SERIES%2FMISSING%20SERIES%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/MISSING%20SERIES%20%20%201%201714389172/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20II%20%20%20MISSING%20SERIES%2FMISSING%20SERIES%2FMISSING%20SERIES%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/MISSING%20SERIES%20%20%201%201714389172/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c3224fde9add55b3dc23c",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "MISSING SERIES"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "662f86483ee8dc7da032b736",
+      "lectureTitle": "L01 : OBSERVATIONAL SKILL",
+      "duration": 116.60666666666665,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+III+++OBSERVATIONAL+SKILLS/OBSERVATIONAL+SKILLS/OBSERVATIONAL+SKILLS/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/OBSERVATIONAL+SKILL+1+1714390305.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+III+++OBSERVATIONAL+SKILLS/OBSERVATIONAL+SKILLS/OBSERVATIONAL+SKILLS/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/OBSERVATIONAL+SKILL+1+1714390305.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20III%20%20%20OBSERVATIONAL%20SKILLS%2FOBSERVATIONAL%20SKILLS%2FOBSERVATIONAL%20SKILLS%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/OBSERVATIONAL%20SKILL%201%201714390305/720/OBSERVATIONAL%20SKILL%201%201714390305.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20III%20%20%20OBSERVATIONAL%20SKILLS%2FOBSERVATIONAL%20SKILLS%2FOBSERVATIONAL%20SKILLS%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/OBSERVATIONAL%20SKILL%201%201714390305/360/OBSERVATIONAL%20SKILL%201%201714390305.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT III   OBSERVATIONAL SKILLS/OBSERVATIONAL SKILLS/OBSERVATIONAL SKILLS/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 37621108-7b30-4ec2-aa11-90ed60b18901.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT III   OBSERVATIONAL SKILLS/OBSERVATIONAL SKILLS/OBSERVATIONAL SKILLS/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 37621108-7b30-4ec2-aa11-90ed60b18901.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20III%20%20%20OBSERVATIONAL%20SKILLS%2FOBSERVATIONAL%20SKILLS%2FOBSERVATIONAL%20SKILLS%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/OBSERVATIONAL%20SKILL%201%201714390305/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20III%20%20%20OBSERVATIONAL%20SKILLS%2FOBSERVATIONAL%20SKILLS%2FOBSERVATIONAL%20SKILLS%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/OBSERVATIONAL%20SKILL%201%201714390305/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c3271fbc04ed7b042bf96",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "OBSERVATIONAL SKILLS"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "662f8aa8d549f977b2986ae7",
+      "lectureTitle": "L01 : LOGICAL DEDUCTION 01",
+      "duration": 89.2911,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+IV+++LOGICAL+DEDUCTION/LOGICAL+DEDUCTION/LOGICAL+DEDUCTION/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/LOGICAL+DEDUCTION+1+1714391462.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+IV+++LOGICAL+DEDUCTION/LOGICAL+DEDUCTION/LOGICAL+DEDUCTION/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/LOGICAL+DEDUCTION+1+1714391462.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20IV%20%20%20LOGICAL%20DEDUCTION%2FLOGICAL%20DEDUCTION%2FLOGICAL%20DEDUCTION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/LOGICAL%20DEDUCTION%201%201714391462/720/LOGICAL%20DEDUCTION%201%201714391462.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20IV%20%20%20LOGICAL%20DEDUCTION%2FLOGICAL%20DEDUCTION%2FLOGICAL%20DEDUCTION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/LOGICAL%20DEDUCTION%201%201714391462/360/LOGICAL%20DEDUCTION%201%201714391462.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT IV   LOGICAL DEDUCTION/LOGICAL DEDUCTION/LOGICAL DEDUCTION/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH a296e14b-cf49-4846-b6db-6c75f02fdbcb.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT IV   LOGICAL DEDUCTION/LOGICAL DEDUCTION/LOGICAL DEDUCTION/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH a296e14b-cf49-4846-b6db-6c75f02fdbcb.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20IV%20%20%20LOGICAL%20DEDUCTION%2FLOGICAL%20DEDUCTION%2FLOGICAL%20DEDUCTION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/LOGICAL%20DEDUCTION%201%201714391462/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20IV%20%20%20LOGICAL%20DEDUCTION%2FLOGICAL%20DEDUCTION%2FLOGICAL%20DEDUCTION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/LOGICAL%20DEDUCTION%201%201714391462/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c32b914d4a764bd2d4f78",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "LOGICAL DEDUCTION"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "662f8c5c3ee8dc7da0346065",
+      "lectureTitle": "L02 : LOGICAL DEDUCTION 02",
+      "duration": 44.8361,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+IV+++LOGICAL+DEDUCTION/LOGICAL+DEDUCTION/LOGICAL+DEDUCTION/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/LOGICAL+DEDUCTION+2+1714392054.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+IV+++LOGICAL+DEDUCTION/LOGICAL+DEDUCTION/LOGICAL+DEDUCTION/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/LOGICAL+DEDUCTION+2+1714392054.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20IV%20%20%20LOGICAL%20DEDUCTION%2FLOGICAL%20DEDUCTION%2FLOGICAL%20DEDUCTION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/LOGICAL%20DEDUCTION%202%201714392054/720/LOGICAL%20DEDUCTION%202%201714392054.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20IV%20%20%20LOGICAL%20DEDUCTION%2FLOGICAL%20DEDUCTION%2FLOGICAL%20DEDUCTION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/LOGICAL%20DEDUCTION%202%201714392054/360/LOGICAL%20DEDUCTION%202%201714392054.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT IV   LOGICAL DEDUCTION/LOGICAL DEDUCTION/LOGICAL DEDUCTION/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 1a0be3a7-83a2-4203-8664-ff58896153fe.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT IV   LOGICAL DEDUCTION/LOGICAL DEDUCTION/LOGICAL DEDUCTION/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 1a0be3a7-83a2-4203-8664-ff58896153fe.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20IV%20%20%20LOGICAL%20DEDUCTION%2FLOGICAL%20DEDUCTION%2FLOGICAL%20DEDUCTION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/LOGICAL%20DEDUCTION%202%201714392054/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20IV%20%20%20LOGICAL%20DEDUCTION%2FLOGICAL%20DEDUCTION%2FLOGICAL%20DEDUCTION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/LOGICAL%20DEDUCTION%202%201714392054/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c32defde9add55b3dd829",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "LOGICAL DEDUCTION"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "663f6d773040a25558b811d1",
+      "lectureTitle": "L01 : PERCENTAGE",
+      "duration": 85.17443333333334,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+VI+++PERCENTAGE/PERCENTAGE/PERCENTAGE/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/PERCENTAGE+1+1715432547.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+VI+++PERCENTAGE/PERCENTAGE/PERCENTAGE/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/PERCENTAGE+1+1715432547.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20VI%20%20%20PERCENTAGE%2FPERCENTAGE%2FPERCENTAGE%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PERCENTAGE%201%201715432547/720/PERCENTAGE%201%201715432547.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20VI%20%20%20PERCENTAGE%2FPERCENTAGE%2FPERCENTAGE%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PERCENTAGE%201%201715432547/360/PERCENTAGE%201%201715432547.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT VI   PERCENTAGE/PERCENTAGE/PERCENTAGE/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 341ac901-0eb5-4cde-b902-703712233432.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT VI   PERCENTAGE/PERCENTAGE/PERCENTAGE/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 341ac901-0eb5-4cde-b902-703712233432.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20VI%20%20%20PERCENTAGE%2FPERCENTAGE%2FPERCENTAGE%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PERCENTAGE%201%201715432547/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20VI%20%20%20PERCENTAGE%2FPERCENTAGE%2FPERCENTAGE%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PERCENTAGE%201%201715432547/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c331efbc04ed7b04690ee",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "PERCENTAGE"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "6633812961c91ddbbb87413b",
+      "lectureTitle": "L01 : PROFIT AND LOSS 01",
+      "duration": 72.71221666666666,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/PROFIT+AND+LOSS/PROFIT+AND+LOSS/PROFIT+AND+LOSS/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/PROFIT+AND+LOSS+1+1714651236.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/PROFIT+AND+LOSS/PROFIT+AND+LOSS/PROFIT+AND+LOSS/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/PROFIT+AND+LOSS+1+1714651236.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FPROFIT%20AND%20LOSS%2FPROFIT%20AND%20LOSS%2FPROFIT%20AND%20LOSS%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PROFIT%20AND%20LOSS%201%201714651236/720/PROFIT%20AND%20LOSS%201%201714651236.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FPROFIT%20AND%20LOSS%2FPROFIT%20AND%20LOSS%2FPROFIT%20AND%20LOSS%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PROFIT%20AND%20LOSS%201%201714651236/360/PROFIT%20AND%20LOSS%201%201714651236.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/PROFIT AND LOSS/PROFIT AND LOSS/PROFIT AND LOSS/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 2018d7ea-97a9-4781-8932-eb7e5730b130.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/PROFIT AND LOSS/PROFIT AND LOSS/PROFIT AND LOSS/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 2018d7ea-97a9-4781-8932-eb7e5730b130.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FPROFIT%20AND%20LOSS%2FPROFIT%20AND%20LOSS%2FPROFIT%20AND%20LOSS%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PROFIT%20AND%20LOSS%201%201714651236/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FPROFIT%20AND%20LOSS%2FPROFIT%20AND%20LOSS%2FPROFIT%20AND%20LOSS%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PROFIT%20AND%20LOSS%201%201714651236/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c334cfbc04ed7b0476ffb",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "PROFIT AND LOSS"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "66338282a6141ef72b09e03b",
+      "lectureTitle": "L02 : PROFIT AND LOSS 02",
+      "duration": 47.038333333333334,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/PROFIT+AND+LOSS/PROFIT+AND+LOSS/PROFIT+AND+LOSS/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/PROFIT+AND+LOSS+2+1714651647.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/PROFIT+AND+LOSS/PROFIT+AND+LOSS/PROFIT+AND+LOSS/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/PROFIT+AND+LOSS+2+1714651647.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FPROFIT%20AND%20LOSS%2FPROFIT%20AND%20LOSS%2FPROFIT%20AND%20LOSS%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PROFIT%20AND%20LOSS%202%201714651647/720/PROFIT%20AND%20LOSS%202%201714651647.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FPROFIT%20AND%20LOSS%2FPROFIT%20AND%20LOSS%2FPROFIT%20AND%20LOSS%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PROFIT%20AND%20LOSS%202%201714651647/360/PROFIT%20AND%20LOSS%202%201714651647.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/PROFIT AND LOSS/PROFIT AND LOSS/PROFIT AND LOSS/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 1c037f06-cb3b-4c9d-912d-1fa98085a501.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/PROFIT AND LOSS/PROFIT AND LOSS/PROFIT AND LOSS/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 1c037f06-cb3b-4c9d-912d-1fa98085a501.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FPROFIT%20AND%20LOSS%2FPROFIT%20AND%20LOSS%2FPROFIT%20AND%20LOSS%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PROFIT%20AND%20LOSS%202%201714651647/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FPROFIT%20AND%20LOSS%2FPROFIT%20AND%20LOSS%2FPROFIT%20AND%20LOSS%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PROFIT%20AND%20LOSS%202%201714651647/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c338afbc04ed7b0488cee",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "PROFIT AND LOSS"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "663de4c2e2e9e8004fc6ee6b",
+      "lectureTitle": "L01 : SIMPLE AND COMPOUND INTEREST",
+      "duration": 82.54443333333333,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/SIMPLE+AND+COMPOUND+INTEREST/SIMPLE+AND+COMPOUND+INTEREST/SIMPLE+AND+COMPOUND+INTEREST/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/SIMPLE+AND+COMPOUND+INTEREST++1+1715332013.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/SIMPLE+AND+COMPOUND+INTEREST/SIMPLE+AND+COMPOUND+INTEREST/SIMPLE+AND+COMPOUND+INTEREST/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/SIMPLE+AND+COMPOUND+INTEREST++1+1715332013.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FSIMPLE%20AND%20COMPOUND%20INTEREST%2FSIMPLE%20AND%20COMPOUND%20INTEREST%2FSIMPLE%20AND%20COMPOUND%20INTEREST%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/SIMPLE%20AND%20COMPOUND%20INTEREST%20%201%201715332013/720/SIMPLE%20AND%20COMPOUND%20INTEREST%20%201%201715332013.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FSIMPLE%20AND%20COMPOUND%20INTEREST%2FSIMPLE%20AND%20COMPOUND%20INTEREST%2FSIMPLE%20AND%20COMPOUND%20INTEREST%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/SIMPLE%20AND%20COMPOUND%20INTEREST%20%201%201715332013/360/SIMPLE%20AND%20COMPOUND%20INTEREST%20%201%201715332013.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/SIMPLE AND COMPOUND INTEREST/SIMPLE AND COMPOUND INTEREST/SIMPLE AND COMPOUND INTEREST/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 89337972-6ab6-4267-bce2-eed242187a39.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/SIMPLE AND COMPOUND INTEREST/SIMPLE AND COMPOUND INTEREST/SIMPLE AND COMPOUND INTEREST/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 89337972-6ab6-4267-bce2-eed242187a39.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FSIMPLE%20AND%20COMPOUND%20INTEREST%2FSIMPLE%20AND%20COMPOUND%20INTEREST%2FSIMPLE%20AND%20COMPOUND%20INTEREST%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/SIMPLE%20AND%20COMPOUND%20INTEREST%20%201%201715332013/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FSIMPLE%20AND%20COMPOUND%20INTEREST%2FSIMPLE%20AND%20COMPOUND%20INTEREST%2FSIMPLE%20AND%20COMPOUND%20INTEREST%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/SIMPLE%20AND%20COMPOUND%20INTEREST%20%201%201715332013/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c33e0fbc04ed7b04a67a8",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "SIMPLE AND COMPOUND INTEREST"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "663de47f746ccbe471251bb4",
+      "lectureTitle": "L01 : SPEED TIME DISTANCE 01",
+      "duration": 63.586666666666666,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+VII+++SPEED+TIME+DISTANCE/SPEED+TIME+DISTANCE/SPEED+TIME+DISTANCE/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/SPEED+TIME+DISTANCE++1+1715332035.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+VII+++SPEED+TIME+DISTANCE/SPEED+TIME+DISTANCE/SPEED+TIME+DISTANCE/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/SPEED+TIME+DISTANCE++1+1715332035.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20VII%20%20%20SPEED%20TIME%20DISTANCE%2FSPEED%20TIME%20DISTANCE%2FSPEED%20TIME%20DISTANCE%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/SPEED%20TIME%20DISTANCE%20%201%201715332035/720/SPEED%20TIME%20DISTANCE%20%201%201715332035.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20VII%20%20%20SPEED%20TIME%20DISTANCE%2FSPEED%20TIME%20DISTANCE%2FSPEED%20TIME%20DISTANCE%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/SPEED%20TIME%20DISTANCE%20%201%201715332035/360/SPEED%20TIME%20DISTANCE%20%201%201715332035.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT VII   SPEED TIME DISTANCE/SPEED TIME DISTANCE/SPEED TIME DISTANCE/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH b76040fd-1bf2-4a68-bae2-5d9fb3892508.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT VII   SPEED TIME DISTANCE/SPEED TIME DISTANCE/SPEED TIME DISTANCE/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH b76040fd-1bf2-4a68-bae2-5d9fb3892508.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20VII%20%20%20SPEED%20TIME%20DISTANCE%2FSPEED%20TIME%20DISTANCE%2FSPEED%20TIME%20DISTANCE%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/SPEED%20TIME%20DISTANCE%20%201%201715332035/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20VII%20%20%20SPEED%20TIME%20DISTANCE%2FSPEED%20TIME%20DISTANCE%2FSPEED%20TIME%20DISTANCE%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/SPEED%20TIME%20DISTANCE%20%201%201715332035/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c3402fbc04ed7b04b1810",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "SPEED TIME DISTANCE"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "6638b1fd48ef8cb170c40da9",
+      "lectureTitle": "L02 : SPEED TIME DISTANCE 02",
+      "duration": 75.15,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+VII+++SPEED+TIME+DISTANCE/SPEED+TIME+DISTANCE/SPEED+TIME+DISTANCE/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/SPEED+TIME+DISTANCE++2+1714991458.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+VII+++SPEED+TIME+DISTANCE/SPEED+TIME+DISTANCE/SPEED+TIME+DISTANCE/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/SPEED+TIME+DISTANCE++2+1714991458.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20VII%20%20%20SPEED%20TIME%20DISTANCE%2FSPEED%20TIME%20DISTANCE%2FSPEED%20TIME%20DISTANCE%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/SPEED%20TIME%20DISTANCE%20%202%201714991458/720/SPEED%20TIME%20DISTANCE%20%202%201714991458.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20VII%20%20%20SPEED%20TIME%20DISTANCE%2FSPEED%20TIME%20DISTANCE%2FSPEED%20TIME%20DISTANCE%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/SPEED%20TIME%20DISTANCE%20%202%201714991458/360/SPEED%20TIME%20DISTANCE%20%202%201714991458.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT VII   SPEED TIME DISTANCE/SPEED TIME DISTANCE/SPEED TIME DISTANCE/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 4b781af5-ec53-4be2-a378-28a086f043e5.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT VII   SPEED TIME DISTANCE/SPEED TIME DISTANCE/SPEED TIME DISTANCE/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 4b781af5-ec53-4be2-a378-28a086f043e5.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20VII%20%20%20SPEED%20TIME%20DISTANCE%2FSPEED%20TIME%20DISTANCE%2FSPEED%20TIME%20DISTANCE%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/SPEED%20TIME%20DISTANCE%20%202%201714991458/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20VII%20%20%20SPEED%20TIME%20DISTANCE%2FSPEED%20TIME%20DISTANCE%2FSPEED%20TIME%20DISTANCE%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/SPEED%20TIME%20DISTANCE%20%202%201714991458/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c3419fde9add55b3df3e7",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "SPEED TIME DISTANCE"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "6638bb5936dc81784501a7fe",
+      "lectureTitle": "L03 : SPEED TIME DISTANCE 03",
+      "duration": 73.76833333333335,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+VII+++SPEED+TIME+DISTANCE/SPEED+TIME+DISTANCE/SPEED+TIME+DISTANCE/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/SPEED+TIME+DISTANCE++3+1714993872.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+VII+++SPEED+TIME+DISTANCE/SPEED+TIME+DISTANCE/SPEED+TIME+DISTANCE/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/SPEED+TIME+DISTANCE++3+1714993872.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20VII%20%20%20SPEED%20TIME%20DISTANCE%2FSPEED%20TIME%20DISTANCE%2FSPEED%20TIME%20DISTANCE%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/SPEED%20TIME%20DISTANCE%20%203%201714993872/720/SPEED%20TIME%20DISTANCE%20%203%201714993872.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20VII%20%20%20SPEED%20TIME%20DISTANCE%2FSPEED%20TIME%20DISTANCE%2FSPEED%20TIME%20DISTANCE%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/SPEED%20TIME%20DISTANCE%20%203%201714993872/360/SPEED%20TIME%20DISTANCE%20%203%201714993872.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT VII   SPEED TIME DISTANCE/SPEED TIME DISTANCE/SPEED TIME DISTANCE/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 971558e7-cbe9-4b81-a28f-ca9e07cd4cab.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT VII   SPEED TIME DISTANCE/SPEED TIME DISTANCE/SPEED TIME DISTANCE/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 971558e7-cbe9-4b81-a28f-ca9e07cd4cab.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20VII%20%20%20SPEED%20TIME%20DISTANCE%2FSPEED%20TIME%20DISTANCE%2FSPEED%20TIME%20DISTANCE%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/SPEED%20TIME%20DISTANCE%20%203%201714993872/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20VII%20%20%20SPEED%20TIME%20DISTANCE%2FSPEED%20TIME%20DISTANCE%2FSPEED%20TIME%20DISTANCE%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/SPEED%20TIME%20DISTANCE%20%203%201714993872/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c342bda7f9ddbffab8098",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "SPEED TIME DISTANCE"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "6633843ed5ccf813b16abbb9",
+      "lectureTitle": "L01 : RATIO AND PROPORTION 01",
+      "duration": 71.52109999999999,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/RATIO+AND+PROPORTION/RATIO+AND+PROPORTION/RATIO+AND+PROPORTION/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/RATIO+AND+PROPORTION++1+1714652078.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/RATIO+AND+PROPORTION/RATIO+AND+PROPORTION/RATIO+AND+PROPORTION/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/RATIO+AND+PROPORTION++1+1714652078.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FRATIO%20AND%20PROPORTION%2FRATIO%20AND%20PROPORTION%2FRATIO%20AND%20PROPORTION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/RATIO%20AND%20PROPORTION%20%201%201714652078/720/RATIO%20AND%20PROPORTION%20%201%201714652078.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FRATIO%20AND%20PROPORTION%2FRATIO%20AND%20PROPORTION%2FRATIO%20AND%20PROPORTION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/RATIO%20AND%20PROPORTION%20%201%201714652078/360/RATIO%20AND%20PROPORTION%20%201%201714652078.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/RATIO AND PROPORTION/RATIO AND PROPORTION/RATIO AND PROPORTION/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 80946a38-2667-462d-9389-47a64f002009.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/RATIO AND PROPORTION/RATIO AND PROPORTION/RATIO AND PROPORTION/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 80946a38-2667-462d-9389-47a64f002009.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FRATIO%20AND%20PROPORTION%2FRATIO%20AND%20PROPORTION%2FRATIO%20AND%20PROPORTION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/RATIO%20AND%20PROPORTION%20%201%201714652078/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FRATIO%20AND%20PROPORTION%2FRATIO%20AND%20PROPORTION%2FRATIO%20AND%20PROPORTION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/RATIO%20AND%20PROPORTION%20%201%201714652078/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c346ffbc04ed7b04d4bc3",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "RATIO AND PROPORTION"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "663385bbd5ccf813b16bf316",
+      "lectureTitle": "L02 : RATIO AND PROPORTION 02",
+      "duration": 73.125,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/RATIO+AND+PROPORTION/RATIO+AND+PROPORTION/RATIO+AND+PROPORTION/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/RATIO+AND+PROPORTION++2+1714652403.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/RATIO+AND+PROPORTION/RATIO+AND+PROPORTION/RATIO+AND+PROPORTION/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/RATIO+AND+PROPORTION++2+1714652403.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FRATIO%20AND%20PROPORTION%2FRATIO%20AND%20PROPORTION%2FRATIO%20AND%20PROPORTION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/RATIO%20AND%20PROPORTION%20%202%201714652403/720/RATIO%20AND%20PROPORTION%20%202%201714652403.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FRATIO%20AND%20PROPORTION%2FRATIO%20AND%20PROPORTION%2FRATIO%20AND%20PROPORTION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/RATIO%20AND%20PROPORTION%20%202%201714652403/360/RATIO%20AND%20PROPORTION%20%202%201714652403.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/RATIO AND PROPORTION/RATIO AND PROPORTION/RATIO AND PROPORTION/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 9f20910e-342a-46dc-b1f1-c306fca5e145.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/RATIO AND PROPORTION/RATIO AND PROPORTION/RATIO AND PROPORTION/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 9f20910e-342a-46dc-b1f1-c306fca5e145.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FRATIO%20AND%20PROPORTION%2FRATIO%20AND%20PROPORTION%2FRATIO%20AND%20PROPORTION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/RATIO%20AND%20PROPORTION%20%202%201714652403/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FRATIO%20AND%20PROPORTION%2FRATIO%20AND%20PROPORTION%2FRATIO%20AND%20PROPORTION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/RATIO%20AND%20PROPORTION%20%202%201714652403/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c3485fde9add55b3f8401",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "RATIO AND PROPORTION"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "664c2b7da406b9a23ddfa1f4",
+      "lectureTitle": "L01 : STATISTICS 01",
+      "duration": 71.94776666666667,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XV%20%20%20STATISTICS%2FSTATISTICS%20BY%20DINESH%20SIR%2FSTATISTICS%20LECTURES%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/STATISTICS%201%201714992421/360/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XV%20%20%20STATISTICS%2FSTATISTICS%20BY%20DINESH%20SIR%2FSTATISTICS%20LECTURES%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/STATISTICS%201%201714992421/360/hls-master.m3u8",
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XV+++STATISTICS/STATISTICS+BY+DINESH+SIR/STATISTICS+LECTURES/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/STATISTICS+1+1714992421.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XV+++STATISTICS/STATISTICS+BY+DINESH+SIR/STATISTICS+LECTURES/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/STATISTICS+1+1714992421.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XV%20%20%20STATISTICS%2FSTATISTICS%20BY%20DINESH%20SIR%2FSTATISTICS%20LECTURES%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/STATISTICS%201%201714992421/360/STATISTICS%201%201714992421.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XV%20%20%20STATISTICS%2FSTATISTICS%20BY%20DINESH%20SIR%2FSTATISTICS%20LECTURES%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/STATISTICS%201%201714992421/360/STATISTICS%201%201714992421.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XV   STATISTICS/STATISTICS BY DINESH SIR/STATISTICS LECTURES/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH e284464d-004c-46a5-b283-1318b77b0a41.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XV   STATISTICS/STATISTICS BY DINESH SIR/STATISTICS LECTURES/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH e284464d-004c-46a5-b283-1318b77b0a41.pdf",
+      "examId": {
+        "_id": "664c3575fde9add55b3fcf28",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "STATISTICS"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "664b55091a35a7261614b627",
+      "lectureTitle": "L01 : PARTNERSHIP 01",
+      "duration": 64.16443333333333,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XV%20%20%20STATISTICS%2FSTATISTICS%20BY%20DINESH%20SIR%2FSTATISTICS%20LECTURES%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PARTNERSHIP%201%201714991971/720/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XV%20%20%20STATISTICS%2FSTATISTICS%20BY%20DINESH%20SIR%2FSTATISTICS%20LECTURES%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PARTNERSHIP%201%201714991971/720/hls-master.m3u8",
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XV+++STATISTICS/STATISTICS+BY+DINESH+SIR/STATISTICS+LECTURES/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/PARTNERSHIP+1+1714991971.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XV+++STATISTICS/STATISTICS+BY+DINESH+SIR/STATISTICS+LECTURES/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/PARTNERSHIP+1+1714991971.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XV%20%20%20STATISTICS%2FSTATISTICS%20BY%20DINESH%20SIR%2FSTATISTICS%20LECTURES%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PARTNERSHIP%201%201714991971/720/PARTNERSHIP%201%201714991971.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XV%20%20%20STATISTICS%2FSTATISTICS%20BY%20DINESH%20SIR%2FSTATISTICS%20LECTURES%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PARTNERSHIP%201%201714991971/720/PARTNERSHIP%201%201714991971.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XV   STATISTICS/STATISTICS BY DINESH SIR/STATISTICS LECTURES/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 503fca8c-5e43-4723-b260-4845c33cf307.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XV   STATISTICS/STATISTICS BY DINESH SIR/STATISTICS LECTURES/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 503fca8c-5e43-4723-b260-4845c33cf307.pdf",
+      "examId": {
+        "_id": "664c3684fde9add55b40ac60",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "PARTNERSHIP"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "6638b1323aec7d7ff83064b4",
+      "lectureTitle": "L01 : WORK AND TIME",
+      "duration": 60.47833333333333,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+VIII+++WORK+AND+TIME/WORK+AND+TIME/WORK+AND+TIME/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/WORK+AND+TIME++2+1714991277.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+VIII+++WORK+AND+TIME/WORK+AND+TIME/WORK+AND+TIME/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/WORK+AND+TIME++2+1714991277.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20VIII%20%20%20WORK%20AND%20TIME%2FWORK%20AND%20TIME%2FWORK%20AND%20TIME%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/WORK%20AND%20TIME%20%202%201714991277/720/WORK%20AND%20TIME%20%202%201714991277.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20VIII%20%20%20WORK%20AND%20TIME%2FWORK%20AND%20TIME%2FWORK%20AND%20TIME%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/WORK%20AND%20TIME%20%202%201714991277/360/WORK%20AND%20TIME%20%202%201714991277.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT VIII   WORK AND TIME/WORK AND TIME/WORK AND TIME/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 82126903-aa37-4fb4-8d9e-7fd35aba4e8e.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT VIII   WORK AND TIME/WORK AND TIME/WORK AND TIME/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 82126903-aa37-4fb4-8d9e-7fd35aba4e8e.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20VIII%20%20%20WORK%20AND%20TIME%2FWORK%20AND%20TIME%2FWORK%20AND%20TIME%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/WORK%20AND%20TIME%20%202%201714991277/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20VIII%20%20%20WORK%20AND%20TIME%2FWORK%20AND%20TIME%2FWORK%20AND%20TIME%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/WORK%20AND%20TIME%20%202%201714991277/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c36dada7f9ddbffb571ef",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "WORK AND TIME"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "664c2924a406b9a23dd81e11",
+      "lectureTitle": "L01 : HEIGHT AND DISTANCE 01",
+      "duration": 67.17221666666667,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XV%20%20%20STATISTICS%2FSTATISTICS%20BY%20DINESH%20SIR%2FSTATISTICS%20LECTURES%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/HEIGHT%20AND%20DISTANCE%201%201715251436/720/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XV%20%20%20STATISTICS%2FSTATISTICS%20BY%20DINESH%20SIR%2FSTATISTICS%20LECTURES%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/HEIGHT%20AND%20DISTANCE%201%201715251436/720/hls-master.m3u8",
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XV+++STATISTICS/STATISTICS+BY+DINESH+SIR/STATISTICS+LECTURES/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/HEIGHT+AND+DISTANCE+1+1715251436.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XV+++STATISTICS/STATISTICS+BY+DINESH+SIR/STATISTICS+LECTURES/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/HEIGHT+AND+DISTANCE+1+1715251436.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XV%20%20%20STATISTICS%2FSTATISTICS%20BY%20DINESH%20SIR%2FSTATISTICS%20LECTURES%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/HEIGHT%20AND%20DISTANCE%201%201715251436/720/HEIGHT%20AND%20DISTANCE%201%201715251436.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XV%20%20%20STATISTICS%2FSTATISTICS%20BY%20DINESH%20SIR%2FSTATISTICS%20LECTURES%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/HEIGHT%20AND%20DISTANCE%201%201715251436/720/HEIGHT%20AND%20DISTANCE%201%201715251436.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XV   STATISTICS/STATISTICS BY DINESH SIR/STATISTICS LECTURES/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 75a1e09f-f7fb-4c69-a160-c393a5f14650.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XV   STATISTICS/STATISTICS BY DINESH SIR/STATISTICS LECTURES/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 75a1e09f-f7fb-4c69-a160-c393a5f14650.pdf",
+      "examId": {
+        "_id": "664c373096031688df67c0e3",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "HEIGHT AND DISTANCE"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "664c2925a406b9a23dd81e92",
+      "lectureTitle": "L02 : HEIGHT AND DISTANCE 02",
+      "duration": 62.218333333333334,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XV%20%20%20STATISTICS%2FSTATISTICS%20BY%20DINESH%20SIR%2FSTATISTICS%20LECTURES%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/HEIGHT%20AND%20DISTANCE%202%201715251461/720/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XV%20%20%20STATISTICS%2FSTATISTICS%20BY%20DINESH%20SIR%2FSTATISTICS%20LECTURES%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/HEIGHT%20AND%20DISTANCE%202%201715251461/720/hls-master.m3u8",
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XV+++STATISTICS/STATISTICS+BY+DINESH+SIR/STATISTICS+LECTURES/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/HEIGHT+AND+DISTANCE+2+1715251461.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XV+++STATISTICS/STATISTICS+BY+DINESH+SIR/STATISTICS+LECTURES/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/HEIGHT+AND+DISTANCE+2+1715251461.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XV%20%20%20STATISTICS%2FSTATISTICS%20BY%20DINESH%20SIR%2FSTATISTICS%20LECTURES%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/HEIGHT%20AND%20DISTANCE%202%201715251461/720/HEIGHT%20AND%20DISTANCE%202%201715251461.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XV%20%20%20STATISTICS%2FSTATISTICS%20BY%20DINESH%20SIR%2FSTATISTICS%20LECTURES%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/HEIGHT%20AND%20DISTANCE%202%201715251461/720/HEIGHT%20AND%20DISTANCE%202%201715251461.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XV   STATISTICS/STATISTICS BY DINESH SIR/STATISTICS LECTURES/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH b440b720-770c-44d3-b9bf-e18d8ca39d89.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XV   STATISTICS/STATISTICS BY DINESH SIR/STATISTICS LECTURES/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH b440b720-770c-44d3-b9bf-e18d8ca39d89.pdf",
+      "examId": {
+        "_id": "664c3744fde9add55b40cb51",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "HEIGHT AND DISTANCE"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "663de008e2e9e8004fc5fb6e",
+      "lectureTitle": "L01 : PERMUTATION AND COMBINATION 01",
+      "duration": 62.47055,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XII+++PERMUTATION+AND+COMBINATIONS/PERMUTATION+AND+COMBINATION/PERMUTATION+AND+COMBINATION/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/PERMUTATION+AND+COMBINATION++1+1715330889.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XII+++PERMUTATION+AND+COMBINATIONS/PERMUTATION+AND+COMBINATION/PERMUTATION+AND+COMBINATION/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/PERMUTATION+AND+COMBINATION++1+1715330889.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XII%20%20%20PERMUTATION%20AND%20COMBINATIONS%2FPERMUTATION%20AND%20COMBINATION%2FPERMUTATION%20AND%20COMBINATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PERMUTATION%20AND%20COMBINATION%20%201%201715330889/720/PERMUTATION%20AND%20COMBINATION%20%201%201715330889.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XII%20%20%20PERMUTATION%20AND%20COMBINATIONS%2FPERMUTATION%20AND%20COMBINATION%2FPERMUTATION%20AND%20COMBINATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PERMUTATION%20AND%20COMBINATION%20%201%201715330889/360/PERMUTATION%20AND%20COMBINATION%20%201%201715330889.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XII   PERMUTATION AND COMBINATIONS/PERMUTATION AND COMBINATION/PERMUTATION AND COMBINATION/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH ce9faa4b-59b9-413a-bdd2-954bc2f746f0.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XII   PERMUTATION AND COMBINATIONS/PERMUTATION AND COMBINATION/PERMUTATION AND COMBINATION/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH ce9faa4b-59b9-413a-bdd2-954bc2f746f0.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XII%20%20%20PERMUTATION%20AND%20COMBINATIONS%2FPERMUTATION%20AND%20COMBINATION%2FPERMUTATION%20AND%20COMBINATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PERMUTATION%20AND%20COMBINATION%20%201%201715330889/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XII%20%20%20PERMUTATION%20AND%20COMBINATIONS%2FPERMUTATION%20AND%20COMBINATION%2FPERMUTATION%20AND%20COMBINATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PERMUTATION%20AND%20COMBINATION%20%201%201715330889/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c37e6fde9add55b40e63b",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "PERMUTATION AND COMBINATIONS"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "663cab658d535e2c25cff113",
+      "lectureTitle": "L02 : PERMUTATION AND COMBINATION 02",
+      "duration": 51.84166666666667,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XII+++PERMUTATION+AND+COMBINATIONS/PERMUTATION+AND+COMBINATION/PERMUTATION+AND+COMBINATION/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/PERMUTATION+AND+COMBINATION+++2+1715251762.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XII+++PERMUTATION+AND+COMBINATIONS/PERMUTATION+AND+COMBINATION/PERMUTATION+AND+COMBINATION/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/PERMUTATION+AND+COMBINATION+++2+1715251762.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XII%20%20%20PERMUTATION%20AND%20COMBINATIONS%2FPERMUTATION%20AND%20COMBINATION%2FPERMUTATION%20AND%20COMBINATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PERMUTATION%20AND%20COMBINATION%20%20%202%201715251762/720/PERMUTATION%20AND%20COMBINATION%20%20%202%201715251762.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XII%20%20%20PERMUTATION%20AND%20COMBINATIONS%2FPERMUTATION%20AND%20COMBINATION%2FPERMUTATION%20AND%20COMBINATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PERMUTATION%20AND%20COMBINATION%20%20%202%201715251762/360/PERMUTATION%20AND%20COMBINATION%20%20%202%201715251762.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XII   PERMUTATION AND COMBINATIONS/PERMUTATION AND COMBINATION/PERMUTATION AND COMBINATION/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 55b2a363-5a9b-4697-ab5d-d05cc906da24.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XII   PERMUTATION AND COMBINATIONS/PERMUTATION AND COMBINATION/PERMUTATION AND COMBINATION/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 55b2a363-5a9b-4697-ab5d-d05cc906da24.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XII%20%20%20PERMUTATION%20AND%20COMBINATIONS%2FPERMUTATION%20AND%20COMBINATION%2FPERMUTATION%20AND%20COMBINATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PERMUTATION%20AND%20COMBINATION%20%20%202%201715251762/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XII%20%20%20PERMUTATION%20AND%20COMBINATIONS%2FPERMUTATION%20AND%20COMBINATION%2FPERMUTATION%20AND%20COMBINATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PERMUTATION%20AND%20COMBINATION%20%20%202%201715251762/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c3806fde9add55b40f221",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "PERMUTATION AND COMBINATIONS"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "664351543c748f5448f7739d",
+      "lectureTitle": "L01 : PROBABILITY 01",
+      "duration": 62.195,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XIII+++PROBABILITY/PROBABILITY/PROBABILITY/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/PROBABILITY++1+1715687621.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XIII+++PROBABILITY/PROBABILITY/PROBABILITY/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/PROBABILITY++1+1715687621.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XIII%20%20%20PROBABILITY%2FPROBABILITY%2FPROBABILITY%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PROBABILITY%20%201%201715687621/720/PROBABILITY%20%201%201715687621.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XIII%20%20%20PROBABILITY%2FPROBABILITY%2FPROBABILITY%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PROBABILITY%20%201%201715687621/360/PROBABILITY%20%201%201715687621.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XIII   PROBABILITY/PROBABILITY/PROBABILITY/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH f86ffd60-fbe1-4c09-af12-812b0565dee2.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XIII   PROBABILITY/PROBABILITY/PROBABILITY/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH f86ffd60-fbe1-4c09-af12-812b0565dee2.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XIII%20%20%20PROBABILITY%2FPROBABILITY%2FPROBABILITY%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PROBABILITY%20%201%201715687621/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XIII%20%20%20PROBABILITY%2FPROBABILITY%2FPROBABILITY%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PROBABILITY%20%201%201715687621/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c3865fde9add55b410174",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "PROBABILITY"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "663cab748d535e2c25d02a5e",
+      "lectureTitle": "L02 : PROBABILITY 02",
+      "duration": 63.12833333333333,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XIII+++PROBABILITY/PROBABILITY/PROBABILITY/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/PROBABLY+++2+1715251734.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XIII+++PROBABILITY/PROBABILITY/PROBABILITY/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/PROBABLY+++2+1715251734.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XIII%20%20%20PROBABILITY%2FPROBABILITY%2FPROBABILITY%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PROBABLY%20%20%202%201715251734/720/PROBABLY%20%20%202%201715251734.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XIII%20%20%20PROBABILITY%2FPROBABILITY%2FPROBABILITY%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PROBABLY%20%20%202%201715251734/360/PROBABLY%20%20%202%201715251734.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XIII   PROBABILITY/PROBABILITY/PROBABILITY/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 399d2c7e-2e0d-40ff-ad57-e278d8aee8a9.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XIII   PROBABILITY/PROBABILITY/PROBABILITY/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 399d2c7e-2e0d-40ff-ad57-e278d8aee8a9.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XIII%20%20%20PROBABILITY%2FPROBABILITY%2FPROBABILITY%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PROBABLY%20%20%202%201715251734/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XIII%20%20%20PROBABILITY%2FPROBABILITY%2FPROBABILITY%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PROBABLY%20%20%202%201715251734/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c388296031688df69ef63",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "PROBABILITY"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "6641e588ef5a4264ea10834d",
+      "lectureTitle": "L01 : DATA INTERPRETATION 01",
+      "duration": 48.7761,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+X+++DATA+INTERPRETATION/DATA+INTERPRETATION/DATA+INTERPRETATION/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/DATA+INTERPRETATION++1+1715594178.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+X+++DATA+INTERPRETATION/DATA+INTERPRETATION/DATA+INTERPRETATION/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/DATA+INTERPRETATION++1+1715594178.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20X%20%20%20DATA%20INTERPRETATION%2FDATA%20INTERPRETATION%2FDATA%20INTERPRETATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/DATA%20INTERPRETATION%20%201%201715594178/720/DATA%20INTERPRETATION%20%201%201715594178.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20X%20%20%20DATA%20INTERPRETATION%2FDATA%20INTERPRETATION%2FDATA%20INTERPRETATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/DATA%20INTERPRETATION%20%201%201715594178/360/DATA%20INTERPRETATION%20%201%201715594178.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT X   DATA INTERPRETATION/DATA INTERPRETATION/DATA INTERPRETATION/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 95aa92d1-9954-4784-9b9f-157e7ad5bf2f.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT X   DATA INTERPRETATION/DATA INTERPRETATION/DATA INTERPRETATION/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 95aa92d1-9954-4784-9b9f-157e7ad5bf2f.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20X%20%20%20DATA%20INTERPRETATION%2FDATA%20INTERPRETATION%2FDATA%20INTERPRETATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/DATA%20INTERPRETATION%20%201%201715594178/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20X%20%20%20DATA%20INTERPRETATION%2FDATA%20INTERPRETATION%2FDATA%20INTERPRETATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/DATA%20INTERPRETATION%20%201%201715594178/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c38b6fde9add55b410c41",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "DATA INTERPRETATION"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "663b536a1ed5022a0c0a721a",
+      "lectureTitle": "L02 : DATA INTERPRETATION 02",
+      "duration": 66.35555000000001,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+X+++DATA+INTERPRETATION/DATA+INTERPRETATION/DATA+INTERPRETATION/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/DATA+INTERPRETATION+++2+1715163829.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+X+++DATA+INTERPRETATION/DATA+INTERPRETATION/DATA+INTERPRETATION/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/DATA+INTERPRETATION+++2+1715163829.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20X%20%20%20DATA%20INTERPRETATION%2FDATA%20INTERPRETATION%2FDATA%20INTERPRETATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/DATA%20INTERPRETATION%20%20%202%201715163829/720/DATA%20INTERPRETATION%20%20%202%201715163829.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20X%20%20%20DATA%20INTERPRETATION%2FDATA%20INTERPRETATION%2FDATA%20INTERPRETATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/DATA%20INTERPRETATION%20%20%202%201715163829/360/DATA%20INTERPRETATION%20%20%202%201715163829.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT X   DATA INTERPRETATION/DATA INTERPRETATION/DATA INTERPRETATION/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH fb6ea0d4-6f1c-49a4-91c8-2a0b184844f2.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT X   DATA INTERPRETATION/DATA INTERPRETATION/DATA INTERPRETATION/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH fb6ea0d4-6f1c-49a4-91c8-2a0b184844f2.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20X%20%20%20DATA%20INTERPRETATION%2FDATA%20INTERPRETATION%2FDATA%20INTERPRETATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/DATA%20INTERPRETATION%20%20%202%201715163829/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20X%20%20%20DATA%20INTERPRETATION%2FDATA%20INTERPRETATION%2FDATA%20INTERPRETATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/DATA%20INTERPRETATION%20%20%202%201715163829/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c38c8da7f9ddbffbf3d2f",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "DATA INTERPRETATION"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "663b58c07be81f13f8058fc8",
+      "lectureTitle": "L01 : GEOMETRY AND MENSURATION 01",
+      "duration": 62.91388333333334,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XIV+++GEOMETRY+AND+MENSURATION/GEOMETRY+AND+MENSURATION/GEOMETRY+AND+MENSURATION/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/GEOMETRY+AND+MENSURATION++1+1715165192.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XIV+++GEOMETRY+AND+MENSURATION/GEOMETRY+AND+MENSURATION/GEOMETRY+AND+MENSURATION/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/GEOMETRY+AND+MENSURATION++1+1715165192.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XIV%20%20%20GEOMETRY%20AND%20MENSURATION%2FGEOMETRY%20AND%20MENSURATION%2FGEOMETRY%20AND%20MENSURATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/GEOMETRY%20AND%20MENSURATION%20%201%201715165192/720/GEOMETRY%20AND%20MENSURATION%20%201%201715165192.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XIV%20%20%20GEOMETRY%20AND%20MENSURATION%2FGEOMETRY%20AND%20MENSURATION%2FGEOMETRY%20AND%20MENSURATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/GEOMETRY%20AND%20MENSURATION%20%201%201715165192/360/GEOMETRY%20AND%20MENSURATION%20%201%201715165192.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XIV   GEOMETRY AND MENSURATION/GEOMETRY AND MENSURATION/GEOMETRY AND MENSURATION/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH d5e7d1d3-aa0b-47e4-9ac1-d302a26a185e.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XIV   GEOMETRY AND MENSURATION/GEOMETRY AND MENSURATION/GEOMETRY AND MENSURATION/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH d5e7d1d3-aa0b-47e4-9ac1-d302a26a185e.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XIV%20%20%20GEOMETRY%20AND%20MENSURATION%2FGEOMETRY%20AND%20MENSURATION%2FGEOMETRY%20AND%20MENSURATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/GEOMETRY%20AND%20MENSURATION%20%201%201715165192/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XIV%20%20%20GEOMETRY%20AND%20MENSURATION%2FGEOMETRY%20AND%20MENSURATION%2FGEOMETRY%20AND%20MENSURATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/GEOMETRY%20AND%20MENSURATION%20%201%201715165192/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c39d1fde9add55b413262",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "GEOMETRY AND MENSURATION"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "663ca8b98d535e2c25c2c2cb",
+      "lectureTitle": "L02 : GEOMETRY AND MENSURATION 02",
+      "duration": 50.3611,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XIV+++GEOMETRY+AND+MENSURATION/GEOMETRY+AND+MENSURATION/GEOMETRY+AND+MENSURATION/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/GEOMETRY+AND+MENSURATION+++2+1715250880.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XIV+++GEOMETRY+AND+MENSURATION/GEOMETRY+AND+MENSURATION/GEOMETRY+AND+MENSURATION/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/GEOMETRY+AND+MENSURATION+++2+1715250880.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XIV%20%20%20GEOMETRY%20AND%20MENSURATION%2FGEOMETRY%20AND%20MENSURATION%2FGEOMETRY%20AND%20MENSURATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/GEOMETRY%20AND%20MENSURATION%20%20%202%201715250880/720/GEOMETRY%20AND%20MENSURATION%20%20%202%201715250880.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XIV%20%20%20GEOMETRY%20AND%20MENSURATION%2FGEOMETRY%20AND%20MENSURATION%2FGEOMETRY%20AND%20MENSURATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/GEOMETRY%20AND%20MENSURATION%20%20%202%201715250880/360/GEOMETRY%20AND%20MENSURATION%20%20%202%201715250880.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XIV   GEOMETRY AND MENSURATION/GEOMETRY AND MENSURATION/GEOMETRY AND MENSURATION/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 17a60888-4ae0-4427-96a9-d1886f3d2272.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XIV   GEOMETRY AND MENSURATION/GEOMETRY AND MENSURATION/GEOMETRY AND MENSURATION/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 17a60888-4ae0-4427-96a9-d1886f3d2272.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XIV%20%20%20GEOMETRY%20AND%20MENSURATION%2FGEOMETRY%20AND%20MENSURATION%2FGEOMETRY%20AND%20MENSURATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/GEOMETRY%20AND%20MENSURATION%20%20%202%201715250880/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XIV%20%20%20GEOMETRY%20AND%20MENSURATION%2FGEOMETRY%20AND%20MENSURATION%2FGEOMETRY%20AND%20MENSURATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/GEOMETRY%20AND%20MENSURATION%20%20%202%201715250880/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c39f4fde9add55b413681",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "GEOMETRY AND MENSURATION"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "663f03801f510017cf079657",
+      "lectureTitle": "L03 : GEOMETRY AND MENSURATION 03",
+      "duration": 50.362766666666666,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XIV+++GEOMETRY+AND+MENSURATION/GEOMETRY+AND+MENSURATION/GEOMETRY+AND+MENSURATION/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/GEOMETRY+AND+MENSURATION+++3+1715405409.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XIV+++GEOMETRY+AND+MENSURATION/GEOMETRY+AND+MENSURATION/GEOMETRY+AND+MENSURATION/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/GEOMETRY+AND+MENSURATION+++3+1715405409.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XIV%20%20%20GEOMETRY%20AND%20MENSURATION%2FGEOMETRY%20AND%20MENSURATION%2FGEOMETRY%20AND%20MENSURATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/GEOMETRY%20AND%20MENSURATION%20%20%203%201715405409/720/GEOMETRY%20AND%20MENSURATION%20%20%203%201715405409.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XIV%20%20%20GEOMETRY%20AND%20MENSURATION%2FGEOMETRY%20AND%20MENSURATION%2FGEOMETRY%20AND%20MENSURATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/GEOMETRY%20AND%20MENSURATION%20%20%203%201715405409/360/GEOMETRY%20AND%20MENSURATION%20%20%203%201715405409.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XIV   GEOMETRY AND MENSURATION/GEOMETRY AND MENSURATION/GEOMETRY AND MENSURATION/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 5ed7ebfc-9e78-419a-b85a-fbb5d1ecbbe6.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XIV   GEOMETRY AND MENSURATION/GEOMETRY AND MENSURATION/GEOMETRY AND MENSURATION/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 5ed7ebfc-9e78-419a-b85a-fbb5d1ecbbe6.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XIV%20%20%20GEOMETRY%20AND%20MENSURATION%2FGEOMETRY%20AND%20MENSURATION%2FGEOMETRY%20AND%20MENSURATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/GEOMETRY%20AND%20MENSURATION%20%20%203%201715405409/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XIV%20%20%20GEOMETRY%20AND%20MENSURATION%2FGEOMETRY%20AND%20MENSURATION%2FGEOMETRY%20AND%20MENSURATION%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/GEOMETRY%20AND%20MENSURATION%20%20%203%201715405409/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c3a04fde9add55b41386f",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "GEOMETRY AND MENSURATION"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "663f02451f510017cf064241",
+      "lectureTitle": "L01 : CALENDAR 01",
+      "duration": 63.17333333333333,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+IX+++CALENDER/CALENDER/CALENDER/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/CALENDAR++1+1715405250.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+IX+++CALENDER/CALENDER/CALENDER/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/CALENDAR++1+1715405250.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20IX%20%20%20CALENDER%2FCALENDER%2FCALENDER%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/CALENDAR%20%201%201715405250/720/CALENDAR%20%201%201715405250.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20IX%20%20%20CALENDER%2FCALENDER%2FCALENDER%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/CALENDAR%20%201%201715405250/360/CALENDAR%20%201%201715405250.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT IX   CALENDER/CALENDER/CALENDER/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH c0612373-5f29-410f-b6cc-316d14cc5b82.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT IX   CALENDER/CALENDER/CALENDER/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH c0612373-5f29-410f-b6cc-316d14cc5b82.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20IX%20%20%20CALENDER%2FCALENDER%2FCALENDER%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/CALENDAR%20%201%201715405250/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20IX%20%20%20CALENDER%2FCALENDER%2FCALENDER%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/CALENDAR%20%201%201715405250/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c3a3896031688df6cbf15",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "CALENDER"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "663f6649a9465dd10a0f19a9",
+      "lectureTitle": "L02 : CALENDAR 02",
+      "duration": 31.66776666666667,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+IX+++CALENDER/CALENDER/CALENDER/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/CALENDAR+2+1715430911.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+IX+++CALENDER/CALENDER/CALENDER/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/CALENDAR+2+1715430911.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20IX%20%20%20CALENDER%2FCALENDER%2FCALENDER%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/CALENDAR%202%201715430911/720/CALENDAR%202%201715430911.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20IX%20%20%20CALENDER%2FCALENDER%2FCALENDER%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/CALENDAR%202%201715430911/360/CALENDAR%202%201715430911.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT IX   CALENDER/CALENDER/CALENDER/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 01ad2230-caaf-48f8-932e-db89181a6fdc.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT IX   CALENDER/CALENDER/CALENDER/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 01ad2230-caaf-48f8-932e-db89181a6fdc.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20IX%20%20%20CALENDER%2FCALENDER%2FCALENDER%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/CALENDAR%202%201715430911/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20IX%20%20%20CALENDER%2FCALENDER%2FCALENDER%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/CALENDAR%202%201715430911/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c3a4ffde9add55b4141eb",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "CALENDER"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "663f5bc63040a25558a23d3f",
+      "lectureTitle": "L01 : CLOCK",
+      "duration": 55.8911,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XI+++CLOCK/CLOCK/CLOCK/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/CLOCK+1+1715428177.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XI+++CLOCK/CLOCK/CLOCK/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/CLOCK+1+1715428177.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XI%20%20%20CLOCK%2FCLOCK%2FCLOCK%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/CLOCK%201%201715428177/720/CLOCK%201%201715428177.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XI%20%20%20CLOCK%2FCLOCK%2FCLOCK%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/CLOCK%201%201715428177/360/CLOCK%201%201715428177.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XI   CLOCK/CLOCK/CLOCK/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH d9436341-2d3c-43c0-8543-12b2fcacbab9.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XI   CLOCK/CLOCK/CLOCK/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH d9436341-2d3c-43c0-8543-12b2fcacbab9.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XI%20%20%20CLOCK%2FCLOCK%2FCLOCK%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/CLOCK%201%201715428177/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XI%20%20%20CLOCK%2FCLOCK%2FCLOCK%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/CLOCK%201%201715428177/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c3a7a96031688df6cce2b",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "CLOCK"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "6642067cd2770d2ca2f54c5a",
+      "lectureTitle": "L01 : BLOOD RELATIONSHIP",
+      "duration": 51.94055,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/BLOOD+RELATIONS/BLOOD+RELATIONS/BLOOD+RELATIONS/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/BLOOD+RELATIONSHIP+1715602923.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/BLOOD+RELATIONS/BLOOD+RELATIONS/BLOOD+RELATIONS/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/BLOOD+RELATIONSHIP+1715602923.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FBLOOD%20RELATIONS%2FBLOOD%20RELATIONS%2FBLOOD%20RELATIONS%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/BLOOD%20RELATIONSHIP%201715602923/720/BLOOD%20RELATIONSHIP%201715602923.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FBLOOD%20RELATIONS%2FBLOOD%20RELATIONS%2FBLOOD%20RELATIONS%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/BLOOD%20RELATIONSHIP%201715602923/360/BLOOD%20RELATIONSHIP%201715602923.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/BLOOD RELATIONS/BLOOD RELATIONS/BLOOD RELATIONS/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 205c5ff1-615e-4680-8416-f3298314daf9.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/BLOOD RELATIONS/BLOOD RELATIONS/BLOOD RELATIONS/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 205c5ff1-615e-4680-8416-f3298314daf9.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FBLOOD%20RELATIONS%2FBLOOD%20RELATIONS%2FBLOOD%20RELATIONS%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/BLOOD%20RELATIONSHIP%201715602923/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FBLOOD%20RELATIONS%2FBLOOD%20RELATIONS%2FBLOOD%20RELATIONS%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/BLOOD%20RELATIONSHIP%201715602923/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c3b230f5682ec7efcc41f",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "BLOOD RELATIONSHIP"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "6645febb933c6d0d797b6752",
+      "lectureTitle": "L01 : PAPER FOLDING AND CUTTING",
+      "duration": 40.10505894999999,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/PAPER+FOLDING+AND+CUTTING/PAPER+FOLDING+AND+CUTTING/PAPER+FOLDING+AND+CUTTING/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/PAPER+FOLDING+AND+CUTTING+1715862821.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/PAPER+FOLDING+AND+CUTTING/PAPER+FOLDING+AND+CUTTING/PAPER+FOLDING+AND+CUTTING/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/PAPER+FOLDING+AND+CUTTING+1715862821.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FPAPER%20FOLDING%20AND%20CUTTING%2FPAPER%20FOLDING%20AND%20CUTTING%2FPAPER%20FOLDING%20AND%20CUTTING%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PAPER%20FOLDING%20AND%20CUTTING%201715862821/720/PAPER%20FOLDING%20AND%20CUTTING%201715862821.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FPAPER%20FOLDING%20AND%20CUTTING%2FPAPER%20FOLDING%20AND%20CUTTING%2FPAPER%20FOLDING%20AND%20CUTTING%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PAPER%20FOLDING%20AND%20CUTTING%201715862821/360/PAPER%20FOLDING%20AND%20CUTTING%201715862821.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/PAPER FOLDING AND CUTTING/PAPER FOLDING AND CUTTING/PAPER FOLDING AND CUTTING/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH fbee1d1d-6c4f-425f-b407-52c1f6a6c2d5.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/PAPER FOLDING AND CUTTING/PAPER FOLDING AND CUTTING/PAPER FOLDING AND CUTTING/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH fbee1d1d-6c4f-425f-b407-52c1f6a6c2d5.pdf",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FPAPER%20FOLDING%20AND%20CUTTING%2FPAPER%20FOLDING%20AND%20CUTTING%2FPAPER%20FOLDING%20AND%20CUTTING%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PAPER%20FOLDING%20AND%20CUTTING%201715862821/720/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FPAPER%20FOLDING%20AND%20CUTTING%2FPAPER%20FOLDING%20AND%20CUTTING%2FPAPER%20FOLDING%20AND%20CUTTING%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/PAPER%20FOLDING%20AND%20CUTTING%201715862821/360/hls-master.m3u8",
+      "examId": {
+        "_id": "664c3b5b0f5682ec7efd7abb",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "PAPER FOLDING AND CUTTING"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "66420723d2770d2ca2f57361",
+      "lectureTitle": "L01 : BASIC SCIENCE",
+      "duration": 57.69721666666667,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XVI+++BASIC+SCIENCE/BASIC+SCIENCE/BASIC+SCIENCE/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/BASIC+SCIENCE+1715603093.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/UNIT+XVI+++BASIC+SCIENCE/BASIC+SCIENCE/BASIC+SCIENCE/PRE+RECORDED+CSIR+NET+PART+A++APTITUDE+ONLINE+COURSE++HINGLISH+/BASIC+SCIENCE+1715603093.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XVI%20%20%20BASIC%20SCIENCE%2FBASIC%20SCIENCE%2FBASIC%20SCIENCE%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/BASIC%20SCIENCE%201715603093/720/BASIC%20SCIENCE%201715603093.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XVI%20%20%20BASIC%20SCIENCE%2FBASIC%20SCIENCE%2FBASIC%20SCIENCE%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/BASIC%20SCIENCE%201715603093/360/BASIC%20SCIENCE%201715603093.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XVI   BASIC SCIENCE/BASIC SCIENCE/BASIC SCIENCE/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 4f47bab1-6e00-4c9a-817c-f5b5e3506ab3.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/UNIT XVI   BASIC SCIENCE/BASIC SCIENCE/BASIC SCIENCE/PRE RECORDED CSIR NET PART A  APTITUDE ONLINE COURSE  HINGLISH 4f47bab1-6e00-4c9a-817c-f5b5e3506ab3.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XVI%20%20%20BASIC%20SCIENCE%2FBASIC%20SCIENCE%2FBASIC%20SCIENCE%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/BASIC%20SCIENCE%201715603093/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FUNIT%20XVI%20%20%20BASIC%20SCIENCE%2FBASIC%20SCIENCE%2FBASIC%20SCIENCE%2FPRE%20RECORDED%20CSIR%20NET%20PART%20A%20%20APTITUDE%20ONLINE%20COURSE%20%20HINGLISH%20/BASIC%20SCIENCE%201715603093/720/hls-master.m3u8",
+      "examId": {
+        "_id": "664c3b8896031688df701cd5",
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10
+      },
+      "examStatus": 0,
+      "unitName": "BASIC SCIENCE"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "669756d9d337bb8f8a1879d5",
+      "lectureTitle": "Number System 01",
+      "description": "",
+      "duration": 77,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/UGC%20NET%20%2F07%20Nov%20Paper%20I%2FCSIR%20PYQ%20PAPER%201%2FVIDEO/L01%20Number%20system-I/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/UGC%20NET%20%2F07%20Nov%20Paper%20I%2FCSIR%20PYQ%20PAPER%201%2FVIDEO/L01%20Number%20system-I/hls-master.m3u8",
+      "filePathHigh": "UGC+NET+/07+Nov+Paper+I/CSIR+PYQ+PAPER+1/VIDEO/L01+Number+system-I.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/UGC%20NET%20%2F07%20Nov%20Paper%20I%2FCSIR%20PYQ%20PAPER%201%2FVIDEO/L01%20Number%20system-I.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/UGC%20NET%20%2F07%20Nov%20Paper%20I%2FCSIR%20PYQ%20PAPER%201%2FVIDEO/L01%20Number%20system-I.mp4",
+      "videoSizeHigh": "",
+      "videoSizeLow": "",
+      "youtubeLink": "https://www.youtube.com/watch?v=UE_A31c530Y",
+      "handout1Url": "https://ifas-video.s3.ap-south-1.amazonaws.com/UGC+NET+/07+Nov+Paper+I/CSIR+PYQ+PAPER+1/PDF/CH.1+NUMBER+SYSTEM-I.pdf",
+      "handout1Size": "0",
+      "handout2Url": "https://ifas-video.s3.ap-south-1.amazonaws.com/UGC+NET+/07+Nov+Paper+I/CSIR+PYQ+PAPER+1/PDF/CH.1+NUMBER+SYSTEM-I.pdf",
+      "handout2Size": "0",
+      "examStatus": 0,
+      "unitName": "PYQ EXAM PAPERS"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "669756d9d337bb8f8a187ade",
+      "lectureTitle": "Number System 02",
+      "description": "",
+      "duration": 73,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/UGC%20NET%20%2F07%20Nov%20Paper%20I%2FCSIR%20PYQ%20PAPER%201%2FVIDEO/L02%20%20Number%20system%20II/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/UGC%20NET%20%2F07%20Nov%20Paper%20I%2FCSIR%20PYQ%20PAPER%201%2FVIDEO/L02%20%20Number%20system%20II/hls-master.m3u8",
+      "filePathHigh": "UGC+NET+/07+Nov+Paper+I/CSIR+PYQ+PAPER+1/VIDEO/L02++Number+system+II.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/UGC%20NET%20%2F07%20Nov%20Paper%20I%2FCSIR%20PYQ%20PAPER%201%2FVIDEO/L02%20%20Number%20system%20II.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/UGC%20NET%20%2F07%20Nov%20Paper%20I%2FCSIR%20PYQ%20PAPER%201%2FVIDEO/L02%20%20Number%20system%20II.mp4",
+      "videoSizeHigh": "",
+      "videoSizeLow": "",
+      "youtubeLink": "https://www.youtube.com/watch?v=Qs7TDTiQc-g",
+      "handout1Url": "https://ifas-video.s3.ap-south-1.amazonaws.com/UGC+NET+/07+Nov+Paper+I/CSIR+PYQ+PAPER+1/PDF/CH.1+NUMBER+SYSTEM-II+.pdf",
+      "handout1Size": "0",
+      "handout2Url": "https://ifas-video.s3.ap-south-1.amazonaws.com/UGC+NET+/07+Nov+Paper+I/CSIR+PYQ+PAPER+1/PDF/CH.1+NUMBER+SYSTEM-II+.pdf",
+      "handout2Size": "0",
+      "examStatus": 0,
+      "unitName": "PYQ EXAM PAPERS"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "672ef48533bdb3f1aa6c8aad",
+      "lectureTitle": "Monika Sen",
+      "duration": 23.945191233333333,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FLIFE%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20LIFE%20SCIENCES%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Monika%20Sen%201721393470/720/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FLIFE%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20LIFE%20SCIENCES%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Monika%20Sen%201721393470/720/hls-master.m3u8",
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/LIFE+SCIENCE/TOPPER%27S+TALK/TOPPER%27S+TALK/TOPPER%27S+TALK/CSIR+NET+LIFE+SCIENCES+RECORDED+ONLINE+COURSE+HINGLISH+/Monika+Sen+1721393470.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/LIFE+SCIENCE/TOPPER%27S+TALK/TOPPER%27S+TALK/TOPPER%27S+TALK/CSIR+NET+LIFE+SCIENCES+RECORDED+ONLINE+COURSE+HINGLISH+/Monika+Sen+1721393470.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FLIFE%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20LIFE%20SCIENCES%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Monika%20Sen%201721393470/720/Monika%20Sen%201721393470.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FLIFE%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20LIFE%20SCIENCES%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Monika%20Sen%201721393470/720/Monika%20Sen%201721393470.mp4",
+      "youtubeLink": "https://www.youtube.com/watch?v=9qrxDJpsnJ0&list=PLBUibmA0dbhsRJnotjCbjfKRB3MRkGET6&index=33",
+      "examStatus": 0,
+      "unitName": "TOPPER'S TALK"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "672ef48533bdb3f1aa6c8b97",
+      "lectureTitle": "Ajit Pradhan",
+      "duration": 12.8514709,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FLIFE%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20LIFE%20SCIENCES%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Ajit%20Pradhan%201721393448/720/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FLIFE%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20LIFE%20SCIENCES%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Ajit%20Pradhan%201721393448/720/hls-master.m3u8",
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/LIFE+SCIENCE/TOPPER%27S+TALK/TOPPER%27S+TALK/TOPPER%27S+TALK/CSIR+NET+LIFE+SCIENCES+RECORDED+ONLINE+COURSE+HINGLISH+/Ajit+Pradhan+1721393448.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/LIFE+SCIENCE/TOPPER%27S+TALK/TOPPER%27S+TALK/TOPPER%27S+TALK/CSIR+NET+LIFE+SCIENCES+RECORDED+ONLINE+COURSE+HINGLISH+/Ajit+Pradhan+1721393448.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FLIFE%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20LIFE%20SCIENCES%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Ajit%20Pradhan%201721393448/720/Ajit%20Pradhan%201721393448.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FLIFE%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20LIFE%20SCIENCES%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Ajit%20Pradhan%201721393448/720/Ajit%20Pradhan%201721393448.mp4",
+      "youtubeLink": "https://www.youtube.com/watch?v=a_8AK70LgBc&list=PLBUibmA0dbhsRJnotjCbjfKRB3MRkGET6&index=32",
+      "examStatus": 0,
+      "unitName": "TOPPER'S TALK"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "672ef5b12fe5953069ead6d4",
+      "lectureTitle": "Argha Dey",
+      "duration": 24.511758133333334,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCHEMICAL%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20CHEMICAL%20SCIENCES%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Argha%20Dey%201722683963/720/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCHEMICAL%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20CHEMICAL%20SCIENCES%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Argha%20Dey%201722683963/720/hls-master.m3u8",
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CHEMICAL+SCIENCE/TOPPER%27S+TALK/TOPPER%27S+TALK/TOPPER%27S+TALK/CSIR+NET+CHEMICAL+SCIENCES+RECORDED+ONLINE+COURSE+HINGLISH+/Argha+Dey+1722683963.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CHEMICAL+SCIENCE/TOPPER%27S+TALK/TOPPER%27S+TALK/TOPPER%27S+TALK/CSIR+NET+CHEMICAL+SCIENCES+RECORDED+ONLINE+COURSE+HINGLISH+/Argha+Dey+1722683963.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCHEMICAL%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20CHEMICAL%20SCIENCES%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Argha%20Dey%201722683963/720/Argha%20Dey%201722683963.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCHEMICAL%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20CHEMICAL%20SCIENCES%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Argha%20Dey%201722683963/720/Argha%20Dey%201722683963.mp4",
+      "youtubeLink": "https://www.youtube.com/watch?v=VwilypsD_W8",
+      "examStatus": 0,
+      "unitName": "TOPPER'S TALK"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "672ef5b12fe5953069ead734",
+      "lectureTitle": "Durgesh Pande",
+      "duration": 24.814391533333332,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCHEMICAL%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20CHEMICAL%20SCIENCES%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Durgesh%20Pande%201722683981/720/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCHEMICAL%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20CHEMICAL%20SCIENCES%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Durgesh%20Pande%201722683981/720/hls-master.m3u8",
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CHEMICAL+SCIENCE/TOPPER%27S+TALK/TOPPER%27S+TALK/TOPPER%27S+TALK/CSIR+NET+CHEMICAL+SCIENCES+RECORDED+ONLINE+COURSE+HINGLISH+/Durgesh+Pande+1722683981.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CHEMICAL+SCIENCE/TOPPER%27S+TALK/TOPPER%27S+TALK/TOPPER%27S+TALK/CSIR+NET+CHEMICAL+SCIENCES+RECORDED+ONLINE+COURSE+HINGLISH+/Durgesh+Pande+1722683981.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCHEMICAL%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20CHEMICAL%20SCIENCES%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Durgesh%20Pande%201722683981/720/Durgesh%20Pande%201722683981.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCHEMICAL%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20CHEMICAL%20SCIENCES%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Durgesh%20Pande%201722683981/720/Durgesh%20Pande%201722683981.mp4",
+      "youtubeLink": "https://www.youtube.com/watch?v=NC2JnFtJ-3E",
+      "examStatus": 0,
+      "unitName": "TOPPER'S TALK"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "672ef6dc2fe5953069eedf89",
+      "lectureTitle": "Payal",
+      "duration": 21.418860166666665,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FMATHEMATICAL%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20MATHEMATICAL%20SCIENCES%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Payal%201731129371/720/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FMATHEMATICAL%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20MATHEMATICAL%20SCIENCES%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Payal%201731129371/720/hls-master.m3u8",
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/MATHEMATICAL+SCIENCE/TOPPER%27S+TALK/TOPPER%27S+TALK/TOPPER%27S+TALK/CSIR+NET+MATHEMATICAL+SCIENCES+RECORDED+ONLINE+COURSE+HINGLISH+/Payal+1731129371.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/MATHEMATICAL+SCIENCE/TOPPER%27S+TALK/TOPPER%27S+TALK/TOPPER%27S+TALK/CSIR+NET+MATHEMATICAL+SCIENCES+RECORDED+ONLINE+COURSE+HINGLISH+/Payal+1731129371.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FMATHEMATICAL%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20MATHEMATICAL%20SCIENCES%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Payal%201731129371/720/Payal%201731129371.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FMATHEMATICAL%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20MATHEMATICAL%20SCIENCES%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Payal%201731129371/720/Payal%201731129371.mp4",
+      "youtubeLink": "https://www.youtube.com/watch?v=wuYre8FrSSk",
+      "examStatus": 0,
+      "unitName": "TOPPER'S TALK"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "672ef6dd2fe5953069eee024",
+      "lectureTitle": "Sourish Goswami",
+      "duration": 9.796885866666665,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FMATHEMATICAL%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20MATHEMATICAL%20SCIENCES%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Sourish%20Goswami%201731129422/720/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FMATHEMATICAL%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20MATHEMATICAL%20SCIENCES%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Sourish%20Goswami%201731129422/720/hls-master.m3u8",
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/MATHEMATICAL+SCIENCE/TOPPER%27S+TALK/TOPPER%27S+TALK/TOPPER%27S+TALK/CSIR+NET+MATHEMATICAL+SCIENCES+RECORDED+ONLINE+COURSE+HINGLISH+/Sourish+Goswami+1731129422.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/MATHEMATICAL+SCIENCE/TOPPER%27S+TALK/TOPPER%27S+TALK/TOPPER%27S+TALK/CSIR+NET+MATHEMATICAL+SCIENCES+RECORDED+ONLINE+COURSE+HINGLISH+/Sourish+Goswami+1731129422.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FMATHEMATICAL%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20MATHEMATICAL%20SCIENCES%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Sourish%20Goswami%201731129422/720/Sourish%20Goswami%201731129422.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FMATHEMATICAL%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20MATHEMATICAL%20SCIENCES%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Sourish%20Goswami%201731129422/720/Sourish%20Goswami%201731129422.mp4",
+      "youtubeLink": "https://www.youtube.com/watch?v=CJS6_MrV4gg",
+      "examStatus": 0,
+      "unitName": "TOPPER'S TALK"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "672ef9362fe595306905f097",
+      "lectureTitle": "Prayag Sharma",
+      "duration": 19.438198033333332,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FPHYSICAL%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20PHYSICAL%20SCIENCE%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Prayag%20Sharma%201722858601/720/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FPHYSICAL%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20PHYSICAL%20SCIENCE%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Prayag%20Sharma%201722858601/720/hls-master.m3u8",
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/PHYSICAL+SCIENCE/TOPPER%27S+TALK/TOPPER%27S+TALK/TOPPER%27S+TALK/CSIR+NET+PHYSICAL+SCIENCE+RECORDED+ONLINE+COURSE+HINGLISH+/Prayag+Sharma+1722858601.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/PHYSICAL+SCIENCE/TOPPER%27S+TALK/TOPPER%27S+TALK/TOPPER%27S+TALK/CSIR+NET+PHYSICAL+SCIENCE+RECORDED+ONLINE+COURSE+HINGLISH+/Prayag+Sharma+1722858601.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FPHYSICAL%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20PHYSICAL%20SCIENCE%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Prayag%20Sharma%201722858601/720/Prayag%20Sharma%201722858601.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FPHYSICAL%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20PHYSICAL%20SCIENCE%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Prayag%20Sharma%201722858601/720/Prayag%20Sharma%201722858601.mp4",
+      "youtubeLink": "https://www.youtube.com/watch?v=oTUgLf4kVpk&list=PLqZh1vPzcgAWcKHKPb0iXxOaMDmqP98Qe&index=4",
+      "examStatus": 0,
+      "unitName": "TOPPER'S TALK"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "672ef9382fe595306905f21a",
+      "lectureTitle": "Reechak Nayak",
+      "duration": 15.608840516666667,
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FPHYSICAL%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20PHYSICAL%20SCIENCE%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Reechak%20Nayak%201722858626/720/hls-master.m3u8",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FPHYSICAL%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20PHYSICAL%20SCIENCE%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Reechak%20Nayak%201722858626/720/hls-master.m3u8",
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/PHYSICAL+SCIENCE/TOPPER%27S+TALK/TOPPER%27S+TALK/TOPPER%27S+TALK/CSIR+NET+PHYSICAL+SCIENCE+RECORDED+ONLINE+COURSE+HINGLISH+/Reechak+Nayak+1722858626.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/PHYSICAL+SCIENCE/TOPPER%27S+TALK/TOPPER%27S+TALK/TOPPER%27S+TALK/CSIR+NET+PHYSICAL+SCIENCE+RECORDED+ONLINE+COURSE+HINGLISH+/Reechak+Nayak+1722858626.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FPHYSICAL%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20PHYSICAL%20SCIENCE%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Reechak%20Nayak%201722858626/720/Reechak%20Nayak%201722858626.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FPHYSICAL%20SCIENCE%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FTOPPER'S%20TALK%2FCSIR%20NET%20PHYSICAL%20SCIENCE%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/Reechak%20Nayak%201722858626/720/Reechak%20Nayak%201722858626.mp4",
+      "youtubeLink": "https://www.youtube.com/watch?v=nO9JyQNRGOA&list=PLqZh1vPzcgAWcKHKPb0iXxOaMDmqP98Qe&index=6",
+      "examStatus": 0,
+      "unitName": "TOPPER'S TALK"
+    }
+  },
+  {
+    "statusCode": 200,
+    "status": "success",
+    "msgCode": "163",
+    "msg": "Recorded lecture fetched successfully.",
+    "data": {
+      "_id": "6708d4c02d721f5662fd8641",
+      "lectureTitle": "STRATEGY SESSION",
+      "duration": 45.07833333333333,
+      "filePathHigh": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/STRATEGY+SESSION/STRATEGY+SESSION/STRATEGY+SESSION/CSIR+NET+GENERAL+APTITUDE+RECORDED+ONLINE+COURSE+HINGLISH+/STRATEGY+SESSION+1728631913.mp4",
+      "filePathLow": "https://ifas-live-recordedvideo.s3.ap-south-1.amazonaws.com/CSIR+NET/CSIR+APTITUDE/STRATEGY+SESSION/STRATEGY+SESSION/STRATEGY+SESSION/CSIR+NET+GENERAL+APTITUDE+RECORDED+ONLINE+COURSE+HINGLISH+/STRATEGY+SESSION+1728631913.mp4",
+      "s3LinkHigh": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FSTRATEGY%20SESSION%2FSTRATEGY%20SESSION%2FSTRATEGY%20SESSION%2FCSIR%20NET%20GENERAL%20APTITUDE%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/STRATEGY%20SESSION%201728631913/720/STRATEGY%20SESSION%201728631913.mp4",
+      "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR%20NET%2FCSIR%20APTITUDE%2FSTRATEGY%20SESSION%2FSTRATEGY%20SESSION%2FSTRATEGY%20SESSION%2FCSIR%20NET%20GENERAL%20APTITUDE%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/STRATEGY%20SESSION%201728631913/360/STRATEGY%20SESSION%201728631913.mp4",
+      "handout1Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/STRATEGY SESSION/STRATEGY SESSION/STRATEGY SESSION/CSIR NET GENERAL APTITUDE RECORDED ONLINE COURSE HINGLISH 4d891d91-d546-4727-b19a-96b1cd13d9bf.pdf",
+      "handout2Url": "https://media.ifasonline.com/production/CSIR NET/CSIR APTITUDE/STRATEGY SESSION/STRATEGY SESSION/STRATEGY SESSION/CSIR NET GENERAL APTITUDE RECORDED ONLINE COURSE HINGLISH 4d891d91-d546-4727-b19a-96b1cd13d9bf.pdf",
+      "m3u8LinkLow": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FSTRATEGY%20SESSION%2FSTRATEGY%20SESSION%2FSTRATEGY%20SESSION%2FCSIR%20NET%20GENERAL%20APTITUDE%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/STRATEGY%20SESSION%201728631913/360/hls-master.m3u8",
+      "m3u8LinkHigh": "https://s3convertedcdn.ifasonline.com/M3U8_VIDEO/CSIR%20NET%2FCSIR%20APTITUDE%2FSTRATEGY%20SESSION%2FSTRATEGY%20SESSION%2FSTRATEGY%20SESSION%2FCSIR%20NET%20GENERAL%20APTITUDE%20RECORDED%20ONLINE%20COURSE%20HINGLISH%20/STRATEGY%20SESSION%201728631913/720/hls-master.m3u8",
+      "examStatus": 0,
+      "unitName": "STRATEGY SESSION"
+    }
+  }
+]
