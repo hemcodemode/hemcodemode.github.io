@@ -1,0 +1,801 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "108",
+  "msg": "Exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c39d1fde9add55b413262",
+        "inDualLang": false,
+        "en": {
+          "name": "L01 GEOMETRY AND MENSURATION",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "6520e2722f70a49505dae243",
+        "topicId": "6520e2802f70a49505dae53f",
+        "subTopicId": "6520e2906bc138015746372e",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 10,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 0,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T06:06:09.524Z",
+        "updatedAt": "2024-05-21T07:06:28.675Z",
+        "__v": 2,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Area of Semi circle =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>πr</mi><mn>2</mn></msup><mn>2</mn></mfrac></math></p><p>Radius corresponding to I = &nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>AC</mi><mn>2</mn></mfrac></math></p><p>Radius corresponding to II =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>BC</mi><mn>2</mn></mfrac></math></p><p>Radius corresponding to III = &nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>AB</mi><mn>2</mn></mfrac></math></p><p>So,</p><p>I = &nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">π</mi><mn>2</mn></mfrac><mo>&nbsp;</mo><mo>(</mo><mfrac><mi>AC</mi><mn>2</mn></mfrac><mo>)</mo><mn>2</mn><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mfrac><mi mathvariant=\"normal\">π</mi><mn>8</mn></mfrac><mo>&nbsp;</mo><mi>AC</mi><mn>2</mn></math></p><p>II =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">π</mi><mn>2</mn></mfrac><mo>&nbsp;</mo><mo>(</mo><mfrac><mi>BC</mi><mn>2</mn></mfrac><mo>)</mo><mn>2</mn><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mfrac><mi mathvariant=\"normal\">π</mi><mn>8</mn></mfrac><mo>&nbsp;</mo><mi>BC</mi><mn>2</mn></math></p><p>III = &nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">π</mi><mn>2</mn></mfrac><mo>&nbsp;</mo><mo>(</mo><mfrac><mi>AB</mi><mn>2</mn></mfrac><mo>)</mo><mn>2</mn><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mfrac><mi mathvariant=\"normal\">π</mi><mn>8</mn></mfrac><mo>&nbsp;</mo><mi>AB</mi><mn>2</mn></math></p><p>Then, II + III = &nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">π</mi><mn>8</mn></mfrac><mo>&nbsp;</mo><msup><mi>BC</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mfrac><mi mathvariant=\"normal\">π</mi><mn>8</mn></mfrac><mo>&nbsp;</mo><msup><mi>AB</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mfrac><mi mathvariant=\"normal\">π</mi><mn>8</mn></mfrac><mo>&nbsp;</mo><mo>(</mo><msup><mi>BC</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><msup><mi>AB</mi><mn>2</mn></msup><mo>)</mo></math></p><p>Using Pythagoras Theorem:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>AB</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><msup><mi>BC</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><msup><mi>AC</mi><mn>2</mn></msup></math></p><p>So, II + III = &nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">π</mi><mn>8</mn></mfrac><mo>&nbsp;</mo><msup><mi>AC</mi><mn>2</mn></msup></math>&nbsp;= I</p><p>Therefore, II + III = I.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>In the figure, ∠ABC = π/2. I, II, III are the areas of semicircles on the sides opposite to angles B, A and C respectively. Which of the following is always true?</p>",
+                  "_id": "66419a13ac0e823c44376fa1"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1715574954798.png",
+                  "_id": "66419a13ac0e823c44376fa2"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>II</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><msup><mi>III</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">I</mi><mn>2</mn></msup></math></p>",
+                  "isCorrect": false,
+                  "_id": "66419a13ac0e823c44376fa3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>II + III = I&nbsp;</p>",
+                  "isCorrect": true,
+                  "_id": "66419a13ac0e823c44376fa4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>II</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><msup><mi>III</mi><mn>2</mn></msup><mo>&gt;</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">I</mi><mn>2</mn></msup></math></p>",
+                  "isCorrect": false,
+                  "_id": "66419a13ac0e823c44376fa5"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>II + III &lt; I&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "66419a13ac0e823c44376fa6"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c45c3c0b33223b028e148",
+            "examId": "664c39d1fde9add55b413262",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "status": 1,
+            "createdAt": "2024-05-13T04:41:55.200Z",
+            "updatedAt": "2024-05-13T04:41:55.200Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Given: Area of spiral = 1&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi mathvariant=\"normal\">m</mi><mn>2</mn></msup></math></p><p>Width of string = Diameter of string &nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp;= 1 mm =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></math>&nbsp;m</p><p>So Area of spiral = Length of string × Width of string.</p><p>1 = Length of string ×&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></math></p><p>Length of string = 1/<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></math>&nbsp; =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>3</mn></msup></math>&nbsp; m.</p><p>Answer (3)</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A string of diameter 1 mm is kept on a table in the shape of a close flat spiral. i.e., a spiral with no gap between turns. The area of the table occupied by the spiral is 1&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi mathvariant=\"normal\">m</mi><mn>2</mn></msup></math>. Then the length of the string is&nbsp;</p>",
+                  "_id": "66419acbc050bbd24c2d0dae"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>10 m</p>",
+                  "isCorrect": false,
+                  "_id": "66419acbc050bbd24c2d0daf"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>2</mn></msup></math>&nbsp;m</p>",
+                  "isCorrect": false,
+                  "_id": "66419acbc050bbd24c2d0db0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>3</mn></msup></math>&nbsp;m</p>",
+                  "isCorrect": true,
+                  "_id": "66419acbc050bbd24c2d0db1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>6</mn></msup></math></p>",
+                  "isCorrect": false,
+                  "_id": "66419acbc050bbd24c2d0db2"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c45c3c0b33223b028e14f",
+            "examId": "664c39d1fde9add55b413262",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "status": 1,
+            "createdAt": "2024-05-13T04:44:59.233Z",
+            "updatedAt": "2024-05-13T04:44:59.233Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Note: Volume of a cone =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>&nbsp;</mo><mi mathvariant=\"normal\">π</mi><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">r</mi><mn>2</mn></msup></math>&nbsp;h.</p><p>Here the vessel given is of the shape of a cone.</p><p>So, Volume of the empty vessel V =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>&nbsp;</mo><mi mathvariant=\"normal\">π</mi><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">r</mi><mn>2</mn></msup></math>&nbsp;h.</p><p>Note: For a cone, the radius is proportional to height.</p><p>So, when the height is halved (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">h</mi><mn>2</mn></mfrac></math>), the radius will also halved, i.e., (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">r</mi><mn>2</mn></mfrac></math>)</p><p>Therefore, Volume of water in the vessel V’</p><p>= &nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mi mathvariant=\"normal\">π</mi><msup><mrow><mo>(</mo><mfrac><mi mathvariant=\"normal\">r</mi><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>&nbsp;</mo><mfrac><mi mathvariant=\"normal\">h</mi><mn>2</mn></mfrac><mo>=</mo><mo>&nbsp;</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>&nbsp;</mo><mo>(</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><msup><mi>πr</mi><mn>2</mn></msup><mi mathvariant=\"normal\">h</mi><mo>)</mo><mo>=</mo><mo>&nbsp;</mo><mfrac><mi mathvariant=\"normal\">V</mi><mn>8</mn></mfrac><mo>.</mo></math></p><p>Answer (3)&nbsp;</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The capacity of the conical vessel shown is V. It is filled with water up to half its height. The volume of water in the vessel is&nbsp;</p>",
+                  "_id": "66419be0c050bbd24c2f489c"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1715575528787.png",
+                  "_id": "66419be0c050bbd24c2f489d"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">V</mi><mn>2</mn></mfrac></math></p>",
+                  "isCorrect": false,
+                  "_id": "66419be0c050bbd24c2f489e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">V</mi><mn>4</mn></mfrac></math></p>",
+                  "isCorrect": false,
+                  "_id": "66419be0c050bbd24c2f489f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">V</mi><mn>8</mn></mfrac></math></p>",
+                  "isCorrect": false,
+                  "_id": "66419be0c050bbd24c2f48a0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">V</mi><mn>16</mn></mfrac></math></p>",
+                  "isCorrect": true,
+                  "_id": "66419be0c050bbd24c2f48a1"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c45c3c0b33223b028e155",
+            "examId": "664c39d1fde9add55b413262",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "status": 1,
+            "createdAt": "2024-05-13T04:49:36.669Z",
+            "updatedAt": "2024-05-13T04:49:36.669Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Let h be the rise in the level of water in the container.</p><p>Since, exactly half of the sphere is dipped, the portion dipped in the water, is a hemisphere.</p><p>Radius of the hemisphere =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">R</mi><mn>2</mn></mfrac></math></p><p>Volume of a hemisphere =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mrow><mn>3</mn><mo>&nbsp;</mo></mrow></mfrac><mi mathvariant=\"normal\">π</mi><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">r</mi><mn>3</mn></msup><mo>.</mo></math></p><p>So, Volume of hemisphere dipped in water &nbsp;</p><p>= &nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac><mi mathvariant=\"normal\">π</mi><msup><mrow><mo>(</mo><mo>&nbsp;</mo><mfrac><mi mathvariant=\"normal\">R</mi><mn>2</mn></mfrac><mo>)</mo></mrow><mn>3</mn></msup><mo>=</mo><mo>&nbsp;</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mi mathvariant=\"normal\">π</mi><mo>&nbsp;</mo><mfrac><msup><mi mathvariant=\"normal\">R</mi><mn>3</mn></msup><mn>8</mn></mfrac><mo>=</mo><mo>&nbsp;</mo><mfrac><msup><mi>πR</mi><mn>3</mn></msup><mn>12</mn></mfrac></math></p><p>Volume of water increased = Volume of hemisphere dipped in water.</p><p>Volume of water increased is of cylindrical shape with height h and radius R. &nbsp;</p><p>So, Volume of water increased =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">π</mi><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">R</mi><mn>2</mn></msup><mo>&nbsp;</mo><mi mathvariant=\"normal\">h</mi><mo>.</mo></math></p><p>Therefore, π&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi mathvariant=\"normal\">R</mi><mn>2</mn></msup><mi mathvariant=\"normal\">h</mi><mo>=</mo><mfrac><msup><mi>πR</mi><mn>3</mn></msup><mn>12</mn></mfrac></math></p><p>h =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">R</mi><mn>12</mn></mfrac></math></p><p>Answer (4)</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A sphere of iron of radius&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">R</mi><mn>2</mn></mfrac></math>&nbsp;fixed to one end of a string was lowered into water in a cylindrical container of base radius R to keep exactly half the sphere dipped. The rise in the level of water in the container will be&nbsp;</p>",
+                  "_id": "66419cf0c050bbd24c31a81c"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">R</mi><mn>3</mn></mfrac></math></p>",
+                  "isCorrect": false,
+                  "_id": "66419cf0c050bbd24c31a81d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">R</mi><mn>4</mn></mfrac></math></p>",
+                  "isCorrect": false,
+                  "_id": "66419cf0c050bbd24c31a81e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">R</mi><mn>8</mn></mfrac></math></p>",
+                  "isCorrect": false,
+                  "_id": "66419cf0c050bbd24c31a81f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">R</mi><mn>12</mn></mfrac></math></p>",
+                  "isCorrect": true,
+                  "_id": "66419cf0c050bbd24c31a820"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c45c3c0b33223b028e15c",
+            "examId": "664c39d1fde9add55b413262",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "status": 1,
+            "createdAt": "2024-05-13T04:54:08.210Z",
+            "updatedAt": "2024-05-13T04:54:08.210Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Given: Radius r = 1 m, Volume V = 22&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi mathvariant=\"normal\">m</mi><mn>3</mn></msup></math></p><p>The wooden log is of cylindrical shape.</p><p>Volume of cylinder V=<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>πr</mi><mn>2</mn></msup></math>h.</p><p>So, 22 =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>22</mn><mn>7</mn></mfrac><mo>×</mo><msup><mn>1</mn><mn>2</mn></msup></math>×h</p><p>h = 7 m. &nbsp;</p><p>Answer (2)</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A 16.2 m long wooden log has a uniform diameter of 2 m. To what length log should be cut to obtain a piece of 22&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi mathvariant=\"normal\">m</mi><mn>3</mn></msup></math>&nbsp;volume?&nbsp;</p>",
+                  "_id": "66419d5b99b9b7f43d1b4949"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>3.5 m</p>",
+                  "isCorrect": false,
+                  "_id": "66419d5b99b9b7f43d1b494a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>7.0 m</p>",
+                  "isCorrect": false,
+                  "_id": "66419d5b99b9b7f43d1b494b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>14.0 m</p>",
+                  "isCorrect": false,
+                  "_id": "66419d5b99b9b7f43d1b494c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>22.0 m&nbsp;</p>",
+                  "isCorrect": true,
+                  "_id": "66419d5b99b9b7f43d1b494d"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c45c3c0b33223b028e162",
+            "examId": "664c39d1fde9add55b413262",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "status": 1,
+            "createdAt": "2024-05-13T04:55:55.863Z",
+            "updatedAt": "2024-05-13T04:55:55.863Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Note: 1 km = 1000 m = 1000 × 100 cm.</p><p>So, 6 km = 6 × 1000 × 100 cm = 600000 cm &nbsp;</p><p>1: 50000 map means 1 cm = 50000 cm in the map</p><p>Similarly, for 1:5000 map, 1 cm = 5000 cm in the map.</p><p>Thus, Distance between rigs in the map of 1: 50000 &nbsp;</p><p>= &nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>600000</mn><mn>50000</mn></mfrac></math>&nbsp;= 12 cm</p><p>So, Distance between rigs in the map of 1: 5000</p><p>= &nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>600000</mn><mn>5000</mn></mfrac></math>&nbsp;= 120 cm.</p><p>Answer (4)</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The distance between two oil rigs is 6 km. What will be the distance between these rigs in maps of 1: 50000 and 1: 5000 scales, respectively?&nbsp;</p>",
+                  "_id": "66419e8eac0e823c44393f64"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>12 cm and 1.2 cm</p>",
+                  "isCorrect": false,
+                  "_id": "66419e8eac0e823c44393f65"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2 cm and 12 cm</p>",
+                  "isCorrect": false,
+                  "_id": "66419e8eac0e823c44393f66"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>120 cm and 12 cm</p>",
+                  "isCorrect": false,
+                  "_id": "66419e8eac0e823c44393f67"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>12 cm and 120 cm&nbsp;</p>",
+                  "isCorrect": true,
+                  "_id": "66419e8eac0e823c44393f68"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c45c3c0b33223b028e168",
+            "examId": "664c39d1fde9add55b413262",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "status": 1,
+            "createdAt": "2024-05-13T05:01:02.358Z",
+            "updatedAt": "2024-05-13T05:01:02.358Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Extend the figure to get a square of edge 5 cm as shown in the figure below.</p><p>Since, adjacent sides are making right angles to each other, ABCD and EFGH are rectangles.</p><p>We know that, opposite sides of rectangles are equal.</p><p>&nbsp;Thus, AB = DC, HE = GF, EF = HG.</p><p>The perimeter of the given figure &nbsp;</p><p>= PA + AB + BC + CH + HE + EF + FQ + QP,</p><p>Given, PA = 4 cm, BC =1 cm, QP = 5 cm.</p><p>Also, DC + CH + HG = 5 cm,</p><p>AB + CH + EF = 5 cm.</p><p>Again, GF + FQ = 5 cm, &nbsp;</p><p>HE + FQ = 5 cm.</p><p>The perimeter of the given figure &nbsp;</p><p>= PA + AB + BC + CH + HE + EF + FQ + QP</p><p>= PA + BC + QP + (AB + CH + EF) + (HE + FQ)</p><p>= 4 + 1 + 5 + 5 + 5 &nbsp;</p><p>= 20.</p><p>Answer (1)</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1715576531725.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What is the perimeter of the given figure, where adjacent sides are right angles to each other? &nbsp;</p>",
+                  "_id": "66419edcac0e823c4439571f"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1715576493490.png",
+                  "_id": "66419edcac0e823c44395720"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>20 cm</p>",
+                  "isCorrect": true,
+                  "_id": "66419edcac0e823c44395721"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>18 cm&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "66419edcac0e823c44395722"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>21 cm</p>",
+                  "isCorrect": false,
+                  "_id": "66419edcac0e823c44395723"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>cannot be determined</p>",
+                  "isCorrect": false,
+                  "_id": "66419edcac0e823c44395724"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c45c3c0b33223b028e16e",
+            "examId": "664c39d1fde9add55b413262",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "status": 1,
+            "createdAt": "2024-05-13T05:02:20.756Z",
+            "updatedAt": "2024-05-13T05:02:20.756Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Consider the 24 × 17 plane as the base of the cuboids box. Since the diameter of a laddoo is 6 cm, in the base, by hexagonal closed packing, considering the diameter of each laddoos, 11 laddoos can be arranged as shown in the figure.</p><p>Since the breadth is 17 centimetres, the spheres in the middle row are placed in the gaps of the other two rows, as shown in the figure, thus maximum we can form 3 rows in one base layer.</p><p>&nbsp;Now, since the height is 18 cm and diameter is of each laddoo is 6 cm, 18/6 = 3 layers can be arranged on one another in the box. &nbsp;</p><p>Thus, 11 + 11 + 11 = 33 laddoos can be arranged in the box.</p><p>Answer (3)</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1715576703888.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What is the maximum number of whole laddoos having diameter of 6 cm that can be packed in a box whose inner dimensions are 24 × 18 × 17&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>cm</mi><mn>3</mn></msup></math>?&nbsp;</p>",
+                  "_id": "66419fbac050bbd24c3a961c"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>24</p>",
+                  "isCorrect": false,
+                  "_id": "66419fbac050bbd24c3a961d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>30</p>",
+                  "isCorrect": false,
+                  "_id": "66419fbac050bbd24c3a961e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>33</p>",
+                  "isCorrect": true,
+                  "_id": "66419fbac050bbd24c3a961f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>36&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "66419fbac050bbd24c3a9620"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c45c3c0b33223b028e175",
+            "examId": "664c39d1fde9add55b413262",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "status": 1,
+            "createdAt": "2024-05-13T05:06:03.348Z",
+            "updatedAt": "2024-05-13T05:06:03.348Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Let’s consider r be the radius of the circle.</p><p>So each side of the square will be = 2r.</p><p>Note:</p><p>Area of circle =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>πr</mi><mn>2</mn></msup></math>&nbsp;&nbsp;</p><p>Area of square =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>side</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><msup><mrow><mo>(</mo><mn>2</mn><mi mathvariant=\"normal\">r</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>4</mn><msup><mi mathvariant=\"normal\">r</mi><mn>2</mn></msup></math></p><p>As the circle is fully inside the square, the area of circle is less than the area of square.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>πr</mi><mn>2</mn></msup><mo>&lt;</mo><mo>&nbsp;</mo><mn>4</mn><msup><mi mathvariant=\"normal\">r</mi><mn>2</mn></msup></math></p><p>π &lt; 4. &nbsp;</p><p>Answer (3)</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What does the diagram establish? Note: The diagram is a circle inside a square&nbsp;</p>",
+                  "_id": "6641a043ac0e823c443a8b36"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1715576817542.png",
+                  "_id": "6641a043ac0e823c443a8b37"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>π &gt; 3</p>",
+                  "isCorrect": false,
+                  "_id": "6641a043ac0e823c443a8b38"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>π ≥ 2√2</p>",
+                  "isCorrect": false,
+                  "_id": "6641a043ac0e823c443a8b39"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>π &lt; 4</p>",
+                  "isCorrect": false,
+                  "_id": "6641a043ac0e823c443a8b3a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>π is closer to 3 than to 4.&nbsp;</p>",
+                  "isCorrect": true,
+                  "_id": "6641a043ac0e823c443a8b3b"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c45c3c0b33223b028e17b",
+            "examId": "664c39d1fde9add55b413262",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-05-13T05:08:19.964Z",
+            "updatedAt": "2024-05-13T05:08:19.964Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Let’s consider “r” and “h” be respectively the radius and height of bigger cylinder. &nbsp;</p><p>So each of the smaller cylinders are of the radius&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">r</mi><mn>2</mn></mfrac></math>&nbsp;and of the same height.</p><p>Volume of bigger cylinder, V = π x<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">r</mi><mn>2</mn></msup></math>&nbsp;x h.</p><p>Volume of each of the smaller cylinder = π x (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">r</mi><mn>2</mn></mfrac></math>)2 x h =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">V</mi><mn>4</mn></mfrac></math></p><p>Answer (2)</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Two identical cylinders of the same height as a bigger hollow cylinder were put vertically into the latter to fit exactly into it. The volume of the bigger cylinder is V. The volume of each of the smaller cylinder is</p>",
+                  "_id": "6641a1c0ac0e823c443b1086"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1715577006067.png",
+                  "_id": "6641a1c0ac0e823c443b1087"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">V</mi><mn>8</mn></mfrac></math></p>",
+                  "isCorrect": false,
+                  "_id": "6641a1c0ac0e823c443b1088"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">V</mi><mn>4</mn></mfrac></math></p>",
+                  "isCorrect": false,
+                  "_id": "6641a1c0ac0e823c443b1089"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">V</mi><mn>2</mn></mfrac></math></p>",
+                  "isCorrect": false,
+                  "_id": "6641a1c0ac0e823c443b108a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>V&nbsp;</p>",
+                  "isCorrect": true,
+                  "_id": "6641a1c0ac0e823c443b108b"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c45c3c0b33223b028e182",
+            "examId": "664c39d1fde9add55b413262",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "status": 1,
+            "createdAt": "2024-05-13T05:14:40.189Z",
+            "updatedAt": "2024-05-13T05:14:40.189Z",
+            "__v": 0
+          }
+        ]
+      }
+    ]
+  }
+}

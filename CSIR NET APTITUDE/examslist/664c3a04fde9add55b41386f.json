@@ -1,0 +1,801 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "108",
+  "msg": "Exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c3a04fde9add55b41386f",
+        "inDualLang": false,
+        "en": {
+          "name": "L03 GEOMETRY AND MENSURATION",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "6520e2722f70a49505dae243",
+        "topicId": "6520e2802f70a49505dae53f",
+        "subTopicId": "6520e2906bc138015746372e",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 0,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 0,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T06:07:00.714Z",
+        "updatedAt": "2024-05-21T09:31:25.495Z",
+        "__v": 2,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Alternative Solution<br>A cake with no slices has 1 piece. &nbsp;<br>When you draw the first line cut, you cut it into 2 pieces. After that, in order to maximize the number of slices, each line cut that you make should intersect each other line cut previously made. &nbsp;<br>If you calculate the number of pieces made this way, you end up with p (n)=(n(n+1)/2) + 1<br>Where p is the number of pieces and n is the number of cuts made. &nbsp;<br>As you can see, the first p(n) that exceeds or equals 16 is p(5)=16. So the answer is 5.</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716281922848.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A cylindrical cake is to be cut into 16 equal pieces. What is the minimum number of cuts required to do so?</p>",
+                  "_id": "664c626e32cd1c76a30413d8"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>9</p>",
+                  "isCorrect": false,
+                  "_id": "664c626e32cd1c76a30413d9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3</p>",
+                  "isCorrect": false,
+                  "_id": "664c626e32cd1c76a30413da"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>8</p>",
+                  "isCorrect": false,
+                  "_id": "664c626e32cd1c76a30413db"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>5</p>",
+                  "isCorrect": true,
+                  "_id": "664c626e32cd1c76a30413dc"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c626e32cd1c76a30413d7",
+            "examId": "664c3a04fde9add55b41386f",
+            "subjectId": "6520e2722f70a49505dae243",
+            "topicId": "6520e2802f70a49505dae53f",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "status": 1,
+            "createdAt": "2024-05-21T08:59:26.663Z",
+            "updatedAt": "2024-05-21T08:59:26.663Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Let’s assume mass of the bread = 100 grams<br>So weight of edible matter will be 40 grams<br>We know: &nbsp;Volume =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>M</mi><mi>a</mi><mi>s</mi><mi>s</mi></mrow><mrow><mi>D</mi><mi>e</mi><mi>n</mi><mi>s</mi><mi>i</mi><mi>t</mi><mi>y</mi></mrow></mfrac></math><br>So volume of bread =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>100</mn><mn>2</mn></mfrac><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>50</mn><mo>&nbsp;</mo><mi>c</mi><mi>c</mi></math>&nbsp;(Given: density = 2 g/cc)<br>So Bulk density of bread =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>W</mi><mi>e</mi><mi>i</mi><mi>g</mi><mi>h</mi><mi>t</mi><mo>&nbsp;</mo><mi>o</mi><mi>f</mi><mo>&nbsp;</mo><mi>e</mi><mi>d</mi><mi>i</mi><mi>b</mi><mi>l</mi><mi>e</mi><mo>&nbsp;</mo><mi>n</mi><mi>a</mi><mi>t</mi><mi>t</mi><mi>e</mi><mi>r</mi></mrow><mrow><mi>V</mi><mi>o</mi><mi>l</mi><mi>u</mi><mi>m</mi><mi>e</mi></mrow></mfrac><mo>=</mo><mfrac><mn>40</mn><mn>50</mn></mfrac><mo>=</mo><mo>&nbsp;</mo><mn>0</mn><mo>.</mo><mn>8</mn></math></p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A bread contains 40% (by volume) edible matter and the remaining space is filled with air. If the density of edible matter is 2 g/cc, what will be the bulk density of the bread (in g/cc)?&nbsp;</p>",
+                  "_id": "664c6356f25534ae989a61d2"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>0.4</p>",
+                  "isCorrect": false,
+                  "_id": "664c6356f25534ae989a61d3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>0.8</p>",
+                  "isCorrect": true,
+                  "_id": "664c6356f25534ae989a61d4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1.2</p>",
+                  "isCorrect": false,
+                  "_id": "664c6356f25534ae989a61d5"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1.6</p>",
+                  "isCorrect": false,
+                  "_id": "664c6356f25534ae989a61d6"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c6356f25534ae989a61d1",
+            "examId": "664c3a04fde9add55b41386f",
+            "subjectId": "6520e2722f70a49505dae243",
+            "topicId": "6520e2802f70a49505dae53f",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "status": 1,
+            "createdAt": "2024-05-21T09:03:18.697Z",
+            "updatedAt": "2024-05-21T09:03:18.697Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Consider the square face with fracture side<br>Make square of 20 × 20; total 25 square will make<br>Out of which 5 square have fracture.<br>That means 25 – 5 = 20 square will form without any fracture<br>Depth of one square is 5 cm.<br>So 100 ÷ 5 = 20 times layers can be form.<br>So total no. of square 20×20=400</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The diagram shows a cubic block of marble&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>&nbsp;</mo><mi>x</mi><mo>&nbsp;</mo><mn>1</mn><mo>&nbsp;</mo><mi>x</mi><mo>&nbsp;</mo><mn>1</mn><mo>&nbsp;</mo><msup><mi>m</mi><mn>3</mn></msup><mo>)</mo></math>&nbsp;having a planar fracture. What is the maximum number of slabs sized&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>&nbsp;</mo><mi>x</mi><mo>&nbsp;</mo><mn>20</mn><mo>&nbsp;</mo><mi>x</mi><mo>&nbsp;</mo><mn>5</mn><mo>&nbsp;</mo><mi>c</mi><msup><mi>m</mi><mn>3</mn></msup></math>&nbsp;that can be cut from this block avoiding the fracture?&nbsp;</p>",
+                  "_id": "664c63f7f25534ae989e7d57"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1716282273381.png",
+                  "_id": "664c63f7f25534ae989e7d58"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>200</p>",
+                  "isCorrect": false,
+                  "_id": "664c63f7f25534ae989e7d59"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>300</p>",
+                  "isCorrect": false,
+                  "_id": "664c63f7f25534ae989e7d5a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>400</p>",
+                  "isCorrect": true,
+                  "_id": "664c63f7f25534ae989e7d5b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>500</p>",
+                  "isCorrect": false,
+                  "_id": "664c63f7f25534ae989e7d5c"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c63f7f25534ae989e7d56",
+            "examId": "664c3a04fde9add55b41386f",
+            "subjectId": "6520e2722f70a49505dae243",
+            "topicId": "6520e2802f70a49505dae53f",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "status": 1,
+            "createdAt": "2024-05-21T09:05:59.781Z",
+            "updatedAt": "2024-05-21T09:05:59.781Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Area of Plate = 5 m x 2m = 10&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>m</mi><mn>2</mn></msup></math><br>Area remove by holes = 5 cm x 2 cm x 1000 &nbsp;<br>= 0.05 m x 0.02 m x 1000 = 1&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>m</mi><mn>2</mn></msup></math><br>Area of plate after perforation = 10 – 1 = 9 m2<br>Given: Weight of 10<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>m</mi><mn>2</mn></msup></math>&nbsp;is 20 kg<br>So weight of 9m2 is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>20</mn><mn>10</mn></mfrac><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>9</mn><mi>k</mi><mi>g</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>18</mn><mo>&nbsp;</mo><mi>k</mi><mi>g</mi></math></p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A plate of 5m × 2m size with uniform thickness, weighing 20 kg, is perforated with 1000 holes of 5 cm ×2 cm size. What is the weight of the plate (in kg) after perforation?&nbsp;</p>",
+                  "_id": "664c6485f25534ae98a12c4a"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>10</p>",
+                  "isCorrect": false,
+                  "_id": "664c6485f25534ae98a12c4b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2</p>",
+                  "isCorrect": false,
+                  "_id": "664c6485f25534ae98a12c4c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>19.8</p>",
+                  "isCorrect": false,
+                  "_id": "664c6485f25534ae98a12c4d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>18</p>",
+                  "isCorrect": true,
+                  "_id": "664c6485f25534ae98a12c4e"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c6485f25534ae98a12c49",
+            "examId": "664c3a04fde9add55b41386f",
+            "subjectId": "6520e2722f70a49505dae243",
+            "topicId": "6520e2802f70a49505dae53f",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "status": 1,
+            "createdAt": "2024-05-21T09:08:21.735Z",
+            "updatedAt": "2024-05-21T09:08:21.735Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Area occupied by each pencil is a square of side: 0.5 cm<br>= 0.5 x 0.5 = 0.25&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><msup><mi>m</mi><mn>2</mn></msup></math><br>Area of square shaped stand = 5 x 5 = 25&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><msup><mi>m</mi><mn>2</mn></msup></math><br>So number of pencil in this area&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>25</mn><mrow><mn>0</mn><mo>.</mo><mn>25</mn></mrow></mfrac><mo>=</mo><mo>&nbsp;</mo><mn>100</mn></math>&nbsp;pencils</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716282639705.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What is the maximum number of cylindrical pencils of 0.5 cm diameter that can be stood in a square shaped stand of 5 cm × 5 cm inner cross section? &nbsp;</p>",
+                  "_id": "664c654df25534ae98a50030"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>99</p>",
+                  "isCorrect": false,
+                  "_id": "664c654df25534ae98a50031"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>121</p>",
+                  "isCorrect": false,
+                  "_id": "664c654df25534ae98a50032"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>100</p>",
+                  "isCorrect": true,
+                  "_id": "664c654df25534ae98a50033"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>105</p>",
+                  "isCorrect": false,
+                  "_id": "664c654df25534ae98a50034"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c654df25534ae98a5002f",
+            "examId": "664c3a04fde9add55b41386f",
+            "subjectId": "6520e2722f70a49505dae243",
+            "topicId": "6520e2802f70a49505dae53f",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "status": 1,
+            "createdAt": "2024-05-21T09:11:41.043Z",
+            "updatedAt": "2024-05-21T09:11:41.043Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Given: &nbsp;<br>Size of Pit = 2 m x 2 m x 10 cm = 2 m x 2 m x .1 m (Converting cm into m)<br>We know that volume = l x b x h<br>Volume = 2m x 2m x 0.1 m= 0.4&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>m</mi><mn>3</mn></msup></math></p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What is the volume of soil in an open pit of size 2m × 2m × 10cm? &nbsp;</p>",
+                  "_id": "664c65c932cd1c76a304f122"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>40&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>m</mi><mn>3</mn></msup></math></p>",
+                  "isCorrect": false,
+                  "_id": "664c65c932cd1c76a304f123"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>0.4&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>m</mi><mn>3</mn></msup></math></p>",
+                  "isCorrect": true,
+                  "_id": "664c65c932cd1c76a304f124"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>0&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>m</mi><mn>3</mn></msup></math></p>",
+                  "isCorrect": false,
+                  "_id": "664c65c932cd1c76a304f125"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4.0&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>m</mi><mn>3</mn></msup></math></p>",
+                  "isCorrect": false,
+                  "_id": "664c65c932cd1c76a304f126"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c65c932cd1c76a304f121",
+            "examId": "664c3a04fde9add55b41386f",
+            "subjectId": "6520e2722f70a49505dae243",
+            "topicId": "6520e2802f70a49505dae53f",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "status": 1,
+            "createdAt": "2024-05-21T09:13:45.487Z",
+            "updatedAt": "2024-05-21T09:13:45.487Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Area of square of side&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>&nbsp;</mo><mi>c</mi><mi>m</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><msup><mrow><mo>(</mo><mn>12</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>144</mn><mo>&nbsp;</mo><mi>c</mi><msup><mi>m</mi><mn>2</mn></msup></math><br>From this, 4 small square is to be made = 144/4 = 36<br>So side of square will be :&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>36</mn></msqrt><mo>=</mo><mn>6</mn></math><br>So each small square has side x = 6 cm</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716282996930.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Four small squares of side x are cut out of a square of side 12 cm to make a tray by folding the edges. What is the value of x so that the tray has the maximum volume?&nbsp;</p>",
+                  "_id": "664c676432cd1c76a307b3f5"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>6 cm&nbsp;</p>",
+                  "isCorrect": true,
+                  "_id": "664c676432cd1c76a307b3f6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2 cm</p>",
+                  "isCorrect": false,
+                  "_id": "664c676432cd1c76a307b3f7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3 cm</p>",
+                  "isCorrect": false,
+                  "_id": "664c676432cd1c76a307b3f8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4 cm</p>",
+                  "isCorrect": false,
+                  "_id": "664c676432cd1c76a307b3f9"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c676432cd1c76a307b3f4",
+            "examId": "664c3a04fde9add55b41386f",
+            "subjectId": "6520e2722f70a49505dae243",
+            "topicId": "6520e2802f70a49505dae53f",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "status": 1,
+            "createdAt": "2024-05-21T09:20:36.752Z",
+            "updatedAt": "2024-05-21T09:20:36.752Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>We know that “angle at the centre is twice the angle at the circumference”</p><p>So Angle ACB = ½ Angle (AOB)</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>&nbsp;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&nbsp;</mo><mo>(</mo><msup><mn>90</mn><mn>0</mn></msup><mo>)</mo><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><msup><mn>45</mn><mn>0</mn></msup></math></p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Three-quarters of a circle is shown in the figure; OA and OB are two radii perpendicular to each other. C is a point on the circle.&nbsp;</p>",
+                  "_id": "664c682532cd1c76a3086eb4"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1716283315496.png",
+                  "_id": "664c682532cd1c76a3086eb5"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>What is angle ACB?&nbsp;</p>",
+                  "_id": "664c682532cd1c76a3086eb6"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Cannot be determined</p>",
+                  "isCorrect": false,
+                  "_id": "664c682532cd1c76a3086eb7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>30°&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "664c682532cd1c76a3086eb8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>60°</p>",
+                  "isCorrect": false,
+                  "_id": "664c682532cd1c76a3086eb9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>45°</p>",
+                  "isCorrect": true,
+                  "_id": "664c682532cd1c76a3086eba"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c682532cd1c76a3086eb3",
+            "examId": "664c3a04fde9add55b41386f",
+            "subjectId": "6520e2722f70a49505dae243",
+            "topicId": "6520e2802f70a49505dae53f",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "status": 1,
+            "createdAt": "2024-05-21T09:23:49.333Z",
+            "updatedAt": "2024-05-21T09:23:49.333Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>According to the laws of reflection: angle of incidence = angle of reflection = 30 degrees.<br>As per above diagram; each of the ray triangles formed is an equilateral triangle with all angles = 60 degrees<br>Now, all incident rays = reflected rays = say 2x<br>The first incident ray and the last reflected ray is outside the mirror length.<br>Total path travelled by ray = 2x+2x+2x+2x+2x+2x = 12x &nbsp;<br>(2 sides of 3 equilateral triangles)<br>Total path travelled by ray within the mirror = 2x+2x+2x+2x = 8x<br>Now the mirror length in terms of the equilateral triangle base = x+2x+x =4x = L (given)<br>So, if 4x = L<br>8x is equal to 2×4x = 2×L</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Path of a ray of light between two mirrors is shown in the diagram. If the length of each mirror is l, what is the total path length of the ray between the mirrors?</p>",
+                  "_id": "664c688c8fea9882193aa5c6"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1716283457119.png",
+                  "_id": "664c688c8fea9882193aa5c7"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>l</mi></math></p>",
+                  "isCorrect": false,
+                  "_id": "664c688c8fea9882193aa5c8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>l</mi></math></p>",
+                  "isCorrect": false,
+                  "_id": "664c688c8fea9882193aa5c9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>2</mn></mfrac><mi>l</mi></math></p>",
+                  "isCorrect": false,
+                  "_id": "664c688c8fea9882193aa5ca"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>l</mi></math></p>",
+                  "isCorrect": true,
+                  "_id": "664c688c8fea9882193aa5cb"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c688c8fea9882193aa5c5",
+            "examId": "664c3a04fde9add55b41386f",
+            "subjectId": "6520e2722f70a49505dae243",
+            "topicId": "6520e2802f70a49505dae53f",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-05-21T09:25:32.340Z",
+            "updatedAt": "2024-05-21T09:25:32.340Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Given information can be represented as below diagram:<br><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mi>c</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>8</mn><mo>&nbsp;</mo><mo>;</mo><mo>&nbsp;</mo><mi>b</mi><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mi>d</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>4</mn><mo>&nbsp;</mo><mo>;</mo><mo>&nbsp;</mo><mi>a</mi><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mi>d</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>12</mn><mo>&nbsp;</mo><mo>;</mo><mo>&nbsp;</mo><mi>a</mi><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mi>c</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mo>?</mo><mspace linebreak=\"newline\">&nbsp;</mspace><mi>a</mi><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mi>c</mi><mo>&nbsp;</mo><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mfrac><mrow><mo>(</mo><mi>b</mi><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mi>c</mi><mo>)</mo><mo>(</mo><mi>a</mi><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mi>d</mi><mo>)</mo></mrow><mrow><mo>(</mo><mi>b</mi><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mi>d</mi><mo>)</mo></mrow></mfrac><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mfrac><mrow><mn>8</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>12</mn></mrow><mn>4</mn></mfrac><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>24</mn></math><br>So Total Area of Full Rectangle = 8 + 4 + 12 + 24 = 48</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716283805109.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Areas of the three rectangles inside the full rectangle are given in the diagram.<br>&nbsp;</p><figure class=\"table\"><table><tbody><tr><td>&nbsp;</td><td>8</td></tr><tr><td>12</td><td>4</td></tr></tbody></table></figure>",
+                  "_id": "664c69df00e599c33a15f92a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>What is the area of the full rectangle?&nbsp;</p>",
+                  "_id": "664c69df00e599c33a15f92b"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>36</p>",
+                  "isCorrect": false,
+                  "_id": "664c69df00e599c33a15f92c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>48</p>",
+                  "isCorrect": true,
+                  "_id": "664c69df00e599c33a15f92d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>72</p>",
+                  "isCorrect": false,
+                  "_id": "664c69df00e599c33a15f92e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>96</p>",
+                  "isCorrect": false,
+                  "_id": "664c69df00e599c33a15f92f"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c69df00e599c33a15f929",
+            "examId": "664c3a04fde9add55b41386f",
+            "subjectId": "6520e2722f70a49505dae243",
+            "topicId": "6520e2802f70a49505dae53f",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "status": 1,
+            "createdAt": "2024-05-21T09:31:11.830Z",
+            "updatedAt": "2024-05-21T09:31:11.830Z",
+            "__v": 0
+          }
+        ]
+      }
+    ]
+  }
+}

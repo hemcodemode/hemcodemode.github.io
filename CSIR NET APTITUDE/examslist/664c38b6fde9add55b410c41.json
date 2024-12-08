@@ -1,0 +1,876 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "108",
+  "msg": "Exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c38b6fde9add55b410c41",
+        "inDualLang": false,
+        "en": {
+          "name": "L01 DATA INTERPRETATION",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "652ce231347a0acc1fe4eb6e",
+        "topicId": "652ce255347a0acc1fe4f1a8",
+        "subTopicId": "652ce285347a0acc1fe4f9ae",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 10,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 0,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T06:01:26.248Z",
+        "updatedAt": "2024-05-21T07:06:36.277Z",
+        "__v": 2,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1712839317222.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The bar graph given below shows the sales of books (in thousand number) from six branches of a publishing company during two consecutive years 2000 and 2001. Sales of Books (in thousand numbers) from Six Branches - B1, B2, B3, B4, B5 and B6 of a publishing Company in 2000 and 2001.</p>",
+                  "_id": "6617da9c842926900a6a9b93"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1712839280949.jpg",
+                  "_id": "6617da9c842926900a6a9b94"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>What is the ratio of the total sales of branch B2 for both years to the total sales of branch B4 for both years?</p>",
+                  "_id": "6617da9c842926900a6a9b95"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>2:3</p>",
+                  "isCorrect": false,
+                  "_id": "6617da9c842926900a6a9b96"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3:5</p>",
+                  "isCorrect": false,
+                  "_id": "6617da9c842926900a6a9b97"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4:5</p>",
+                  "isCorrect": false,
+                  "_id": "6617da9c842926900a6a9b98"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>7:9</p>",
+                  "isCorrect": true,
+                  "_id": "6617da9c842926900a6a9b99"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c4610019f204e872cce05",
+            "examId": "664c38b6fde9add55b410c41",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "status": 1,
+            "createdAt": "2024-04-11T12:42:04.849Z",
+            "updatedAt": "2024-04-11T12:42:04.849Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1712839397205.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The bar graph given below shows the sales of books (in thousand number) from six branches of a publishing company during two consecutive years 2000 and 2001. Sales of Books (in thousand numbers) from Six Branches - B1, B2, B3, B4, B5 and B6 of a publishing Company in 2000 and 2001.</p>",
+                  "_id": "6617dafe68def454808a6b5b"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1712839361179.jpg",
+                  "_id": "6617dafe68def454808a6b5c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Total sales of branch B6 for both the years is what percent of the total sales of branches B3 for both the years?</p>",
+                  "_id": "6617dafe68def454808a6b5d"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>68.54%</p>",
+                  "isCorrect": false,
+                  "_id": "6617dafe68def454808a6b5e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>71.11%</p>",
+                  "isCorrect": false,
+                  "_id": "6617dafe68def454808a6b5f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>73.17%</p>",
+                  "isCorrect": true,
+                  "_id": "6617dafe68def454808a6b60"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>75.55%</p>",
+                  "isCorrect": false,
+                  "_id": "6617dafe68def454808a6b61"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c4610019f204e872cce0d",
+            "examId": "664c38b6fde9add55b410c41",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "status": 1,
+            "createdAt": "2024-04-11T12:43:42.198Z",
+            "updatedAt": "2024-04-11T12:43:42.198Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1712839492226.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The bar graph given below shows the sales of books (in thousand number) from six branches of a publishing company during two consecutive years 2000 and 2001. Sales of Books (in thousand numbers) from Six Branches - B1, B2, B3, B4, B5 and B6 of a publishing Company in 2000 and 2001.</p>",
+                  "_id": "6617db462d9130cb54182580"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1712839460203.jpg",
+                  "_id": "6617db462d9130cb54182581"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>What percent of the average sales of branches B1, B2 and B3 in 2001 is the average sales of branches B1, B3 and B6 in 2000?</p>",
+                  "_id": "6617db462d9130cb54182582"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>75%</p>",
+                  "isCorrect": false,
+                  "_id": "6617db462d9130cb54182583"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>77.5%</p>",
+                  "isCorrect": false,
+                  "_id": "6617db462d9130cb54182584"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>82.5%</p>",
+                  "isCorrect": false,
+                  "_id": "6617db462d9130cb54182585"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>87.5%</p>",
+                  "isCorrect": true,
+                  "_id": "6617db462d9130cb54182586"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c4610019f204e872cce15",
+            "examId": "664c38b6fde9add55b410c41",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "status": 1,
+            "createdAt": "2024-04-11T12:44:54.215Z",
+            "updatedAt": "2024-04-11T12:44:54.215Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1712839559871.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The bar graph given below shows the sales of books (in thousand number) from six branches of a publishing company during two consecutive years 2000 and 2001. Sales of Books (in thousand numbers) from Six Branches - B1, B2, B3, B4, B5 and B6 of a publishing Company in 2000 and 2001.</p>",
+                  "_id": "6617db8e2d9130cb541893a1"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1712839526888.jpg",
+                  "_id": "6617db8e2d9130cb541893a2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>What is the average sales of all the branches (in thousand numbers) for the year 2000?</p>",
+                  "_id": "6617db8e2d9130cb541893a3"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>73</p>",
+                  "isCorrect": false,
+                  "_id": "6617db8e2d9130cb541893a4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>80</p>",
+                  "isCorrect": true,
+                  "_id": "6617db8e2d9130cb541893a5"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>83</p>",
+                  "isCorrect": false,
+                  "_id": "6617db8e2d9130cb541893a6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>88</p>",
+                  "isCorrect": false,
+                  "_id": "6617db8e2d9130cb541893a7"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c4610019f204e872cce1d",
+            "examId": "664c38b6fde9add55b410c41",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "status": 1,
+            "createdAt": "2024-04-11T12:46:06.706Z",
+            "updatedAt": "2024-04-11T12:46:06.706Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1712839670181.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The bar graph given below shows the sales of books (in thousand number) from six branches of a publishing company during two consecutive years 2000 and 2001. Sales of Books (in thousand numbers) from Six Branches - B1, B2, B3, B4, B5 and B6 of a publishing Company in 2000 and 2001.</p>",
+                  "_id": "6617dc010130ee248a112c2f"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1712839613589.jpg",
+                  "_id": "6617dc010130ee248a112c30"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Total sales of branches B1, B3 and B5 together for both the years (in thousand numbers) is?</p>",
+                  "_id": "6617dc010130ee248a112c31"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>250</p>",
+                  "isCorrect": false,
+                  "_id": "6617dc010130ee248a112c32"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>310</p>",
+                  "isCorrect": false,
+                  "_id": "6617dc010130ee248a112c33"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>435</p>",
+                  "isCorrect": false,
+                  "_id": "6617dc010130ee248a112c34"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>560</p>",
+                  "isCorrect": true,
+                  "_id": "6617dc010130ee248a112c35"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c4610019f204e872cce25",
+            "examId": "664c38b6fde9add55b410c41",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "status": 1,
+            "createdAt": "2024-04-11T12:48:01.474Z",
+            "updatedAt": "2024-04-11T12:48:01.474Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1712839760477.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The bar graph given below shows the percentage distribution of the total expenditures of a company under various expense heads during 2003.</p><p>Percentage Distribution of Total Expenditure of a Company</p>",
+                  "_id": "6617dc55af63ca26a43d24d5"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1712839714363.jpg",
+                  "_id": "6617dc55af63ca26a43d24d6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>The total amount of expenditures of the company is how many times of expenditure on research and development?</p>",
+                  "_id": "6617dc55af63ca26a43d24d7"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>27</p>",
+                  "isCorrect": false,
+                  "_id": "6617dc55af63ca26a43d24d8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>20</p>",
+                  "isCorrect": true,
+                  "_id": "6617dc55af63ca26a43d24d9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>18</p>",
+                  "isCorrect": false,
+                  "_id": "6617dc55af63ca26a43d24da"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>8</p>",
+                  "isCorrect": false,
+                  "_id": "6617dc55af63ca26a43d24db"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c4610019f204e872cce2d",
+            "examId": "664c38b6fde9add55b410c41",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "status": 1,
+            "createdAt": "2024-04-11T12:49:25.196Z",
+            "updatedAt": "2024-04-11T12:49:25.196Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1712839828684.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The bar graph given below shows the percentage distribution of the total expenditures of a company under various expense heads during 2003.</p><p>Percentage Distribution of Total Expenditure of a Company</p>",
+                  "_id": "6617dc9868def454808aa74e"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1712839794743.jpg",
+                  "_id": "6617dc9868def454808aa74f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>If the expenditure on advertisement is 2.10 crores then the difference between the expenditure on transport and taxes is?</p>",
+                  "_id": "6617dc9868def454808aa750"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 1.25 crores</p>",
+                  "isCorrect": false,
+                  "_id": "6617dc9868def454808aa751"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 95 lakhs</p>",
+                  "isCorrect": false,
+                  "_id": "6617dc9868def454808aa752"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 65 lakhs</p>",
+                  "isCorrect": false,
+                  "_id": "6617dc9868def454808aa753"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 35 lakhs</p>",
+                  "isCorrect": true,
+                  "_id": "6617dc9868def454808aa754"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c4610019f204e872cce35",
+            "examId": "664c38b6fde9add55b410c41",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "status": 1,
+            "createdAt": "2024-04-11T12:50:32.631Z",
+            "updatedAt": "2024-04-11T12:50:32.631Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1712839947129.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The bar graph given below shows the percentage distribution of the total expenditures of a company under various expense heads during 2003.</p><p>Percentage Distribution of Total Expenditure of a Company</p>",
+                  "_id": "6617dd10af63ca26a43d4414"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1712839914835.jpg",
+                  "_id": "6617dd10af63ca26a43d4415"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>What is the ratio of the total expenditure on infrastructure and transport to the total expenditure on taxes and interest on loans?</p>",
+                  "_id": "6617dd10af63ca26a43d4416"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>5:4</p>",
+                  "isCorrect": false,
+                  "_id": "6617dd10af63ca26a43d4417"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>8:7</p>",
+                  "isCorrect": false,
+                  "_id": "6617dd10af63ca26a43d4418"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9:7</p>",
+                  "isCorrect": false,
+                  "_id": "6617dd10af63ca26a43d4419"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>13:11</p>",
+                  "isCorrect": true,
+                  "_id": "6617dd10af63ca26a43d441a"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c4610019f204e872cce3d",
+            "examId": "664c38b6fde9add55b410c41",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "status": 1,
+            "createdAt": "2024-04-11T12:52:32.517Z",
+            "updatedAt": "2024-04-11T12:52:32.517Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1712840053789.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The bar graph given below shows the percentage distribution of the total expenditures of a company under various expense heads during 2003.</p><p>Percentage Distribution of Total Expenditure of a Company</p>",
+                  "_id": "6617dd880130ee248a2ec9bb"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1712839990909.jpg",
+                  "_id": "6617dd880130ee248a2ec9bc"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>If the interest on loans amounted to Rs. 2.45 crores then the total amount of expenditure on advertisement, taxes and research and development is?</p>",
+                  "_id": "6617dd880130ee248a2ec9bd"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 7 crores</p>",
+                  "isCorrect": false,
+                  "_id": "6617dd880130ee248a2ec9be"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 5.4 crores</p>",
+                  "isCorrect": false,
+                  "_id": "6617dd880130ee248a2ec9bf"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 4.2 crores</p>",
+                  "isCorrect": true,
+                  "_id": "6617dd880130ee248a2ec9c0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 3 crores</p>",
+                  "isCorrect": false,
+                  "_id": "6617dd880130ee248a2ec9c1"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c4610019f204e872cce45",
+            "examId": "664c38b6fde9add55b410c41",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-04-11T12:54:32.279Z",
+            "updatedAt": "2024-04-11T12:54:32.279Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1712840136091.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The bar graph given below shows the percentage distribution of the total expenditures of a company under various expense heads during 2003.</p><p>Percentage Distribution of Total Expenditure of a Company</p>",
+                  "_id": "6617ddd02d9130cb5419e982"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1712840103346.jpg",
+                  "_id": "6617ddd02d9130cb5419e983"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>The expenditure on the interest on loans is by what percent more than the expenditure on transport?</p>",
+                  "_id": "6617ddd02d9130cb5419e984"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>5%</p>",
+                  "isCorrect": false,
+                  "_id": "6617ddd02d9130cb5419e985"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>10%</p>",
+                  "isCorrect": false,
+                  "_id": "6617ddd02d9130cb5419e986"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>20%</p>",
+                  "isCorrect": false,
+                  "_id": "6617ddd02d9130cb5419e987"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>40%</p>",
+                  "isCorrect": true,
+                  "_id": "6617ddd02d9130cb5419e988"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c4610019f204e872cce4d",
+            "examId": "664c38b6fde9add55b410c41",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "status": 1,
+            "createdAt": "2024-04-11T12:55:44.060Z",
+            "updatedAt": "2024-04-11T12:55:44.060Z",
+            "__v": 0
+          }
+        ]
+      }
+    ]
+  }
+}

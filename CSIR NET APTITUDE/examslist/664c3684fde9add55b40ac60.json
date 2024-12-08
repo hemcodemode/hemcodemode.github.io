@@ -1,0 +1,776 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "108",
+  "msg": "Exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c3684fde9add55b40ac60",
+        "inDualLang": false,
+        "en": {
+          "name": "L01 PARTNERSHIP",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "664b4a4345209d78a0f8d993",
+        "topicId": "664b4e8a484b8250dce0d996",
+        "subTopicId": "664b4e9745209d78a009f472",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 0,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 0,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T05:52:04.183Z",
+        "updatedAt": "2024-05-21T09:43:06.427Z",
+        "__v": 2,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716283753024.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A and B invest in a business in the ratio 3 : 2. If 5% of the total profit goes to charity and A's share is Rs. 855, the total profit is:</p>",
+                  "_id": "664c696c32cd1c76a308c9a5"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 1425</p>",
+                  "isCorrect": false,
+                  "_id": "664c696c32cd1c76a308c9a6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 1500</p>",
+                  "isCorrect": true,
+                  "_id": "664c696c32cd1c76a308c9a7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 1537.50</p>",
+                  "isCorrect": false,
+                  "_id": "664c696c32cd1c76a308c9a8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 1576</p>",
+                  "isCorrect": false,
+                  "_id": "664c696c32cd1c76a308c9a9"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c696c32cd1c76a308c9a4",
+            "examId": "664c3684fde9add55b40ac60",
+            "subjectId": "664b4a4345209d78a0f8d993",
+            "topicId": "664b4e8a484b8250dce0d996",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "status": 1,
+            "createdAt": "2024-05-21T09:29:16.832Z",
+            "updatedAt": "2024-05-21T09:29:16.832Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716283803020.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A, B and C jointly thought of engaging themselves in a business venture. It was agreed that A would invest Rs. 6500 for 6 months, B, Rs. 8400 for 5 months and C, Rs. 10,000 for 3 months. A wants to be the working member for which, he was to receive 5% of the profits. The profit earned was Rs. 7400. Calculate the share of B in the profit.</p>",
+                  "_id": "664c699d32cd1c76a308f9ba"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 1900</p>",
+                  "isCorrect": false,
+                  "_id": "664c699d32cd1c76a308f9bb"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 2660</p>",
+                  "isCorrect": true,
+                  "_id": "664c699d32cd1c76a308f9bc"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 2800</p>",
+                  "isCorrect": false,
+                  "_id": "664c699d32cd1c76a308f9bd"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 2840</p>",
+                  "isCorrect": false,
+                  "_id": "664c699d32cd1c76a308f9be"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c699d32cd1c76a308f9b9",
+            "examId": "664c3684fde9add55b40ac60",
+            "subjectId": "664b4a4345209d78a0f8d993",
+            "topicId": "664b4e8a484b8250dce0d996",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "status": 1,
+            "createdAt": "2024-05-21T09:30:05.834Z",
+            "updatedAt": "2024-05-21T09:30:05.834Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716283847108.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A, B and C enter into a partnership in the ratio &nbsp; : &nbsp; : &nbsp;. After 4 months, A increases his share 50%. If the total profit at the end of one year be Rs. 21,600, then B's share in the profit is:</p>",
+                  "_id": "664c69ca00e599c33a159e36"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 2100</p>",
+                  "isCorrect": false,
+                  "_id": "664c69ca00e599c33a159e37"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 2400</p>",
+                  "isCorrect": false,
+                  "_id": "664c69ca00e599c33a159e38"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 3600</p>",
+                  "isCorrect": false,
+                  "_id": "664c69ca00e599c33a159e39"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 4000</p>",
+                  "isCorrect": true,
+                  "_id": "664c69ca00e599c33a159e3a"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c69ca00e599c33a159e35",
+            "examId": "664c3684fde9add55b40ac60",
+            "subjectId": "664b4a4345209d78a0f8d993",
+            "topicId": "664b4e8a484b8250dce0d996",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "status": 1,
+            "createdAt": "2024-05-21T09:30:50.411Z",
+            "updatedAt": "2024-05-21T09:30:50.411Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716283894443.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A, B, C subscribe Rs. 50,000 for a business. A subscribes Rs. 4000 more than B and B Rs. 5000 more than C. Out of a total profit of Rs. 35,000, A receives:</p>",
+                  "_id": "664c69fb00e599c33a1623e6"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 8400</p>",
+                  "isCorrect": false,
+                  "_id": "664c69fb00e599c33a1623e7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 11,900</p>",
+                  "isCorrect": false,
+                  "_id": "664c69fb00e599c33a1623e8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 13,600</p>",
+                  "isCorrect": false,
+                  "_id": "664c69fb00e599c33a1623e9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 14,700</p>",
+                  "isCorrect": true,
+                  "_id": "664c69fb00e599c33a1623ea"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c69fb00e599c33a1623e5",
+            "examId": "664c3684fde9add55b40ac60",
+            "subjectId": "664b4a4345209d78a0f8d993",
+            "topicId": "664b4e8a484b8250dce0d996",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "status": 1,
+            "createdAt": "2024-05-21T09:31:39.193Z",
+            "updatedAt": "2024-05-21T09:31:39.193Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716284008973.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Three partners shared the profit in a business in the ratio 5 : 7 : 8. They had partnered for 14 months, 8 months and 7 months respectively. What was the ratio of their investments?</p>",
+                  "_id": "664c6a6b32cd1c76a30be055"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>5 : 7 : 8</p>",
+                  "isCorrect": false,
+                  "_id": "664c6a6b32cd1c76a30be056"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>20 : 49 : 64</p>",
+                  "isCorrect": true,
+                  "_id": "664c6a6b32cd1c76a30be057"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>38 : 28 : 21</p>",
+                  "isCorrect": false,
+                  "_id": "664c6a6b32cd1c76a30be058"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>None of these</p>",
+                  "isCorrect": false,
+                  "_id": "664c6a6b32cd1c76a30be059"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c6a6b32cd1c76a30be054",
+            "examId": "664c3684fde9add55b40ac60",
+            "subjectId": "664b4a4345209d78a0f8d993",
+            "topicId": "664b4e8a484b8250dce0d996",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "status": 1,
+            "createdAt": "2024-05-21T09:33:31.700Z",
+            "updatedAt": "2024-05-21T09:33:31.700Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716284049944.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A starts business with Rs. 3500 and after 5 months, B joins with A as his partner. After a year, the profit is divided in the ratio 2 : 3. What is B's contribution in the capital?</p>",
+                  "_id": "664c6a9300e599c33a17664e"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 7500</p>",
+                  "isCorrect": false,
+                  "_id": "664c6a9300e599c33a17664f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 8000</p>",
+                  "isCorrect": false,
+                  "_id": "664c6a9300e599c33a176650"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 8500</p>",
+                  "isCorrect": false,
+                  "_id": "664c6a9300e599c33a176651"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 9000</p>",
+                  "isCorrect": true,
+                  "_id": "664c6a9300e599c33a176652"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c6a9300e599c33a17664d",
+            "examId": "664c3684fde9add55b40ac60",
+            "subjectId": "664b4a4345209d78a0f8d993",
+            "topicId": "664b4e8a484b8250dce0d996",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "status": 1,
+            "createdAt": "2024-05-21T09:34:11.802Z",
+            "updatedAt": "2024-05-21T09:34:11.802Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716284089152.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A and B entered into partnership with capitals in the ratio 4 : 5. After 3 months, A withdrew &nbsp; of his capital and B withdrew &nbsp; of his capital. The gain at the end of 10 months was Rs. 760. A's share in this profit is:</p>",
+                  "_id": "664c6abd32cd1c76a30c1974"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 330</p>",
+                  "isCorrect": true,
+                  "_id": "664c6abd32cd1c76a30c1975"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 360</p>",
+                  "isCorrect": false,
+                  "_id": "664c6abd32cd1c76a30c1976"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 380</p>",
+                  "isCorrect": false,
+                  "_id": "664c6abd32cd1c76a30c1977"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 430</p>",
+                  "isCorrect": false,
+                  "_id": "664c6abd32cd1c76a30c1978"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c6abd32cd1c76a30c1973",
+            "examId": "664c3684fde9add55b40ac60",
+            "subjectId": "664b4a4345209d78a0f8d993",
+            "topicId": "664b4e8a484b8250dce0d996",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "status": 1,
+            "createdAt": "2024-05-21T09:34:53.298Z",
+            "updatedAt": "2024-05-21T09:34:53.298Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716284171520.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A and B started a partnership business investing some amount in the ratio of 3 : 5. C joined then after six months with an amount equal to that of B. In what proportion should the profit at the end of one year be distributed among A, B and C?</p>",
+                  "_id": "664c6b0e32cd1c76a30c25d7"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>3 : 5 : 2</p>",
+                  "isCorrect": false,
+                  "_id": "664c6b0e32cd1c76a30c25d8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3 : 5 : 5</p>",
+                  "isCorrect": false,
+                  "_id": "664c6b0e32cd1c76a30c25d9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6 : 10 : 5</p>",
+                  "isCorrect": true,
+                  "_id": "664c6b0e32cd1c76a30c25da"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Data inadequate</p>",
+                  "isCorrect": false,
+                  "_id": "664c6b0e32cd1c76a30c25db"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c6b0e32cd1c76a30c25d6",
+            "examId": "664c3684fde9add55b40ac60",
+            "subjectId": "664b4a4345209d78a0f8d993",
+            "topicId": "664b4e8a484b8250dce0d996",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "status": 1,
+            "createdAt": "2024-05-21T09:36:14.376Z",
+            "updatedAt": "2024-05-21T09:36:14.376Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716284220397.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A, B, C rent a pasture. A puts 10 oxen for 7 months, B puts 12 oxen for 5 months and C puts 15 oxen for 3 months for grazing. If the rent of the pasture is Rs. 175, how much must C pay as his share of rent?</p>",
+                  "_id": "664c6b3d00e599c33a1b553d"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 45</p>",
+                  "isCorrect": true,
+                  "_id": "664c6b3d00e599c33a1b553e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 50</p>",
+                  "isCorrect": false,
+                  "_id": "664c6b3d00e599c33a1b553f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 55</p>",
+                  "isCorrect": false,
+                  "_id": "664c6b3d00e599c33a1b5540"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 60</p>",
+                  "isCorrect": false,
+                  "_id": "664c6b3d00e599c33a1b5541"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c6b3d00e599c33a1b553c",
+            "examId": "664c3684fde9add55b40ac60",
+            "subjectId": "664b4a4345209d78a0f8d993",
+            "topicId": "664b4e8a484b8250dce0d996",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-05-21T09:37:01.812Z",
+            "updatedAt": "2024-05-21T09:37:01.812Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716284326655.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A and B started a business in partnership investing Rs. 20,000 and Rs. 15,000 respectively. After six months, C joined them with Rs. 20,000. What will be B's share in total profit of Rs. 25,000 earned at the end of 2 years from the starting of the business?</p>",
+                  "_id": "664c6bac00e599c33a1cba7b"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 7500</p>",
+                  "isCorrect": true,
+                  "_id": "664c6bac00e599c33a1cba7c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 9000</p>",
+                  "isCorrect": false,
+                  "_id": "664c6bac00e599c33a1cba7d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 9500</p>",
+                  "isCorrect": false,
+                  "_id": "664c6bac00e599c33a1cba7e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 10,000</p>",
+                  "isCorrect": false,
+                  "_id": "664c6bac00e599c33a1cba7f"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c6bac00e599c33a1cba7a",
+            "examId": "664c3684fde9add55b40ac60",
+            "subjectId": "664b4a4345209d78a0f8d993",
+            "topicId": "664b4e8a484b8250dce0d996",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "status": 1,
+            "createdAt": "2024-05-21T09:38:52.259Z",
+            "updatedAt": "2024-05-21T09:38:52.259Z",
+            "__v": 0
+          }
+        ]
+      }
+    ]
+  }
+}

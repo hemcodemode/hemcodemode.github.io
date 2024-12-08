@@ -1,0 +1,776 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "108",
+  "msg": "Exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c338afbc04ed7b0488cee",
+        "inDualLang": false,
+        "en": {
+          "name": "L02 PROFIT AND LOSS",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "6520e65f2f70a49505dcf920",
+        "topicId": "6520e67cad2bf08e657d4090",
+        "subTopicId": "6520e695ad2bf08e657d4487",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 0,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 0,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T05:39:22.838Z",
+        "updatedAt": "2024-05-21T06:54:51.142Z",
+        "__v": 1,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>Cost Price (C.P.) = Rs. (5200 + 1200) = Rs. 6400.</p><p>Selling Price (S.P.) = Rs. 6000.</p><p>Loss = (C.P.) - (S.P.) = Rs. (6400 - 6000) = Rs. 400.</p><p>Loss =(C.P-S.P)/(C.P) x100=400/6400x100=6.25%</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Siddiq buys an old scooter for Rs. 5200 and spends Rs. 1200 on its repairs. If he sells the scooter for Rs. 6000, his gain/loss percent is</p>",
+                  "_id": "664c40b096031688df82de57"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>6%</p>",
+                  "isCorrect": false,
+                  "_id": "664c40b096031688df82de58"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6.25%</p>",
+                  "isCorrect": true,
+                  "_id": "664c40b096031688df82de59"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6.5%</p>",
+                  "isCorrect": false,
+                  "_id": "664c40b096031688df82de5a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6.75%</p>",
+                  "isCorrect": false,
+                  "_id": "664c40b096031688df82de5b"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c40b096031688df82de56",
+            "examId": "664c338afbc04ed7b0488cee",
+            "subjectId": "6520e65f2f70a49505dcf920",
+            "topicId": "6520e67cad2bf08e657d4090",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "status": 1,
+            "createdAt": "2024-05-21T06:35:28.592Z",
+            "updatedAt": "2024-05-21T06:35:28.592Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation: Let C.P. of each article be Re. 1 C.P. of x articles = Rs. x.&nbsp;</p><p>S.P. of x articles = Rs. 20.&nbsp;</p><p>Profit = Rs. (20-x).</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mfrac><mrow><mn>20</mn><mo>&nbsp;</mo><mo>-</mo><mo>&nbsp;</mo><mi>x</mi></mrow><mi>x</mi></mfrac><mo>×</mo><mn>100</mn><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>25</mn><mo>]</mo></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo></math>2000 - 100x&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo></math>= 25x 125x = 2000</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo></math>x = 16</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The cost price of 20 articles is the same as the selling price of x articles. If the profit is 25%, then the value of x is:</p>",
+                  "_id": "664c4169019f204e8726c817"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>15</p>",
+                  "isCorrect": false,
+                  "_id": "664c4169019f204e8726c818"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>16</p>",
+                  "isCorrect": true,
+                  "_id": "664c4169019f204e8726c819"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>18</p>",
+                  "isCorrect": false,
+                  "_id": "664c4169019f204e8726c81a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>25</p>",
+                  "isCorrect": false,
+                  "_id": "664c4169019f204e8726c81b"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c4169019f204e8726c816",
+            "examId": "664c338afbc04ed7b0488cee",
+            "subjectId": "6520e65f2f70a49505dcf920",
+            "topicId": "6520e67cad2bf08e657d4090",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "status": 1,
+            "createdAt": "2024-05-21T06:38:33.804Z",
+            "updatedAt": "2024-05-21T06:38:33.804Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Let C.P. Rs. 100. Then, Profit = Rs. 320, S.P. = Rs. 420.&nbsp;</p><p>New C.P. = 125% of Rs. 100 = Rs * 0.125&nbsp;</p><p>New S.P. = Rs. 420.</p><p>Profit Rs. (420 - 125) = Rs * 0.29 .</p><p>Required percentage<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mfenced><mrow><mfrac><mn>295</mn><mn>420</mn></mfrac><mo>×</mo><mo>&nbsp;</mo><mn>100</mn></mrow></mfenced><mo>%</mo><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mfrac><mn>1475</mn><mn>21</mn></mfrac><mo>%</mo><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>70</mn><mo>%</mo></math>approximately).</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>In a certain store, the profit is 320% of the cost. If the cost increases by 25% but the selling price remains constant, approximately what percentage of the selling price is the profit?</p>",
+                  "_id": "664c420a019f204e872771dd"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>30%</p>",
+                  "isCorrect": false,
+                  "_id": "664c420a019f204e872771de"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>70%</p>",
+                  "isCorrect": true,
+                  "_id": "664c420a019f204e872771df"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>100%</p>",
+                  "isCorrect": false,
+                  "_id": "664c420a019f204e872771e0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>250%</p>",
+                  "isCorrect": false,
+                  "_id": "664c420a019f204e872771e1"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c420a019f204e872771dc",
+            "examId": "664c338afbc04ed7b0488cee",
+            "subjectId": "6520e65f2f70a49505dcf920",
+            "topicId": "6520e67cad2bf08e657d4090",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "status": 1,
+            "createdAt": "2024-05-21T06:41:14.902Z",
+            "updatedAt": "2024-05-21T06:41:14.902Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>C.P. of 6 toffees = Re. 1</p><p>S.P. of 6 toffees = 120% of Re. 1 =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mi>s</mi><mo>.</mo><mfrac><mn>6</mn><mn>5</mn></mfrac></math></p><p>For&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mi>s</mi><mo>.</mo><mfrac><mn>6</mn><mn>5</mn></mfrac></math>, toffees sold = 6.</p><p>For Re. 1, toffees sold =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>6</mn><mo>&nbsp;</mo><mi>x</mi><mfrac><mn>5</mn><mn>6</mn></mfrac></mrow></mfenced><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>5</mn><mo>.</mo></math></p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A vendor bought toffees at 6 for a rupee. How many for a rupee must he sell to gain 20%?</p>",
+                  "_id": "664c429bc0b33223b01b9af9"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>3</p>",
+                  "isCorrect": false,
+                  "_id": "664c429bc0b33223b01b9afa"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4</p>",
+                  "isCorrect": false,
+                  "_id": "664c429bc0b33223b01b9afb"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>5</p>",
+                  "isCorrect": true,
+                  "_id": "664c429bc0b33223b01b9afc"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6</p>",
+                  "isCorrect": false,
+                  "_id": "664c429bc0b33223b01b9afd"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c429bc0b33223b01b9af8",
+            "examId": "664c338afbc04ed7b0488cee",
+            "subjectId": "6520e65f2f70a49505dcf920",
+            "topicId": "6520e67cad2bf08e657d4090",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "status": 1,
+            "createdAt": "2024-05-21T06:43:39.352Z",
+            "updatedAt": "2024-05-21T06:43:39.352Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716273858138.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The percentage profit earned by selling an article for Rs. 1920 is equal to the percentage loss incurred by selling the same article for Rs. 1280. At what price should the article be sold to make 25% profit?</p>",
+                  "_id": "664c42cd019f204e872b7779"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 2000</p>",
+                  "isCorrect": true,
+                  "_id": "664c42cd019f204e872b777a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 2200</p>",
+                  "isCorrect": false,
+                  "_id": "664c42cd019f204e872b777b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 2400</p>",
+                  "isCorrect": false,
+                  "_id": "664c42cd019f204e872b777c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Data inadequate</p>",
+                  "isCorrect": false,
+                  "_id": "664c42cd019f204e872b777d"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c42cd019f204e872b7778",
+            "examId": "664c338afbc04ed7b0488cee",
+            "subjectId": "6520e65f2f70a49505dcf920",
+            "topicId": "6520e67cad2bf08e657d4090",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "status": 1,
+            "createdAt": "2024-05-21T06:44:29.751Z",
+            "updatedAt": "2024-05-21T06:44:29.751Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716273907207.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A shopkeeper expects a gain of 22.5% on his cost price. If in a week, his sale was of Rs. 392, what was his profit?</p>",
+                  "_id": "664c42f7c0b33223b01c9e74"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 18.20</p>",
+                  "isCorrect": false,
+                  "_id": "664c42f7c0b33223b01c9e75"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 70</p>",
+                  "isCorrect": false,
+                  "_id": "664c42f7c0b33223b01c9e76"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 72</p>",
+                  "isCorrect": true,
+                  "_id": "664c42f7c0b33223b01c9e77"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 88.25</p>",
+                  "isCorrect": false,
+                  "_id": "664c42f7c0b33223b01c9e78"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c42f7c0b33223b01c9e73",
+            "examId": "664c338afbc04ed7b0488cee",
+            "subjectId": "6520e65f2f70a49505dcf920",
+            "topicId": "6520e67cad2bf08e657d4090",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "status": 1,
+            "createdAt": "2024-05-21T06:45:11.267Z",
+            "updatedAt": "2024-05-21T06:45:11.267Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716273980732.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A man buys a cycle for Rs. 1400 and sells it at a loss of 15%. What is the selling price of the cycle?</p>",
+                  "_id": "664c433fc0b33223b01da5a6"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 1090</p>",
+                  "isCorrect": false,
+                  "_id": "664c433fc0b33223b01da5a7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 1160</p>",
+                  "isCorrect": false,
+                  "_id": "664c433fc0b33223b01da5a8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 1190</p>",
+                  "isCorrect": true,
+                  "_id": "664c433fc0b33223b01da5a9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 1202</p>",
+                  "isCorrect": false,
+                  "_id": "664c433fc0b33223b01da5aa"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c433fc0b33223b01da5a5",
+            "examId": "664c338afbc04ed7b0488cee",
+            "subjectId": "6520e65f2f70a49505dcf920",
+            "topicId": "6520e67cad2bf08e657d4090",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "status": 1,
+            "createdAt": "2024-05-21T06:46:23.316Z",
+            "updatedAt": "2024-05-21T06:46:23.316Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716274022529.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Sam purchased 20 dozens of toys at the rate of Rs. 375 per dozen. He sold each one of them at the rate of Rs. 33. What was his percentage profit?</p>",
+                  "_id": "664c4368019f204e872ba7b0"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>3.5</p>",
+                  "isCorrect": false,
+                  "_id": "664c4368019f204e872ba7b1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4.5</p>",
+                  "isCorrect": false,
+                  "_id": "664c4368019f204e872ba7b2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>5.6</p>",
+                  "isCorrect": true,
+                  "_id": "664c4368019f204e872ba7b3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6.5</p>",
+                  "isCorrect": false,
+                  "_id": "664c4368019f204e872ba7b4"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c4368019f204e872ba7af",
+            "examId": "664c338afbc04ed7b0488cee",
+            "subjectId": "6520e65f2f70a49505dcf920",
+            "topicId": "6520e67cad2bf08e657d4090",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "status": 1,
+            "createdAt": "2024-05-21T06:47:04.766Z",
+            "updatedAt": "2024-05-21T06:47:04.766Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716274075133.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Some articles were bought at 6 articles for Rs. 5 and sold at 5 articles for &nbsp;</p><p>Rs. 6. Gain percent is:</p>",
+                  "_id": "664c439c019f204e872baf15"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>30%</p>",
+                  "isCorrect": false,
+                  "_id": "664c439c019f204e872baf16"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>50%</p>",
+                  "isCorrect": false,
+                  "_id": "664c439c019f204e872baf17"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>35%</p>",
+                  "isCorrect": false,
+                  "_id": "664c439c019f204e872baf18"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>44%</p>",
+                  "isCorrect": true,
+                  "_id": "664c439c019f204e872baf19"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c439c019f204e872baf14",
+            "examId": "664c338afbc04ed7b0488cee",
+            "subjectId": "6520e65f2f70a49505dcf920",
+            "topicId": "6520e67cad2bf08e657d4090",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-05-21T06:47:56.808Z",
+            "updatedAt": "2024-05-21T06:47:56.808Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716274120528.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>On selling 17 balls at Rs. 720, there is a loss equal to the cost price of 5 balls. The cost price of a ball is:</p>",
+                  "_id": "664c43cb019f204e872bba09"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 45</p>",
+                  "isCorrect": false,
+                  "_id": "664c43cb019f204e872bba0a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 50</p>",
+                  "isCorrect": false,
+                  "_id": "664c43cb019f204e872bba0b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 55</p>",
+                  "isCorrect": false,
+                  "_id": "664c43cb019f204e872bba0c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 60</p>",
+                  "isCorrect": true,
+                  "_id": "664c43cb019f204e872bba0d"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c43cb019f204e872bba08",
+            "examId": "664c338afbc04ed7b0488cee",
+            "subjectId": "6520e65f2f70a49505dcf920",
+            "topicId": "6520e67cad2bf08e657d4090",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "status": 1,
+            "createdAt": "2024-05-21T06:48:43.435Z",
+            "updatedAt": "2024-05-21T06:48:43.435Z",
+            "__v": 0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1532 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "107",
+  "msg": "User exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c37e6fde9add55b40e63b",
+        "inDualLang": false,
+        "en": {
+          "name": "L01 PERMUTATION AND COMBINATION",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "650a7a11bc1d4198f9700df2",
+        "topicId": "650a7a2310d1d382b06b0390",
+        "subTopicId": "650a7a3210d1d382b06b05d9",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 10,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 1,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T05:57:58.778Z",
+        "updatedAt": "2024-05-21T07:06:51.861Z",
+        "__v": 2,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>No. of Digits = 4 All are distinct; They can be arranged in 4! = 24 ways</p><p>Each of the digits 3, 4, 5 and 6 occur at unit place = 3! Ways = 6 ways.</p><p>Thus there will be 6 numbers ending with 3, 4, 5 and 6 each. So the sum of the digits at unit's place = 6(3 + 4 + 5 + 6) =108</p><p>The sum of numbers = 108 × 103 + 108 × 102 + 108 × 101 + 108 × 100 = 119988</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Find the sum of all the 4 digit numbers that can be formed with the digits 3, 4, 5 and 6</p>",
+                  "_id": "663c74941ac461fefda2fd42"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>119988</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c46dec0b33223b0302972"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>11988</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c74941ac461fefda2fd44"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>191988</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c74941ac461fefda2fd45"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>None of these</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c74941ac461fefda2fd46"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c46fd019f204e872df61e"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>Here each of the digits 2 and 3 will occur at unit, tens, hundred and thousand place ( 3P3/2!) = 3 times. Digit 4 will occur at each place = 6 times;</p><p>∴ Sum of digits at unit, tens, hundred and thousand place = 3 × 3 + 6 × 4 + 3 × 2 =39. Sum of numbers formed =</p><p>= 39 × 103 + 39× 102 + 39 × 101 + 39 × 100 = 43329</p><p>&nbsp;</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Find the sum of all the 4 digit numbers that can be formed with the digits 3, 4, 4 and 2.</p>",
+                  "_id": "663c7591d136407db1c2db58"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>43339</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c7591d136407db1c2db59"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>43999</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c7591d136407db1c2db5a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>43329</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "663c7591d136407db1c2db5b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>None of these</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c7591d136407db1c2db5c"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c46fd019f204e872df624"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>The required number of ways</p><p>(a) 1 black and 2 others =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>4</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>1</mn></msub></math>.&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>6</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>2</mn></msub></math>&nbsp; &nbsp;= 4 × 15 = 60</p><p>(b) 2 black and 1 other =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>4</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>2</mn></msub></math>&nbsp;.&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>6</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>1</mn></msub></math>&nbsp; = 6 × 6 = 36</p><p>(c) All the three black =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>4</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>3</mn></msub></math>&nbsp;= 4</p><p>Total =60 + 36 + 4 = 100</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A box contains three white balls, four black balls and three red balls. The number of ways in which three balls can be drawn from the box so that at least one of the balls is black is</p>",
+                  "_id": "663c763f1ac461fefdaa8634"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>50</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c763f1ac461fefdaa8635"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>100</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "663c763f1ac461fefdaa8636"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>150</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c763f1ac461fefdaa8637"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>200</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c763f1ac461fefdaa8638"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c46fd019f204e872df62a"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>The required number of lines=&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><maction actiontype=\"argument\"><mrow>&nbsp;</mrow></maction><mn>12</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>2</mn></msub><mo>&nbsp;</mo><mo>–</mo><msup><mo>&nbsp;</mo><mn>8</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>2</mn></msub></math>&nbsp;+ 1 = 1 + 66 – 28 = 39</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The number of straight lines that can be drawn out of 12 points of which 8 are collinear is</p>",
+                  "_id": "663c76bbd136407db1d587c5"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>39</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "663c76bbd136407db1d587c6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>29</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c76bbd136407db1d587c7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>49</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c76bbd136407db1d587c8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>59</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c76bbd136407db1d587c9"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c46fd019f204e872df630"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>Let n be the number of teams.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mi mathvariant=\"normal\">n</mi></msup><msub><mi mathvariant=\"normal\">C</mi><mn>2</mn></msub></math>&nbsp;= 21</p><p>(n(n-1)/2) = 21</p><p>⇒ n(n-1) = 42 ∴</p><p>⇒ n = 7</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>In a cricket championship, there are 21 matches. If each team plays one match with every other team, the number of teams is</p>",
+                  "_id": "663c7701d136407db1d71369"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>7</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "663c7701d136407db1d7136a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c7701d136407db1d7136b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>10</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c7701d136407db1d7136c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>None of these</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c7701d136407db1d7136d"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c46fd019f204e872df636"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>The number of four–digit telephone numbers which can be formed using the digits of 0, 1, 2,...., 9 is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>4</mn></msup></math>.</p><p>The number of four digit telephone numbers which have none of their digits repeated is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>10</mn></msup><msub><mi mathvariant=\"normal\">P</mi><mn>4</mn></msub></math>&nbsp;= 10 ×9 ×8 ×7 = 5040</p><p>Hence the required number =<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>4</mn></msup></math>- 5040 = 4960</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The number of four–digit telephone numbers having at least one of their digits repeated is</p>",
+                  "_id": "663c779dd136407db1d953ae"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>9,000</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c779dd136407db1d953af"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1,00,00</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c779dd136407db1d953b0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3,240</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c779dd136407db1d953b1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4960</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "663c779dd136407db1d953b2"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c46fd019f204e872df63c"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>In how many ways can you rearrange the word JUMBLE such that the rearranged word starts with a vowel?</p>",
+                  "_id": "663c79182b07915767667dc6"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>120</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c79182b07915767667dc7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>240</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "663c79182b07915767667dc8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>360</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c79182b07915767667dc9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>60</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c79182b07915767667dca"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c46fd019f204e872df642"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>The candidate will fail if he fails either in 1 or 2 or 3 or 4 or 5 subjects, ∴ Required number of ways&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>5</mn></msup><msub><mi>C</mi><mn>1</mn></msub><mo>&nbsp;</mo><mo>+</mo><msup><mo>&nbsp;</mo><mn>5</mn></msup><msub><mi>C</mi><mn>2</mn></msub><mo>&nbsp;</mo><mo>+</mo><msup><mo>&nbsp;</mo><mn>5</mn></msup><msub><mi>C</mi><mn>3</mn></msub><mo>&nbsp;</mo><mo>+</mo><msup><mo>&nbsp;</mo><mn>5</mn></msup><msub><mi>C</mi><mn>4</mn></msub><mo>&nbsp;</mo><mo>+</mo><msup><mo>&nbsp;</mo><mn>5</mn></msup><msub><mi>C</mi><mn>5</mn></msub></math>&nbsp;= 31</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>In an examination, a candidate is required to pass all five different subjects. The number of ways he can fail is:</p>",
+                  "_id": "663c79e42b079157676786d7"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>32</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c79e42b079157676786d8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>31</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "663c79e42b079157676786d9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>30</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c79e42b079157676786da"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>29</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c79e42b079157676786db"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c46fd019f204e872df648"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>Any divisor of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>6</mn></msup><mo>.</mo><msup><mn>3</mn><mn>4</mn></msup><mo>.</mo><msup><mn>5</mn><mn>7</mn></msup></math>&nbsp; is of the form&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mi mathvariant=\"normal\">a</mi></msup><mo>.</mo><msup><mn>3</mn><mi mathvariant=\"normal\">b</mi></msup><mo>.</mo><msup><mn>5</mn><mi mathvariant=\"normal\">c</mi></msup><mo>.</mo></math>&nbsp;where 0≤ a ≤ 6, 0 ≤ b ≤ 4 &amp; 0 ≤ c ≤ 7.</p><p>Thus the sum of the divisors of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>6</mn></msup><mo>.</mo><msup><mn>3</mn><mn>4</mn></msup><mo>.</mo><msup><mn>5</mn><mn>7</mn></msup></math>.</p><p>is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>2</mn><mo>+</mo><mo>…</mo><mo>.</mo><mo>.</mo><mo>+</mo><msup><mn>2</mn><mn>5</mn></msup><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><msup><mn>2</mn><mn>6</mn></msup><mo>)</mo><mo>(</mo><mn>1</mn><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>3</mn><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mo>…</mo><mo>.</mo><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><msup><mn>3</mn><mn>4</mn></msup><mo>)</mo><mo>(</mo><mn>1</mn><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>5</mn><mo>&nbsp;</mo><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><mo>&nbsp;</mo><msup><mn>5</mn><mn>7</mn></msup><mo>)</mo></math>&nbsp;=</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>(</mo><msup><mn>2</mn><mn>7</mn></msup><mo>-</mo><mn>1</mn><mo>)</mo><mo>/</mo><mo>(</mo><mn>2</mn><mo>-</mo><mn>1</mn><mo>)</mo><mo>)</mo><mo>(</mo><mo>(</mo><msup><mn>3</mn><mn>5</mn></msup><mo>-</mo><mn>1</mn><mo>)</mo><mo>/</mo><mo>(</mo><mn>3</mn><mo>-</mo><mn>1</mn><mo>)</mo><mo>)</mo><mo>(</mo><mo>(</mo><msup><mn>5</mn><mn>8</mn></msup><mo>-</mo><mn>1</mn><mo>)</mo><mo>/</mo><mo>(</mo><mn>5</mn><mo>-</mo><mn>1</mn><mo>)</mo><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>(</mo><mo>(</mo><msup><mn>2</mn><mn>7</mn></msup><mo>-</mo><mn>1</mn><mo>)</mo><mo>(</mo><msup><mn>3</mn><mn>5</mn></msup><mo>-</mo><mn>1</mn><mo>)</mo><mo>(</mo><msup><mn>5</mn><mn>8</mn></msup><mo>-</mo><mn>1</mn><mo>)</mo><mo>/</mo><mn>2</mn><mo>.</mo><mn>4</mn><mo>)</mo></math></p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The sum of the divisors of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>6</mn></msup><mo>.</mo><msup><mn>3</mn><mn>4</mn></msup><mo>.</mo><msup><mn>5</mn><mn>7</mn></msup></math>&nbsp;is</p>",
+                  "_id": "663c7b022b0791576769d79c"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>6</mn></msup><mo>.</mo><msup><mn>3</mn><mn>8</mn></msup><mo>.</mo><msup><mn>5</mn><mn>4</mn></msup><mo>.</mo><msup><mn>7</mn><mn>3</mn></msup></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c7b022b0791576769d79d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>7</mn></msup><mo>.</mo><msup><mn>3</mn><mn>5</mn></msup><mo>.</mo><msup><mn>5</mn><mn>8</mn></msup><mo>-</mo><mn>2</mn><mo>.</mo><mn>3</mn><mo>.</mo><mn>5</mn></math></p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "663c7b022b0791576769d79e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>6</mn></msup><mo>.</mo><msup><mn>3</mn><mn>8</mn></msup><mo>.</mo><msup><mn>5</mn><mn>4</mn></msup><mo>.</mo><mn>73</mn><mo>-</mo><mn>1</mn></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c7b022b0791576769d79f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>None of these</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c7b022b0791576769d7a0"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c46fd019f204e872df64e"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>Women can select 3 chairs from chairs numbered 1 to 5 in&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>5</mn></msup><msub><mi>C</mi><mn>3</mn></msub></math>&nbsp;ways and remaining 6 chairs can be selected by 4 men in&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>6</mn></msup><msub><mi>C</mi><mn>4</mn></msub></math>&nbsp;ways. Hence the required number of ways =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>5</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>3</mn></msub><mo>&nbsp;</mo><mo>×</mo><msup><mo>&nbsp;</mo><mn>6</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>4</mn></msub></math></p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Nine chairs are numbered 1 to 9. Three women and four men wish to occupy one chair each. First the women chose the chairs from amongst the chair marked 1 to 5; and then the men select the chairs from amongst the remaining. The number of possible arrangements is</p>",
+                  "_id": "663c7bc62b079157676c1716"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>5</mn></msup><msub><mi>C</mi><mn>3</mn></msub><mo>&nbsp;</mo><mo>×</mo><msup><mo>&nbsp;</mo><mn>4</mn></msup><msub><mi>C</mi><mn>2</mn></msub></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c7bc62b079157676c1717"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>5</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>2</mn></msub><mo>&nbsp;</mo><mo>×</mo><msup><mo>&nbsp;</mo><mn>4</mn></msup><msub><mi mathvariant=\"normal\">P</mi><mn>3</mn></msub></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c7bc62b079157676c1718"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>5</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>3</mn></msub><mo>&nbsp;</mo><mo>×</mo><msup><mo>&nbsp;</mo><mn>6</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>4</mn></msub></math></p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "663c7bc62b079157676c1719"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>None of these</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c7bc62b079157676c171a"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c46fd019f204e872df654"
+          }
+        ],
+        "examStats": {
+          "totalMarks": 0,
+          "percentage": 0,
+          "percentile": 0,
+          "rank": 0,
+          "correct": 0,
+          "incorrect": 0,
+          "attempted": 0,
+          "skipped": 0,
+          "marksObtained": 0,
+          "accuracy": 0,
+          "totalTimeSpent": 0
+        },
+        "startedFrom": 1,
+        "startedOn": "2024-12-07T08:19:25.000Z",
+        "examPatternSection": []
+      }
+    ],
+    "sectionsData": [
+      {
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>No. of Digits = 4 All are distinct; They can be arranged in 4! = 24 ways</p><p>Each of the digits 3, 4, 5 and 6 occur at unit place = 3! Ways = 6 ways.</p><p>Thus there will be 6 numbers ending with 3, 4, 5 and 6 each. So the sum of the digits at unit's place = 6(3 + 4 + 5 + 6) =108</p><p>The sum of numbers = 108 × 103 + 108 × 102 + 108 × 101 + 108 × 100 = 119988</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Find the sum of all the 4 digit numbers that can be formed with the digits 3, 4, 5 and 6</p>",
+                  "_id": "663c74941ac461fefda2fd42"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>119988</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c46dec0b33223b0302972"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>11988</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c74941ac461fefda2fd44"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>191988</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c74941ac461fefda2fd45"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>None of these</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c74941ac461fefda2fd46"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c46fd019f204e872df61e"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>Here each of the digits 2 and 3 will occur at unit, tens, hundred and thousand place ( 3P3/2!) = 3 times. Digit 4 will occur at each place = 6 times;</p><p>∴ Sum of digits at unit, tens, hundred and thousand place = 3 × 3 + 6 × 4 + 3 × 2 =39. Sum of numbers formed =</p><p>= 39 × 103 + 39× 102 + 39 × 101 + 39 × 100 = 43329</p><p>&nbsp;</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Find the sum of all the 4 digit numbers that can be formed with the digits 3, 4, 4 and 2.</p>",
+                  "_id": "663c7591d136407db1c2db58"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>43339</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c7591d136407db1c2db59"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>43999</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c7591d136407db1c2db5a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>43329</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "663c7591d136407db1c2db5b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>None of these</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c7591d136407db1c2db5c"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c46fd019f204e872df624"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>The required number of ways</p><p>(a) 1 black and 2 others =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>4</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>1</mn></msub></math>.&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>6</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>2</mn></msub></math>&nbsp; &nbsp;= 4 × 15 = 60</p><p>(b) 2 black and 1 other =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>4</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>2</mn></msub></math>&nbsp;.&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>6</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>1</mn></msub></math>&nbsp; = 6 × 6 = 36</p><p>(c) All the three black =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>4</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>3</mn></msub></math>&nbsp;= 4</p><p>Total =60 + 36 + 4 = 100</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A box contains three white balls, four black balls and three red balls. The number of ways in which three balls can be drawn from the box so that at least one of the balls is black is</p>",
+                  "_id": "663c763f1ac461fefdaa8634"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>50</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c763f1ac461fefdaa8635"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>100</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "663c763f1ac461fefdaa8636"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>150</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c763f1ac461fefdaa8637"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>200</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c763f1ac461fefdaa8638"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c46fd019f204e872df62a"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>The required number of lines=&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><maction actiontype=\"argument\"><mrow>&nbsp;</mrow></maction><mn>12</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>2</mn></msub><mo>&nbsp;</mo><mo>–</mo><msup><mo>&nbsp;</mo><mn>8</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>2</mn></msub></math>&nbsp;+ 1 = 1 + 66 – 28 = 39</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The number of straight lines that can be drawn out of 12 points of which 8 are collinear is</p>",
+                  "_id": "663c76bbd136407db1d587c5"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>39</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "663c76bbd136407db1d587c6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>29</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c76bbd136407db1d587c7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>49</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c76bbd136407db1d587c8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>59</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c76bbd136407db1d587c9"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c46fd019f204e872df630"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>Let n be the number of teams.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mi mathvariant=\"normal\">n</mi></msup><msub><mi mathvariant=\"normal\">C</mi><mn>2</mn></msub></math>&nbsp;= 21</p><p>(n(n-1)/2) = 21</p><p>⇒ n(n-1) = 42 ∴</p><p>⇒ n = 7</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>In a cricket championship, there are 21 matches. If each team plays one match with every other team, the number of teams is</p>",
+                  "_id": "663c7701d136407db1d71369"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>7</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "663c7701d136407db1d7136a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c7701d136407db1d7136b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>10</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c7701d136407db1d7136c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>None of these</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c7701d136407db1d7136d"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c46fd019f204e872df636"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>The number of four–digit telephone numbers which can be formed using the digits of 0, 1, 2,...., 9 is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>4</mn></msup></math>.</p><p>The number of four digit telephone numbers which have none of their digits repeated is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>10</mn></msup><msub><mi mathvariant=\"normal\">P</mi><mn>4</mn></msub></math>&nbsp;= 10 ×9 ×8 ×7 = 5040</p><p>Hence the required number =<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>4</mn></msup></math>- 5040 = 4960</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The number of four–digit telephone numbers having at least one of their digits repeated is</p>",
+                  "_id": "663c779dd136407db1d953ae"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>9,000</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c779dd136407db1d953af"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1,00,00</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c779dd136407db1d953b0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3,240</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c779dd136407db1d953b1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4960</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "663c779dd136407db1d953b2"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c46fd019f204e872df63c"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>In how many ways can you rearrange the word JUMBLE such that the rearranged word starts with a vowel?</p>",
+                  "_id": "663c79182b07915767667dc6"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>120</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c79182b07915767667dc7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>240</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "663c79182b07915767667dc8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>360</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c79182b07915767667dc9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>60</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c79182b07915767667dca"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c46fd019f204e872df642"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>The candidate will fail if he fails either in 1 or 2 or 3 or 4 or 5 subjects, ∴ Required number of ways&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>5</mn></msup><msub><mi>C</mi><mn>1</mn></msub><mo>&nbsp;</mo><mo>+</mo><msup><mo>&nbsp;</mo><mn>5</mn></msup><msub><mi>C</mi><mn>2</mn></msub><mo>&nbsp;</mo><mo>+</mo><msup><mo>&nbsp;</mo><mn>5</mn></msup><msub><mi>C</mi><mn>3</mn></msub><mo>&nbsp;</mo><mo>+</mo><msup><mo>&nbsp;</mo><mn>5</mn></msup><msub><mi>C</mi><mn>4</mn></msub><mo>&nbsp;</mo><mo>+</mo><msup><mo>&nbsp;</mo><mn>5</mn></msup><msub><mi>C</mi><mn>5</mn></msub></math>&nbsp;= 31</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>In an examination, a candidate is required to pass all five different subjects. The number of ways he can fail is:</p>",
+                  "_id": "663c79e42b079157676786d7"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>32</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c79e42b079157676786d8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>31</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "663c79e42b079157676786d9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>30</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c79e42b079157676786da"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>29</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c79e42b079157676786db"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c46fd019f204e872df648"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>Any divisor of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>6</mn></msup><mo>.</mo><msup><mn>3</mn><mn>4</mn></msup><mo>.</mo><msup><mn>5</mn><mn>7</mn></msup></math>&nbsp; is of the form&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mi mathvariant=\"normal\">a</mi></msup><mo>.</mo><msup><mn>3</mn><mi mathvariant=\"normal\">b</mi></msup><mo>.</mo><msup><mn>5</mn><mi mathvariant=\"normal\">c</mi></msup><mo>.</mo></math>&nbsp;where 0≤ a ≤ 6, 0 ≤ b ≤ 4 &amp; 0 ≤ c ≤ 7.</p><p>Thus the sum of the divisors of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>6</mn></msup><mo>.</mo><msup><mn>3</mn><mn>4</mn></msup><mo>.</mo><msup><mn>5</mn><mn>7</mn></msup></math>.</p><p>is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>2</mn><mo>+</mo><mo>…</mo><mo>.</mo><mo>.</mo><mo>+</mo><msup><mn>2</mn><mn>5</mn></msup><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><msup><mn>2</mn><mn>6</mn></msup><mo>)</mo><mo>(</mo><mn>1</mn><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>3</mn><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mo>…</mo><mo>.</mo><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><msup><mn>3</mn><mn>4</mn></msup><mo>)</mo><mo>(</mo><mn>1</mn><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>5</mn><mo>&nbsp;</mo><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><mo>&nbsp;</mo><msup><mn>5</mn><mn>7</mn></msup><mo>)</mo></math>&nbsp;=</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>(</mo><msup><mn>2</mn><mn>7</mn></msup><mo>-</mo><mn>1</mn><mo>)</mo><mo>/</mo><mo>(</mo><mn>2</mn><mo>-</mo><mn>1</mn><mo>)</mo><mo>)</mo><mo>(</mo><mo>(</mo><msup><mn>3</mn><mn>5</mn></msup><mo>-</mo><mn>1</mn><mo>)</mo><mo>/</mo><mo>(</mo><mn>3</mn><mo>-</mo><mn>1</mn><mo>)</mo><mo>)</mo><mo>(</mo><mo>(</mo><msup><mn>5</mn><mn>8</mn></msup><mo>-</mo><mn>1</mn><mo>)</mo><mo>/</mo><mo>(</mo><mn>5</mn><mo>-</mo><mn>1</mn><mo>)</mo><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>(</mo><mo>(</mo><msup><mn>2</mn><mn>7</mn></msup><mo>-</mo><mn>1</mn><mo>)</mo><mo>(</mo><msup><mn>3</mn><mn>5</mn></msup><mo>-</mo><mn>1</mn><mo>)</mo><mo>(</mo><msup><mn>5</mn><mn>8</mn></msup><mo>-</mo><mn>1</mn><mo>)</mo><mo>/</mo><mn>2</mn><mo>.</mo><mn>4</mn><mo>)</mo></math></p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The sum of the divisors of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>6</mn></msup><mo>.</mo><msup><mn>3</mn><mn>4</mn></msup><mo>.</mo><msup><mn>5</mn><mn>7</mn></msup></math>&nbsp;is</p>",
+                  "_id": "663c7b022b0791576769d79c"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>6</mn></msup><mo>.</mo><msup><mn>3</mn><mn>8</mn></msup><mo>.</mo><msup><mn>5</mn><mn>4</mn></msup><mo>.</mo><msup><mn>7</mn><mn>3</mn></msup></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c7b022b0791576769d79d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>7</mn></msup><mo>.</mo><msup><mn>3</mn><mn>5</mn></msup><mo>.</mo><msup><mn>5</mn><mn>8</mn></msup><mo>-</mo><mn>2</mn><mo>.</mo><mn>3</mn><mo>.</mo><mn>5</mn></math></p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "663c7b022b0791576769d79e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>6</mn></msup><mo>.</mo><msup><mn>3</mn><mn>8</mn></msup><mo>.</mo><msup><mn>5</mn><mn>4</mn></msup><mo>.</mo><mn>73</mn><mo>-</mo><mn>1</mn></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c7b022b0791576769d79f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>None of these</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c7b022b0791576769d7a0"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c46fd019f204e872df64e"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>Women can select 3 chairs from chairs numbered 1 to 5 in&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>5</mn></msup><msub><mi>C</mi><mn>3</mn></msub></math>&nbsp;ways and remaining 6 chairs can be selected by 4 men in&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>6</mn></msup><msub><mi>C</mi><mn>4</mn></msub></math>&nbsp;ways. Hence the required number of ways =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>5</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>3</mn></msub><mo>&nbsp;</mo><mo>×</mo><msup><mo>&nbsp;</mo><mn>6</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>4</mn></msub></math></p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Nine chairs are numbered 1 to 9. Three women and four men wish to occupy one chair each. First the women chose the chairs from amongst the chair marked 1 to 5; and then the men select the chairs from amongst the remaining. The number of possible arrangements is</p>",
+                  "_id": "663c7bc62b079157676c1716"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>5</mn></msup><msub><mi>C</mi><mn>3</mn></msub><mo>&nbsp;</mo><mo>×</mo><msup><mo>&nbsp;</mo><mn>4</mn></msup><msub><mi>C</mi><mn>2</mn></msub></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c7bc62b079157676c1717"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>5</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>2</mn></msub><mo>&nbsp;</mo><mo>×</mo><msup><mo>&nbsp;</mo><mn>4</mn></msup><msub><mi mathvariant=\"normal\">P</mi><mn>3</mn></msub></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c7bc62b079157676c1718"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow>&nbsp;</mrow><mn>5</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>3</mn></msub><mo>&nbsp;</mo><mo>×</mo><msup><mo>&nbsp;</mo><mn>6</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>4</mn></msub></math></p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "663c7bc62b079157676c1719"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>None of these</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "663c7bc62b079157676c171a"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c46fd019f204e872df654"
+          }
+        ],
+        "sectionAnalysis": {
+          "sectionName": "SECTION A",
+          "sectionId": "652543c96cdd552d365f2924",
+          "correct": 0,
+          "incorrect": 0,
+          "skipped": 10,
+          "marksObtained": 0,
+          "totalTimeSpent": 0,
+          "totalMarks": 20,
+          "negativeMark": 0,
+          "attempted": 0,
+          "totalQuestion": 10,
+          "accuracy": 0
+        }
+      }
+    ]
+  }
+}

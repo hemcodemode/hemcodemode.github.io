@@ -1930,11 +1930,11 @@
       function groupByTitle(data) {
         const groups = {};
         data.forEach((item) => {
-          const { unitName, lectureTitle, handout1Url, s3LinkLow } = item.data;
+          const { unitName, lectureTitle, handout1Url, s3LinkLow, examId } = item.data;
           if (!groups[unitName]) {
             groups[unitName] = [];
           }
-          groups[unitName].push({ lectureTitle, handout1Url, s3LinkLow });
+          groups[unitName].push({ lectureTitle, handout1Url, s3LinkLow, examId });
         });
 
         return groups;
@@ -1999,6 +1999,9 @@
             if (topic.s3LinkLow) {
               linksHTML += `<a href="${topic.s3LinkLow}" rel="noreferrer" target="_blank">Video Link</a>`;
               linksHTML += `<button onclick="PlayVideo(this)" data-url="${topic.s3LinkLow}">Play</button>`;
+            }
+            if (topic.examId?._id) {
+              linksHTML += `<a href="/CSIR%20NET%20APTITUDE/exam.html?id=${topic.examId?._id}" rel="noreferrer" target="_blank">DPP</a>`;
             }
 
             topicElement.innerHTML = `

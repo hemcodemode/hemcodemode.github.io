@@ -1,0 +1,811 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "108",
+  "msg": "Exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c3271fbc04ed7b042bf96",
+        "inDualLang": false,
+        "en": {
+          "name": "L01 OBSERVATIONAL SKILLSL",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "650a7b4dbc1d4198f9702b92",
+        "topicId": "650a7bcc10d1d382b06b2955",
+        "subTopicId": "650a7bda2e7001b6207252b4",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 36,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 8,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 0,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T05:34:41.884Z",
+        "updatedAt": "2024-05-21T06:07:58.424Z",
+        "__v": 2,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>All Chair and Table are Furniture, so Furniture is represented by the large circle and circle inside it represents Chair and Table.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Which of the following figures represents Furniture, Chairs and Tables?</p>",
+                  "_id": "664c388ada7f9ddbffbe24fd"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1716271208041.jpg",
+                  "_id": "664c388ada7f9ddbffbe24fe"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1</p>",
+                  "isCorrect": false,
+                  "_id": "664c388ada7f9ddbffbe24ff"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2</p>",
+                  "isCorrect": false,
+                  "_id": "664c388ada7f9ddbffbe2500"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3</p>",
+                  "isCorrect": true,
+                  "_id": "664c388ada7f9ddbffbe2501"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4</p>",
+                  "isCorrect": false,
+                  "_id": "664c388ada7f9ddbffbe2502"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c388ada7f9ddbffbe24fc",
+            "examId": "664c3271fbc04ed7b042bf96",
+            "subjectId": "650a7b4dbc1d4198f9702b92",
+            "topicId": "650a7bcc10d1d382b06b2955",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "status": 1,
+            "createdAt": "2024-05-21T06:00:42.424Z",
+            "updatedAt": "2024-05-21T06:00:42.424Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Distance learning education is the Open learning system that aims to redress social or educational inequality and to offer opportunities not provided by conventional colleges or universities.</p><p>The education sector or education system is a group of institutions (ministries of education, local educational authorities, teacher training institutions, schools, universities, etc.) whose primary purpose is to provide education to children and young people in educational settings.</p><p>So, the classroom system education and distance learning education comes under universities.</p><p>Hence, the answer is option 2.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>If the two small circles represent formal class-room education and distance education, and the big circle stands for university system of education, which figure represents the university systems?</p>",
+                  "_id": "664c391cda7f9ddbffc0b16b"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1716271364363.jpg",
+                  "_id": "664c391cda7f9ddbffc0b16c"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1</p>",
+                  "isCorrect": false,
+                  "_id": "664c391cda7f9ddbffc0b16d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2</p>",
+                  "isCorrect": true,
+                  "_id": "664c391cda7f9ddbffc0b16e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3</p>",
+                  "isCorrect": false,
+                  "_id": "664c391cda7f9ddbffc0b16f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4</p>",
+                  "isCorrect": false,
+                  "_id": "664c391cda7f9ddbffc0b170"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c391cda7f9ddbffc0b16a",
+            "examId": "664c3271fbc04ed7b042bf96",
+            "subjectId": "650a7b4dbc1d4198f9702b92",
+            "topicId": "650a7bcc10d1d382b06b2955",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "status": 1,
+            "createdAt": "2024-05-21T06:03:08.843Z",
+            "updatedAt": "2024-05-21T06:03:08.843Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1713956250096.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Given below are two statements and two conclusions.</p>",
+                  "_id": "6628e59d522c40c22ec1e676"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Statement 1: All purple are green</p><p>Statement 2: All black are green</p><p>Conclusion:</p><p>Conclusion I: Some back we purple</p><p>Conclusion II: No black is purple</p><p>Based on the above statements and conclusions, which</p><p>one of the following options is logically CORRECT?</p>",
+                  "_id": "6628e59d522c40c22ec1e677"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Both conclusion I&amp;II are correct</p>",
+                  "isCorrect": false,
+                  "_id": "6628e59d522c40c22ec1e678"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Only conclusion is correct</p>",
+                  "isCorrect": false,
+                  "_id": "6628e59d522c40c22ec1e679"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Only conclusion II is correct</p>",
+                  "isCorrect": false,
+                  "_id": "6628e59d522c40c22ec1e67a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Either conclusion I or II is correct</p>",
+                  "isCorrect": true,
+                  "_id": "6628e59d522c40c22ec1e67b"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3a1996031688df6cb352",
+            "examId": "664c3271fbc04ed7b042bf96",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "status": 1,
+            "createdAt": "2024-04-24T10:57:33.896Z",
+            "updatedAt": "2024-04-24T10:57:33.896Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Answer:</p><p>For statement 1, Some football players play cricket, the possible Venn diagram can be,</p><p>For statement 2, Some football players play cricket, the possible Venn diagram can be,</p><p>According to both of them, Option 1, Some football players play hockey can be the possibility.</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1713956386998.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Some football players play cricket 2. All cricket players play hockey &nbsp;,Among the options given below, the statement that &nbsp;logically follows from the two statements and above, is</p>",
+                  "_id": "6628e62f91e7517549efa04a"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>All football players play hockey</p>",
+                  "isCorrect": false,
+                  "_id": "6628e62f91e7517549efa04b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Some football players play hockey</p>",
+                  "isCorrect": true,
+                  "_id": "6628e62f91e7517549efa04c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>No football player plays hockey</p>",
+                  "isCorrect": false,
+                  "_id": "6628e62f91e7517549efa04d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>All hockey players play football</p>",
+                  "isCorrect": false,
+                  "_id": "6628e62f91e7517549efa04e"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3a1996031688df6cb359",
+            "examId": "664c3271fbc04ed7b042bf96",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "status": 1,
+            "createdAt": "2024-04-24T10:59:59.470Z",
+            "updatedAt": "2024-04-24T10:59:59.470Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1713956455961.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Given below are two statements 1 and 2 and the conclusions I and II</p><p>Statement 1: All entrepreneurs are wealthy.</p><p>Statement 2: All wealthy are risk seekers.</p>",
+                  "_id": "6628e66b61e5f19899575783"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Conclusion I: All risk seekers are wealthy</p><p>Conclusion II: Only some entrepreneurs are risk seekers</p><p>Based on the above statements and conclusions which</p><p>one of the following options is CORRECT?</p>",
+                  "_id": "6628e66b61e5f19899575784"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Only conclusion I is correct</p>",
+                  "isCorrect": false,
+                  "_id": "6628e66b61e5f19899575785"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Only conclusion II is correct</p>",
+                  "isCorrect": false,
+                  "_id": "6628e66b61e5f19899575786"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Both conclusion I and I are correct.</p>",
+                  "isCorrect": false,
+                  "_id": "6628e66b61e5f19899575787"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Neither conclusion I or Il is correct</p>",
+                  "isCorrect": true,
+                  "_id": "6628e66b61e5f19899575788"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3a1996031688df6cb35f",
+            "examId": "664c3271fbc04ed7b042bf96",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "status": 1,
+            "createdAt": "2024-04-24T11:00:59.011Z",
+            "updatedAt": "2024-04-24T11:00:59.011Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>The correct option is C 4</p><p>&nbsp;Total students=40</p><p>13−x+16−x+19−x+x=40</p><p>Students watched all three movies</p><p>x=4</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1713956915445.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Forty students watched films A, B and C over a week. Each student watched either only one film A sixteen students watched B and nineteen students watched film C. How many students watched all three films?</p>",
+                  "_id": "6628e83b91e7517549f02ce4"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>0</p>",
+                  "isCorrect": false,
+                  "_id": "6628e83b91e7517549f02ce5"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2</p>",
+                  "isCorrect": false,
+                  "_id": "6628e83b91e7517549f02ce6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4</p>",
+                  "isCorrect": false,
+                  "_id": "6628e83b91e7517549f02ce7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>8</p>",
+                  "isCorrect": true,
+                  "_id": "6628e83b91e7517549f02ce8"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3a1996031688df6cb366",
+            "examId": "664c3271fbc04ed7b042bf96",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "status": 1,
+            "createdAt": "2024-04-24T11:08:43.786Z",
+            "updatedAt": "2024-04-24T11:09:36.404Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1713957098695.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Statements:</p><p>No Spiderman is Superman. &nbsp;</p><p>No Superman is Batman.</p><p>Some Spiderman are Batman.</p>",
+                  "_id": "6628e8ebf7730d3b0fa860e2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Conclusions:</p><p>I. No Batman is Spiderman.</p><p>II. No Batman is Superman.</p><p>III. Some Supermen are Spiderman.</p><p>IV. All Batmen are Spiderman.</p>",
+                  "_id": "6628e8ebf7730d3b0fa860e3"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>None follows</p>",
+                  "isCorrect": false,
+                  "_id": "6628e8ebf7730d3b0fa860e4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Only II follows</p>",
+                  "isCorrect": true,
+                  "_id": "6628e8ebf7730d3b0fa860e5"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Only II and III follow</p>",
+                  "isCorrect": false,
+                  "_id": "6628e8ebf7730d3b0fa860e6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Only I and III follow&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "6628e8ebf7730d3b0fa860e7"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3a1996031688df6cb36c",
+            "examId": "664c3271fbc04ed7b042bf96",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "status": 1,
+            "createdAt": "2024-04-24T11:11:39.846Z",
+            "updatedAt": "2024-04-24T11:11:39.846Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1713957147615.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Statements:</p><p>No Whatsapp is Instagram.</p><p>No Instagram is twitter.</p><p>All twitter are Facebook.</p>",
+                  "_id": "6628e91d91e7517549f037f4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Conclusions:</p><p>I. No twitter is Whatsapp.</p><p>II. No Facebook is Instagram.</p><p>III. No Facebook is Whatsapp.</p><p>IV. All Facebook are twitter.&nbsp;</p>",
+                  "_id": "6628e91d91e7517549f037f5"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>None follows</p>",
+                  "isCorrect": true,
+                  "_id": "6628e91d91e7517549f037f6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Only I and II follow</p>",
+                  "isCorrect": false,
+                  "_id": "6628e91d91e7517549f037f7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Only III and IV follow</p>",
+                  "isCorrect": false,
+                  "_id": "6628e91d91e7517549f037f8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>All follows&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "6628e91d91e7517549f037f9"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3a1996031688df6cb373",
+            "examId": "664c3271fbc04ed7b042bf96",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "status": 1,
+            "createdAt": "2024-04-24T11:12:29.405Z",
+            "updatedAt": "2024-04-24T11:12:29.405Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1713957206248.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Statements:</p><p>All mobile are laptop.</p><p>Some mobile are watch.</p>",
+                  "_id": "6628e95ae553444e51d9c8c1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Conclusions:</p><p>I. All mobile are watch. &nbsp;</p><p>II. Some watch are laptop.&nbsp;</p>",
+                  "_id": "6628e95ae553444e51d9c8c2"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>If only conclusion I follows</p>",
+                  "isCorrect": false,
+                  "_id": "6628e95ae553444e51d9c8c3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>If only conclusion II follows</p>",
+                  "isCorrect": true,
+                  "_id": "6628e95ae553444e51d9c8c4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>If either conclusion I or II follows</p>",
+                  "isCorrect": false,
+                  "_id": "6628e95ae553444e51d9c8c5"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>If neither conclusion I nor II follow&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "6628e95ae553444e51d9c8c6"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3a1996031688df6cb37a",
+            "examId": "664c3271fbc04ed7b042bf96",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-04-24T11:13:30.535Z",
+            "updatedAt": "2024-04-24T11:13:30.535Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1713957264867.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>All professors are researchers Some scientists areprofessors. Which of the given conclusions is logically valid and is inferred from the above arguments:</p>",
+                  "_id": "6628e992e553444e51d9d136"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>All scientists are researchers</p>",
+                  "isCorrect": false,
+                  "_id": "6628e992e553444e51d9d137"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>All professors are scientists</p>",
+                  "isCorrect": false,
+                  "_id": "6628e992e553444e51d9d138"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Some researchers are scientists</p>",
+                  "isCorrect": true,
+                  "_id": "6628e992e553444e51d9d139"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>No conclusion follows</p>",
+                  "isCorrect": false,
+                  "_id": "6628e992e553444e51d9d13a"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3a1996031688df6cb381",
+            "examId": "664c3271fbc04ed7b042bf96",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "status": 1,
+            "createdAt": "2024-04-24T11:14:26.361Z",
+            "updatedAt": "2024-04-24T11:14:26.361Z",
+            "__v": 0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1535 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "107",
+  "msg": "User exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c3806fde9add55b40f221",
+        "inDualLang": false,
+        "en": {
+          "name": "L02 PERMUTATION AND COMBINATION",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "650a7a11bc1d4198f9700df2",
+        "topicId": "650a7a2310d1d382b06b0390",
+        "subTopicId": "650a7a3210d1d382b06b05d9",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 0,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 2,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T05:58:30.568Z",
+        "updatedAt": "2024-05-21T11:16:48.381Z",
+        "__v": 4,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Numbers between 99 and 1000 are all three-digit numbers.</p><p>Total number of 3 digit numbers having at least one of their digits as 7 = (Total numbers of three-digit numbers) – (Total number of 3 digit numbers in which 7 does not appear at all)</p><p>= (9 × 10 × 10) – (8 × 9 × 9)</p><p>= 900 – 648</p><p>= 252</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>How many numbers are there between 99 and 1000, having at least one of their digits 7?</p>",
+                  "_id": "664c75a335f39ad2eb5ab898"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>252</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c75a335f39ad2eb5ab899"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>234</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c75a335f39ad2eb5ab89a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>256</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c75a335f39ad2eb5ab89b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>124</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c75a335f39ad2eb5ab89c"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "questionStatus": 0,
+            "timeSpent": 344,
+            "ansType": 2,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c75a335f39ad2eb5ab897"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Let ABCDE be a five-digit number.</p><p>Given that the first two digits of each number are 6 and 7.</p><p>Therefore, the number is 67CDE.</p><p>As repetition is not allowed and 6 and 7 are already taken, the digits available for place C are 0, 1, 2, 3, 4, 5, 8, 9, i.e. eight possible digits.</p><p>Suppose one of them is taken at C, now the digits possible at place D is 7.</p><p>Similarly, at E, the possible digit is 6.</p><p>Therefore, the total five-digit numbers with given conditions = 8 × 7 × 6 = 336.</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>How many 5-digit telephone numbers can be constructed using the digits 0 to 9, if each number starts with 67 and no digit appears more than once?</p>",
+                  "_id": "664c75d231aceb37f8a287ba"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>334</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c75d231aceb37f8a287bb"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>336</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c75d231aceb37f8a287bc"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>332</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c75d231aceb37f8a287bd"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>224</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c75d231aceb37f8a287be"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c75d231aceb37f8a287b9"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Given word – ALLAHABAD</p><p>Here, there are 9 objects (letters) of which there are 4As, 2 Ls and rest are all different.</p><p>Therefore, the required number of arrangements = 9!/(4! 2!)</p><p>= (1 × 2 × 3 × 4 × 5 × 6 × 7 × 8 × 9)/ (1 × 2 × 3 × 4 × 1 × 2)</p><p>= (5 × 6 × 7 × 8 × 9)/2</p><p>= 7560</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Find the number of permutations of the letters of the word ALLAHABAD.</p>",
+                  "_id": "664c763031aceb37f8a3e4e4"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>7560</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c763031aceb37f8a3e4e5"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>7650</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c763031aceb37f8a3e4e6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>5540</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c763031aceb37f8a3e4e7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2452</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c763031aceb37f8a3e4e8"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c763031aceb37f8a3e4e3"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Given word – MISSISSIPPI</p><p>M – 1</p><p>I – 4</p><p>S – 4</p><p>P – 2</p><p>Number of permutations = 11!/(4! 4! 2!) = (11 × 10 × 9 × 8 × 7 × 6 × 5 × 4!)/ (4! × 24 × 2)</p><p>= 34650</p><p>We take that 4 I’s come together, and they are treated as 1 letter,</p><p>∴ Total number of letters=11 – 4 + 1 = 8</p><p>⇒ Number of permutations = 8!/(4! 2!)</p><p>= (8 × 7 × 6 × 5 × 4!)/ (4! × 2)</p><p>= 840</p><p>Therefore, the total number of permutations where four Is don’t come together = 34650 – 840 = 33810</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>In how many of the distinct permutations of the letters in MISSISSIPPI do the four Is not come together?</p>",
+                  "_id": "664c76a8a031cf8a6745ab8c"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>33810</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c76a8a031cf8a6745ab8d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>33800</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c76a8a031cf8a6745ab8e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>23810</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c76a8a031cf8a6745ab8f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>43210</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c76a8a031cf8a6745ab90"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c76a8a031cf8a6745ab8b"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Given,</p><p>Total number of families = 87</p><p>Number of families with at most 2 children = 52</p><p>Remaining families = 87 – 52 = 35</p><p>Also, for the rural development programme, 20 families are to be chosen for assistance, of which at least 18 families must have at most 2 children.</p><p>Thus, the following are the number of possible choices:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>18</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>2</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>35</mn></mmultiscripts></math>&nbsp;(18 families having at most 2 children and 2 selected from other types of families)</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>19</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>1</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>35</mn></mmultiscripts></math>&nbsp;(19 families having at most 2 children and 1 selected from other types of families)</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>20</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>&nbsp;</mo></math>&nbsp;(All selected 20 families having at most 2 children)</p><p>Hence, the total number of possible choices =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mrow><mn>18</mn><mo>&nbsp;</mo></mrow><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>2</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>35</mn></mmultiscripts><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>19</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>1</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>35</mn></mmultiscripts><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>20</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts></math></p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>In a small village, there are 87 families, of which 52 families have at most 2 children. In a rural development programme, 20 families are to be chosen for assistance, of which at least 18 families must have at most 2 children. In how many ways can the choice be made?</p>",
+                  "_id": "664c783131aceb37f8b640ae"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mrow><mn>16</mn><mo>&nbsp;</mo></mrow><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>4</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>35</mn></mmultiscripts><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>19</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>1</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>35</mn></mmultiscripts><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>20</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c783131aceb37f8b640af"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mrow><mn>18</mn><mo>&nbsp;</mo></mrow><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>2</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>35</mn></mmultiscripts><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>19</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>1</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>35</mn></mmultiscripts><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>20</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts></math></p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c783131aceb37f8b640b0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mrow><mn>18</mn><mo>&nbsp;</mo></mrow><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>8</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>35</mn></mmultiscripts><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>19</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>1</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>35</mn></mmultiscripts><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>20</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c783131aceb37f8b640b1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mrow><mn>18</mn><mo>&nbsp;</mo></mrow><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>2</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>35</mn></mmultiscripts><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>19</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>10</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>35</mn></mmultiscripts><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>20</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c783131aceb37f8b640b2"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c783131aceb37f8b640ad"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>Given,</p><p>Men = 2</p><p>Women = 3</p><p>A committee of 3 persons to be constituted.</p><p>Here, the order does not matter.</p><p>Therefore, we need to count combinations.</p><p>There will be as many committees as combinations of 5 different persons taken 3 at a time.</p><p>Hence, the required number of ways = 5C3</p><p>= 5!/(3! 2!)</p><p>= (5 × 4 × 3!)/(3! × 2)</p><p>= 10</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A committee of 3 persons is to be constituted from a group of 2 men and 3 women. In how many ways can this be done?&nbsp;</p>",
+                  "_id": "664c7a1331aceb37f8be6212"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>11</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7a1331aceb37f8be6213"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>20</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7a1331aceb37f8be6214"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>10</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c7a1331aceb37f8be6215"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>50</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7a1331aceb37f8be6216"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c7a1331aceb37f8be6211"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>Given a deck of 52 cards</p><p>There are 4 Ace cards in a deck of 52 cards.</p><p>According to the given, we need to select 1 Ace card out of the 4 Ace cards</p><p>∴ The number of ways to select 1 Ace from 4 Ace cards is 4C1</p><p>⇒ More 4 cards are to be selected now from 48 cards (52 cards – 4 Ace cards)</p><p>∴ The number of ways to select 4 cards from 48 cards is 48C4</p><p>Number of 5 card combinations out of a deck of 52 cards if there is exactly one ace in each combination = 4C1 × 48C4</p><p>= 4 × [48!/(44! 4!)]</p><p>= 4 × [(48 × 47 × 46 × 45 × 44!)/ (44! × 24)]</p><p>= 4 × 2 × 47 × 46 × 45</p><p>= 778320</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Determine the number of 5 card combinations out of a deck of 52 cards, if there is exactly one ace in each combination.</p>",
+                  "_id": "664c7aa2a031cf8a67593f1f"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>878320</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7aa2a031cf8a67593f20"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>778320</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c7aa2a031cf8a67593f21"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>978320</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7aa2a031cf8a67593f22"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>578320</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7aa2a031cf8a67593f23"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c7aa2a031cf8a67593f1e"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>at least one boy and one girl</p><p>1 boy and 4 girls = 7C1 × 4C4 = 7 × 1 = 7</p><p>2 boys and 3 girls =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>2</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>7</mn></mmultiscripts><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>3</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>4</mn></mmultiscripts><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>21</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>4</mn></math>&nbsp;= 84</p><p>3 boys and 2 girls =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>3</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>7</mn></mmultiscripts><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>2</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>4</mn></mmultiscripts></math>&nbsp;= 35 × 6 = 210</p><p>4 boys and 1 girl =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>4</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>7</mn></mmultiscripts><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>1</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>4</mn></mmultiscripts></math>&nbsp;= 35 × 4 = 140</p><p>Total number of ways the team can have at least one boy and one girl = 7 + 84 + 210 + 140</p><p>= 441</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A group consists of 4 girls and 7 boys. In how many ways can a team of 5 members be selected if the team has at least one boy and one girl ?</p>",
+                  "_id": "664c7af9a031cf8a675a573a"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>441</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c7af9a031cf8a675a573b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>223</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7af9a031cf8a675a573c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>887</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7af9a031cf8a675a573d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>112</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7af9a031cf8a675a573e"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c7af9a031cf8a675a5739"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Given numbers – 1000000</p><p>Number of digits = 7</p><p>The numbers have to be greater than 1000000, so they can begin either with 1, 2 or 4.</p><p>When 1 is fixed at the extreme left position, the remaining digits to be rearranged will be 0, 2, 2, 2, 4, 4, in which there are 3, 2s and 2, 4s.</p><p>Thus, the number of numbers beginning with 1 = 6!/(3! 2!) = (6 × 5 × 4 × 3!)/(3! × 2)</p><p>= 60</p><p>The total numbers begin with 2 = 6!/(2! 2!) = 720/4 = 180</p><p>Similarly, the total numbers beginning with 4 = 6!/3! = 720/6 = 120</p><p>Therefore, the required number of numbers = 60 + 180 + 120 = 360.</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>How many numbers greater than 1000000 can be formed using the digits 1, 2, 0, 2, 4, 2, 4?</p>",
+                  "_id": "664c7bb2a031cf8a675aff64"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>460</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7bb2a031cf8a675aff65"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>340</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7bb2a031cf8a675aff66"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>230</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7bb2a031cf8a675aff67"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>360</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c7bb2a031cf8a675aff68"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c7bb2a031cf8a675aff63"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Number of mice = 18</p><p>Number of groups = 3</p><p>Since the groups are equally large, the possible number of mice in each group = 18/3 = 6</p><p>The number of ways of placement of mice =18!</p><p>For each group, the placement of mice = 6!</p><p>Hence, the required number of ways = 18!/(6!6!6!) =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mo>!</mo><mo>/</mo><msup><mrow><mo>(</mo><mn>6</mn><mo>!</mo><mo>)</mo></mrow><mn>3</mn></msup></math></p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>18 mice were placed in two experimental groups and one control group, with all groups equally large. In how many ways can the mice be placed into three groups?</p>",
+                  "_id": "664c7c0ddd9bd26d835caeb1"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>!</mo><mo>/</mo><msup><mrow><mo>(</mo><mn>6</mn><mo>!</mo><mo>)</mo></mrow><mn>3</mn></msup></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7c0ddd9bd26d835caeb2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>!</mo><mo>/</mo><msup><mrow><mo>(</mo><mn>6</mn><mo>!</mo><mo>)</mo></mrow><mn>3</mn></msup></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7c0ddd9bd26d835caeb3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mo>!</mo><mo>/</mo><msup><mrow><mo>(</mo><mn>6</mn><mo>!</mo><mo>)</mo></mrow><mn>3</mn></msup></math></p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c7c0ddd9bd26d835caeb4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>!</mo><mo>/</mo><msup><mrow><mo>(</mo><mn>6</mn><mo>!</mo><mo>)</mo></mrow><mn>3</mn></msup></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7c0ddd9bd26d835caeb5"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c7c0ddd9bd26d835caeb0"
+          }
+        ],
+        "examStats": {
+          "correct": 0,
+          "incorrect": 0,
+          "skipped": 10,
+          "marksObtained": 0,
+          "totalTimeSpent": 344,
+          "totalMarks": 20,
+          "attempted": 0,
+          "accuracy": 0,
+          "percentage": 0,
+          "percentile": 100,
+          "rank": 1,
+          "userRank": 1
+        },
+        "startedFrom": 1,
+        "startedOn": "2024-12-07T08:26:59.000Z",
+        "submittedOn": "2024-12-08T00:00:00.000Z",
+        "examPatternSection": []
+      }
+    ],
+    "sectionsData": [
+      {
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Numbers between 99 and 1000 are all three-digit numbers.</p><p>Total number of 3 digit numbers having at least one of their digits as 7 = (Total numbers of three-digit numbers) – (Total number of 3 digit numbers in which 7 does not appear at all)</p><p>= (9 × 10 × 10) – (8 × 9 × 9)</p><p>= 900 – 648</p><p>= 252</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>How many numbers are there between 99 and 1000, having at least one of their digits 7?</p>",
+                  "_id": "664c75a335f39ad2eb5ab898"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>252</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c75a335f39ad2eb5ab899"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>234</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c75a335f39ad2eb5ab89a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>256</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c75a335f39ad2eb5ab89b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>124</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c75a335f39ad2eb5ab89c"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "questionStatus": 0,
+            "timeSpent": 344,
+            "ansType": 2,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c75a335f39ad2eb5ab897"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Let ABCDE be a five-digit number.</p><p>Given that the first two digits of each number are 6 and 7.</p><p>Therefore, the number is 67CDE.</p><p>As repetition is not allowed and 6 and 7 are already taken, the digits available for place C are 0, 1, 2, 3, 4, 5, 8, 9, i.e. eight possible digits.</p><p>Suppose one of them is taken at C, now the digits possible at place D is 7.</p><p>Similarly, at E, the possible digit is 6.</p><p>Therefore, the total five-digit numbers with given conditions = 8 × 7 × 6 = 336.</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>How many 5-digit telephone numbers can be constructed using the digits 0 to 9, if each number starts with 67 and no digit appears more than once?</p>",
+                  "_id": "664c75d231aceb37f8a287ba"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>334</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c75d231aceb37f8a287bb"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>336</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c75d231aceb37f8a287bc"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>332</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c75d231aceb37f8a287bd"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>224</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c75d231aceb37f8a287be"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c75d231aceb37f8a287b9"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Given word – ALLAHABAD</p><p>Here, there are 9 objects (letters) of which there are 4As, 2 Ls and rest are all different.</p><p>Therefore, the required number of arrangements = 9!/(4! 2!)</p><p>= (1 × 2 × 3 × 4 × 5 × 6 × 7 × 8 × 9)/ (1 × 2 × 3 × 4 × 1 × 2)</p><p>= (5 × 6 × 7 × 8 × 9)/2</p><p>= 7560</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Find the number of permutations of the letters of the word ALLAHABAD.</p>",
+                  "_id": "664c763031aceb37f8a3e4e4"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>7560</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c763031aceb37f8a3e4e5"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>7650</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c763031aceb37f8a3e4e6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>5540</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c763031aceb37f8a3e4e7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2452</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c763031aceb37f8a3e4e8"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c763031aceb37f8a3e4e3"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Given word – MISSISSIPPI</p><p>M – 1</p><p>I – 4</p><p>S – 4</p><p>P – 2</p><p>Number of permutations = 11!/(4! 4! 2!) = (11 × 10 × 9 × 8 × 7 × 6 × 5 × 4!)/ (4! × 24 × 2)</p><p>= 34650</p><p>We take that 4 I’s come together, and they are treated as 1 letter,</p><p>∴ Total number of letters=11 – 4 + 1 = 8</p><p>⇒ Number of permutations = 8!/(4! 2!)</p><p>= (8 × 7 × 6 × 5 × 4!)/ (4! × 2)</p><p>= 840</p><p>Therefore, the total number of permutations where four Is don’t come together = 34650 – 840 = 33810</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>In how many of the distinct permutations of the letters in MISSISSIPPI do the four Is not come together?</p>",
+                  "_id": "664c76a8a031cf8a6745ab8c"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>33810</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c76a8a031cf8a6745ab8d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>33800</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c76a8a031cf8a6745ab8e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>23810</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c76a8a031cf8a6745ab8f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>43210</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c76a8a031cf8a6745ab90"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c76a8a031cf8a6745ab8b"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Given,</p><p>Total number of families = 87</p><p>Number of families with at most 2 children = 52</p><p>Remaining families = 87 – 52 = 35</p><p>Also, for the rural development programme, 20 families are to be chosen for assistance, of which at least 18 families must have at most 2 children.</p><p>Thus, the following are the number of possible choices:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>18</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>2</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>35</mn></mmultiscripts></math>&nbsp;(18 families having at most 2 children and 2 selected from other types of families)</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>19</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>1</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>35</mn></mmultiscripts></math>&nbsp;(19 families having at most 2 children and 1 selected from other types of families)</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>20</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>&nbsp;</mo></math>&nbsp;(All selected 20 families having at most 2 children)</p><p>Hence, the total number of possible choices =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mrow><mn>18</mn><mo>&nbsp;</mo></mrow><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>2</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>35</mn></mmultiscripts><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>19</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>1</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>35</mn></mmultiscripts><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>20</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts></math></p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>In a small village, there are 87 families, of which 52 families have at most 2 children. In a rural development programme, 20 families are to be chosen for assistance, of which at least 18 families must have at most 2 children. In how many ways can the choice be made?</p>",
+                  "_id": "664c783131aceb37f8b640ae"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mrow><mn>16</mn><mo>&nbsp;</mo></mrow><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>4</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>35</mn></mmultiscripts><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>19</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>1</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>35</mn></mmultiscripts><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>20</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c783131aceb37f8b640af"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mrow><mn>18</mn><mo>&nbsp;</mo></mrow><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>2</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>35</mn></mmultiscripts><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>19</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>1</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>35</mn></mmultiscripts><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>20</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts></math></p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c783131aceb37f8b640b0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mrow><mn>18</mn><mo>&nbsp;</mo></mrow><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>8</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>35</mn></mmultiscripts><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>19</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>1</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>35</mn></mmultiscripts><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>20</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c783131aceb37f8b640b1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mrow><mn>18</mn><mo>&nbsp;</mo></mrow><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>2</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>35</mn></mmultiscripts><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>19</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>10</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>35</mn></mmultiscripts><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>20</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>52</mn></mmultiscripts></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c783131aceb37f8b640b2"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c783131aceb37f8b640ad"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>Given,</p><p>Men = 2</p><p>Women = 3</p><p>A committee of 3 persons to be constituted.</p><p>Here, the order does not matter.</p><p>Therefore, we need to count combinations.</p><p>There will be as many committees as combinations of 5 different persons taken 3 at a time.</p><p>Hence, the required number of ways = 5C3</p><p>= 5!/(3! 2!)</p><p>= (5 × 4 × 3!)/(3! × 2)</p><p>= 10</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A committee of 3 persons is to be constituted from a group of 2 men and 3 women. In how many ways can this be done?&nbsp;</p>",
+                  "_id": "664c7a1331aceb37f8be6212"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>11</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7a1331aceb37f8be6213"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>20</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7a1331aceb37f8be6214"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>10</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c7a1331aceb37f8be6215"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>50</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7a1331aceb37f8be6216"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c7a1331aceb37f8be6211"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>Given a deck of 52 cards</p><p>There are 4 Ace cards in a deck of 52 cards.</p><p>According to the given, we need to select 1 Ace card out of the 4 Ace cards</p><p>∴ The number of ways to select 1 Ace from 4 Ace cards is 4C1</p><p>⇒ More 4 cards are to be selected now from 48 cards (52 cards – 4 Ace cards)</p><p>∴ The number of ways to select 4 cards from 48 cards is 48C4</p><p>Number of 5 card combinations out of a deck of 52 cards if there is exactly one ace in each combination = 4C1 × 48C4</p><p>= 4 × [48!/(44! 4!)]</p><p>= 4 × [(48 × 47 × 46 × 45 × 44!)/ (44! × 24)]</p><p>= 4 × 2 × 47 × 46 × 45</p><p>= 778320</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Determine the number of 5 card combinations out of a deck of 52 cards, if there is exactly one ace in each combination.</p>",
+                  "_id": "664c7aa2a031cf8a67593f1f"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>878320</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7aa2a031cf8a67593f20"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>778320</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c7aa2a031cf8a67593f21"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>978320</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7aa2a031cf8a67593f22"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>578320</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7aa2a031cf8a67593f23"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c7aa2a031cf8a67593f1e"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>at least one boy and one girl</p><p>1 boy and 4 girls = 7C1 × 4C4 = 7 × 1 = 7</p><p>2 boys and 3 girls =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>2</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>7</mn></mmultiscripts><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>3</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>4</mn></mmultiscripts><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>21</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>4</mn></math>&nbsp;= 84</p><p>3 boys and 2 girls =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>3</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>7</mn></mmultiscripts><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>2</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>4</mn></mmultiscripts></math>&nbsp;= 35 × 6 = 210</p><p>4 boys and 1 girl =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>4</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>7</mn></mmultiscripts><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mmultiscripts><mi>C</mi><mn>1</mn><none>&nbsp;</none><mprescripts>&nbsp;</mprescripts><none>&nbsp;</none><mn>4</mn></mmultiscripts></math>&nbsp;= 35 × 4 = 140</p><p>Total number of ways the team can have at least one boy and one girl = 7 + 84 + 210 + 140</p><p>= 441</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A group consists of 4 girls and 7 boys. In how many ways can a team of 5 members be selected if the team has at least one boy and one girl ?</p>",
+                  "_id": "664c7af9a031cf8a675a573a"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>441</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c7af9a031cf8a675a573b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>223</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7af9a031cf8a675a573c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>887</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7af9a031cf8a675a573d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>112</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7af9a031cf8a675a573e"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c7af9a031cf8a675a5739"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Given numbers – 1000000</p><p>Number of digits = 7</p><p>The numbers have to be greater than 1000000, so they can begin either with 1, 2 or 4.</p><p>When 1 is fixed at the extreme left position, the remaining digits to be rearranged will be 0, 2, 2, 2, 4, 4, in which there are 3, 2s and 2, 4s.</p><p>Thus, the number of numbers beginning with 1 = 6!/(3! 2!) = (6 × 5 × 4 × 3!)/(3! × 2)</p><p>= 60</p><p>The total numbers begin with 2 = 6!/(2! 2!) = 720/4 = 180</p><p>Similarly, the total numbers beginning with 4 = 6!/3! = 720/6 = 120</p><p>Therefore, the required number of numbers = 60 + 180 + 120 = 360.</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>How many numbers greater than 1000000 can be formed using the digits 1, 2, 0, 2, 4, 2, 4?</p>",
+                  "_id": "664c7bb2a031cf8a675aff64"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>460</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7bb2a031cf8a675aff65"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>340</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7bb2a031cf8a675aff66"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>230</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7bb2a031cf8a675aff67"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>360</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c7bb2a031cf8a675aff68"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c7bb2a031cf8a675aff63"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Number of mice = 18</p><p>Number of groups = 3</p><p>Since the groups are equally large, the possible number of mice in each group = 18/3 = 6</p><p>The number of ways of placement of mice =18!</p><p>For each group, the placement of mice = 6!</p><p>Hence, the required number of ways = 18!/(6!6!6!) =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mo>!</mo><mo>/</mo><msup><mrow><mo>(</mo><mn>6</mn><mo>!</mo><mo>)</mo></mrow><mn>3</mn></msup></math></p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>18 mice were placed in two experimental groups and one control group, with all groups equally large. In how many ways can the mice be placed into three groups?</p>",
+                  "_id": "664c7c0ddd9bd26d835caeb1"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>!</mo><mo>/</mo><msup><mrow><mo>(</mo><mn>6</mn><mo>!</mo><mo>)</mo></mrow><mn>3</mn></msup></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7c0ddd9bd26d835caeb2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>!</mo><mo>/</mo><msup><mrow><mo>(</mo><mn>6</mn><mo>!</mo><mo>)</mo></mrow><mn>3</mn></msup></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7c0ddd9bd26d835caeb3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mo>!</mo><mo>/</mo><msup><mrow><mo>(</mo><mn>6</mn><mo>!</mo><mo>)</mo></mrow><mn>3</mn></msup></math></p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c7c0ddd9bd26d835caeb4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>!</mo><mo>/</mo><msup><mrow><mo>(</mo><mn>6</mn><mo>!</mo><mo>)</mo></mrow><mn>3</mn></msup></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c7c0ddd9bd26d835caeb5"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c7c0ddd9bd26d835caeb0"
+          }
+        ],
+        "sectionAnalysis": {
+          "sectionName": "SECTION A",
+          "sectionId": "652543c96cdd552d365f2924",
+          "correct": 0,
+          "incorrect": 0,
+          "skipped": 10,
+          "marksObtained": 0,
+          "totalTimeSpent": 344,
+          "totalMarks": 20,
+          "negativeMark": 0,
+          "attempted": 0,
+          "totalQuestion": 10,
+          "accuracy": 0
+        },
+        "submittedOn": "2024-12-08T00:00:00.000Z"
+      }
+    ]
+  }
+}

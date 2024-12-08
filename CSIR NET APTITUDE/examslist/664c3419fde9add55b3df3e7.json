@@ -1,0 +1,1532 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "107",
+  "msg": "User exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c3419fde9add55b3df3e7",
+        "inDualLang": false,
+        "en": {
+          "name": "L02 SPEED TIME DISTANCE",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "650bf38d159a91c4291566ce",
+        "topicId": "650bf3a151c590476eb18fc2",
+        "subTopicId": "650bf3b751c590476eb1913d",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 10,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 1,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T05:41:45.878Z",
+        "updatedAt": "2024-05-21T06:55:21.448Z",
+        "__v": 2,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Total distance = 22 × 1000 × 100 = 2200000</p><p>Distance travelled in 1 revolution&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>&nbsp;</mo><mn>2</mn><mo>&nbsp;</mo><mo>×</mo><mfrac><mn>22</mn><mn>7</mn></mfrac><mo>×</mo><mfrac><mn>56</mn><mn>2</mn></mfrac><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>176</mn><mo>&nbsp;</mo><mi>c</mi><mi>m</mi></math>&nbsp;&nbsp;</p><p>Revolution = 2200000/176 = 12500</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>How many revolutions approximately will a wheel of 56 cm diameter make in traveling 22 km?</p>",
+                  "_id": "6634d770eda4b1e4abcb465e"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1250</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d770eda4b1e4abcb465f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6250</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d770eda4b1e4abcb4660"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>12500,</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "6634d770eda4b1e4abcb4661"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>62500</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d770eda4b1e4abcb4662"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c451ac0b33223b025b698"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Let time taken by both the person be<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&nbsp;</mo><msub><mi>T</mi><mn>1</mn></msub><mo>,</mo><mo>&nbsp;</mo><msub><mi>T</mi><mn>2</mn></msub></math>&nbsp;and distance be D.</p><p>So,<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&nbsp;</mo><msub><mi>T</mi><mn>1</mn></msub><mo>,</mo><mo>&nbsp;</mo><msub><mi>T</mi><mn>2</mn></msub></math>=1</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>/</mo><mn>2</mn><mo>&nbsp;</mo><mo>–</mo><mo>&nbsp;</mo><mi>D</mi><mo>/</mo><mn>3</mn><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>1</mn></math></p><p>(3D - 2D)/6 = 1</p><p>D=6Km</p><p>Ans: (2)</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A person takes one hour more to cover a certain distance walking at a speed of 2 km/hour compared to walking at 3km/hour. The distance is</p>",
+                  "_id": "6634d7d4eda4b1e4abcb5c9f"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>4 km</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "6634d7d4eda4b1e4abcb5ca0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6 km</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d7d4eda4b1e4abcb5ca1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>8 km</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d7d4eda4b1e4abcb5ca2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>10 km</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d7d4eda4b1e4abcb5ca3"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c451ac0b33223b025b69e"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation: &nbsp;</p><p>As, daily 2 trains are required to depart and we know the travel time is of 36 hours .So. the train will not reach at the destination in a day hence we require 2 more trains. So the minimum number of trains required is 4.</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>It is proposed to introduce daily trains between Chennai and New Delhi in both directions simultaneously, departing at each station at 6.00PM. If the travel time is 36 hours, what is the minimum number of rakes (train sets) required to run the service?&nbsp;</p>",
+                  "_id": "6634d807eda4b1e4abcb785e"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>2</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d807eda4b1e4abcb785f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d807eda4b1e4abcb7860"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "6634d807eda4b1e4abcb7861"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d807eda4b1e4abcb7862"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c451ac0b33223b025b6a4"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Let the speed of the train be x km/hr.</p><p>Relative speed = (x + 5) km/hr = 5 (x+ 5)/ 18 m/sec. (Since the</p><p>directions of their motion is opposite)</p><p>Distance covered in passing the man = 100m.</p><p>100/ (5(x+5)/18) = 9</p><p>45 (x+ 5) = 1800</p><p>x + 5 = 40</p><p>x = 35.</p><p>Speed of the train = 35 km/hr.</p><p>Answer (4)</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A train 100m long takes 9 seconds to cross a manwalking at 5 km/hr in the direction opposite to that of the train. Find the speed of the train.</p>",
+                  "_id": "6634d84aee82b45c028a2fb8"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>55 km/hr</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d84aee82b45c028a2fb9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>45 km/hr</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d84aee82b45c028a2fba"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>25 km/hr</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d84aee82b45c028a2fbb"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>35 km/hr</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "6634d84aee82b45c028a2fbc"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c451ac0b33223b025b6aa"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "video": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1714739346389.jpg"
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The speed of boat in still water is 5 km/hr more than speed of current and the ratio of speed of boat in downstream to the speed of boat in still water is 4 : 3. Find downstream distance covered by boat in 3 hours.</p>",
+                  "_id": "6634d894ee82b45c028b8cb2"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>33 km</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d894ee82b45c028b8cb3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>30 km</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "6634d894ee82b45c028b8cb4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>36 km</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d894ee82b45c028b8cb5"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>39 km</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d894ee82b45c028b8cb6"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c451ac0b33223b025b6b0"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "video": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1714739426131.jpg"
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The length of train A is twice that of train B and speed of train A is half of that of train B. If train A crosses a man in 4 sec. then find how long will train B take to cross train A if they go in same direction.</p>",
+                  "_id": "6634d8e7ee82b45c028d331e"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>3s</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d8e7ee82b45c028d331f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4s</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d8e7ee82b45c028d3320"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>5s</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d8e7ee82b45c028d3321"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6s</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "6634d8e7ee82b45c028d3322"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c451ac0b33223b025b6b6"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "video": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1714739509986.jpg"
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A train crosses a bridge and a platform of length 450 m and 700 m in 20 sec and 30 sec respectively. Find the speed of the train.</p>",
+                  "_id": "6634d93eeda4b1e4abcc5538"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>25 m/s</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "6634d93eeda4b1e4abcc5539"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>26 m/s</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d93eeda4b1e4abcc553a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>25.5 m/s</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d93eeda4b1e4abcc553b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>27 m/s</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d93eeda4b1e4abcc553c"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c451ac0b33223b025b6bc"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "video": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1714739555449.jpg"
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The speed of a boat in still water is 5 km/hr and speed of current is 3 km/hr. If time taken to cover a certain distance upstream is 8 hours then how long will the boat take to cover the same distance downstream?</p>",
+                  "_id": "6634d969eda4b1e4abcc5c44"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>2.5 hrs.</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d969eda4b1e4abcc5c45"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3 hrs.</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d969eda4b1e4abcc5c46"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2 hrs.</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "6634d969eda4b1e4abcc5c47"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3.5 hrs.</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d969eda4b1e4abcc5c48"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c451ac0b33223b025b6c2"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "video": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1714739595386.jpg"
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The ratio of time taken to run a certain distance by Ram and Mohan is 4 : 3 and thus Mohan wins the race by 360 m. what is the distance to race course ?</p>",
+                  "_id": "6634d990ee82b45c0290e17b"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1380 m</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d990ee82b45c0290e17c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1400 m</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d990ee82b45c0290e17d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1440 m</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "6634d990ee82b45c0290e17e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1820 m</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d990ee82b45c0290e17f"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c451ac0b33223b025b6c8"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "video": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1714739732097.jpg"
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Find the speed of stream if a boat covers 36 km in downstream in 5 hours which is 3 hours less in covering the same distance in upstream.</p>",
+                  "_id": "6634da18ee82b45c0293bba6"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1.35 km/hr</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "6634da18ee82b45c0293bba7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1.24 km/hr</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634da18ee82b45c0293bba8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1.15 km/hr</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634da18ee82b45c0293bba9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2.2 km/hr</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634da18ee82b45c0293bbaa"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c451ac0b33223b025b6ce"
+          }
+        ],
+        "examStats": {
+          "totalMarks": 0,
+          "percentage": 0,
+          "percentile": 0,
+          "rank": 0,
+          "correct": 0,
+          "incorrect": 0,
+          "attempted": 0,
+          "skipped": 0,
+          "marksObtained": 0,
+          "accuracy": 0,
+          "totalTimeSpent": 0
+        },
+        "startedFrom": 1,
+        "startedOn": "2024-12-07T08:25:21.000Z",
+        "examPatternSection": []
+      }
+    ],
+    "sectionsData": [
+      {
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Total distance = 22 × 1000 × 100 = 2200000</p><p>Distance travelled in 1 revolution&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>&nbsp;</mo><mn>2</mn><mo>&nbsp;</mo><mo>×</mo><mfrac><mn>22</mn><mn>7</mn></mfrac><mo>×</mo><mfrac><mn>56</mn><mn>2</mn></mfrac><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>176</mn><mo>&nbsp;</mo><mi>c</mi><mi>m</mi></math>&nbsp;&nbsp;</p><p>Revolution = 2200000/176 = 12500</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>How many revolutions approximately will a wheel of 56 cm diameter make in traveling 22 km?</p>",
+                  "_id": "6634d770eda4b1e4abcb465e"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1250</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d770eda4b1e4abcb465f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6250</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d770eda4b1e4abcb4660"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>12500,</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "6634d770eda4b1e4abcb4661"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>62500</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d770eda4b1e4abcb4662"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c451ac0b33223b025b698"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Let time taken by both the person be<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&nbsp;</mo><msub><mi>T</mi><mn>1</mn></msub><mo>,</mo><mo>&nbsp;</mo><msub><mi>T</mi><mn>2</mn></msub></math>&nbsp;and distance be D.</p><p>So,<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&nbsp;</mo><msub><mi>T</mi><mn>1</mn></msub><mo>,</mo><mo>&nbsp;</mo><msub><mi>T</mi><mn>2</mn></msub></math>=1</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>/</mo><mn>2</mn><mo>&nbsp;</mo><mo>–</mo><mo>&nbsp;</mo><mi>D</mi><mo>/</mo><mn>3</mn><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>1</mn></math></p><p>(3D - 2D)/6 = 1</p><p>D=6Km</p><p>Ans: (2)</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A person takes one hour more to cover a certain distance walking at a speed of 2 km/hour compared to walking at 3km/hour. The distance is</p>",
+                  "_id": "6634d7d4eda4b1e4abcb5c9f"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>4 km</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "6634d7d4eda4b1e4abcb5ca0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6 km</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d7d4eda4b1e4abcb5ca1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>8 km</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d7d4eda4b1e4abcb5ca2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>10 km</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d7d4eda4b1e4abcb5ca3"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c451ac0b33223b025b69e"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation: &nbsp;</p><p>As, daily 2 trains are required to depart and we know the travel time is of 36 hours .So. the train will not reach at the destination in a day hence we require 2 more trains. So the minimum number of trains required is 4.</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>It is proposed to introduce daily trains between Chennai and New Delhi in both directions simultaneously, departing at each station at 6.00PM. If the travel time is 36 hours, what is the minimum number of rakes (train sets) required to run the service?&nbsp;</p>",
+                  "_id": "6634d807eda4b1e4abcb785e"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>2</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d807eda4b1e4abcb785f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d807eda4b1e4abcb7860"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "6634d807eda4b1e4abcb7861"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d807eda4b1e4abcb7862"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c451ac0b33223b025b6a4"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Let the speed of the train be x km/hr.</p><p>Relative speed = (x + 5) km/hr = 5 (x+ 5)/ 18 m/sec. (Since the</p><p>directions of their motion is opposite)</p><p>Distance covered in passing the man = 100m.</p><p>100/ (5(x+5)/18) = 9</p><p>45 (x+ 5) = 1800</p><p>x + 5 = 40</p><p>x = 35.</p><p>Speed of the train = 35 km/hr.</p><p>Answer (4)</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A train 100m long takes 9 seconds to cross a manwalking at 5 km/hr in the direction opposite to that of the train. Find the speed of the train.</p>",
+                  "_id": "6634d84aee82b45c028a2fb8"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>55 km/hr</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d84aee82b45c028a2fb9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>45 km/hr</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d84aee82b45c028a2fba"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>25 km/hr</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d84aee82b45c028a2fbb"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>35 km/hr</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "6634d84aee82b45c028a2fbc"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c451ac0b33223b025b6aa"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "video": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1714739346389.jpg"
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The speed of boat in still water is 5 km/hr more than speed of current and the ratio of speed of boat in downstream to the speed of boat in still water is 4 : 3. Find downstream distance covered by boat in 3 hours.</p>",
+                  "_id": "6634d894ee82b45c028b8cb2"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>33 km</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d894ee82b45c028b8cb3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>30 km</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "6634d894ee82b45c028b8cb4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>36 km</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d894ee82b45c028b8cb5"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>39 km</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d894ee82b45c028b8cb6"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c451ac0b33223b025b6b0"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "video": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1714739426131.jpg"
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The length of train A is twice that of train B and speed of train A is half of that of train B. If train A crosses a man in 4 sec. then find how long will train B take to cross train A if they go in same direction.</p>",
+                  "_id": "6634d8e7ee82b45c028d331e"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>3s</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d8e7ee82b45c028d331f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4s</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d8e7ee82b45c028d3320"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>5s</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d8e7ee82b45c028d3321"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6s</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "6634d8e7ee82b45c028d3322"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c451ac0b33223b025b6b6"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "video": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1714739509986.jpg"
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A train crosses a bridge and a platform of length 450 m and 700 m in 20 sec and 30 sec respectively. Find the speed of the train.</p>",
+                  "_id": "6634d93eeda4b1e4abcc5538"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>25 m/s</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "6634d93eeda4b1e4abcc5539"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>26 m/s</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d93eeda4b1e4abcc553a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>25.5 m/s</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d93eeda4b1e4abcc553b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>27 m/s</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d93eeda4b1e4abcc553c"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c451ac0b33223b025b6bc"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "video": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1714739555449.jpg"
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The speed of a boat in still water is 5 km/hr and speed of current is 3 km/hr. If time taken to cover a certain distance upstream is 8 hours then how long will the boat take to cover the same distance downstream?</p>",
+                  "_id": "6634d969eda4b1e4abcc5c44"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>2.5 hrs.</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d969eda4b1e4abcc5c45"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3 hrs.</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d969eda4b1e4abcc5c46"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2 hrs.</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "6634d969eda4b1e4abcc5c47"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3.5 hrs.</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d969eda4b1e4abcc5c48"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c451ac0b33223b025b6c2"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "video": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1714739595386.jpg"
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The ratio of time taken to run a certain distance by Ram and Mohan is 4 : 3 and thus Mohan wins the race by 360 m. what is the distance to race course ?</p>",
+                  "_id": "6634d990ee82b45c0290e17b"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1380 m</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d990ee82b45c0290e17c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1400 m</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d990ee82b45c0290e17d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1440 m</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "6634d990ee82b45c0290e17e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1820 m</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634d990ee82b45c0290e17f"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c451ac0b33223b025b6c8"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "video": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1714739732097.jpg"
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Find the speed of stream if a boat covers 36 km in downstream in 5 hours which is 3 hours less in covering the same distance in upstream.</p>",
+                  "_id": "6634da18ee82b45c0293bba6"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1.35 km/hr</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "6634da18ee82b45c0293bba7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1.24 km/hr</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634da18ee82b45c0293bba8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1.15 km/hr</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634da18ee82b45c0293bba9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2.2 km/hr</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "6634da18ee82b45c0293bbaa"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c451ac0b33223b025b6ce"
+          }
+        ],
+        "sectionAnalysis": {
+          "sectionName": "SECTION A",
+          "sectionId": "652543c96cdd552d365f2924",
+          "correct": 0,
+          "incorrect": 0,
+          "skipped": 10,
+          "marksObtained": 0,
+          "totalTimeSpent": 0,
+          "totalMarks": 20,
+          "negativeMark": 0,
+          "attempted": 0,
+          "totalQuestion": 10,
+          "accuracy": 0
+        }
+      }
+    ]
+  }
+}

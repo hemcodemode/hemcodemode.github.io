@@ -1,0 +1,1579 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "107",
+  "msg": "User exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c28dbfde9add55b3991db",
+        "inDualLang": false,
+        "en": {
+          "name": "L01 NUMBER SYSTEML",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "650584908a1d5b42cf96c604",
+        "topicId": "65058e127c4da8fbcc2c97e6",
+        "subTopicId": "65058e1e7c4da8fbcc2c9992",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 1,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 0,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 2,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T04:53:47.014Z",
+        "updatedAt": "2024-05-21T05:09:10.944Z",
+        "__v": 1,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>When the unit digit of base value is 1. Then it will always having 1 as its last digit. Because the cyclicity of 1 is 1.</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What is the last digit of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>131</mn><mn>21</mn></msup></math>&nbsp;?</p>",
+                  "_id": "664c2993fbc04ed7b017b7e4"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c2993fbc04ed7b017b7e5"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2993fbc04ed7b017b7e6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>7</p>",
+                  "isCorrect": false,
+                  "isAnswer": true,
+                  "_id": "664c2993fbc04ed7b017b7e7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9</p><p>&nbsp;</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2993fbc04ed7b017b7e8"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "questionStatus": 0,
+            "timeSpent": 54.91,
+            "ansType": 1,
+            "ansStatus": 2,
+            "answer": [
+              null
+            ],
+            "_id": "664c2993fbc04ed7b017b7e3"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>Cyclicity of 4 is 2.</p><p>So, Power cycle of 4 is 4 and 6.</p><p>Divide 231 by 2, we get 1 as remainder. So first power cycle(ie. 4 ) will be the late digit.</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What is the last digit of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5342</mn><mn>31</mn></msup></math>&nbsp;?</p>",
+                  "_id": "664c29caa406b9a23dda467d"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1</p>",
+                  "isCorrect": false,
+                  "isAnswer": true,
+                  "_id": "664c29caa406b9a23dda467e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c29caa406b9a23dda467f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c29caa406b9a23dda4680"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c29caa406b9a23dda4681"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "questionStatus": 0,
+            "timeSpent": 82.586,
+            "ansType": 1,
+            "ansStatus": 2,
+            "answer": [
+              null
+            ],
+            "_id": "664c29caa406b9a23dda467c"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>When the unit digit of base value is 6. Then it will always having 6 as its last digit. Because the cyclicity of 6 &nbsp;is 6.</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What is the last digit of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>136</mn><mn>288</mn></msup><mo>&nbsp;</mo></math>?</p>",
+                  "_id": "664c2a17fbc04ed7b01a959d"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2a17fbc04ed7b01a959e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3</p>",
+                  "isCorrect": false,
+                  "isAnswer": true,
+                  "_id": "664c2a17fbc04ed7b01a959f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c2a17fbc04ed7b01a95a0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2a17fbc04ed7b01a95a1"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "questionStatus": 0,
+            "timeSpent": 41.272,
+            "ansType": 1,
+            "ansStatus": 2,
+            "answer": [
+              null
+            ],
+            "_id": "664c2a17fbc04ed7b01a959c"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>Cyclicity of 7 is 4.</p><p>So, Power cycle of 7 is 7,9,3,1 .</p><p>Divide 111 by 4 (ie. the power cycle) , we get 3 as remainder. So third power cycle (ie. 3 ) will be the late digit.</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What is the last digit of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>137</mn><mn>111</mn></msup></math>&nbsp;?</p>",
+                  "_id": "664c2a4dfde9add55b3a4db6"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1</p>",
+                  "isCorrect": false,
+                  "isAnswer": true,
+                  "_id": "664c2a4dfde9add55b3a4db7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c2a4dfde9add55b3a4db8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>7</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2a4dfde9add55b3a4db9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2a4dfde9add55b3a4dba"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "questionStatus": 0,
+            "timeSpent": 36.487,
+            "ansType": 1,
+            "ansStatus": 2,
+            "answer": [
+              null
+            ],
+            "_id": "664c2a4dfde9add55b3a4db5"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>Cyclicity of 2 is 4.</p><p>So, Power cycle of 2 is 2,4,8,6 .</p><p>Divide 221 by 4 (ie. the power cycle) , we get 1 as remainder. So first power cycle (ie. 2 ) will be the late digit.</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What is the last digit of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>132</mn><mn>221</mn></msup></math>&nbsp;?</p>",
+                  "_id": "664c2a91fbc04ed7b01ce1c7"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>2</p>",
+                  "isCorrect": true,
+                  "isAnswer": true,
+                  "_id": "664c2a91fbc04ed7b01ce1c8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>8</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2a91fbc04ed7b01ce1c9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2a91fbc04ed7b01ce1ca"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2a91fbc04ed7b01ce1cb"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "questionStatus": 0,
+            "timeSpent": 48.675,
+            "ansType": 1,
+            "ansStatus": 1,
+            "answer": [
+              null
+            ],
+            "_id": "664c2a91fbc04ed7b01ce1c6"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Consider any small natural number say 5, such that its fifth power is odd. &nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>5</mn></msup></math>&nbsp;= 3125, odd</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>4</mn></msup></math>&nbsp;= 625, odd</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>3</mn></msup></math>&nbsp;= 125, odd</p><p>Clearly, only A and B are correct. Hence, option (4)</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>n is a natural number. If&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi mathvariant=\"normal\">n</mi><mn>5</mn></msup></math>&nbsp;is odd, which of the following is true?</p><p>A. n is odd &nbsp;</p><p>B.&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi mathvariant=\"normal\">n</mi><mn>3</mn></msup></math>&nbsp;is odd &nbsp; &nbsp;</p><p>C.<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">n</mi><mn>4</mn></msup></math>&nbsp;is even</p>",
+                  "_id": "664c2b07fde9add55b3a61ec"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>A only</p>",
+                  "isCorrect": false,
+                  "isAnswer": true,
+                  "_id": "664c2b07fde9add55b3a61ed"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>B only</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2b07fde9add55b3a61ee"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>C only</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2b07fde9add55b3a61ef"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>A and B only</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c2b07fde9add55b3a61f0"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "questionStatus": 0,
+            "timeSpent": 76.931,
+            "ansType": 1,
+            "ansStatus": 2,
+            "answer": [
+              null
+            ],
+            "_id": "664c2b07fde9add55b3a61eb"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>Cyclicity of 7 is 4.</p><p>So, Power cycle of 7 is 7,9,3,1 .</p><p>Divide 111 by 4 (ie. the power cycle) , we get 3 as remainder. So third power cycle (ie. 3 ) will be the late digit.</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What is the last digit of<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&nbsp;</mo><msup><mn>297</mn><mn>111</mn></msup></math>&nbsp;?</p>",
+                  "_id": "664c2b4da406b9a23ddee4a8"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2b4da406b9a23ddee4a9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3</p>",
+                  "isCorrect": true,
+                  "isAnswer": true,
+                  "_id": "664c2b4da406b9a23ddee4aa"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>7</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2b4da406b9a23ddee4ab"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2b4da406b9a23ddee4ac"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "questionStatus": 0,
+            "timeSpent": 14.975,
+            "ansType": 1,
+            "ansStatus": 1,
+            "answer": [
+              null
+            ],
+            "_id": "664c2b4da406b9a23ddee4a7"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>Maximum value of this equation will be when all the numbers will be equal</p><p>So for &nbsp;a=b=c=d=e=2</p><p>2 ×2 ×2 ×2 ×2 = 32.</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>If a + b + c + d + e = 10 (all positive numbers), then the maximum value of &nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>𝑎</mo><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mo>𝑏</mo><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mo>𝑐</mo><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mo>𝑑</mo><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mo>𝑒</mo></math>&nbsp;is</p>",
+                  "_id": "664c2b89fde9add55b3a8d6a"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>12</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2b89fde9add55b3a8d6b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>48</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2b89fde9add55b3a8d6c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>32</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c2b89fde9add55b3a8d6d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>72</p>",
+                  "isCorrect": false,
+                  "isAnswer": true,
+                  "_id": "664c2b89fde9add55b3a8d6e"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "questionStatus": 0,
+            "timeSpent": 41.062,
+            "ansType": 1,
+            "ansStatus": 2,
+            "answer": [
+              null
+            ],
+            "_id": "664c2b89fde9add55b3a8d69"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation: &nbsp;</p><p>The numbers which can be expressed as a square of a prime will have exactly 3 divisors. Like for<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>2</mn></msup><mo>,</mo></math>&nbsp;it has 3 divisors 1,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>,</mo><msup><mn>3</mn><mn>2</mn></msup><mo>.</mo></math></p><p>So starting from&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2</mn></msup><mi>t</mi><mi>o</mi><mo>&nbsp;</mo><msup><mn>10</mn><mn>2</mn></msup><mo>,</mo></math>&nbsp;there will be 4 numbers.</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>How many integers in the set&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"{\"><mrow><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>,</mo><mn>100</mn></mrow></mfenced></math>&nbsp;have exactly 3 divisors?</p>",
+                  "_id": "664c2bdefbc04ed7b022a7ae"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>4</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c2bdefbc04ed7b022a7af"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>12</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2bdefbc04ed7b022a7b0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>5</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2bdefbc04ed7b022a7b1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9</p>",
+                  "isCorrect": false,
+                  "isAnswer": true,
+                  "_id": "664c2bdefbc04ed7b022a7b2"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "questionStatus": 0,
+            "timeSpent": 30.824,
+            "ansType": 1,
+            "ansStatus": 2,
+            "answer": [
+              null
+            ],
+            "_id": "664c2bdefbc04ed7b022a7ad"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation: &nbsp;</p><p>Total balls are 100 &nbsp;</p><p>Balls that are equally divided among students = 100-7=93</p><p>Let the number of students be a .</p><p>As, the value of ‘a’ can lie between 10 to 60. &nbsp;</p><p>So,possible value of a is 31. ie. factor of 93. &nbsp;</p><p>When 125 balls are equally distributed among 31 students then only 1 ball remain undistributed.</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>When 100 balls were equally distributed among students in a class (having strength between 10 and 60), 7 balls remained undistributed. The number of balls that would remain if there were 125 balls to begin with is</p>",
+                  "_id": "664c2c17fde9add55b3a9ce1"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Indeterminable</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2c17fde9add55b3a9ce2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c2c17fde9add55b3a9ce3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>5</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2c17fde9add55b3a9ce4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9</p>",
+                  "isCorrect": false,
+                  "isAnswer": true,
+                  "_id": "664c2c17fde9add55b3a9ce5"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "questionStatus": 0,
+            "timeSpent": 17.29,
+            "ansType": 1,
+            "ansStatus": 2,
+            "answer": [
+              null,
+              null,
+              null
+            ],
+            "_id": "664c2c17fde9add55b3a9ce0"
+          }
+        ],
+        "examStats": {
+          "correct": 2,
+          "incorrect": 8,
+          "skipped": 0,
+          "marksObtained": 0,
+          "totalTimeSpent": 445.012,
+          "totalMarks": 20,
+          "attempted": 100,
+          "accuracy": 20,
+          "percentage": 0,
+          "percentile": 18.18,
+          "rank": 11,
+          "userRank": 11
+        },
+        "startedFrom": 1,
+        "startedOn": "2024-11-16T08:26:18.000Z",
+        "submittedOn": "2024-11-16T00:00:00.000Z",
+        "examPatternSection": []
+      }
+    ],
+    "sectionsData": [
+      {
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>When the unit digit of base value is 1. Then it will always having 1 as its last digit. Because the cyclicity of 1 is 1.</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What is the last digit of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>131</mn><mn>21</mn></msup></math>&nbsp;?</p>",
+                  "_id": "664c2993fbc04ed7b017b7e4"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c2993fbc04ed7b017b7e5"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2993fbc04ed7b017b7e6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>7</p>",
+                  "isCorrect": false,
+                  "isAnswer": true,
+                  "_id": "664c2993fbc04ed7b017b7e7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9</p><p>&nbsp;</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2993fbc04ed7b017b7e8"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "questionStatus": 0,
+            "timeSpent": 54.91,
+            "ansType": 1,
+            "ansStatus": 2,
+            "answer": [
+              null
+            ],
+            "_id": "664c2993fbc04ed7b017b7e3"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>Cyclicity of 4 is 2.</p><p>So, Power cycle of 4 is 4 and 6.</p><p>Divide 231 by 2, we get 1 as remainder. So first power cycle(ie. 4 ) will be the late digit.</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What is the last digit of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5342</mn><mn>31</mn></msup></math>&nbsp;?</p>",
+                  "_id": "664c29caa406b9a23dda467d"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1</p>",
+                  "isCorrect": false,
+                  "isAnswer": true,
+                  "_id": "664c29caa406b9a23dda467e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c29caa406b9a23dda467f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c29caa406b9a23dda4680"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c29caa406b9a23dda4681"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "questionStatus": 0,
+            "timeSpent": 82.586,
+            "ansType": 1,
+            "ansStatus": 2,
+            "answer": [
+              null
+            ],
+            "_id": "664c29caa406b9a23dda467c"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>When the unit digit of base value is 6. Then it will always having 6 as its last digit. Because the cyclicity of 6 &nbsp;is 6.</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What is the last digit of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>136</mn><mn>288</mn></msup><mo>&nbsp;</mo></math>?</p>",
+                  "_id": "664c2a17fbc04ed7b01a959d"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2a17fbc04ed7b01a959e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3</p>",
+                  "isCorrect": false,
+                  "isAnswer": true,
+                  "_id": "664c2a17fbc04ed7b01a959f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c2a17fbc04ed7b01a95a0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2a17fbc04ed7b01a95a1"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "questionStatus": 0,
+            "timeSpent": 41.272,
+            "ansType": 1,
+            "ansStatus": 2,
+            "answer": [
+              null
+            ],
+            "_id": "664c2a17fbc04ed7b01a959c"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>Cyclicity of 7 is 4.</p><p>So, Power cycle of 7 is 7,9,3,1 .</p><p>Divide 111 by 4 (ie. the power cycle) , we get 3 as remainder. So third power cycle (ie. 3 ) will be the late digit.</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What is the last digit of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>137</mn><mn>111</mn></msup></math>&nbsp;?</p>",
+                  "_id": "664c2a4dfde9add55b3a4db6"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1</p>",
+                  "isCorrect": false,
+                  "isAnswer": true,
+                  "_id": "664c2a4dfde9add55b3a4db7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c2a4dfde9add55b3a4db8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>7</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2a4dfde9add55b3a4db9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2a4dfde9add55b3a4dba"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "questionStatus": 0,
+            "timeSpent": 36.487,
+            "ansType": 1,
+            "ansStatus": 2,
+            "answer": [
+              null
+            ],
+            "_id": "664c2a4dfde9add55b3a4db5"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>Cyclicity of 2 is 4.</p><p>So, Power cycle of 2 is 2,4,8,6 .</p><p>Divide 221 by 4 (ie. the power cycle) , we get 1 as remainder. So first power cycle (ie. 2 ) will be the late digit.</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What is the last digit of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>132</mn><mn>221</mn></msup></math>&nbsp;?</p>",
+                  "_id": "664c2a91fbc04ed7b01ce1c7"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>2</p>",
+                  "isCorrect": true,
+                  "isAnswer": true,
+                  "_id": "664c2a91fbc04ed7b01ce1c8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>8</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2a91fbc04ed7b01ce1c9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2a91fbc04ed7b01ce1ca"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2a91fbc04ed7b01ce1cb"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "questionStatus": 0,
+            "timeSpent": 48.675,
+            "ansType": 1,
+            "ansStatus": 1,
+            "answer": [
+              null
+            ],
+            "_id": "664c2a91fbc04ed7b01ce1c6"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Consider any small natural number say 5, such that its fifth power is odd. &nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>5</mn></msup></math>&nbsp;= 3125, odd</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>4</mn></msup></math>&nbsp;= 625, odd</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>3</mn></msup></math>&nbsp;= 125, odd</p><p>Clearly, only A and B are correct. Hence, option (4)</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>n is a natural number. If&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi mathvariant=\"normal\">n</mi><mn>5</mn></msup></math>&nbsp;is odd, which of the following is true?</p><p>A. n is odd &nbsp;</p><p>B.&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi mathvariant=\"normal\">n</mi><mn>3</mn></msup></math>&nbsp;is odd &nbsp; &nbsp;</p><p>C.<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">n</mi><mn>4</mn></msup></math>&nbsp;is even</p>",
+                  "_id": "664c2b07fde9add55b3a61ec"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>A only</p>",
+                  "isCorrect": false,
+                  "isAnswer": true,
+                  "_id": "664c2b07fde9add55b3a61ed"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>B only</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2b07fde9add55b3a61ee"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>C only</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2b07fde9add55b3a61ef"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>A and B only</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c2b07fde9add55b3a61f0"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "questionStatus": 0,
+            "timeSpent": 76.931,
+            "ansType": 1,
+            "ansStatus": 2,
+            "answer": [
+              null
+            ],
+            "_id": "664c2b07fde9add55b3a61eb"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>Cyclicity of 7 is 4.</p><p>So, Power cycle of 7 is 7,9,3,1 .</p><p>Divide 111 by 4 (ie. the power cycle) , we get 3 as remainder. So third power cycle (ie. 3 ) will be the late digit.</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What is the last digit of<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&nbsp;</mo><msup><mn>297</mn><mn>111</mn></msup></math>&nbsp;?</p>",
+                  "_id": "664c2b4da406b9a23ddee4a8"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2b4da406b9a23ddee4a9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3</p>",
+                  "isCorrect": true,
+                  "isAnswer": true,
+                  "_id": "664c2b4da406b9a23ddee4aa"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>7</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2b4da406b9a23ddee4ab"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2b4da406b9a23ddee4ac"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "questionStatus": 0,
+            "timeSpent": 14.975,
+            "ansType": 1,
+            "ansStatus": 1,
+            "answer": [
+              null
+            ],
+            "_id": "664c2b4da406b9a23ddee4a7"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>Maximum value of this equation will be when all the numbers will be equal</p><p>So for &nbsp;a=b=c=d=e=2</p><p>2 ×2 ×2 ×2 ×2 = 32.</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>If a + b + c + d + e = 10 (all positive numbers), then the maximum value of &nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>𝑎</mo><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mo>𝑏</mo><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mo>𝑐</mo><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mo>𝑑</mo><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mo>𝑒</mo></math>&nbsp;is</p>",
+                  "_id": "664c2b89fde9add55b3a8d6a"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>12</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2b89fde9add55b3a8d6b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>48</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2b89fde9add55b3a8d6c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>32</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c2b89fde9add55b3a8d6d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>72</p>",
+                  "isCorrect": false,
+                  "isAnswer": true,
+                  "_id": "664c2b89fde9add55b3a8d6e"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "questionStatus": 0,
+            "timeSpent": 41.062,
+            "ansType": 1,
+            "ansStatus": 2,
+            "answer": [
+              null
+            ],
+            "_id": "664c2b89fde9add55b3a8d69"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation: &nbsp;</p><p>The numbers which can be expressed as a square of a prime will have exactly 3 divisors. Like for<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>2</mn></msup><mo>,</mo></math>&nbsp;it has 3 divisors 1,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>,</mo><msup><mn>3</mn><mn>2</mn></msup><mo>.</mo></math></p><p>So starting from&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2</mn></msup><mi>t</mi><mi>o</mi><mo>&nbsp;</mo><msup><mn>10</mn><mn>2</mn></msup><mo>,</mo></math>&nbsp;there will be 4 numbers.</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>How many integers in the set&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"{\"><mrow><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>,</mo><mn>100</mn></mrow></mfenced></math>&nbsp;have exactly 3 divisors?</p>",
+                  "_id": "664c2bdefbc04ed7b022a7ae"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>4</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c2bdefbc04ed7b022a7af"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>12</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2bdefbc04ed7b022a7b0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>5</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2bdefbc04ed7b022a7b1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9</p>",
+                  "isCorrect": false,
+                  "isAnswer": true,
+                  "_id": "664c2bdefbc04ed7b022a7b2"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "questionStatus": 0,
+            "timeSpent": 30.824,
+            "ansType": 1,
+            "ansStatus": 2,
+            "answer": [
+              null
+            ],
+            "_id": "664c2bdefbc04ed7b022a7ad"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation: &nbsp;</p><p>Total balls are 100 &nbsp;</p><p>Balls that are equally divided among students = 100-7=93</p><p>Let the number of students be a .</p><p>As, the value of ‘a’ can lie between 10 to 60. &nbsp;</p><p>So,possible value of a is 31. ie. factor of 93. &nbsp;</p><p>When 125 balls are equally distributed among 31 students then only 1 ball remain undistributed.</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>When 100 balls were equally distributed among students in a class (having strength between 10 and 60), 7 balls remained undistributed. The number of balls that would remain if there were 125 balls to begin with is</p>",
+                  "_id": "664c2c17fde9add55b3a9ce1"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Indeterminable</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2c17fde9add55b3a9ce2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c2c17fde9add55b3a9ce3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>5</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2c17fde9add55b3a9ce4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9</p>",
+                  "isCorrect": false,
+                  "isAnswer": true,
+                  "_id": "664c2c17fde9add55b3a9ce5"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "questionStatus": 0,
+            "timeSpent": 17.29,
+            "ansType": 1,
+            "ansStatus": 2,
+            "answer": [
+              null,
+              null,
+              null
+            ],
+            "_id": "664c2c17fde9add55b3a9ce0"
+          }
+        ],
+        "sectionAnalysis": {
+          "sectionName": "SECTION A",
+          "sectionId": "652543c96cdd552d365f2924",
+          "correct": 2,
+          "incorrect": 8,
+          "skipped": 0,
+          "marksObtained": 0,
+          "totalTimeSpent": 445.012,
+          "totalMarks": 20,
+          "negativeMark": 4,
+          "attempted": 100,
+          "totalQuestion": 10,
+          "accuracy": 20
+        },
+        "submittedOn": "2024-11-16T00:00:00.000Z"
+      }
+    ]
+  }
+}

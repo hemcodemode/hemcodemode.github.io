@@ -1,0 +1,776 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "108",
+  "msg": "Exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c342bda7f9ddbffab8098",
+        "inDualLang": false,
+        "en": {
+          "name": "L03 SPEED TIME DISTANCE",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "650bf38d159a91c4291566ce",
+        "topicId": "650bf3a151c590476eb18fc2",
+        "subTopicId": "650bf3b751c590476eb1913d",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 0,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 0,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T05:42:03.975Z",
+        "updatedAt": "2024-05-21T07:19:54.377Z",
+        "__v": 1,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716275273857.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>In a flight of 600 km, an aircraft was slowed down due to bad weather. Its average sApeed for the trip was reduced by 200 km/hr and the time of flight increased by 30 minutes. The duration of the flight is:</p>",
+                  "_id": "664c484f8a7d1e0f9137757f"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1 hour</p>",
+                  "isCorrect": true,
+                  "_id": "664c484f8a7d1e0f91377580"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2 hours</p>",
+                  "isCorrect": false,
+                  "_id": "664c484f8a7d1e0f91377581"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3 hours</p>",
+                  "isCorrect": false,
+                  "_id": "664c484f8a7d1e0f91377582"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4 hours</p>",
+                  "isCorrect": false,
+                  "_id": "664c484f8a7d1e0f91377583"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c484f8a7d1e0f9137757e",
+            "examId": "664c342bda7f9ddbffab8098",
+            "subjectId": "650bf38d159a91c4291566ce",
+            "topicId": "650bf3a151c590476eb18fc2",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "status": 1,
+            "createdAt": "2024-05-21T07:07:59.646Z",
+            "updatedAt": "2024-05-21T07:07:59.646Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716275312985.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A man complete a journey in 10 hours. He travels first half of the journey at the rate of 21 km/hr and second half at the rate of 24 km/hr. Find the total journey in km.</p>",
+                  "_id": "664c48788a7d1e0f9137d97a"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>220 km</p>",
+                  "isCorrect": false,
+                  "_id": "664c48788a7d1e0f9137d97b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>224 km</p>",
+                  "isCorrect": true,
+                  "_id": "664c48788a7d1e0f9137d97c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>230 km</p>",
+                  "isCorrect": false,
+                  "_id": "664c48788a7d1e0f9137d97d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>234 km</p>",
+                  "isCorrect": false,
+                  "_id": "664c48788a7d1e0f9137d97e"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c48788a7d1e0f9137d979",
+            "examId": "664c342bda7f9ddbffab8098",
+            "subjectId": "650bf38d159a91c4291566ce",
+            "topicId": "650bf3a151c590476eb18fc2",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "status": 1,
+            "createdAt": "2024-05-21T07:08:40.600Z",
+            "updatedAt": "2024-05-21T07:08:40.600Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716275379604.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The ratio between the speeds of two trains is 7 : 8. If the second train runs 400 km in 4 hours, then the speed of the first train is:</p>",
+                  "_id": "664c48b6019f204e872ffbc1"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>70 km/hr</p>",
+                  "isCorrect": false,
+                  "_id": "664c48b6019f204e872ffbc2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>75 km/hr</p>",
+                  "isCorrect": false,
+                  "_id": "664c48b6019f204e872ffbc3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>84 km/hr</p>",
+                  "isCorrect": false,
+                  "_id": "664c48b6019f204e872ffbc4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>87.5 km/hr</p>",
+                  "isCorrect": true,
+                  "_id": "664c48b6019f204e872ffbc5"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c48b6019f204e872ffbc0",
+            "examId": "664c342bda7f9ddbffab8098",
+            "subjectId": "650bf38d159a91c4291566ce",
+            "topicId": "650bf3a151c590476eb18fc2",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "status": 1,
+            "createdAt": "2024-05-21T07:09:42.347Z",
+            "updatedAt": "2024-05-21T07:09:42.347Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716275426978.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A man on tour travels first 160 km at 64 km/hr and the next 160 km at 80 km/hr. The average speed for the first 320 km of the tour is:</p>",
+                  "_id": "664c48e58a7d1e0f9138f7f1"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>35.55 km/hr</p>",
+                  "isCorrect": false,
+                  "_id": "664c48e58a7d1e0f9138f7f2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>36 km/hr</p>",
+                  "isCorrect": false,
+                  "_id": "664c48e58a7d1e0f9138f7f3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>71.11 km/hr</p>",
+                  "isCorrect": true,
+                  "_id": "664c48e58a7d1e0f9138f7f4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>71 km/hr</p>",
+                  "isCorrect": false,
+                  "_id": "664c48e58a7d1e0f9138f7f5"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c48e58a7d1e0f9138f7f0",
+            "examId": "664c342bda7f9ddbffab8098",
+            "subjectId": "650bf38d159a91c4291566ce",
+            "topicId": "650bf3a151c590476eb18fc2",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "status": 1,
+            "createdAt": "2024-05-21T07:10:29.292Z",
+            "updatedAt": "2024-05-21T07:10:29.292Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716275467583.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A car travelling with &nbsp; of its actual speed covers 42 km in 1 hr 40 min 48 sec. Find the actual speed of the car.</p>",
+                  "_id": "664c490d79f46e37fc84a072"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>17km/hr</p>",
+                  "isCorrect": false,
+                  "_id": "664c490d79f46e37fc84a073"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>25 km/hr</p>",
+                  "isCorrect": false,
+                  "_id": "664c490d79f46e37fc84a074"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>30 km/hr</p>",
+                  "isCorrect": false,
+                  "_id": "664c490d79f46e37fc84a075"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>35 km/hr</p>",
+                  "isCorrect": true,
+                  "_id": "664c490d79f46e37fc84a076"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c490d79f46e37fc84a071",
+            "examId": "664c342bda7f9ddbffab8098",
+            "subjectId": "650bf38d159a91c4291566ce",
+            "topicId": "650bf3a151c590476eb18fc2",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "status": 1,
+            "createdAt": "2024-05-21T07:11:09.417Z",
+            "updatedAt": "2024-05-21T07:11:09.417Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716275509296.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>In covering a distance of 30 km, Abhay takes 2 hours more than Sameer. If Abhay doubles his speed, then he would take 1 hour less than Sameer. Abhay's speed is:</p>",
+                  "_id": "664c493879f46e37fc84a5e3"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>5 kmph</p>",
+                  "isCorrect": true,
+                  "_id": "664c493879f46e37fc84a5e4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6 kmph</p>",
+                  "isCorrect": false,
+                  "_id": "664c493879f46e37fc84a5e5"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6.25 kmph</p>",
+                  "isCorrect": false,
+                  "_id": "664c493879f46e37fc84a5e6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>7.5 kmph</p>",
+                  "isCorrect": false,
+                  "_id": "664c493879f46e37fc84a5e7"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c493879f46e37fc84a5e2",
+            "examId": "664c342bda7f9ddbffab8098",
+            "subjectId": "650bf38d159a91c4291566ce",
+            "topicId": "650bf3a151c590476eb18fc2",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "status": 1,
+            "createdAt": "2024-05-21T07:11:52.183Z",
+            "updatedAt": "2024-05-21T07:11:52.183Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716275553977.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Robert is travelling on his cycle and has calculated to reach point A at 2 P.M. if he travels at 10 kmph, he will reach there at 12 noon if he travels at 15 kmph. At what speed must he travel to reach A at 1 P.M.?</p>",
+                  "_id": "664c49638a7d1e0f913aa5ca"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>8 kmph</p>",
+                  "isCorrect": false,
+                  "_id": "664c49638a7d1e0f913aa5cb"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>11 kmph</p>",
+                  "isCorrect": false,
+                  "_id": "664c49638a7d1e0f913aa5cc"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>12 kmph</p>",
+                  "isCorrect": true,
+                  "_id": "664c49638a7d1e0f913aa5cd"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>14 kmph</p>",
+                  "isCorrect": false,
+                  "_id": "664c49638a7d1e0f913aa5ce"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c49638a7d1e0f913aa5c9",
+            "examId": "664c342bda7f9ddbffab8098",
+            "subjectId": "650bf38d159a91c4291566ce",
+            "topicId": "650bf3a151c590476eb18fc2",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "status": 1,
+            "createdAt": "2024-05-21T07:12:35.528Z",
+            "updatedAt": "2024-05-21T07:12:35.528Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716275594306.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>It takes eight hours for a 600 km journey, if 120 km is done by train and the rest by car. It takes 20 minutes more, if 200 km is done by train and the rest by car. The ratio of the speed of the train to that of the cars is:</p>",
+                  "_id": "664c498c8a7d1e0f913b3549"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>2 : 3</p>",
+                  "isCorrect": false,
+                  "_id": "664c498c8a7d1e0f913b354a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3 : 2</p>",
+                  "isCorrect": false,
+                  "_id": "664c498c8a7d1e0f913b354b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3 : 4</p>",
+                  "isCorrect": true,
+                  "_id": "664c498c8a7d1e0f913b354c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4 : 3</p>",
+                  "isCorrect": false,
+                  "_id": "664c498c8a7d1e0f913b354d"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c498c8a7d1e0f913b3548",
+            "examId": "664c342bda7f9ddbffab8098",
+            "subjectId": "650bf38d159a91c4291566ce",
+            "topicId": "650bf3a151c590476eb18fc2",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "status": 1,
+            "createdAt": "2024-05-21T07:13:16.411Z",
+            "updatedAt": "2024-05-21T07:13:16.411Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716275690731.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A farmer travelled a distance of 61 km in 9 hours. He travelled partly on foot &nbsp;</p><p>&nbsp;@ 4 km/hr and partly on bicycle @ 9 km/hr. The distance travelled on foot is:</p>",
+                  "_id": "664c49c179f46e37fc8dbbad"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>14 km</p>",
+                  "isCorrect": false,
+                  "_id": "664c49c179f46e37fc8dbbae"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>15 km</p>",
+                  "isCorrect": false,
+                  "_id": "664c49c179f46e37fc8dbbaf"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>16 km</p>",
+                  "isCorrect": true,
+                  "_id": "664c49c179f46e37fc8dbbb0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>17 km</p>",
+                  "isCorrect": false,
+                  "_id": "664c49c179f46e37fc8dbbb1"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c49c179f46e37fc8dbbac",
+            "examId": "664c342bda7f9ddbffab8098",
+            "subjectId": "651417f88fa6161d205d23fc",
+            "topicId": "65141858dc0ebca59d6719cc",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-05-21T07:14:09.527Z",
+            "updatedAt": "2024-05-21T07:14:52.191Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716275765959.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A man covered a certain distance at some speed. Had he moved 3 kmph faster, he would have taken 40 minutes less. If he had moved 2 kmph slower, he would have taken 40 minutes more. The distance (in km) is:</p>",
+                  "_id": "664c4a398a7d1e0f913fdb76"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>35</p>",
+                  "isCorrect": false,
+                  "_id": "664c4a398a7d1e0f913fdb77"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>36</p>",
+                  "isCorrect": false,
+                  "_id": "664c4a398a7d1e0f913fdb78"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>37</p>",
+                  "isCorrect": false,
+                  "_id": "664c4a398a7d1e0f913fdb79"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>40</p>",
+                  "isCorrect": true,
+                  "_id": "664c4a398a7d1e0f913fdb7a"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c4a398a7d1e0f913fdb75",
+            "examId": "664c342bda7f9ddbffab8098",
+            "subjectId": "650bf38d159a91c4291566ce",
+            "topicId": "650bf3a151c590476eb18fc2",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "status": 1,
+            "createdAt": "2024-05-21T07:16:09.082Z",
+            "updatedAt": "2024-05-21T07:16:09.082Z",
+            "__v": 0
+          }
+        ]
+      }
+    ]
+  }
+}

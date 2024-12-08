@@ -1,0 +1,776 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "108",
+  "msg": "Exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c3b8896031688df701cd5",
+        "inDualLang": false,
+        "en": {
+          "name": "L01 BASIC SCIENCE",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "65324b4660ba635a6fd0c724",
+        "topicId": "654ddca3c06052e8d8219e75",
+        "subTopicId": "654ddcb17d08841f117b4057",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 0,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 0,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T06:13:28.574Z",
+        "updatedAt": "2024-05-21T06:25:14.635Z",
+        "__v": 2,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>The PH value of human blood is 7.4</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The PH value of human blood is:</p>",
+                  "_id": "664c3c1f96031688df74c0e2"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>6.6</p>",
+                  "isCorrect": false,
+                  "_id": "664c3c1f96031688df74c0e3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>7.2</p>",
+                  "isCorrect": false,
+                  "_id": "664c3c1f96031688df74c0e4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>7.4</p>",
+                  "isCorrect": true,
+                  "_id": "664c3c1f96031688df74c0e5"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>7.8</p>",
+                  "isCorrect": false,
+                  "_id": "664c3c1f96031688df74c0e6"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3c1f96031688df74c0e1",
+            "examId": "664c3b8896031688df701cd5",
+            "subjectId": "65324b4660ba635a6fd0c724",
+            "topicId": "654ddca3c06052e8d8219e75",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "status": 1,
+            "createdAt": "2024-05-21T06:15:59.731Z",
+            "updatedAt": "2024-05-21T06:15:59.731Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Rectifier is used for converting Alternative Current into Direct Current.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Which of the following device is used for converting Alternative Current into Direct Current:</p>",
+                  "_id": "664c3c4896031688df7960bb"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Dynomo</p>",
+                  "isCorrect": false,
+                  "_id": "664c3c4896031688df7960bc"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Motor</p>",
+                  "isCorrect": false,
+                  "_id": "664c3c4896031688df7960bd"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Transformer</p>",
+                  "isCorrect": false,
+                  "_id": "664c3c4896031688df7960be"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rectifier</p>",
+                  "isCorrect": true,
+                  "_id": "664c3c4896031688df7960bf"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3c4896031688df7960ba",
+            "examId": "664c3b8896031688df701cd5",
+            "subjectId": "65324b4660ba635a6fd0c724",
+            "topicId": "654ddca3c06052e8d8219e75",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "status": 1,
+            "createdAt": "2024-05-21T06:16:40.768Z",
+            "updatedAt": "2024-05-21T06:16:40.768Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>In the Atmosphere ultraviolet rays are observed by ozone.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>In the Atmosphere ultraviolet rays are observed by:</p>",
+                  "_id": "664c3c8a0f5682ec7e028214"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Oxygen</p>",
+                  "isCorrect": false,
+                  "_id": "664c3c8a0f5682ec7e028215"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Nitrogen</p>",
+                  "isCorrect": false,
+                  "_id": "664c3c8a0f5682ec7e028216"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Ozone</p>",
+                  "isCorrect": true,
+                  "_id": "664c3c8a0f5682ec7e028217"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Hellium</p>",
+                  "isCorrect": false,
+                  "_id": "664c3c8a0f5682ec7e028218"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3c8a0f5682ec7e028213",
+            "examId": "664c3b8896031688df701cd5",
+            "subjectId": "65324b4660ba635a6fd0c724",
+            "topicId": "654ddca3c06052e8d8219e75",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "status": 1,
+            "createdAt": "2024-05-21T06:17:46.582Z",
+            "updatedAt": "2024-05-21T06:17:46.582Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>A liquid consisting of 5 to 30% Acetic Acid is known as vinegar.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A liquid consisting of 5 to 30% Acetic Acid is known as:</p>",
+                  "_id": "664c3cb00f5682ec7e031e70"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Lime</p>",
+                  "isCorrect": false,
+                  "_id": "664c3cb00f5682ec7e031e71"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Boric Acid</p>",
+                  "isCorrect": false,
+                  "_id": "664c3cb00f5682ec7e031e72"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Dettol</p>",
+                  "isCorrect": false,
+                  "_id": "664c3cb00f5682ec7e031e73"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Vinegar</p>",
+                  "isCorrect": true,
+                  "_id": "664c3cb00f5682ec7e031e74"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3cb00f5682ec7e031e6f",
+            "examId": "664c3b8896031688df701cd5",
+            "subjectId": "65324b4660ba635a6fd0c724",
+            "topicId": "654ddca3c06052e8d8219e75",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "status": 1,
+            "createdAt": "2024-05-21T06:18:24.986Z",
+            "updatedAt": "2024-05-21T06:18:24.986Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Farad is an unit of capacitance</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Farad is an unit of:</p>",
+                  "_id": "664c3cdb96031688df79a946"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Capacitance</p>",
+                  "isCorrect": true,
+                  "_id": "664c3cdb96031688df79a947"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Reactance</p>",
+                  "isCorrect": false,
+                  "_id": "664c3cdb96031688df79a948"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Electric Conductance</p>",
+                  "isCorrect": false,
+                  "_id": "664c3cdb96031688df79a949"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Electric Charge</p>",
+                  "isCorrect": false,
+                  "_id": "664c3cdb96031688df79a94a"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3cdb96031688df79a945",
+            "examId": "664c3b8896031688df701cd5",
+            "subjectId": "65324b4660ba635a6fd0c724",
+            "topicId": "654ddca3c06052e8d8219e75",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "status": 1,
+            "createdAt": "2024-05-21T06:19:07.837Z",
+            "updatedAt": "2024-05-21T06:19:07.837Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Distance</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Which among the following is measured by an Odometer?</p>",
+                  "_id": "664c3d4296031688df7ace33"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Pressure</p>",
+                  "isCorrect": false,
+                  "_id": "664c3d4296031688df7ace34"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Height</p>",
+                  "isCorrect": false,
+                  "_id": "664c3d4296031688df7ace35"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Distance</p>",
+                  "isCorrect": true,
+                  "_id": "664c3d4296031688df7ace36"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Velocity</p>",
+                  "isCorrect": false,
+                  "_id": "664c3d4296031688df7ace37"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3d4296031688df7ace32",
+            "examId": "664c3b8896031688df701cd5",
+            "subjectId": "65324b4660ba635a6fd0c724",
+            "topicId": "654ddca3c06052e8d8219e75",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "status": 1,
+            "createdAt": "2024-05-21T06:20:50.950Z",
+            "updatedAt": "2024-05-21T06:20:50.950Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>The major component of Honey is fructose.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The major component of Honey is:</p>",
+                  "_id": "664c3d8c96031688df7b597b"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Glucose</p>",
+                  "isCorrect": false,
+                  "_id": "664c3d8c96031688df7b597c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Maltose</p>",
+                  "isCorrect": false,
+                  "_id": "664c3d8c96031688df7b597d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Fructose</p>",
+                  "isCorrect": true,
+                  "_id": "664c3d8c96031688df7b597e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Sucrose&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "664c3d8c96031688df7b597f"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3d8c96031688df7b597a",
+            "examId": "664c3b8896031688df701cd5",
+            "subjectId": "65324b4660ba635a6fd0c724",
+            "topicId": "654ddca3c06052e8d8219e75",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "status": 1,
+            "createdAt": "2024-05-21T06:22:04.250Z",
+            "updatedAt": "2024-05-21T06:22:04.250Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>The plant appears brighter than the surroundings.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>If a plant with green leaves is kept in a dark room with only green light on, which one of the following would we observe?&nbsp;</p>",
+                  "_id": "664c3dbb0f5682ec7e0b624c"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>The plant appears brighter than the surroundings</p>",
+                  "isCorrect": true,
+                  "_id": "664c3dbb0f5682ec7e0b624d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>The plant appears darker than the surroundings</p>",
+                  "isCorrect": false,
+                  "_id": "664c3dbb0f5682ec7e0b624e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>We cannot distinguish the plant from the surroundings</p>",
+                  "isCorrect": false,
+                  "_id": "664c3dbb0f5682ec7e0b624f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>It will have above normal photosynthetic activity</p>",
+                  "isCorrect": false,
+                  "_id": "664c3dbb0f5682ec7e0b6250"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3dbb0f5682ec7e0b624b",
+            "examId": "664c3b8896031688df701cd5",
+            "subjectId": "65324b4660ba635a6fd0c724",
+            "topicId": "654ddca3c06052e8d8219e75",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "status": 1,
+            "createdAt": "2024-05-21T06:22:51.973Z",
+            "updatedAt": "2024-05-21T06:22:51.973Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>The chemical name of lime stone is Calcium Carbonate.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The chemical name of lime stone is:</p>",
+                  "_id": "664c3de996031688df7d063a"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Calcium Carbonate</p>",
+                  "isCorrect": true,
+                  "_id": "664c3de996031688df7d063b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Magnesium Chloride</p>",
+                  "isCorrect": false,
+                  "_id": "664c3de996031688df7d063c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Sodium Chloride</p>",
+                  "isCorrect": false,
+                  "_id": "664c3de996031688df7d063d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Sodium Sulphide</p>",
+                  "isCorrect": false,
+                  "_id": "664c3de996031688df7d063e"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3de996031688df7d0639",
+            "examId": "664c3b8896031688df701cd5",
+            "subjectId": "65324b4660ba635a6fd0c724",
+            "topicId": "654ddca3c06052e8d8219e75",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-05-21T06:23:37.390Z",
+            "updatedAt": "2024-05-21T06:23:37.390Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Bronze is an alloy of Copper And Tin.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Bronze is an alloy of:</p>",
+                  "_id": "664c3e2696031688df7d2d1b"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Copper And Silver</p>",
+                  "isCorrect": false,
+                  "_id": "664c3e2696031688df7d2d1c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Copper And Zinc</p>",
+                  "isCorrect": false,
+                  "_id": "664c3e2696031688df7d2d1d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Copper And Lead</p>",
+                  "isCorrect": false,
+                  "_id": "664c3e2696031688df7d2d1e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Copper And Tin</p>",
+                  "isCorrect": true,
+                  "_id": "664c3e2696031688df7d2d1f"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3e2696031688df7d2d1a",
+            "examId": "664c3b8896031688df701cd5",
+            "subjectId": "65324b4660ba635a6fd0c724",
+            "topicId": "654ddca3c06052e8d8219e75",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "status": 1,
+            "createdAt": "2024-05-21T06:24:38.678Z",
+            "updatedAt": "2024-05-21T06:24:38.678Z",
+            "__v": 0
+          }
+        ]
+      }
+    ]
+  }
+}

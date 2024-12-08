@@ -1,0 +1,826 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "108",
+  "msg": "Exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c3b5b0f5682ec7efd7abb",
+        "inDualLang": false,
+        "en": {
+          "name": "L01 PAPER FOLDING AND CUTTING",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "6538b56f9d1b297f490c6031",
+        "topicId": "6538b588640e05d28fcaff18",
+        "subTopicId": "6538b5a89d1b297f490c6c2f",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 10,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 0,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T06:12:43.442Z",
+        "updatedAt": "2024-05-21T06:49:45.860Z",
+        "__v": 2,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Water image-</p>",
+                  "_id": "6629e4d9de9b4f66130b3f74"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1714021578229.png",
+                  "_id": "6629e4d9de9b4f66130b3f75"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>A</p>",
+                  "isCorrect": false,
+                  "_id": "6629e4d9de9b4f66130b3f76"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>B</p>",
+                  "isCorrect": false,
+                  "_id": "6629e4d9de9b4f66130b3f77"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>C</p>",
+                  "isCorrect": false,
+                  "_id": "6629e4d9de9b4f66130b3f78"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>D</p>",
+                  "isCorrect": true,
+                  "_id": "6629e4d9de9b4f66130b3f79"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c43e1019f204e872bbc33",
+            "examId": "664c3b5b0f5682ec7efd7abb",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "status": 1,
+            "createdAt": "2024-04-25T05:06:33.014Z",
+            "updatedAt": "2024-04-25T05:06:33.014Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Water image-</p>",
+                  "_id": "6629e4fc3b6fb7e3aecde302"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1714021612908.png",
+                  "_id": "6629e4fc3b6fb7e3aecde303"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>A</p>",
+                  "isCorrect": false,
+                  "_id": "6629e4fc3b6fb7e3aecde304"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>B</p>",
+                  "isCorrect": false,
+                  "_id": "6629e4fc3b6fb7e3aecde305"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>C</p>",
+                  "isCorrect": true,
+                  "_id": "6629e4fc3b6fb7e3aecde306"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>D</p>",
+                  "isCorrect": false,
+                  "_id": "6629e4fc3b6fb7e3aecde307"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c43e1019f204e872bbc3a",
+            "examId": "664c3b5b0f5682ec7efd7abb",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "status": 1,
+            "createdAt": "2024-04-25T05:07:08.149Z",
+            "updatedAt": "2024-04-25T05:07:08.149Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Water image-</p>",
+                  "_id": "6629e5203b6fb7e3aece2e34"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1714021656416.png",
+                  "_id": "6629e5203b6fb7e3aece2e35"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>A</p>",
+                  "isCorrect": false,
+                  "_id": "6629e5203b6fb7e3aece2e36"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>B</p>",
+                  "isCorrect": true,
+                  "_id": "6629e5203b6fb7e3aece2e37"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>C</p>",
+                  "isCorrect": false,
+                  "_id": "6629e5203b6fb7e3aece2e38"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>D</p>",
+                  "isCorrect": false,
+                  "_id": "6629e5203b6fb7e3aece2e39"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c43e1019f204e872bbc41",
+            "examId": "664c3b5b0f5682ec7efd7abb",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "status": 1,
+            "createdAt": "2024-04-25T05:07:44.295Z",
+            "updatedAt": "2024-04-25T05:07:44.295Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Water image-</p>",
+                  "_id": "6629e554e6aa9657f89d469f"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1714021698474.png",
+                  "_id": "6629e554e6aa9657f89d46a0"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>A</p>",
+                  "isCorrect": true,
+                  "_id": "6629e554e6aa9657f89d46a1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>B</p>",
+                  "isCorrect": false,
+                  "_id": "6629e554e6aa9657f89d46a2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>C</p>",
+                  "isCorrect": false,
+                  "_id": "6629e554e6aa9657f89d46a3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>D</p>",
+                  "isCorrect": false,
+                  "_id": "6629e554e6aa9657f89d46a4"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c43e1019f204e872bbc48",
+            "examId": "664c3b5b0f5682ec7efd7abb",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "status": 1,
+            "createdAt": "2024-04-25T05:08:36.085Z",
+            "updatedAt": "2024-04-25T05:08:36.085Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Water image-</p>",
+                  "_id": "6629e57ade9b4f66130c1574"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1714021742205.png",
+                  "_id": "6629e57ade9b4f66130c1575"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>A</p>",
+                  "isCorrect": false,
+                  "_id": "6629e57ade9b4f66130c1576"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>B</p>",
+                  "isCorrect": true,
+                  "_id": "6629e57ade9b4f66130c1577"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>C</p>",
+                  "isCorrect": false,
+                  "_id": "6629e57ade9b4f66130c1578"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>D</p>",
+                  "isCorrect": false,
+                  "_id": "6629e57ade9b4f66130c1579"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c43e1019f204e872bbc4f",
+            "examId": "664c3b5b0f5682ec7efd7abb",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "status": 1,
+            "createdAt": "2024-04-25T05:09:14.432Z",
+            "updatedAt": "2024-04-25T05:09:14.432Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Mirror image-</p>",
+                  "_id": "6629e59d3b6fb7e3aecf60ef"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1714021778704.png",
+                  "_id": "6629e59d3b6fb7e3aecf60f0"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>A</p>",
+                  "isCorrect": false,
+                  "_id": "6629e59d3b6fb7e3aecf60f1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>B</p>",
+                  "isCorrect": false,
+                  "_id": "6629e59d3b6fb7e3aecf60f2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>C</p>",
+                  "isCorrect": true,
+                  "_id": "6629e59d3b6fb7e3aecf60f3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>D</p>",
+                  "isCorrect": false,
+                  "_id": "6629e59d3b6fb7e3aecf60f4"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c43e1019f204e872bbc56",
+            "examId": "664c3b5b0f5682ec7efd7abb",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "status": 1,
+            "createdAt": "2024-04-25T05:09:49.609Z",
+            "updatedAt": "2024-04-25T05:09:49.609Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Mirror image-</p>",
+                  "_id": "6629e5bbde9b4f66130c5ccf"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1714021808136.png",
+                  "_id": "6629e5bbde9b4f66130c5cd0"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>A</p>",
+                  "isCorrect": false,
+                  "_id": "6629e5bbde9b4f66130c5cd1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>B</p>",
+                  "isCorrect": false,
+                  "_id": "6629e5bbde9b4f66130c5cd2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>C</p>",
+                  "isCorrect": false,
+                  "_id": "6629e5bbde9b4f66130c5cd3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>D</p>",
+                  "isCorrect": true,
+                  "_id": "6629e5bbde9b4f66130c5cd4"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c43e1019f204e872bbc5d",
+            "examId": "664c3b5b0f5682ec7efd7abb",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "status": 1,
+            "createdAt": "2024-04-25T05:10:19.661Z",
+            "updatedAt": "2024-04-25T05:10:19.661Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Mirror image-</p>",
+                  "_id": "6629e5de10a9de10eb51109a"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1714021840038.png",
+                  "_id": "6629e5de10a9de10eb51109b"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>A</p>",
+                  "isCorrect": true,
+                  "_id": "6629e5de10a9de10eb51109c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>B</p>",
+                  "isCorrect": false,
+                  "_id": "6629e5de10a9de10eb51109d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>C</p>",
+                  "isCorrect": false,
+                  "_id": "6629e5de10a9de10eb51109e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>D</p>",
+                  "isCorrect": false,
+                  "_id": "6629e5de10a9de10eb51109f"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c43e1019f204e872bbc64",
+            "examId": "664c3b5b0f5682ec7efd7abb",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "status": 1,
+            "createdAt": "2024-04-25T05:10:54.157Z",
+            "updatedAt": "2024-04-25T05:10:54.157Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Mirror image-</p>",
+                  "_id": "6629e600de9b4f66130ca758"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1714021879172.png",
+                  "_id": "6629e600de9b4f66130ca759"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>A</p>",
+                  "isCorrect": false,
+                  "_id": "6629e600de9b4f66130ca75a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>B</p>",
+                  "isCorrect": false,
+                  "_id": "6629e600de9b4f66130ca75b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>C</p>",
+                  "isCorrect": false,
+                  "_id": "6629e600de9b4f66130ca75c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>D</p>",
+                  "isCorrect": true,
+                  "_id": "6629e600de9b4f66130ca75d"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c43e1019f204e872bbc6b",
+            "examId": "664c3b5b0f5682ec7efd7abb",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-04-25T05:11:28.890Z",
+            "updatedAt": "2024-04-25T05:11:28.890Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Mirror image-</p>",
+                  "_id": "6629e6283b6fb7e3aed0f14d"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1714021911028.png",
+                  "_id": "6629e6283b6fb7e3aed0f14e"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>A</p>",
+                  "isCorrect": false,
+                  "_id": "6629e6283b6fb7e3aed0f14f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>B</p>",
+                  "isCorrect": false,
+                  "_id": "6629e6283b6fb7e3aed0f150"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>C</p>",
+                  "isCorrect": false,
+                  "_id": "6629e6283b6fb7e3aed0f151"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>D</p>",
+                  "isCorrect": true,
+                  "_id": "6629e6283b6fb7e3aed0f152"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c43e1019f204e872bbc72",
+            "examId": "664c3b5b0f5682ec7efd7abb",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "status": 1,
+            "createdAt": "2024-04-25T05:12:08.903Z",
+            "updatedAt": "2024-04-25T05:12:08.903Z",
+            "__v": 0
+          }
+        ]
+      }
+    ]
+  }
+}

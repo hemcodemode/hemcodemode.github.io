@@ -1,0 +1,801 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "108",
+  "msg": "Exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c39f4fde9add55b413681",
+        "inDualLang": false,
+        "en": {
+          "name": "L02 GEOMETRY AND MENSURATION",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "6520e2722f70a49505dae243",
+        "topicId": "6520e2802f70a49505dae53f",
+        "subTopicId": "6520e2906bc138015746372e",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 0,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 0,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T06:06:44.470Z",
+        "updatedAt": "2024-05-21T12:16:15.702Z",
+        "__v": 3,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Let r be the radius of the sphere.<br>When it rolls down one complete turn, it will cover the circumference of the circle (2πr).<br>Thus for 50 complete turns, the distance covered, QR = 50 × 2πr.<br>By Pythagoras theorem, QR = 5 m.<br>Therefore, 5 = 50 × 2πr<br><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>&nbsp;</mo><mo>=</mo><mfenced><mfrac><mn>5</mn><mrow><mn>100</mn><mi>π</mi></mrow></mfrac></mfenced><mi>m</mi><mo>=</mo><mfrac><mn>5</mn><mn>100</mn></mfrac><mi>π</mi><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>100</mn><mo>&nbsp;</mo><mi>c</mi><mi>m</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mfrac><mn>5</mn><mi>π</mi></mfrac><mo>&nbsp;</mo><mi>c</mi><mi>m</mi><mo>.</mo></math></p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716284841930.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>As shown in the diagram, a sphere is placed on the top of an incline. It rolls down the incline without slipping in exactly 50 turns. The radius of the sphere is</p>",
+                  "_id": "664c6e0532cd1c76a30e0810"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mfrac><mn>5</mn><mi mathvariant=\"normal\">π</mi></mfrac></mfenced><mo>&nbsp;</mo><mi>c</mi><mi>m</mi></math></p>",
+                  "isCorrect": true,
+                  "_id": "664c6e0532cd1c76a30e0811"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mfrac><mn>5</mn><mi mathvariant=\"normal\">π</mi></mfrac></mfenced><mo>&nbsp;</mo><mi>m</mi></math></p>",
+                  "isCorrect": false,
+                  "_id": "664c6e0532cd1c76a30e0812"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mfrac><mn>10</mn><mi mathvariant=\"normal\">π</mi></mfrac></mfenced><mo>&nbsp;</mo><mi>c</mi><mi>m</mi></math></p>",
+                  "isCorrect": false,
+                  "_id": "664c6e0532cd1c76a30e0813"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>10 cm</p>",
+                  "isCorrect": false,
+                  "_id": "664c6e0532cd1c76a30e0814"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c6e0532cd1c76a30e080f",
+            "examId": "664c39f4fde9add55b413681",
+            "subjectId": "6520e2722f70a49505dae243",
+            "topicId": "6520e2802f70a49505dae53f",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "status": 1,
+            "createdAt": "2024-05-21T09:48:53.024Z",
+            "updatedAt": "2024-05-21T09:48:53.024Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Distance covered by the ant = Distance covered along circular paths + Distance covered along straight line from A1 to AN<br>Distance covered along circular paths:<br>Sum of first n consecutive natural numbers&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></mfrac></math><br>Here the radius of circles are respectively 1, 2, 3,….., N – 1 &nbsp;<br>Thus, distance covered along circular paths &nbsp;<br><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>&nbsp;</mo><mn>2</mn><mi>π</mi><mn>1</mn><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>2</mn><mi>π</mi><mn>2</mn><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>2</mn><mi>π</mi><mn>3</mn><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mo>…</mo><mo>+</mo><mo>&nbsp;</mo><mn>2</mn><mi>π</mi><mo>&nbsp;</mo><mo>(</mo><mi>N</mi><mo>-</mo><mn>1</mn><mo>)</mo><mspace linebreak=\"newline\">&nbsp;</mspace><mo>=</mo><mo>&nbsp;</mo><mn>2</mn><mi>π</mi><mo>&nbsp;</mo><mo>(</mo><mn>1</mn><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>2</mn><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>3</mn><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mo>…</mo><mo>.</mo><mo>+</mo><mo>&nbsp;</mo><mo>(</mo><mi>N</mi><mo>-</mo><mn>1</mn><mo>)</mo><mo>)</mo><mspace linebreak=\"newline\">&nbsp;</mspace><mo>=</mo><mo>&nbsp;</mo><mn>2</mn><mi>π</mi><mfrac><mrow><mo>(</mo><mo>(</mo><mi>N</mi><mo>-</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>N</mi><mo>)</mo><mo>)</mo></mrow><mn>2</mn></mfrac><mspace linebreak=\"newline\">&nbsp;</mspace><mo>=</mo><mo>&nbsp;</mo><mi>π</mi><mi>N</mi><mo>&nbsp;</mo><mo>(</mo><mi>N</mi><mo>-</mo><mn>1</mn><mo>)</mo><mo>.</mo></math><br>Distance between each of the successive Ai’s are 1.<br>That is, A1 to A2 = 1, A2 to A3 = 1, …, AN-1 to AN = 1.<br>Thus, distance covered along straight line from A1 to AN = &nbsp;<br>1 + 1 +….+ 1(N-1 times) = N – 1.<br>Thus distance covered by the ant = πN (N – 1) + N – 1.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A set of concentric circles of integer radii 1, 2,…, N is shown in the figure. An ant starts at point A1, goes round the first circle, returns to A1, moves to A2, goes round the second circle, returns to A2, moves to A3 and repeats this until it reaches AN . The distance covered by the ant is:</p>",
+                  "_id": "664c6f9832cd1c76a31803e7"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1716285016205.png",
+                  "_id": "664c6f9832cd1c76a31803e8"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">N</mi><mo>&nbsp;</mo><mo>(</mo><mi mathvariant=\"normal\">N</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>1</mn><mo>)</mo></math></p>",
+                  "isCorrect": false,
+                  "_id": "664c6f9832cd1c76a31803e9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>Nπ</mi><mo>+</mo><mo>&nbsp;</mo><mi mathvariant=\"normal\">N</mi><mo>&nbsp;</mo></math></p>",
+                  "isCorrect": false,
+                  "_id": "664c6f9832cd1c76a31803ea"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">π</mi><mo>&nbsp;</mo><mo>(</mo><mi mathvariant=\"normal\">N</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>&nbsp;</mo><mi mathvariant=\"normal\">N</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mi mathvariant=\"normal\">N</mi><mo>-</mo><mn>1</mn></math></p>",
+                  "isCorrect": false,
+                  "_id": "664c6f9832cd1c76a31803eb"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">π</mi><mo>(</mo><mi mathvariant=\"normal\">N</mi><mo>-</mo><mn>1</mn><mo>)</mo><mi mathvariant=\"normal\">N</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mi mathvariant=\"normal\">N</mi><mo>-</mo><mn>1</mn></math></p>",
+                  "isCorrect": true,
+                  "_id": "664c6f9832cd1c76a31803ec"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c6f9832cd1c76a31803e6",
+            "examId": "664c39f4fde9add55b413681",
+            "subjectId": "6520e2722f70a49505dae243",
+            "topicId": "6520e2802f70a49505dae53f",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "status": 1,
+            "createdAt": "2024-05-21T09:55:36.902Z",
+            "updatedAt": "2024-05-21T09:55:36.902Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Consider each triangle with sides&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>r</mi><mn>1</mn></msub><mo>,</mo><msub><mi>r</mi><mn>2</mn></msub><mo>,</mo><mo>…</mo></math></p><p>In each of these triangles one angle is θ and other angle is ϕ.</p><p>Then by angle sum property, the third angle should also be the same, say ψ for each triangle.</p><p>Since all the 3 corresponding angles are equal, these triangles are similar.</p><p>Label the angles and sides as shown in the figure.<br><br>Since, ∆ABC and ∆ACD are similar, their corresponding sides are proportional.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msub><mi>r</mi><mn>1</mn></msub><msub><mi>r</mi><mn>2</mn></msub></mfrac><mo>=</mo><mfrac><msub><mi>l</mi><mn>2</mn></msub><msub><mi>l</mi><mn>3</mn></msub></mfrac><mo>-</mo><mo>-</mo><mo>-</mo><mo>-</mo><mo>-</mo><mo>-</mo><mo>-</mo><mo>-</mo><mo>-</mo><mo>-</mo><mo>-</mo><mo>-</mo><mo>-</mo><mo>-</mo><mo>(</mo><mn>1</mn><mo>)</mo></math></p><p>∆ACD and ∆ADE are similar, so, &nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msub><mi>r</mi><mn>2</mn></msub><msub><mi>r</mi><mn>3</mn></msub></mfrac><mo>=</mo><mfrac><msub><mi>l</mi><mn>2</mn></msub><msub><mi>l</mi><mn>3</mn></msub></mfrac><mo>-</mo><mo>-</mo><mo>-</mo><mo>-</mo><mo>-</mo><mo>-</mo><mo>-</mo><mo>-</mo><mo>-</mo><mo>-</mo><mo>-</mo><mo>-</mo><mo>-</mo><mo>(</mo><mn>2</mn><mo>)</mo></math><br>From equations (1) and (2),&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msub><mi>r</mi><mn>1</mn></msub><msub><mi>r</mi><mn>2</mn></msub></mfrac><mo>=</mo><mfrac><msub><mi>r</mi><mn>2</mn></msub><msub><mi>r</mi><mn>3</mn></msub></mfrac></math><br>Similarly comparing other triangles, we get,<br><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msub><mi>r</mi><mn>1</mn></msub><msub><mi>r</mi><mn>2</mn></msub></mfrac><mo>=</mo><mfrac><msub><mi>r</mi><mn>2</mn></msub><msub><mi>r</mi><mn>3</mn></msub></mfrac><mo>=</mo><mfrac><msub><mi>r</mi><mn>3</mn></msub><msub><mi>r</mi><mn>4</mn></msub></mfrac><mo>=</mo><mfrac><msub><mi>r</mi><mn>4</mn></msub><msub><mi>r</mi><mn>5</mn></msub></mfrac><mo>=</mo><mo>…</mo><mo>.</mo><mspace linebreak=\"newline\">&nbsp;</mspace><mfrac><msub><mi>r</mi><mn>2</mn></msub><msub><mi>r</mi><mn>1</mn></msub></mfrac><mo>=</mo><mfrac><msub><mi>r</mi><mn>3</mn></msub><msub><mi>r</mi><mn>2</mn></msub></mfrac><mo>=</mo><mfrac><msub><mi>r</mi><mn>4</mn></msub><msub><mi>r</mi><mn>3</mn></msub></mfrac><mo>=</mo><mfrac><msub><mi>r</mi><mn>5</mn></msub><msub><mi>r</mi><mn>4</mn></msub></mfrac><mo>=</mo><mo>…</mo><mo>.</mo></math><br>Thus, r1, r2, r3… are an infinite geometric sequence with first term r1 and common ratio&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msub><mi>r</mi><mn>2</mn></msub><msub><mi>r</mi><mn>1</mn></msub></mfrac></math><br>We know that, Sum of infinite geometric progression&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mi>a</mi><mrow><mn>1</mn><mo>-</mo><mi>r</mi></mrow></mfrac></math><br>Thus, sum of sides&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>r</mi><mn>1</mn></msub><mo>,</mo><msub><mi>r</mi><mn>2</mn></msub><mo>…</mo><mo>=</mo><mfrac><msub><mi>r</mi><mn>1</mn></msub><mrow><mn>1</mn><mo>-</mo><mstyle displaystyle=\"true\"><mfrac><msub><mi>r</mi><mn>2</mn></msub><msub><mi>r</mi><mn>1</mn></msub></mfrac></mstyle></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>r</mi><msup><mn>1</mn><mn>2</mn></msup></mrow><mrow><msub><mi>r</mi><mn>1</mn></msub><mo>-</mo><msub><mi>r</mi><mn>2</mn></msub></mrow></mfrac></math></p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716285712895.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The figure shows an infinite series of triangles, in which r1 &gt; r2 &gt; r3. What is the total length of the solid line segments in the figure?&nbsp;</p>",
+                  "_id": "664c711732cd1c76a32010ac"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1716285428307.png",
+                  "_id": "664c711732cd1c76a32010ad"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msub><mi>r</mi><mn>1</mn></msub><msub><mi>r</mi><mn>2</mn></msub></mfrac><mo>+</mo><mfrac><msub><mi>r</mi><mn>2</mn></msub><msub><mi>r</mi><mn>3</mn></msub></mfrac><mo>+</mo><mo>&nbsp;</mo><mo>…</mo></math></p>",
+                  "isCorrect": false,
+                  "_id": "664c711732cd1c76a32010ae"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msubsup><mi>r</mi><mn>1</mn><mn>2</mn></msubsup><mrow><msub><mi>r</mi><mn>1</mn></msub><mo>-</mo><msub><mi>r</mi><mn>2</mn></msub></mrow></mfrac></math></p>",
+                  "isCorrect": true,
+                  "_id": "664c711732cd1c76a32010af"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msubsup><mi>r</mi><mn>2</mn><mn>2</mn></msubsup><mrow><msub><mi>r</mi><mn>1</mn></msub><mo>-</mo><msub><mi>r</mi><mn>2</mn></msub></mrow></mfrac></math></p>",
+                  "isCorrect": false,
+                  "_id": "664c711732cd1c76a32010b0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msub><mi>r</mi><mn>1</mn></msub><mo>-</mo><msub><mi>r</mi><mn>2</mn></msub></mrow><msubsup><mi>r</mi><mn>1</mn><mn>2</mn></msubsup></mfrac></math></p>",
+                  "isCorrect": false,
+                  "_id": "664c711732cd1c76a32010b1"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c711732cd1c76a32010ab",
+            "examId": "664c39f4fde9add55b413681",
+            "subjectId": "6520e2722f70a49505dae243",
+            "topicId": "6520e2802f70a49505dae53f",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "status": 1,
+            "createdAt": "2024-05-21T10:01:59.651Z",
+            "updatedAt": "2024-05-21T10:13:50.109Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Since the circle is lying in fourth quadrant with x coordinate 10, the given situation can be pictured as follows.</p><p>&nbsp;</p><p>The centre of the circle is (10,-7).</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716287234724.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A circle of radius 7 units lying in the fourth quadrant touches the x-axis at (10,0). The centre of the circle has coordinates&nbsp;</p>",
+                  "_id": "664c7a4ca031cf8a6759325f"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>7</mn><mo>,</mo><mn>7</mn></mrow></mfenced></math></p>",
+                  "isCorrect": false,
+                  "_id": "664c7a4ca031cf8a67593260"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mo>-</mo><mn>10</mn><mo>,</mo><mn>7</mn></mrow></mfenced></math></p>",
+                  "isCorrect": false,
+                  "_id": "664c7a4ca031cf8a67593261"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>10</mn><mo>,</mo><mo>-</mo><mn>7</mn></mrow></mfenced></math></p>",
+                  "isCorrect": true,
+                  "_id": "664c7a4ca031cf8a67593262"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>7</mn><mo>,</mo><mo>-</mo><mn>7</mn></mrow></mfenced></math></p>",
+                  "isCorrect": false,
+                  "_id": "664c7a4ca031cf8a67593263"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c7a4ca031cf8a6759325e",
+            "examId": "664c39f4fde9add55b413681",
+            "subjectId": "6520e2722f70a49505dae243",
+            "topicId": "6520e2802f70a49505dae53f",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "status": 1,
+            "createdAt": "2024-05-21T10:41:16.815Z",
+            "updatedAt": "2024-05-21T10:41:16.815Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Extend the figure to get a square of edge 5 cm as shown in the figure below.<br>Since, adjacent sides are making right angles to each other, ABCD and EFGH are rectangles.<br>We know that, opposite sides of rectangles are equal.&nbsp;</p><p>Thus, AB = DC, HE = GF, EF = HG.<br>The perimeter of the given figure &nbsp;<br>= PA + AB + BC + CH + HE + EF + FQ + QP,<br>Given, PA = 4 cm, BC =1 cm, QP = 5 cm.<br>Also, DC + CH + HG = 5 cm,<br>AB + CH + EF = 5 cm.<br>Again, GF + FQ = 5 cm, &nbsp;<br>HE + FQ = 5 cm.<br><br>The perimeter of the given figure &nbsp;<br>= PA + AB + BC + CH + HE + EF + FQ + QP<br>= PA + BC + QP + (AB + CH + EF) + (HE + FQ)<br>= 4 + 1 + 5 + 5 + 5 &nbsp;<br>= 20.</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716292707016.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What is the perimeter of the given figure, where adjacent sides are right angles to each other? &nbsp;</p>",
+                  "_id": "664c8cab439d1906f9154dd0"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1716292669865.png",
+                  "_id": "664c8cab439d1906f9154dd1"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>20 cm</p>",
+                  "isCorrect": true,
+                  "_id": "664c8cab439d1906f9154dd2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>18 cm</p>",
+                  "isCorrect": false,
+                  "_id": "664c8cab439d1906f9154dd3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>21 cm</p>",
+                  "isCorrect": false,
+                  "_id": "664c8cab439d1906f9154dd4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>cannot be determined</p>",
+                  "isCorrect": false,
+                  "_id": "664c8cab439d1906f9154dd5"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c8cab439d1906f9154dcf",
+            "examId": "664c39f4fde9add55b413681",
+            "subjectId": "6520e2722f70a49505dae243",
+            "topicId": "6520e2802f70a49505dae53f",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "status": 1,
+            "createdAt": "2024-05-21T11:59:39.019Z",
+            "updatedAt": "2024-05-21T11:59:39.019Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Consider the 24 × 17 plane as the base of the cuboids box. Since the diameter of a laddoo is 6 cm, in the base, by hexagonal closed packing, considering the diameter of each laddoos, 11 laddoos can be arranged as shown in the figure.</p><p>Since the breadth is 17 centimetres, the spheres in the middle row are placed in the gaps of the other two rows, as shown in the figure, thus maximum we can form 3 rows in one base layer.</p><p>&nbsp;</p><p>Now, since the height is 18 cm and diameter is of each laddoo is 6 cm, 18/6 = 3 layers can be arranged on one another in the box. &nbsp;</p><p>Thus, 11 + 11 + 11 = 33 laddoos can be arranged in the box.</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716292843425.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What is the maximum number of whole laddoos having diameter of 6 cm that can be packed in a box whose inner dimensions are 24 × 18 × 17 cm3?&nbsp;</p>",
+                  "_id": "664c8cf1439d1906f9155466"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>24</p>",
+                  "isCorrect": false,
+                  "_id": "664c8cf1439d1906f9155467"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>30</p>",
+                  "isCorrect": false,
+                  "_id": "664c8cf1439d1906f9155468"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>33</p>",
+                  "isCorrect": true,
+                  "_id": "664c8cf1439d1906f9155469"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>36</p>",
+                  "isCorrect": false,
+                  "_id": "664c8cf1439d1906f915546a"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c8cf1439d1906f9155465",
+            "examId": "664c39f4fde9add55b413681",
+            "subjectId": "6520e2722f70a49505dae243",
+            "topicId": "6520e2802f70a49505dae53f",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "status": 1,
+            "createdAt": "2024-05-21T12:00:49.507Z",
+            "updatedAt": "2024-05-21T12:00:49.507Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Given: ΔAOB is right angled triangle<br>Using Pythagoras Theorem:<br><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><msup><mi>B</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mi>A</mi><msup><mi>O</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mi>O</mi><msup><mi>B</mi><mn>2</mn></msup></math><br><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><msup><mi>B</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><msup><mn>3</mn><mn>2</mn></msup><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><msup><mn>4</mn><mn>2</mn></msup><mo>&nbsp;</mo><mi>o</mi><mi>r</mi><mo>&nbsp;</mo><mi>A</mi><msup><mi>B</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>25</mn></math><br>So&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><msqrt><mn>25</mn></msqrt><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>5</mn></math><br>We know that &nbsp;<br>Area of Triangle&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>&nbsp;</mo><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup></math><br>AB = CD = 5 cm<br>So diameter of circle = 5 cm &nbsp;<br>Radius (r) = Diameter / 2<br>So r = 5/2 &nbsp;<br>Area of Circle&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>&nbsp;</mo><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mi>π</mi><msup><mfenced><mfrac><mn>5</mn><mn>2</mn></mfrac></mfenced><mn>2</mn></msup></math><br>=&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>25</mn><mi>π</mi></mrow><mn>4</mn></mfrac><mo>&nbsp;</mo><mi>c</mi><msup><mi>m</mi><mn>2</mn></msup></math></p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716292965181.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A square is drawn with one of its sides as the hypotenuse of a right angled triangle as shown in the figure. What is the area of the shaded circle? &nbsp;</p>",
+                  "_id": "664c8df14d88c2b70f220f74"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1716292888427.png",
+                  "_id": "664c8df14d88c2b70f220f75"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>25</mn><mi>π</mi></mrow><mn>1</mn></mfrac><mo>&nbsp;</mo><mi>c</mi><msup><mi>m</mi><mn>2</mn></msup></math></p>",
+                  "isCorrect": false,
+                  "_id": "664c8df14d88c2b70f220f76"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>25</mn><mi>π</mi></mrow><mn>2</mn></mfrac><mo>&nbsp;</mo><mi>c</mi><msup><mi>m</mi><mn>2</mn></msup></math></p>",
+                  "isCorrect": false,
+                  "_id": "664c8df14d88c2b70f220f77"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>25</mn><mi>π</mi></mrow><mn>3</mn></mfrac><mo>&nbsp;</mo><mi>c</mi><msup><mi>m</mi><mn>2</mn></msup></math></p>",
+                  "isCorrect": false,
+                  "_id": "664c8df14d88c2b70f220f78"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>25</mn><mi>π</mi></mrow><mn>4</mn></mfrac><mo>&nbsp;</mo><mi>c</mi><msup><mi>m</mi><mn>2</mn></msup></math></p>",
+                  "isCorrect": true,
+                  "_id": "664c8df14d88c2b70f220f79"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c8df14d88c2b70f220f73",
+            "examId": "664c39f4fde9add55b413681",
+            "subjectId": "6520e2722f70a49505dae243",
+            "topicId": "6520e2802f70a49505dae53f",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "status": 1,
+            "createdAt": "2024-05-21T12:05:05.043Z",
+            "updatedAt": "2024-05-21T12:05:05.043Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Given: Radius of the biggest circle is r.</p><p>So its diameter XZ = 2r</p><p>In right angled triangle ΔXYZ; applying Pythagoras theorem to find side (a) of the square:<br><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi><msup><mi>Z</mi><mn>2</mn></msup><mo>=</mo><mi>X</mi><msup><mi>Y</mi><mn>2</mn></msup><mo>+</mo><mi>Y</mi><msup><mi>Z</mi><mn>2</mn></msup><mspace linebreak=\"newline\">&nbsp;</mspace><msup><mrow><mo>(</mo><mn>2</mn><mi>r</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup><mo>⟹</mo><msup><mrow><mo>(</mo><mn>2</mn><mi>r</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>2</mn><msup><mi>a</mi><mn>2</mn></msup><mspace linebreak=\"newline\">&nbsp;</mspace><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mo>(</mo><mn>2</mn><mi>r</mi><msup><mo>)</mo><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>⟹</mo><mi>a</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>r</mi></mrow><msqrt><mn>2</mn></msqrt></mfrac></math><br>So the side of square =<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>r</mi></mrow><msqrt><mn>2</mn></msqrt></mfrac></math></p><p>As per above figure; side of square = diameter of inner circle</p><p>So the radius of the inner circle =<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>&nbsp;side of square =<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>r</mi><msqrt><mn>2</mn></msqrt></mfrac></math></p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716293523664.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Consider a circle of radius r.Fit the largest possible square inside it and the largest possible circle inside the square. What is the radius of the innermost circle?</p>",
+                  "_id": "664c8f9ad950a07ad6320c5f"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>r</mi><msqrt><mn>2</mn></msqrt></mfrac></math></p>",
+                  "isCorrect": true,
+                  "_id": "664c8f9ad950a07ad6320c60"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi mathvariant=\"normal\">π</mi><mi>r</mi></mrow><msqrt><mn>2</mn></msqrt></mfrac></math></p>",
+                  "isCorrect": false,
+                  "_id": "664c8f9ad950a07ad6320c61"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi mathvariant=\"normal\">π</mi><mi>r</mi></mrow><mrow><mn>2</mn><mi mathvariant=\"normal\">π</mi><msqrt><mn>2</mn></msqrt></mrow></mfrac></math></p>",
+                  "isCorrect": false,
+                  "_id": "664c8f9ad950a07ad6320c62"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>r</mi><mn>2</mn></mfrac></math></p>",
+                  "isCorrect": false,
+                  "_id": "664c8f9ad950a07ad6320c63"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c8f9ad950a07ad6320c5e",
+            "examId": "664c39f4fde9add55b413681",
+            "subjectId": "6520e2722f70a49505dae243",
+            "topicId": "6520e2802f70a49505dae53f",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "status": 1,
+            "createdAt": "2024-05-21T12:12:10.702Z",
+            "updatedAt": "2024-05-21T12:12:10.702Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Each square block is of size 1m x 1m</p><p>One of the pattern of covering floor with tiles of size 2m x 1m. Similarly you can check other patterns also. Thus as below it is impossible to cover the floor without breaking the tiles or overlapping them.</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716293626145.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A 4m x 4m floor needs to be covered by tiles of size 2m x 1m. Two diagonally opposite comers of size 1m x 1 m should be left uncovered. How many tiles are required to complete the job without breaking the tiles or overlapping them?&nbsp;</p>",
+                  "_id": "664c8ffed950a07ad6321317"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1716293602847.png",
+                  "_id": "664c8ffed950a07ad6321318"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>6</p>",
+                  "isCorrect": false,
+                  "_id": "664c8ffed950a07ad6321319"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>7</p>",
+                  "isCorrect": false,
+                  "_id": "664c8ffed950a07ad632131a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>8</p>",
+                  "isCorrect": false,
+                  "_id": "664c8ffed950a07ad632131b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Impossible to cover</p>",
+                  "isCorrect": true,
+                  "_id": "664c8ffed950a07ad632131c"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c8ffed950a07ad6321316",
+            "examId": "664c39f4fde9add55b413681",
+            "subjectId": "6520e2722f70a49505dae243",
+            "topicId": "6520e2802f70a49505dae53f",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-05-21T12:13:50.116Z",
+            "updatedAt": "2024-05-21T12:13:50.116Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Insert n−1 circular discs of diameter d=2r and thickness 0 between the n balls. Then each ball B is enclosed in a cylindrical compartment C of radius r and height d. One has &nbsp;<br><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>v</mi><mi>o</mi><mi>l</mi><mo>(</mo><mi>B</mi><mo>)</mo></mrow><mrow><mi>v</mi><mi>o</mi><mi>l</mi><mo>(</mo><mi>C</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mstyle displaystyle=\"true\"><mfrac><mn>4</mn><mn>3</mn></mfrac></mstyle><mi>π</mi><msup><mi>r</mi><mn>3</mn></msup></mrow><mrow><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup><mo>(</mo><mn>2</mn><mi>r</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></math><br>This is also the fraction of volume occupied by the wax at the end of the melting process, independently of d and the number n of balls.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A tall metal cylinder is filled end-to-end with n snugly fitting spherical wax balls of diameter d. If the balls melt completely, the volume fraction occupied by the melted wax is:&nbsp;</p>",
+                  "_id": "664c9076d950a07ad6321e6a"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Independent of both d and n&nbsp;</p>",
+                  "isCorrect": true,
+                  "_id": "664c9076d950a07ad6321e6b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Dependent on both d and n&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "664c9076d950a07ad6321e6c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Independent of d, but dependent on n&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "664c9076d950a07ad6321e6d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Dependent on d, but independent of n</p>",
+                  "isCorrect": false,
+                  "_id": "664c9076d950a07ad6321e6e"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c9076d950a07ad6321e69",
+            "examId": "664c39f4fde9add55b413681",
+            "subjectId": "6520e2722f70a49505dae243",
+            "topicId": "6520e2802f70a49505dae53f",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "status": 1,
+            "createdAt": "2024-05-21T12:15:50.825Z",
+            "updatedAt": "2024-05-21T12:15:50.825Z",
+            "__v": 0
+          }
+        ]
+      }
+    ]
+  }
+}

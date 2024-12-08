@@ -1,0 +1,781 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "108",
+  "msg": "Exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c32b914d4a764bd2d4f78",
+        "inDualLang": false,
+        "en": {
+          "name": "L01 LOGICAL DEDUCTION",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "651417f88fa6161d205d23fc",
+        "topicId": "65141858dc0ebca59d6719cc",
+        "subTopicId": "6514187b1905980d043a0ead",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 40,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 10,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 0,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T05:35:53.486Z",
+        "updatedAt": "2024-05-21T06:12:05.315Z",
+        "__v": 2,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1714740088016.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Study the following information to answer the given questions:... &nbsp;</p><p>Eight boxes A, B, C, D, E, F, G and H are placed one above each other. More than two boxes are placed below A. Two boxes are placed between A and D. Only one box is placed between D and E. Two boxes is between C and H and C is above H. More than two boxes is between G and F. Box B is immediate above box C.</p><p>Which of the following box is immediate above C?</p>",
+                  "_id": "6634db7ceda4b1e4abcd04a9"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>A</p>",
+                  "isCorrect": false,
+                  "_id": "6634db7ceda4b1e4abcd04aa"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>B</p>",
+                  "isCorrect": true,
+                  "_id": "6634db7ceda4b1e4abcd04ab"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>F</p>",
+                  "isCorrect": false,
+                  "_id": "6634db7ceda4b1e4abcd04ac"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>D</p>",
+                  "isCorrect": false,
+                  "_id": "6634db7ceda4b1e4abcd04ad"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3addfde9add55b415372",
+            "examId": "664c32b914d4a764bd2d4f78",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "status": 1,
+            "createdAt": "2024-05-03T12:41:32.398Z",
+            "updatedAt": "2024-05-03T12:41:32.398Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Five students - A, K, L, M and T are compared.</p><p>1. Height of K is more than only two students.</p><p>_ &gt; _ &gt; K &gt; _ &gt; _</p><p>2. Height of M is greater than T and Height of T is greater than K.</p><p>M &gt; T &gt; K</p><p>From 1 and 2, we get:</p><p>M &gt; T &gt; K &gt; _ &gt; _</p><p>So, 3 students are smaller than T.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Height of five students A, K, L, M and T are compared. Height of K is more than only two students. Height of M is greater than T and Height of T is greater than K. How many students are smaller than T?</p>",
+                  "_id": "6634dbadcd3cb5b6cbff4640"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>3</p>",
+                  "isCorrect": true,
+                  "_id": "6634dbadcd3cb5b6cbff4641"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>0</p>",
+                  "isCorrect": false,
+                  "_id": "6634dbadcd3cb5b6cbff4642"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2</p>",
+                  "isCorrect": false,
+                  "_id": "6634dbadcd3cb5b6cbff4643"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1</p>",
+                  "isCorrect": false,
+                  "_id": "6634dbadcd3cb5b6cbff4644"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3addfde9add55b415378",
+            "examId": "664c32b914d4a764bd2d4f78",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "status": 1,
+            "createdAt": "2024-05-03T12:42:21.302Z",
+            "updatedAt": "2024-05-03T12:45:24.058Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution</p><p>Rank of Atul from the right = 12th</p><p>Rank of Atul from the Left = 4th</p><p>So, Total person in the line = 12 + 4 - 1 = 15.</p><p>Now, for 28 boys</p><p>= 28 - 15 = 13 boys should be added in the line.</p><p>Hence, the correct answer is \"13\".</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>If Atul finds that he is twelfth from the right and fourth from the left in a line of boys, then how many more boys should be added to the line such that there are 28 boys in that line?</p>",
+                  "_id": "6634dc02eda4b1e4abcd7fd0"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>12</p>",
+                  "isCorrect": false,
+                  "_id": "6634dc02eda4b1e4abcd7fd1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>13</p>",
+                  "isCorrect": true,
+                  "_id": "6634dc02eda4b1e4abcd7fd2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>14</p>",
+                  "isCorrect": false,
+                  "_id": "6634dc02eda4b1e4abcd7fd3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>20</p>",
+                  "isCorrect": false,
+                  "_id": "6634dc02eda4b1e4abcd7fd4"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3addfde9add55b41537e",
+            "examId": "664c32b914d4a764bd2d4f78",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "status": 1,
+            "createdAt": "2024-05-03T12:43:46.076Z",
+            "updatedAt": "2024-05-03T12:43:46.076Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>A lemonade &nbsp; &nbsp; teacher</p><p>B coffee &nbsp; &nbsp; &nbsp; &nbsp; lawyer</p><p>C Tea &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;doctor</p><p>D milk &nbsp; &nbsp; &nbsp; &nbsp; journalist</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Among A, B, C and D, there is a lawyer, a doctor, a teacher and a journalist. They drink exactly one each of tea, coffee, lemonade and milk. If neither the lawyer nor the teacher drinks milk, B drinks coffee, A is the teacher and C is the doctor and drinks tea, then which of the following is FALSE?&nbsp;</p><p>&nbsp;</p>",
+                  "_id": "6634dc4e2a8ba4e81651ebed"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>A drinks lemonade</p>",
+                  "isCorrect": false,
+                  "_id": "6634dc4e2a8ba4e81651ebee"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>B is the journalist</p>",
+                  "isCorrect": true,
+                  "_id": "6634dc4e2a8ba4e81651ebef"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>The lawyer drinks coffee</p>",
+                  "isCorrect": false,
+                  "_id": "6634dc4e2a8ba4e81651ebf0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>D drinks milk</p>",
+                  "isCorrect": false,
+                  "_id": "6634dc4e2a8ba4e81651ebf1"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3addfde9add55b415384",
+            "examId": "664c32b914d4a764bd2d4f78",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "status": 1,
+            "createdAt": "2024-05-03T12:45:02.897Z",
+            "updatedAt": "2024-05-03T12:45:02.897Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Possible case-1</p><p>A &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;B &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;C &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;D &nbsp; &nbsp; E</p><p>Father &nbsp;Mother &nbsp;Daughter &nbsp;Wife &nbsp; Son</p><p>&nbsp;</p><p>Possible case-2</p><p>&nbsp;</p><p>A &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; B &nbsp; &nbsp; &nbsp; &nbsp; C &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; D &nbsp; &nbsp; &nbsp; &nbsp;E</p><p>Daughter &nbsp; &nbsp; Mother &nbsp;Father &nbsp; &nbsp; Wife &nbsp; Son</p><p>&nbsp;</p><p>So B will be mother in bothe cases.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A family of mother, father, daughter, son and his wife pose for a photograph occupying sequential positions A, B, C, D and E in a line. Spouses are next to each other and the daughter is next to her mother.</p><p>If E is occupied by the son, which of the following is necessarily true ?&nbsp;</p>",
+                  "_id": "6634dcc7eda4b1e4abce190a"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>A is occupied by the father</p>",
+                  "isCorrect": false,
+                  "_id": "6634dcc7eda4b1e4abce190b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>B is occupied by the mother</p>",
+                  "isCorrect": true,
+                  "_id": "6634dcc7eda4b1e4abce190c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>C is occupied by the daughter</p>",
+                  "isCorrect": false,
+                  "_id": "6634dcc7eda4b1e4abce190d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>D is occupied by the daughter</p>",
+                  "isCorrect": false,
+                  "_id": "6634dcc7eda4b1e4abce190e"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3addfde9add55b41538a",
+            "examId": "664c32b914d4a764bd2d4f78",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "status": 1,
+            "createdAt": "2024-05-03T12:47:03.453Z",
+            "updatedAt": "2024-05-03T12:47:03.453Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1714740459492.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Read the following information’s carefully and answer the questions given below:</p><p>Eight persons I, J, K, L, M, N, O and P are sitting around a circular table but not necessarily in the same order. Five of them are facing inward while other are facing outwards.</p><p>M is third to the right of K. N sits third to the left of M. Three persons sit between N and J. O sit third to the right of N who is not facing the centre. L sits third to the right of I, who is not facing the centre.</p><p>Who sits exactly between N and I?</p>",
+                  "_id": "6634dcf4a464984647c3effe"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>J</p>",
+                  "isCorrect": false,
+                  "_id": "6634dcf4a464984647c3efff"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>K</p>",
+                  "isCorrect": false,
+                  "_id": "6634dcf4a464984647c3f000"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>M</p>",
+                  "isCorrect": false,
+                  "_id": "6634dcf4a464984647c3f001"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>None of these</p>",
+                  "isCorrect": true,
+                  "_id": "6634dcf4a464984647c3f002"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3addfde9add55b415390",
+            "examId": "664c32b914d4a764bd2d4f78",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "status": 1,
+            "createdAt": "2024-05-03T12:47:48.343Z",
+            "updatedAt": "2024-05-03T12:47:48.343Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1714740530247.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>During an evening party, when Ms. Black, Ms. Brown and &nbsp;</p><p>Ms. White met, Ms. Brown remarked, “It is interesting that &nbsp;</p><p>our dresses are white, black or brown, but for each of us &nbsp;</p><p>the name does not match the colour of the dress!\". Ms. &nbsp;</p><p>White replied, “But your white dress does not suit you!\". &nbsp;</p><p>Pick the correct answer.&nbsp;</p>",
+                  "_id": "6634dd3fa464984647c4d258"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Ms. White's dress was brown.</p>",
+                  "isCorrect": false,
+                  "_id": "6634dd3fa464984647c4d259"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Ms. Black's dress was white.</p>",
+                  "isCorrect": false,
+                  "_id": "6634dd3fa464984647c4d25a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Ms. White's dress was black.</p>",
+                  "isCorrect": true,
+                  "_id": "6634dd3fa464984647c4d25b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Ms. Black's dress was black</p>",
+                  "isCorrect": false,
+                  "_id": "6634dd3fa464984647c4d25c"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3addfde9add55b415396",
+            "examId": "664c32b914d4a764bd2d4f78",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "status": 1,
+            "createdAt": "2024-05-03T12:49:03.199Z",
+            "updatedAt": "2024-05-03T12:49:03.199Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>bserving the figure besides, there are three books kept &nbsp;</p><p>up-right in a shelf. &nbsp;</p><p>The worm starts eating from the outside front cover of &nbsp;</p><p>volume I, and eats its way horizontally to the outside back &nbsp;</p><p>cover of volume III. &nbsp;</p><p>So, the distance the worm covered is the thickness of &nbsp;</p><p>Volume II, that is, 6 cm.</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1714740657788.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Three volumes of a Hindi book, identical in shape and size, &nbsp;</p><p>are next to each other in a shelf, all up-right, so that their &nbsp;</p><p>spines are visible, left to right: I, II, III. A worm starts eating &nbsp;</p><p>from the outside front cover of volume I, and eats its way &nbsp;</p><p>horizontally to the outside back cover of volume III. What &nbsp;</p><p>is the distance travelled by the worm, if eachvolume is 6 &nbsp;</p><p>cm thick? &nbsp;</p>",
+                  "_id": "6634ddb7a464984647c69c8f"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>6 cm&nbsp;</p>",
+                  "isCorrect": true,
+                  "_id": "6634ddb7a464984647c69c90"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>18 cm</p>",
+                  "isCorrect": false,
+                  "_id": "6634ddb7a464984647c69c91"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>12 cm</p>",
+                  "isCorrect": false,
+                  "_id": "6634ddb7a464984647c69c92"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>a little more than 18 cm &nbsp;</p><p>&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "6634ddb7a464984647c69c93"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3addfde9add55b41539c",
+            "examId": "664c32b914d4a764bd2d4f78",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "status": 1,
+            "createdAt": "2024-05-03T12:51:03.487Z",
+            "updatedAt": "2024-05-03T12:51:03.487Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1714740718901.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What &nbsp;is &nbsp;the &nbsp;minimum &nbsp;number &nbsp;of &nbsp;moves &nbsp;required &nbsp;to &nbsp;transform &nbsp;Figure &nbsp;1 &nbsp;to &nbsp;Figure &nbsp;2? &nbsp;A &nbsp;move &nbsp;is defined &nbsp;as removing a coin and placing it such that it touches two &nbsp;other coins in its new position.</p>",
+                  "_id": "6634ddf1a464984647c7b8f3"
+                },
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1714740693572.jpg",
+                  "_id": "6634ddf1a464984647c7b8f4"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1</p>",
+                  "isCorrect": false,
+                  "_id": "6634ddf1a464984647c7b8f5"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3</p>",
+                  "isCorrect": false,
+                  "_id": "6634ddf1a464984647c7b8f6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2</p>",
+                  "isCorrect": true,
+                  "_id": "6634ddf1a464984647c7b8f7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4</p>",
+                  "isCorrect": false,
+                  "_id": "6634ddf1a464984647c7b8f8"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3addfde9add55b4153a2",
+            "examId": "664c32b914d4a764bd2d4f78",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-05-03T12:52:01.622Z",
+            "updatedAt": "2024-05-03T12:52:01.622Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>7 sisters of the family have 1 brother. &nbsp;</p><p>So, 7 sisters and 1 brother: total 8children.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>In a group of siblings there are seven sisters, and each &nbsp;sister has one brother. How many siblings are there in &nbsp;total?&nbsp;</p>",
+                  "_id": "6634de1fa464984647c87dcc"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>15&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "6634de1fa464984647c87dcd"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>8</p>",
+                  "isCorrect": true,
+                  "_id": "6634de1fa464984647c87dce"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>14</p>",
+                  "isCorrect": false,
+                  "_id": "6634de1fa464984647c87dcf"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>7</p>",
+                  "isCorrect": false,
+                  "_id": "6634de1fa464984647c87dd0"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3addfde9add55b4153a9",
+            "examId": "664c32b914d4a764bd2d4f78",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "status": 1,
+            "createdAt": "2024-05-03T12:52:47.543Z",
+            "updatedAt": "2024-05-03T12:52:47.543Z",
+            "__v": 0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,776 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "108",
+  "msg": "Exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c3744fde9add55b40cb51",
+        "inDualLang": false,
+        "en": {
+          "name": "L02 HEIGHT AND DISTANCE",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "664b4a4345209d78a0f8d995",
+        "topicId": "664b4eaa45209d78a00b15e5",
+        "subTopicId": "664b4ebd484b8250dce3775b",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 0,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 0,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T05:55:16.987Z",
+        "updatedAt": "2024-09-12T09:58:49.637Z",
+        "__v": 3,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>tan&nbsp;α = H/60</p><p>tan&nbsp;θ = 1/2</p><p>tan&nbsp;β = H/20</p><p>tan (β –&nbsp;α) = tan&nbsp;θ</p><p>tan (β − α) = 1 / 2</p><p>(tan&nbsp;β&nbsp; – tan&nbsp;α)/(1 + tan&nbsp;β tan&nbsp;α) = 1/2</p><p>⇒&nbsp; [(H/20) – (H/60)]/(1 + H2/1200) = 1/2</p><p>⇒ (2H/60)/(1200 +&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi mathvariant=\"normal\">H</mi><mn>2</mn></msup></math>)/1200 = 1/2</p><p>⇒ 40H/(1200 +&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi mathvariant=\"normal\">H</mi><mn>2</mn></msup></math>) = 1/2</p><p>⇒ 80H = 1200 +&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi mathvariant=\"normal\">H</mi><mn>2</mn></msup></math></p><p>⇒&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi mathvariant=\"normal\">H</mi><mn>2</mn></msup></math>&nbsp;− 80H + 1200 = 0</p><p>⇒ (H – 20) (H – 60) = 0</p><p>⇒H = 20 or 60m</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716555666302.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A vertical pole consists of two parts, the lower part being one-third of the whole. At a point in the horizontal plane through the base of the pole and a distance of 20 meters from it, the upper part of the pole subtends an angle whose tangent is 1/2. What are the possible heights of the pole?</p>",
+                  "_id": "66508fc2abb2722de63fa8a8"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>20</p>",
+                  "isCorrect": false,
+                  "_id": "66508fc2abb2722de63fa8a9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>30</p>",
+                  "isCorrect": false,
+                  "_id": "66508fc2abb2722de63fa8aa"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>40</p>",
+                  "isCorrect": false,
+                  "_id": "66508fc2abb2722de63fa8ab"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>70</p>",
+                  "isCorrect": true,
+                  "_id": "66508fc2abb2722de63fa8ac"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "66508fc2abb2722de63fa8a7",
+            "examId": "664c3744fde9add55b40cb51",
+            "subjectId": "664b4a4345209d78a0f8d995",
+            "topicId": "664b4eaa45209d78a00b15e5",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "status": 1,
+            "createdAt": "2024-05-24T13:01:54.929Z",
+            "updatedAt": "2024-05-24T13:01:54.929Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>H = d tan β</p><p>H − h = d tan α</p><p>⇒ (60 − h)/60 = tan α / tan β</p><p>⇒ 1 – h/60 =&nbsp; tan α / tan β</p><p>⇒ h/60 = 1 –&nbsp;tan α / tan β</p><p>⇒ h/60 = (tan&nbsp;β –&nbsp;tan α)/tan β</p><p>⇒ h/60 = (cos&nbsp;α sin β –&nbsp;cos&nbsp;β sin&nbsp;α)/cos&nbsp;α sin&nbsp;β</p><p>⇒ h/60 = sin (β –&nbsp;α)/cos&nbsp;α sin&nbsp;β</p><p>Given h = 60 sin (β − α)] / x</p><p>S0&nbsp;60 sin (β − α)] / 60 x =&nbsp;sin (β –&nbsp;α)/cos&nbsp;α sin&nbsp;β</p><p>⇒ x = cos α sin β</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716555855321.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>From a 60-meter-high tower, the angles of depression of the top and bottom of a house are α and β, respectively. If the height of the house is [60 sin (β − α)] / x, then find x.</p>",
+                  "_id": "66509057abb2722de6414310"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>α sin β</p>",
+                  "isCorrect": false,
+                  "_id": "66509057abb2722de6414311"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>cos α sin β</p>",
+                  "isCorrect": false,
+                  "_id": "66509057abb2722de6414312"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>cos α&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "66509057abb2722de6414313"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>sin β</p>",
+                  "isCorrect": true,
+                  "_id": "66509057abb2722de6414314"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "66509057abb2722de641430f",
+            "examId": "664c3744fde9add55b40cb51",
+            "subjectId": "664b4a4345209d78a0f8d995",
+            "topicId": "664b4eaa45209d78a00b15e5",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "status": 1,
+            "createdAt": "2024-05-24T13:04:23.569Z",
+            "updatedAt": "2024-05-24T13:04:23.569Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>d =H cot&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>30</mn><mi>o</mi></msup></math>&nbsp;−H cot&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>60</mn><mi>o</mi></msup></math>;</p><p>Time taken = 10 seconds = 1/360 hrs</p><p>Speed = ([cot&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>30</mn><mi>o</mi></msup></math>&nbsp;− cot&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>60</mn><mi>o</mi></msup></math>] / (1/360)</p><p>= (2/√3)/(1/360)</p><p>= 240√3</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716555967018.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>An aeroplane flying horizontally 1 km above the ground is observed at an elevation of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>60</mn><mi>o</mi></msup></math>,&nbsp;and after 10 seconds, the elevation is observed to be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>30</mn><mi>o</mi></msup></math>. Find the uniform speed of the aeroplane in km/h.</p>",
+                  "_id": "665090efabb2722de6438a21"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>140√3</p>",
+                  "isCorrect": false,
+                  "_id": "665090efabb2722de6438a22"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>240√3</p>",
+                  "isCorrect": false,
+                  "_id": "665090efabb2722de6438a23"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>340√3</p>",
+                  "isCorrect": false,
+                  "_id": "665090efabb2722de6438a24"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>40√3</p>",
+                  "isCorrect": true,
+                  "_id": "665090efabb2722de6438a25"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "665090efabb2722de6438a20",
+            "examId": "664c3744fde9add55b40cb51",
+            "subjectId": "664b4a4345209d78a0f8d995",
+            "topicId": "664b4eaa45209d78a00b15e5",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "status": 1,
+            "createdAt": "2024-05-24T13:06:55.668Z",
+            "updatedAt": "2024-05-24T13:06:55.668Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>tan α = 1 / 2 and PO = p+h</p><p>tan 2α = 2 tan α / 1 − tan2&nbsp;α</p><p>⇒ [p + h] / [2h] = 1 / [1 − 1 / 4]</p><p>⇒ p + h / 2h = 4 / 3</p><p>⇒ p = 5h / 3</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716556068575.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>At a distance of 2h from the foot of a tower of height h, the tower and a pole at the top of the tower subtend equal angles. What would be the height of the pole?</p>",
+                  "_id": "6650912eabb2722de6445977"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>5h / 6</p>",
+                  "isCorrect": false,
+                  "_id": "6650912eabb2722de6445978"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>7h / 3</p>",
+                  "isCorrect": false,
+                  "_id": "6650912eabb2722de6445979"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>5h / 3</p>",
+                  "isCorrect": false,
+                  "_id": "6650912eabb2722de644597a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>11h / 3</p>",
+                  "isCorrect": true,
+                  "_id": "6650912eabb2722de644597b"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "6650912eabb2722de6445976",
+            "examId": "664c3744fde9add55b40cb51",
+            "subjectId": "664b4a4345209d78a0f8d995",
+            "topicId": "664b4eaa45209d78a00b15e5",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "status": 1,
+            "createdAt": "2024-05-24T13:07:58.556Z",
+            "updatedAt": "2024-05-24T13:07:58.556Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Height of tree = 20 = l + h</p><p>l = 20-h</p><p>sin 30 = h/(20-h)</p><p>1/2 = h/(20 – h)</p><p>20 – h = 2h</p><p>20 = 3h</p><p>so h = 20/3 m</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716556144957.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Some portion of a 20 meters long tree is broken by the wind, and the top strikes the ground at an angle of&nbsp;<math class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>30</mn><mi mathvariant=\"normal\">o</mi></msup></math>. The height of the point where the tree is broken is ?</p>",
+                  "_id": "66509178abb2722de6454af6"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>20/3 m</p>",
+                  "isCorrect": false,
+                  "_id": "66509178abb2722de6454af7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>40/3 m</p>",
+                  "isCorrect": false,
+                  "_id": "66509178abb2722de6454af8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>10/3 m</p>",
+                  "isCorrect": false,
+                  "_id": "66509178abb2722de6454af9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>80/3 m</p>",
+                  "isCorrect": true,
+                  "_id": "66509178abb2722de6454afa"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "66509178abb2722de6454af5",
+            "examId": "664c3744fde9add55b40cb51",
+            "subjectId": "664b4a4345209d78a0f8d995",
+            "topicId": "664b4eaa45209d78a00b15e5",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "status": 1,
+            "createdAt": "2024-05-24T13:09:12.353Z",
+            "updatedAt": "2024-05-24T13:09:12.353Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Let b be the height of the tower and p be the height of the pole.</p><p>tan α = b / a</p><p>tan 2α&nbsp;= (p + b)/a</p><p>2 tan&nbsp;α/(1 – tan2&nbsp;α) = (p + b)/a</p><p>⇒&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>ba</mi><mo>&nbsp;</mo><mo>/</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">a</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>−</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">b</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mo>[</mo><mi mathvariant=\"normal\">p</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mi mathvariant=\"normal\">b</mi><mo>]</mo><mo>&nbsp;</mo><mo>/</mo><mo>&nbsp;</mo><mo>[</mo><mi mathvariant=\"normal\">a</mi><mo>]</mo></math></p><p>⇒&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>[</mo><mn>2</mn><msup><mi>ba</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>−</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">a</mi><mn>2</mn></msup><mi mathvariant=\"normal\">b</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">b</mi><mn>3</mn></msup><mo>]</mo><mo>&nbsp;</mo><mo>/</mo><mo>&nbsp;</mo><mo>[</mo><msup><mi mathvariant=\"normal\">a</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>−</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">b</mi><mn>2</mn></msup><mo>]</mo><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mi mathvariant=\"normal\">p</mi></math></p><p>⇒ p =<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&nbsp;</mo><mo>[</mo><mi mathvariant=\"normal\">b</mi><mo>&nbsp;</mo><mo>(</mo><msup><mi mathvariant=\"normal\">a</mi><mn>2</mn></msup><mo>+</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">b</mi><mn>2</mn></msup><mo>)</mo><mo>]</mo><mo>&nbsp;</mo><mo>/</mo><mo>&nbsp;</mo><mo>[</mo><mo>(</mo><msup><mi mathvariant=\"normal\">a</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>−</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">b</mi><mn>2</mn></msup><mo>)</mo><mo>]</mo></math></p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716556285499.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A tower of height b subtends an angle at a point O on the level of the foot of the tower and at a distance a from the foot of the tower. If a pole mounted on the tower also subtends an equal angle at O, the height of the pole is?</p>",
+                  "_id": "66509247abb2722de6486eca"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>[</mo><mi mathvariant=\"normal\">a</mi><mo>&nbsp;</mo><mo>(</mo><msup><mi mathvariant=\"normal\">a</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">b</mi><mn>2</mn></msup><mo>)</mo><mo>]</mo><mo>&nbsp;</mo><mo>/</mo><mo>&nbsp;</mo><mo>[</mo><mo>(</mo><msup><mi mathvariant=\"normal\">a</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>−</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">b</mi><mn>2</mn></msup><mo>)</mo><mo>]</mo></math></p>",
+                  "isCorrect": false,
+                  "_id": "66509247abb2722de6486ecb"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>[</mo><mi mathvariant=\"normal\">b</mi><mo>&nbsp;</mo><mo>(</mo><msup><mi mathvariant=\"normal\">a</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">b</mi><mn>2</mn></msup><mo>)</mo><mo>]</mo><mo>&nbsp;</mo><mo>/</mo><mo>&nbsp;</mo><mo>[</mo><mo>(</mo><msup><mi mathvariant=\"normal\">a</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">b</mi><mn>2</mn></msup><mo>)</mo><mo>]</mo></math></p>",
+                  "isCorrect": false,
+                  "_id": "66509247abb2722de6486ecc"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>[</mo><mo>(</mo><msup><mi mathvariant=\"normal\">a</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">b</mi><mn>2</mn></msup><mo>)</mo><mo>]</mo><mo>&nbsp;</mo><mo>/</mo><mo>&nbsp;</mo><mo>[</mo><mo>(</mo><msup><mi mathvariant=\"normal\">a</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>−</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">b</mi><mn>2</mn></msup><mo>)</mo><mo>]</mo></math></p>",
+                  "isCorrect": false,
+                  "_id": "66509247abb2722de6486ecd"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>[</mo><mi mathvariant=\"normal\">b</mi><mo>&nbsp;</mo><mo>(</mo><msup><mi mathvariant=\"normal\">a</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">b</mi><mn>2</mn></msup><mo>)</mo><mo>]</mo><mo>&nbsp;</mo><mo>/</mo><mo>&nbsp;</mo><mo>[</mo><mo>(</mo><msup><mi mathvariant=\"normal\">a</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>−</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">b</mi><mn>2</mn></msup><mo>)</mo><mo>]</mo></math></p>",
+                  "isCorrect": true,
+                  "_id": "66509247abb2722de6486ece"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "66509247abb2722de6486ec9",
+            "examId": "664c3744fde9add55b40cb51",
+            "subjectId": "664b4a4345209d78a0f8d995",
+            "topicId": "664b4eaa45209d78a00b15e5",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "status": 1,
+            "createdAt": "2024-05-24T13:12:39.658Z",
+            "updatedAt": "2024-05-24T13:12:39.658Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>tan&nbsp;θ = 64/x…(i)</p><p>tan&nbsp;θ = x/36…(ii)</p><p>Equating (i) and (ii)</p><p>64/x = x/36</p><p>x2&nbsp;= 2304</p><p>so x = 48 m</p><p>The distance between the houses is 48 m.</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716556404910.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A house of height 100 metres subtends a right angle at the window of an opposite house. If the height of the window is 64 metres, then the distance between the two houses is</p>",
+                  "_id": "6650927d7036675413e54899"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>48 m</p>",
+                  "isCorrect": false,
+                  "_id": "6650927d7036675413e5489a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>36 m</p>",
+                  "isCorrect": false,
+                  "_id": "6650927d7036675413e5489b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>54 m</p>",
+                  "isCorrect": false,
+                  "_id": "6650927d7036675413e5489c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>72 m</p>",
+                  "isCorrect": true,
+                  "_id": "6650927d7036675413e5489d"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "6650927d7036675413e54898",
+            "examId": "664c3744fde9add55b40cb51",
+            "subjectId": "664b4a4345209d78a0f8d995",
+            "topicId": "664b4eaa45209d78a00b15e5",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "status": 1,
+            "createdAt": "2024-05-24T13:13:33.711Z",
+            "updatedAt": "2024-05-24T13:13:33.711Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Let H be the height of the cloud from the surface of the lake.</p><p>(H-h)/AB = tan&nbsp;θ</p><p>(H+h)/AB = tan&nbsp;ϕ</p><p>(H-h)/(H+h) =&nbsp;tan&nbsp;θ/tan ϕ</p><p>(H-h+H+h)/(H-h-H-h) = (tan&nbsp;θ + tan&nbsp;ϕ)/(tan&nbsp;θ – tan&nbsp;ϕ)</p><p>2H/-2h =&nbsp;(tan&nbsp;θ + tan&nbsp;ϕ)/(tan&nbsp;θ – tan&nbsp;ϕ)</p><p>H = -h(tan&nbsp;θ + tan&nbsp;ϕ)/(tan&nbsp;θ – tan&nbsp;ϕ)</p><p>= h(tan&nbsp;θ + tan&nbsp;ϕ)/(tan&nbsp;ϕ – tan&nbsp;θ)</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716613193044.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>From a point h metre above a lake, the angle of elevation of a cloud is θ, and the angle of depression of its reflection is ϕ. The height of the cloud is&nbsp;?</p>",
+                  "_id": "66517052a76a92ed42c58625"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>(tan&nbsp;θ + tan&nbsp;ϕ)/(tan&nbsp;ϕ – tan&nbsp;θ)</p>",
+                  "isCorrect": false,
+                  "_id": "66517052a76a92ed42c58626"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>h(tan&nbsp;θ + tan&nbsp;ϕ)/(tan&nbsp;ϕ – tan&nbsp;θ)</p>",
+                  "isCorrect": false,
+                  "_id": "66517052a76a92ed42c58627"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>h(tan&nbsp;θ + tan&nbsp;θ)/(tan&nbsp;ϕ – tan&nbsp;θ)</p>",
+                  "isCorrect": false,
+                  "_id": "66517052a76a92ed42c58628"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>h(tan&nbsp;θ + tan&nbsp;ϕ)/(tan&nbsp;θ – tan&nbsp;θ)</p>",
+                  "isCorrect": true,
+                  "_id": "66517052a76a92ed42c58629"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "66517052a76a92ed42c58624",
+            "examId": "664c3744fde9add55b40cb51",
+            "subjectId": "664b4a4345209d78a0f8d995",
+            "topicId": "664b4eaa45209d78a00b15e5",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "status": 1,
+            "createdAt": "2024-05-25T05:00:02.648Z",
+            "updatedAt": "2024-05-25T05:00:02.648Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>cot&nbsp;θ1&nbsp;= 3/5</p><p>cot&nbsp;θ2&nbsp;= 2/5</p><p>cot&nbsp;θ1&nbsp;= (32 + a)/h</p><p>cot&nbsp;θ2&nbsp;= a/h</p><p>so a = 2h/5</p><p>3/5 = (32 + 2h/5)/h</p><p>=&gt; 3h = 32×5 + 2h</p><p>=&gt; h = 160m</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716613265725.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>At a point on the ground, the angle of elevation of a tower is such that its cotangent is 3/5. On walking 32 metres towards the tower the cotangent of the angle of elevation is 2/5. The height of the tower is?</p>",
+                  "_id": "665170a6a76a92ed42c58dc2"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>160m</p>",
+                  "isCorrect": false,
+                  "_id": "665170a6a76a92ed42c58dc3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>260m</p>",
+                  "isCorrect": false,
+                  "_id": "665170a6a76a92ed42c58dc4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>60m</p>",
+                  "isCorrect": false,
+                  "_id": "665170a6a76a92ed42c58dc5"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>180m</p>",
+                  "isCorrect": true,
+                  "_id": "665170a6a76a92ed42c58dc6"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "665170a6a76a92ed42c58dc1",
+            "examId": "664c3744fde9add55b40cb51",
+            "subjectId": "664b4a4345209d78a0f8d995",
+            "topicId": "664b4eaa45209d78a00b15e5",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-05-25T05:01:26.714Z",
+            "updatedAt": "2024-05-25T05:01:26.714Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Let PR represent the height of the building, and PS represent the river.</p><p>QS = 20 m</p><p>The angle of elevation at S is 45°&nbsp;and at Q is 30°.</p><p>In Δ PRS, tan 45° = x/y</p><p>⇒ 1 = x/y</p><p>⇒ x = y</p><p>In&nbsp; Δ PQR, tan 30° = x/(20+y)</p><p>⇒&nbsp; 1/√3 = x/(20+x)&nbsp; [ since x = y]</p><p>⇒ 20+x = √3x</p><p>x(√3-1) = 20</p><p>x = 20/(√3-1)</p><p>Multiply the numerator and denominator by (√3+1)</p><p>⇒x = 20(√3+1)/(√3-1)(√3+1)</p><p>⇒x =&nbsp; 20(√3+1)/(3-1)</p><p>⇒x =&nbsp; 20(√3+1)/2</p><p>⇒x = 10(√3+1) m</p><p>Hence, the height of the building is&nbsp;&nbsp;10(√3+1) m. &nbsp;</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716613354299.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A person standing on the bank of a river observes that the angle of elevation of the top of a building on the opposite bank is 45°. When he moves 20m away from the bank, he finds the angle of elevation to be 30°. Find the height of the building.</p>",
+                  "_id": "665170fba76a92ed42c59b0c"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>10(√3+1) m.&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "665170fba76a92ed42c59b0d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>20(√3+1) m.&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "665170fba76a92ed42c59b0e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>30(√3+1) m.&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "665170fba76a92ed42c59b0f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>40(√3+1) m.&nbsp;</p>",
+                  "isCorrect": true,
+                  "_id": "665170fba76a92ed42c59b10"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "665170fba76a92ed42c59b0b",
+            "examId": "664c3744fde9add55b40cb51",
+            "subjectId": "664b4a4345209d78a0f8d995",
+            "topicId": "664b4eaa45209d78a00b15e5",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "status": 1,
+            "createdAt": "2024-05-25T05:02:51.452Z",
+            "updatedAt": "2024-05-25T05:02:51.452Z",
+            "__v": 0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,776 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "108",
+  "msg": "Exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c3224fde9add55b3dc23c",
+        "inDualLang": false,
+        "en": {
+          "name": "L01 MISSING SERIESL",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "650584ae0ad1aa19a86412fb",
+        "topicId": "65058e300ad1aa19a868a4f7",
+        "subTopicId": "65058e457c4da8fbcc2c9c73",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 0,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 0,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T05:33:24.794Z",
+        "updatedAt": "2024-05-21T05:56:26.598Z",
+        "__v": 1,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716270046621.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>5, &nbsp;8, &nbsp;14, &nbsp;26, &nbsp;50, &nbsp;?</p>",
+                  "_id": "664c33e1fde9add55b3deed0"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>102</p>",
+                  "isCorrect": false,
+                  "_id": "664c33e1fde9add55b3deed1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>100</p>",
+                  "isCorrect": false,
+                  "_id": "664c33e1fde9add55b3deed2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>99</p>",
+                  "isCorrect": false,
+                  "_id": "664c33e1fde9add55b3deed3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>98</p>",
+                  "isCorrect": true,
+                  "_id": "664c33e1fde9add55b3deed4"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c33e1fde9add55b3deecf",
+            "examId": "664c3224fde9add55b3dc23c",
+            "subjectId": "650584ae0ad1aa19a86412fb",
+            "topicId": "65058e300ad1aa19a868a4f7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "status": 1,
+            "createdAt": "2024-05-21T05:40:49.942Z",
+            "updatedAt": "2024-05-21T05:40:49.942Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716270094606.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>2, &nbsp;4, &nbsp;10, &nbsp;22, &nbsp;42, &nbsp;?</p>",
+                  "_id": "664c3411da7f9ddbffab7084"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>65</p>",
+                  "isCorrect": false,
+                  "_id": "664c3411da7f9ddbffab7085"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>68</p>",
+                  "isCorrect": false,
+                  "_id": "664c3411da7f9ddbffab7086"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>70</p>",
+                  "isCorrect": false,
+                  "_id": "664c3411da7f9ddbffab7087"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>72</p>",
+                  "isCorrect": true,
+                  "_id": "664c3411da7f9ddbffab7088"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3411da7f9ddbffab7083",
+            "examId": "664c3224fde9add55b3dc23c",
+            "subjectId": "650584ae0ad1aa19a86412fb",
+            "topicId": "65058e300ad1aa19a868a4f7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "status": 1,
+            "createdAt": "2024-05-21T05:41:37.158Z",
+            "updatedAt": "2024-05-21T05:41:37.158Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716270133828.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>3, &nbsp;2, &nbsp;3, &nbsp;8, &nbsp;36, &nbsp;?</p>",
+                  "_id": "664c3439fbc04ed7b04c501e"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>288</p>",
+                  "isCorrect": false,
+                  "_id": "664c3439fbc04ed7b04c501f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>290</p>",
+                  "isCorrect": false,
+                  "_id": "664c3439fbc04ed7b04c5020"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>294</p>",
+                  "isCorrect": false,
+                  "_id": "664c3439fbc04ed7b04c5021"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>296</p>",
+                  "isCorrect": true,
+                  "_id": "664c3439fbc04ed7b04c5022"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3439fbc04ed7b04c501d",
+            "examId": "664c3224fde9add55b3dc23c",
+            "subjectId": "650584ae0ad1aa19a86412fb",
+            "topicId": "65058e300ad1aa19a868a4f7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "status": 1,
+            "createdAt": "2024-05-21T05:42:17.091Z",
+            "updatedAt": "2024-05-21T05:42:17.091Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716270170013.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>32, &nbsp;64, &nbsp;16, &nbsp;128, &nbsp;8, &nbsp;?</p>",
+                  "_id": "664c345fda7f9ddbffabbcc9"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>64</p>",
+                  "isCorrect": false,
+                  "_id": "664c345fda7f9ddbffabbcca"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>128</p>",
+                  "isCorrect": false,
+                  "_id": "664c345fda7f9ddbffabbccb"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>256</p>",
+                  "isCorrect": true,
+                  "_id": "664c345fda7f9ddbffabbccc"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>512</p>",
+                  "isCorrect": false,
+                  "_id": "664c345fda7f9ddbffabbccd"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c345fda7f9ddbffabbcc8",
+            "examId": "664c3224fde9add55b3dc23c",
+            "subjectId": "650584ae0ad1aa19a86412fb",
+            "topicId": "65058e300ad1aa19a868a4f7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "status": 1,
+            "createdAt": "2024-05-21T05:42:55.421Z",
+            "updatedAt": "2024-05-21T05:42:55.421Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716270230918.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>?, &nbsp;17, &nbsp;89, &nbsp;359, &nbsp;1079, &nbsp;2159</p>",
+                  "_id": "664c349dfde9add55b3f87a5"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>2</p>",
+                  "isCorrect": true,
+                  "_id": "664c349dfde9add55b3f87a6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3</p>",
+                  "isCorrect": false,
+                  "_id": "664c349dfde9add55b3f87a7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4</p>",
+                  "isCorrect": false,
+                  "_id": "664c349dfde9add55b3f87a8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>5</p>",
+                  "isCorrect": false,
+                  "_id": "664c349dfde9add55b3f87a9"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c349dfde9add55b3f87a4",
+            "examId": "664c3224fde9add55b3dc23c",
+            "subjectId": "650584ae0ad1aa19a86412fb",
+            "topicId": "65058e300ad1aa19a868a4f7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "status": 1,
+            "createdAt": "2024-05-21T05:43:57.754Z",
+            "updatedAt": "2024-05-21T05:43:57.754Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Answer:</p><p>Pattern of series</p><p>12×0.5+1=7</p><p>7×1+1.5=8.5</p><p>8.5×1.5+2=14.75</p><p>14.75×2+2.5=32</p><p>32×2.5+3=83</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>12, &nbsp; &nbsp; &nbsp;7, &nbsp; &nbsp; &nbsp;8.5, &nbsp; &nbsp; &nbsp; &nbsp;14.75, &nbsp; &nbsp; &nbsp; &nbsp;?, &nbsp; &nbsp; &nbsp; &nbsp; 83</p>",
+                  "_id": "664c34f4fbc04ed7b052bff3"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>30</p>",
+                  "isCorrect": false,
+                  "_id": "664c34f4fbc04ed7b052bff4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>24</p>",
+                  "isCorrect": false,
+                  "_id": "664c34f4fbc04ed7b052bff5"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>32</p>",
+                  "isCorrect": true,
+                  "_id": "664c34f4fbc04ed7b052bff6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>36</p>",
+                  "isCorrect": false,
+                  "_id": "664c34f4fbc04ed7b052bff7"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c34f4fbc04ed7b052bff2",
+            "examId": "664c3224fde9add55b3dc23c",
+            "subjectId": "650584ae0ad1aa19a86412fb",
+            "topicId": "65058e300ad1aa19a868a4f7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "status": 1,
+            "createdAt": "2024-05-21T05:45:24.563Z",
+            "updatedAt": "2024-05-21T05:45:24.563Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Pattern of series — &nbsp;</p><p>12 × 6 + 6 = 78</p><p>78 × 5 + 5 = 395</p><p>395 × 4 + 4 = 1584 &nbsp;</p><p>1584 × 3 + 3 = 4755 &nbsp;</p><p>? = 4755 × 2 + 2 = 9512</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>12, &nbsp; &nbsp; &nbsp; 78, &nbsp; &nbsp; &nbsp;395, &nbsp; &nbsp; &nbsp; &nbsp;1584, &nbsp; &nbsp; &nbsp; 4755, &nbsp; &nbsp; &nbsp; ?</p>",
+                  "_id": "664c3555fde9add55b3f9470"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>9512</p>",
+                  "isCorrect": true,
+                  "_id": "664c3555fde9add55b3f9471"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9516</p>",
+                  "isCorrect": false,
+                  "_id": "664c3555fde9add55b3f9472"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9518</p>",
+                  "isCorrect": false,
+                  "_id": "664c3555fde9add55b3f9473"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9520</p>",
+                  "isCorrect": false,
+                  "_id": "664c3555fde9add55b3f9474"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3555fde9add55b3f946f",
+            "examId": "664c3224fde9add55b3dc23c",
+            "subjectId": "650584ae0ad1aa19a86412fb",
+            "topicId": "65058e300ad1aa19a868a4f7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "status": 1,
+            "createdAt": "2024-05-21T05:47:01.314Z",
+            "updatedAt": "2024-05-21T05:47:01.314Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>26 × 2 + 1 = 53</p><p>53 × 4 + 2 = 214</p><p>214 × 6 + 3 = 1287</p><p>1287 × 8 + 4 = 10300</p><p>? = 10300 × 10 + 5 = 103005</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>26, &nbsp; &nbsp; 53, &nbsp; &nbsp; 214, &nbsp; &nbsp; &nbsp; 1287, &nbsp; &nbsp; &nbsp; 10300, &nbsp; &nbsp; &nbsp; ?</p>",
+                  "_id": "664c3598fbc04ed7b05838b1"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>95000</p>",
+                  "isCorrect": false,
+                  "_id": "664c3598fbc04ed7b05838b2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>100005</p>",
+                  "isCorrect": false,
+                  "_id": "664c3598fbc04ed7b05838b3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>103000</p>",
+                  "isCorrect": false,
+                  "_id": "664c3598fbc04ed7b05838b4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>103005</p>",
+                  "isCorrect": true,
+                  "_id": "664c3598fbc04ed7b05838b5"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3598fbc04ed7b05838b0",
+            "examId": "664c3224fde9add55b3dc23c",
+            "subjectId": "650584ae0ad1aa19a86412fb",
+            "topicId": "65058e300ad1aa19a868a4f7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "status": 1,
+            "createdAt": "2024-05-21T05:48:08.354Z",
+            "updatedAt": "2024-05-21T05:48:08.354Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Given series: 1, 4, 9, 25, ?</p><p>Pattern: The given series is a square of natural numbers.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>1</mn><mo>&nbsp;</mo><mo>&nbsp;</mo><mspace linebreak=\"newline\">&nbsp;</mspace><msup><mrow><mo>(</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>4</mn><mo>&nbsp;</mo><mo>&nbsp;</mo><mspace linebreak=\"newline\">&nbsp;</mspace><msup><mrow><mo>(</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>9</mn><mo>&nbsp;</mo><mo>&nbsp;</mo><mo>&nbsp;</mo><mspace linebreak=\"newline\">&nbsp;</mspace><msup><mrow><mo>(</mo><mn>4</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>16</mn><mo>&nbsp;</mo><mo>&nbsp;</mo><mspace linebreak=\"newline\">&nbsp;</mspace><msup><mrow><mo>(</mo><mn>5</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>25</mn><mo>&nbsp;</mo><mspace linebreak=\"newline\">&nbsp;</mspace><mo>&nbsp;</mo><msup><mrow><mo>(</mo><mn>6</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>36</mn></math></p><p>Hence, 36 is correct.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Identify the next term in the series 4, 9, 16, 25….</p>",
+                  "_id": "664c35fffbc04ed7b05bc4c1"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>36</p>",
+                  "isCorrect": true,
+                  "_id": "664c35fffbc04ed7b05bc4c2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>40</p>",
+                  "isCorrect": false,
+                  "_id": "664c35fffbc04ed7b05bc4c3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>28</p>",
+                  "isCorrect": false,
+                  "_id": "664c35fffbc04ed7b05bc4c4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>30</p>",
+                  "isCorrect": false,
+                  "_id": "664c35fffbc04ed7b05bc4c5"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c35fffbc04ed7b05bc4c0",
+            "examId": "664c3224fde9add55b3dc23c",
+            "subjectId": "650584ae0ad1aa19a86412fb",
+            "topicId": "65058e300ad1aa19a868a4f7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-05-21T05:49:51.996Z",
+            "updatedAt": "2024-05-21T05:52:30.384Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1716270654451.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Identify the next term in the series 5, 13, 29, 61 …</p>",
+                  "_id": "664c364cda7f9ddbffb1ed69"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>69</p>",
+                  "isCorrect": false,
+                  "_id": "664c364cda7f9ddbffb1ed6a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>185</p>",
+                  "isCorrect": false,
+                  "_id": "664c364cda7f9ddbffb1ed6b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>122</p>",
+                  "isCorrect": false,
+                  "_id": "664c364cda7f9ddbffb1ed6c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>125</p>",
+                  "isCorrect": true,
+                  "_id": "664c364cda7f9ddbffb1ed6d"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c364cda7f9ddbffb1ed68",
+            "examId": "664c3224fde9add55b3dc23c",
+            "subjectId": "650584ae0ad1aa19a86412fb",
+            "topicId": "65058e300ad1aa19a868a4f7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "status": 1,
+            "createdAt": "2024-05-21T05:51:08.660Z",
+            "updatedAt": "2024-05-21T05:51:08.660Z",
+            "__v": 0
+          }
+        ]
+      }
+    ]
+  }
+}

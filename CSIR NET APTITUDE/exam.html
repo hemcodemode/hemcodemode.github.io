@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exam Interface</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 20px;
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+      }
+      .left-panel {
+        width: 70%;
+        padding: 15px;
+        border-right: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+      .right-panel {
+        width: 30%;
+        padding: 15px;
+        box-sizing: border-box;
+      }
+      .question-container {
+        margin-bottom: 20px;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      .question-title {
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .question-title p {
+        display: inline;
+      }
+      .options {
+        list-style-type: none;
+        padding: 0;
+      }
+      .options li {
+        margin: 5px 0;
+      }
+      .status-panel {
+        margin-bottom: 20px;
+      }
+      .status-panel div {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 10px;
+        margin-bottom: 5px;
+        border: 1px solid #007bff;
+        border-radius: 5px;
+      }
+      .status-panel div span {
+        font-weight: bold;
+      }
+      .options p {
+        display: inline-block;
+      }
+      button {
+        padding: 10px 15px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+      .submit-btn {
+        background-color: #28a745;
+        width: 100%;
+      }
+      .submit-btn:hover {
+        background-color: #218838;
+      }
+      .question-buttons {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+      }
+      .question-buttons button {
+        width: 30%;
+      }
+      .highlight {
+        background-color: #ffc107;
+      }
+      .results-container {
+        margin: 20px;
+      }
+      .results-container h2 {
+        color: #007bff;
+      }
+      .results-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      .results-table th,
+      .results-table td {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: left;
+      }
+      .results-table td p{
+        display: inline;
+      }
+      .results-table th {
+        background-color: #007bff;
+        color: white;
+      }
+      .correct {
+        color: green;
+        font-weight: bold;
+      }
+      .incorrect {
+        color: red;
+        font-weight: bold;
+      }
+
+      /* Mobile Responsiveness */
+      @media (max-width: 768px) {
+        header {
+          text-align: center;
+        }
+        .container {
+          flex-direction: column;
+        }
+        .left-panel,
+        .right-panel {
+          width: 100%;
+          border-right: none;
+        }
+        .question-buttons button {
+          width: 45%;
+        }
+        .results-table th,
+        .results-table td {
+          font-size: 14px;
+          padding: 8px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        header h1 {
+          font-size: 16px;
+        }
+        button {
+          padding: 8px 12px;
+          font-size: 14px;
+        }
+        .question-buttons button {
+          width: 48%;
+          font-size: 12px;
+        }
+        .results-table th,
+        .results-table td {
+          font-size: 12px;
+          padding: 6px;
+        }
+      }
+      .options li {
+        display: flex;
+        align-items: center;
+        margin: 5px 0;
+      }
+
+      .options input[type="radio"] {
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Exam Interface</h1>
+    </header>
+    <div id="exam-container" class="container">
+      <div class="left-panel">
+        <div id="question-container">
+          <!-- Questions will be dynamically rendered here -->
+        </div>
+        <div class="question-buttons">
+          <button id="prev-btn" onclick="prevQuestion()">Previous</button>
+          <button id="next-btn" onclick="nextQuestion()">Next</button>
+        </div>
+      </div>
+      <div class="right-panel">
+        <h3>Exam Status</h3>
+        <div id="status-panel" class="status-panel">
+          <!-- Question status indicators -->
+        </div>
+        <button class="submit-btn" onclick="submitExam()">Submit</button>
+      </div>
+    </div>
+    <div id="results-container" class="results-container" style="display: none">
+      <h2>Results Summary</h2>
+      <p id="score-summary"></p>
+      <table class="results-table">
+        <thead>
+          <tr>
+            <th>Question</th>
+            <th>Your Answer</th>
+            <th>Correct Answer</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="results-table-body">
+          <!-- Results will be dynamically added here -->
+        </tbody>
+      </table>
+      <button id="reattempt-btn" onclick="reattemptExam()">Re-Attempt</button>
+    </div>
+
+    <script>
+      // Sample JSON data from uploaded file
+      let examData = {};
+      // Variables
+      let currentQuestionIndex = 0;
+      let userAnswers = {};
+      let questions = [];
+
+      // Render question
+      function renderQuestion(index) {
+        const questionContainer = document.getElementById("question-container");
+        questionContainer.innerHTML = "";
+
+        const questionData = questions[index];
+        const questionHTML = `
+                <div class="question-container">
+                    <div class="question-title">${index + 1}. ${
+          questionData.en.title[0].description
+        }</div>
+                    <ul class="options">
+                        ${questionData.en.options
+                          .map((option, optIndex) => {
+                            const isChecked =
+                              userAnswers[index] === optIndex ? "checked" : "";
+                            return `
+                                    <li>
+                                        <label>
+                                            <input type="radio" name="question-${index}" value="${optIndex}" ${isChecked}>
+                                            ${option.description}
+                                        </label>
+                                    </li>
+                                `;
+                          })
+                          .join("")}
+                    </ul>
+                </div>
+            `;
+        questionContainer.innerHTML = questionHTML;
+
+        updateStatus();
+      }
+
+      // Update question status
+      function updateStatus() {
+        const statusPanel = document.getElementById("status-panel");
+        statusPanel.innerHTML = "";
+
+        questions.forEach((_, qIndex) => {
+          const statusHTML = `
+                    <div onclick="goToQuestion(${qIndex})" class="${
+            userAnswers[qIndex] !== undefined ? "highlight" : ""
+          }">
+                        <span>Q${qIndex + 1}</span>
+                        <span>${
+                          userAnswers[qIndex] !== undefined
+                            ? "Answered"
+                            : "Not Answered"
+                        }</span>
+                    </div>
+                `;
+          statusPanel.innerHTML += statusHTML;
+        });
+      }
+
+      // Navigation
+      function nextQuestion() {
+        if (currentQuestionIndex < questions.length - 1) {
+          saveAnswer();
+          currentQuestionIndex++;
+          renderQuestion(currentQuestionIndex);
+        }
+      }
+
+      function prevQuestion() {
+        if (currentQuestionIndex > 0) {
+          saveAnswer();
+          currentQuestionIndex--;
+          renderQuestion(currentQuestionIndex);
+        }
+      }
+
+      function goToQuestion(index) {
+        saveAnswer();
+        currentQuestionIndex = index;
+        renderQuestion(index);
+      }
+
+      // Save user answer
+      // Submit Exam
+      function submitExam() {
+        saveAnswer(); // Save the current question's answer
+
+        // Switch to the review table view
+        const resultsContainer = document.getElementById("results-container");
+        const examContainer = document.getElementById("exam-container");
+        const resultsTableBody = document.getElementById("results-table-body");
+        const scoreSummary = document.getElementById("score-summary");
+
+        // Clear previous results if any
+        resultsTableBody.innerHTML = "";
+
+        // Populate the review table
+        questions.forEach((question, index) => {
+          const userAnswer = userAnswers[index];
+          const correctOption = question.en.options.find(
+            (opt) => opt.isCorrect
+          );
+          const correctAnswerText = correctOption
+            ? correctOption.description
+            : "N/A";
+          const userAnswerText =
+            userAnswer !== undefined
+              ? question.en.options[userAnswer].description
+              : "Not Answered";
+          const status =
+            userAnswer !== undefined &&
+            correctOption &&
+            question.en.options[userAnswer] === correctOption
+              ? "Correct"
+              : "Incorrect";
+
+          const rowHTML = `
+            <tr>
+                <td>${index + 1}. ${question.en.title[0].description}</td>
+                <td>${userAnswerText}</td>
+                <td>${correctAnswerText}</td>
+                <td class="${
+                  status === "Correct" ? "correct" : "incorrect"
+                }">${status}</td>
+            </tr>
+        `;
+          resultsTableBody.innerHTML += rowHTML;
+        });
+
+        // Display a message for the review phase
+        scoreSummary.textContent =
+          'Review your answers below. Click "Confirm Submission" to finalize.';
+
+        // Hide the exam interface and show the review table
+        examContainer.style.display = "none";
+        resultsContainer.style.display = "block";
+
+        // Add a "Confirm Submission" button if not already present
+        if (!document.getElementById("confirm-btn")) {
+          const confirmBtn = document.createElement("button");
+          confirmBtn.id = "confirm-btn";
+          confirmBtn.textContent = "Confirm Submission";
+          confirmBtn.style.marginTop = "20px";
+          confirmBtn.style.backgroundColor = "#28a745";
+          confirmBtn.style.color = "white";
+          confirmBtn.style.border = "none";
+          confirmBtn.style.padding = "10px 15px";
+          confirmBtn.style.borderRadius = "5px";
+          confirmBtn.style.cursor = "pointer";
+          confirmBtn.onclick = finalizeSubmission;
+
+          resultsContainer.appendChild(confirmBtn);
+          confirmBtn.click();
+          finalizeSubmission();
+        }
+      }
+
+      function finalizeSubmission() {
+        let correctCount = 0;
+
+        // Calculate the final score
+        questions.forEach((question, index) => {
+          const userAnswer = userAnswers[index];
+          const correctOption = question.en.options.find(
+            (opt) => opt.isCorrect
+          );
+          if (
+            userAnswer !== undefined &&
+            question.en.options[userAnswer] === correctOption
+          ) {
+            correctCount++;
+          }
+        });
+
+        // Show the final score
+        const scoreSummary = document.getElementById("score-summary");
+        scoreSummary.textContent = `You scored ${correctCount} out of ${questions.length}!`;
+
+        // Disable further modifications
+        document.getElementById("confirm-btn").disabled = true;
+        document.getElementById("confirm-btn").textContent = "Submitted";
+      }
+
+      // Save user answer
+      function saveAnswer() {
+        const selectedOption = document.querySelector(
+          `input[name="question-${currentQuestionIndex}"]:checked`
+        );
+        if (selectedOption) {
+          userAnswers[currentQuestionIndex] = parseInt(selectedOption.value);
+        }
+      }
+
+      // Initial render
+      //renderQuestion(currentQuestionIndex);
+
+      function reattemptExam() {
+        // Reset answers and current question index
+        userAnswers = {};
+        currentQuestionIndex = 0;
+
+        // Hide the results container and show the exam container
+        document.getElementById("results-container").style.display = "none";
+        document.getElementById("exam-container").style.display = "flex";
+
+        // Re-render the first question
+        renderQuestion(currentQuestionIndex);
+      }
+
+      // Function to get query parameters from the URL
+      function getQueryParam(param) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(param);
+      }
+
+      // Fetch the JSON data based on the ID parameter
+      async function fetchExamData() {
+        const id = getQueryParam("id"); // Get the 'id' parameter from the URL
+        if (!id) {
+          alert("No ID provided in the URL!");
+          return;
+        }
+
+        try {
+          // Replace with your actual API endpoint
+          const response = await fetch(
+            `/CSIR%20NET%20APTITUDE/examslist/${id}.json`
+          );
+          if (!response.ok) {
+            throw new Error("Failed to fetch the exam data");
+          }
+
+          const data = await response.json();
+          initializeExam(data); // Call the initialization function with fetched data
+        } catch (error) {
+          alert(`Error: ${error.message}`);
+        }
+      }
+
+      // Initialize the exam after fetching data
+      function initializeExam(data) {
+        examData = data; // Update the global examData variable
+        questions = examData.data.examData[0].questionsData; // Extract questions
+        renderQuestion(currentQuestionIndex); // Render the first question
+      }
+
+      // Call the fetchExamData function when the page loads
+      fetchExamData();
+    </script>
+  </body>
+</html>

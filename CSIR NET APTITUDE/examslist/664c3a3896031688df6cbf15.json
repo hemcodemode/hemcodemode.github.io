@@ -1,0 +1,776 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "108",
+  "msg": "Exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c3a3896031688df6cbf15",
+        "inDualLang": false,
+        "en": {
+          "name": "L01 CALENDER",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "6528ce3ae15987136707d202",
+        "topicId": "6528ce4928ad900d7cf6eb65",
+        "subTopicId": "6528ce54db0adb71e9f1f131",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 10,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 0,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T06:07:52.921Z",
+        "updatedAt": "2024-05-21T07:06:22.129Z",
+        "__v": 2,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution-</p><p>Today is Friday.</p><p>Each day gets repeated after 7 days.</p><p>so, on dividing 363 by 7, we get remainder = 6</p><p>1 Saturday</p><p>2 Sunday</p><p>3 Monday</p><p>4 Tuesday</p><p>5 Wednesday</p><p>6 Thursday</p><p>Hence, option C is the</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>If today is Friday, then what will be the day after 363 days?</p>",
+                  "_id": "66191f35f8c8e5ec3b11cecf"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Sunday</p>",
+                  "isCorrect": false,
+                  "_id": "66191f35f8c8e5ec3b11ced0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Saturday</p>",
+                  "isCorrect": false,
+                  "_id": "66191f35f8c8e5ec3b11ced1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Thursday</p>",
+                  "isCorrect": true,
+                  "_id": "66191f35f8c8e5ec3b11ced2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>None of these</p>",
+                  "isCorrect": false,
+                  "_id": "66191f35f8c8e5ec3b11ced3"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c455e019f204e872ca6d7",
+            "examId": "664c3a3896031688df6cbf15",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "status": 1,
+            "createdAt": "2024-04-12T11:47:01.661Z",
+            "updatedAt": "2024-04-12T11:47:01.661Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution-</p><p>The day after the 11th of March is Thursday means on 12th of March is Thursday.</p><p>March has 31 days.</p><p>19th march is Thursday then 26th March is Thursday.</p><p>26 + 5 = 31st March.</p><p>Thursday + 5 = Tuesday.</p><p>Hence, option D is the correct answer.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>If the day after the 11th of March is Thursday, then what will be the last day of the month?</p>",
+                  "_id": "66191f62e2548a3d7c1635bc"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Thursday</p>",
+                  "isCorrect": false,
+                  "_id": "66191f62e2548a3d7c1635bd"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Wednesday</p>",
+                  "isCorrect": false,
+                  "_id": "66191f62e2548a3d7c1635be"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Friday</p>",
+                  "isCorrect": false,
+                  "_id": "66191f62e2548a3d7c1635bf"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Tuesday</p>",
+                  "isCorrect": true,
+                  "_id": "66191f62e2548a3d7c1635c0"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c455e019f204e872ca6dd",
+            "examId": "664c3a3896031688df6cbf15",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "status": 1,
+            "createdAt": "2024-04-12T11:47:46.233Z",
+            "updatedAt": "2024-04-12T11:47:46.233Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution –</p><p>We know that in 365 days we have 1 odd day.</p><p>26 January 2017 = Thursday</p><p>26 January 2018 = Friday</p><p>26 January 2019 = Saturday</p><p>26 January 2020 = Sunday.</p><p>2020 is a leap year so February has 29 days.</p><p>26 January 2021 = Sunday + 2 = Tuesday (+2 because of leap year, In 366 days we have 2 odd days)</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Republic Day of India was celebrated on Thursday in 2017. On which day it was celebrated in 2021?</p>",
+                  "_id": "66191fa0fb44d24beda20706"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Tuesday</p>",
+                  "isCorrect": true,
+                  "_id": "66191fa0fb44d24beda20707"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Wednesday</p>",
+                  "isCorrect": false,
+                  "_id": "66191fa0fb44d24beda20708"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Thursday</p>",
+                  "isCorrect": false,
+                  "_id": "66191fa0fb44d24beda20709"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Friday</p>",
+                  "isCorrect": false,
+                  "_id": "66191fa0fb44d24beda2070a"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c455e019f204e872ca6e3",
+            "examId": "664c3a3896031688df6cbf15",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "status": 1,
+            "createdAt": "2024-04-12T11:48:48.620Z",
+            "updatedAt": "2024-04-12T11:48:48.620Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution-</p><p>The fourth day of the month is Wednesday</p><p>so, the first day of the month = Sunday</p><p>The third day after the 19th day of the month = the 22nd day of the month</p><p>1st day of the month = 8th day of the month = 15th day of the month = 22nd day of the month = Sunday</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>If the fourth day of a month is Wednesday, then which day will come on the third day after the 19th day of the same month?</p>",
+                  "_id": "66192110e2548a3d7c24f8c2"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Tuesday</p>",
+                  "isCorrect": false,
+                  "_id": "66192110e2548a3d7c24f8c3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Saturday</p>",
+                  "isCorrect": false,
+                  "_id": "66192110e2548a3d7c24f8c4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Sunday</p>",
+                  "isCorrect": true,
+                  "_id": "66192110e2548a3d7c24f8c5"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Friday</p>",
+                  "isCorrect": false,
+                  "_id": "66192110e2548a3d7c24f8c6"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c455e019f204e872ca6e9",
+            "examId": "664c3a3896031688df6cbf15",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "status": 1,
+            "createdAt": "2024-04-12T11:54:56.377Z",
+            "updatedAt": "2024-04-12T11:54:56.377Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution-</p><p>We know that in 365 days we have 1 odd day and in 366 days we have 2 odd days.</p><p>13 March 2018 = Tuesday</p><p>13 March 2019 = Wednesday</p><p>13 March 2020 = Friday</p><p>13 March 2021 = Saturday.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>If 13th March 2018 was Tuesday then what was the day on 13th March 2021?</p>",
+                  "_id": "66192137af1a361c0603ae74"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Saturday</p>",
+                  "isCorrect": true,
+                  "_id": "66192137af1a361c0603ae75"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Sunday</p>",
+                  "isCorrect": false,
+                  "_id": "66192137af1a361c0603ae76"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Thursday</p>",
+                  "isCorrect": false,
+                  "_id": "66192137af1a361c0603ae77"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Tuesday</p>",
+                  "isCorrect": false,
+                  "_id": "66192137af1a361c0603ae78"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c455e019f204e872ca6ef",
+            "examId": "664c3a3896031688df6cbf15",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "status": 1,
+            "createdAt": "2024-04-12T11:55:35.588Z",
+            "updatedAt": "2024-04-12T11:55:35.588Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution-</p><p>Except for 2021, all are perfectly divisible by 4. So, 2021 is not a leap year.</p><p>Hence, option B is the correct answer.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Which is not a leap year?</p>",
+                  "_id": "66192163ead7fd5772b3dace"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1972</p>",
+                  "isCorrect": false,
+                  "_id": "66192163ead7fd5772b3dacf"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2021</p>",
+                  "isCorrect": true,
+                  "_id": "66192163ead7fd5772b3dad0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1912</p>",
+                  "isCorrect": false,
+                  "_id": "66192163ead7fd5772b3dad1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2012</p>",
+                  "isCorrect": false,
+                  "_id": "66192163ead7fd5772b3dad2"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c455e019f204e872ca6f5",
+            "examId": "664c3a3896031688df6cbf15",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "status": 1,
+            "createdAt": "2024-04-12T11:56:19.694Z",
+            "updatedAt": "2024-04-12T11:56:19.694Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution-</p><p>In 100 years, leap year =24 years.</p><p>Therefore, in 800 years, leap years will be =8 × 24 = 192</p><p>Now, since the leap year occurs once after every four years, means the 400th year and 800th also leap years.</p><p>So, the total number of leap years in 800 years=192 + 2 = 194</p><p>Hence, option A is the correct answer.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>How many leap years will be there in 800 years?</p>",
+                  "_id": "6619218baf1a361c06097e96"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>194</p>",
+                  "isCorrect": true,
+                  "_id": "6619218baf1a361c06097e97"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>196</p>",
+                  "isCorrect": false,
+                  "_id": "6619218baf1a361c06097e98"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>197</p>",
+                  "isCorrect": false,
+                  "_id": "6619218baf1a361c06097e99"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>198</p>",
+                  "isCorrect": false,
+                  "_id": "6619218baf1a361c06097e9a"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c455e019f204e872ca6fb",
+            "examId": "664c3a3896031688df6cbf15",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "status": 1,
+            "createdAt": "2024-04-12T11:56:59.798Z",
+            "updatedAt": "2024-04-12T11:56:59.798Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution-</p><p>100 years contain 5 odd days. (so, the last day of the 1st century is Friday.)</p><p>200 years contain (5 × 2) = 3 odd days. (so, the last day of the 2nd century is Wednesday.)</p><p>300 years contain (5 × 3) = 15 = 1 odd day(so, Last day of 3rd century is Monday.)</p><p>400 years contain 0 odd days. (Last day of the 4th century is Sunday.)</p><p>This cycle is repeated.</p><p>Therefore, the last day of a century cannot be Tuesday or Thursday, or Saturday.</p><p>Hence, option D is the correct answer.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The last day of a century will not be –</p>",
+                  "_id": "661921b8fb44d24beda4c972"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Tuesday</p>",
+                  "isCorrect": false,
+                  "_id": "661921b8fb44d24beda4c973"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Saturday</p>",
+                  "isCorrect": false,
+                  "_id": "661921b8fb44d24beda4c974"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Thursday</p>",
+                  "isCorrect": false,
+                  "_id": "661921b8fb44d24beda4c975"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>All of the above</p>",
+                  "isCorrect": true,
+                  "_id": "661921b8fb44d24beda4c976"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c455e019f204e872ca701",
+            "examId": "664c3a3896031688df6cbf15",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "status": 1,
+            "createdAt": "2024-04-12T11:57:44.134Z",
+            "updatedAt": "2024-04-12T11:57:44.134Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1712923137540.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>P and Q are the sisters of K. J are the mother of Q, who has a sister-in-law W. N is the grandson of R. How R is related to W?</p>",
+                  "_id": "66192206888a19c5912ad37e"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Aunt</p>",
+                  "isCorrect": false,
+                  "_id": "66192206888a19c5912ad37f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Uncle</p>",
+                  "isCorrect": false,
+                  "_id": "66192206888a19c5912ad380"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Father-in-law</p>",
+                  "isCorrect": true,
+                  "_id": "66192206888a19c5912ad381"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Mother</p>",
+                  "isCorrect": false,
+                  "_id": "66192206888a19c5912ad382"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c455e019f204e872ca707",
+            "examId": "664c3a3896031688df6cbf15",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-04-12T11:59:02.410Z",
+            "updatedAt": "2024-04-12T11:59:02.410Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1712923196128.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>L is the grandfather of O, who is the nephew of G. U is the son of M, who is married to L. V is the sister-in-law of G. How G is related to M?</p>",
+                  "_id": "6619223eaf1a361c060ef11d"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Daughter</p>",
+                  "isCorrect": false,
+                  "_id": "6619223eaf1a361c060ef11e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Mother</p>",
+                  "isCorrect": false,
+                  "_id": "6619223eaf1a361c060ef11f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Son</p>",
+                  "isCorrect": true,
+                  "_id": "6619223eaf1a361c060ef120"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Either Son or Daughter</p>",
+                  "isCorrect": false,
+                  "_id": "6619223eaf1a361c060ef121"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c455e019f204e872ca70d",
+            "examId": "664c3a3896031688df6cbf15",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "status": 1,
+            "createdAt": "2024-04-12T11:59:58.272Z",
+            "updatedAt": "2024-04-12T11:59:58.272Z",
+            "__v": 0
+          }
+        ]
+      }
+    ]
+  }
+}

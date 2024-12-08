@@ -1,0 +1,776 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "108",
+  "msg": "Exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c334cfbc04ed7b0476ffb",
+        "inDualLang": false,
+        "en": {
+          "name": "L01 PROFIT AND LOSS",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "6520e65f2f70a49505dcf920",
+        "topicId": "6520e67cad2bf08e657d4090",
+        "subTopicId": "6520e695ad2bf08e657d4487",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 0,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 0,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T05:38:20.717Z",
+        "updatedAt": "2024-05-22T12:20:31.043Z",
+        "__v": 2,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Let the number of goods be 100, and C.P. of each item be ₹1<br>∴ Total C.P. = ₹100<br>Profit% on each item = 10%<br>20% of goods are lost in a theft<br>Number of goods left = 80<br>Now, S.P. of 1 item = [(100 + 10)/100] × 1 = ₹1.10<br>S.P. of 80 items = 80 × ₹1.10 = ₹88<br>Loss = 100 – 88 = 12<br>Loss% = (12/100) × 100% = 12%<br>Thus, the shopkeeper bears 12% loss</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A shopkeeper takes 10% profit on his goods. He lost 20% of his goods during a theft. What is his loss per cent ?</p>",
+                  "_id": "664dcbc3f86341d254100315"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>12%</p>",
+                  "isCorrect": true,
+                  "_id": "664dcbc3f86341d254100316"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>13%</p>",
+                  "isCorrect": false,
+                  "_id": "664dcbc3f86341d254100317"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>14%</p>",
+                  "isCorrect": false,
+                  "_id": "664dcbc3f86341d254100318"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>15%</p>",
+                  "isCorrect": false,
+                  "_id": "664dcbc3f86341d254100319"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664dcbc3f86341d254100314",
+            "examId": "664c334cfbc04ed7b0476ffb",
+            "subjectId": "6520e65f2f70a49505dcf920",
+            "topicId": "6520e67cad2bf08e657d4090",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "status": 1,
+            "createdAt": "2024-05-22T10:41:07.210Z",
+            "updatedAt": "2024-05-22T10:41:07.210Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Let the SP of 1 notebook be ₹1<br>SP of 100 notebooks = ₹100<br>Now, gain = selling price of 20 notebooks = ₹20<br>Then CP = SP – Gain = 100 – 20 = ₹80<br>Gain% = (20/80) × 100% = 25%</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>By selling 100 notebooks, a shopkeeper gains the selling price of 20 notebooks. What is his gain percentage?</p>",
+                  "_id": "664dcbfef86341d254102db6"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>28%</p>",
+                  "isCorrect": false,
+                  "_id": "664dcbfef86341d254102db7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>29%</p>",
+                  "isCorrect": false,
+                  "_id": "664dcbfef86341d254102db8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>30%</p>",
+                  "isCorrect": false,
+                  "_id": "664dcbfef86341d254102db9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>25%</p>",
+                  "isCorrect": true,
+                  "_id": "664dcbfef86341d254102dba"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664dcbfef86341d254102db5",
+            "examId": "664c334cfbc04ed7b0476ffb",
+            "subjectId": "6520e65f2f70a49505dcf920",
+            "topicId": "6520e67cad2bf08e657d4090",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "status": 1,
+            "createdAt": "2024-05-22T10:42:06.298Z",
+            "updatedAt": "2024-05-22T10:42:06.298Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Total S.P = 2 × 500 = ₹ 1000<br>C.P. of one chair = [(500 × 100)/20 + (500 × 100)/80]<br>= [(1250/3) + (6250/11)] = ₹ 32500/33<br>∴ Gain = 1000 – 32500/33 = ₹ 500/33<br>∴ Gain% = (500/33)/(32500/33) = 1.53%</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A man sold two steel chairs for ₹ 500. On one, he gains 20% and on the other, he loses 12%. How much does he gain or lose on the whole transaction?</p>",
+                  "_id": "664dccb6f86341d254109594"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1.53%</p>",
+                  "isCorrect": true,
+                  "_id": "664dccb6f86341d254109595"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1.63%</p>",
+                  "isCorrect": false,
+                  "_id": "664dccb6f86341d254109596"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1.73%</p>",
+                  "isCorrect": false,
+                  "_id": "664dccb6f86341d254109597"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1.83%</p>",
+                  "isCorrect": false,
+                  "_id": "664dccb6f86341d254109598"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664dccb6f86341d254109593",
+            "examId": "664c334cfbc04ed7b0476ffb",
+            "subjectId": "6520e65f2f70a49505dcf920",
+            "topicId": "6520e67cad2bf08e657d4090",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "status": 1,
+            "createdAt": "2024-05-22T10:45:10.619Z",
+            "updatedAt": "2024-05-22T10:45:10.619Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Let the false weight be x gm.<br>Gain % = [(True weight – False weight)/ False weight]×100<br>⇒ 100/9 = [(1000 – x)/x] × 100<br>⇒ 10 x = 9000<br>⇒ x = 900<br>∴ the shopkeeper is using weights of 900 gm instead of 1kg.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A dishonest shopkeeper pretends to sell his goods at cost price but uses false weights and gains 111/9%. Find the false weight he is using instead of 1kg weight.</p>",
+                  "_id": "664dcd2bf86341d25411a0af"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>900gm</p>",
+                  "isCorrect": true,
+                  "_id": "664dcd2bf86341d25411a0b0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>800gm</p>",
+                  "isCorrect": false,
+                  "_id": "664dcd2bf86341d25411a0b1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>700gm</p>",
+                  "isCorrect": false,
+                  "_id": "664dcd2bf86341d25411a0b2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>600gm</p>",
+                  "isCorrect": false,
+                  "_id": "664dcd2bf86341d25411a0b3"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664dcd2bf86341d25411a0ae",
+            "examId": "664c334cfbc04ed7b0476ffb",
+            "subjectId": "6520e65f2f70a49505dcf920",
+            "topicId": "6520e67cad2bf08e657d4090",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "status": 1,
+            "createdAt": "2024-05-22T10:47:07.501Z",
+            "updatedAt": "2024-05-22T10:47:07.501Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>CP of AC = Actual CP + Transportation cost = 12160 + 340 = 12500<br>SP of AC = ₹ 12875<br>Profit = 12875 – 12500 = ₹ 375<br>Profit % = 375/12500 × 100 = 3%</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Manny bought an AC for ₹ 12160 and paid ₹ 340 for transportation. Then he sold it for ₹12875. Find his profit %?</p>",
+                  "_id": "664dcd69f86341d25411b416"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>6%</p>",
+                  "isCorrect": false,
+                  "_id": "664dcd69f86341d25411b417"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>5%</p>",
+                  "isCorrect": false,
+                  "_id": "664dcd69f86341d25411b418"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3%</p>",
+                  "isCorrect": true,
+                  "_id": "664dcd69f86341d25411b419"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4%</p>",
+                  "isCorrect": false,
+                  "_id": "664dcd69f86341d25411b41a"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664dcd69f86341d25411b415",
+            "examId": "664c334cfbc04ed7b0476ffb",
+            "subjectId": "6520e65f2f70a49505dcf920",
+            "topicId": "6520e67cad2bf08e657d4090",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "status": 1,
+            "createdAt": "2024-05-22T10:48:09.184Z",
+            "updatedAt": "2024-05-22T10:48:09.184Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>SP of the article = ₹ 178<br>Loss % = 11%<br>∴ CP = {100/(100 – 11)} × 178<br>= (178 × 100)/89 = ₹ 200<br>Now CP = ₹ 200 and Profit% = 11%<br>∴ SP = {(100 + 11)/100} × 200 = (110 × 200)/100 = ₹ 222.<br>Therefore, the article should be sold at ₹ 222.4</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>If an article is sold for ₹ 178 at a loss of 11%, what should be its selling price in order to earn a profit of 11%?</p>",
+                  "_id": "664dd4a28b387e0c4074290b"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>₹ 222.4</p>",
+                  "isCorrect": false,
+                  "_id": "664dd4a28b387e0c4074290c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>₹ 442.4</p>",
+                  "isCorrect": false,
+                  "_id": "664dd4a28b387e0c4074290d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>₹ 232.4</p>",
+                  "isCorrect": false,
+                  "_id": "664dd4a28b387e0c4074290e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>₹ 122.4</p>",
+                  "isCorrect": true,
+                  "_id": "664dd4a28b387e0c4074290f"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664dd4a28b387e0c4074290a",
+            "examId": "664c334cfbc04ed7b0476ffb",
+            "subjectId": "6520e65f2f70a49505dcf920",
+            "topicId": "6520e67cad2bf08e657d4090",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "status": 1,
+            "createdAt": "2024-05-22T11:18:58.749Z",
+            "updatedAt": "2024-05-22T11:18:58.749Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Suppose, number of oranges bought = LCM of 6 and 4 = 12<br>∴CP = Re (10/6 * 12) = Re 20 and SP = Re (6/4 * 12) = Re 18<br>∴Loss% = (2/20 * 100)% = 10%</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A vendor bought 6 oranges for Re 10 and sold them at 4 for Re 6. Find his loss or gain percent.</p>",
+                  "_id": "664dd4d58b387e0c4074a4de"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>8% gain</p>",
+                  "isCorrect": false,
+                  "_id": "664dd4d58b387e0c4074a4df"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>10% gain</p>",
+                  "isCorrect": false,
+                  "_id": "664dd4d58b387e0c4074a4e0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>8% loss</p>",
+                  "isCorrect": false,
+                  "_id": "664dd4d58b387e0c4074a4e1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>10% loss</p>",
+                  "isCorrect": true,
+                  "_id": "664dd4d58b387e0c4074a4e2"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664dd4d58b387e0c4074a4dd",
+            "examId": "664c334cfbc04ed7b0476ffb",
+            "subjectId": "6520e65f2f70a49505dcf920",
+            "topicId": "6520e67cad2bf08e657d4090",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "status": 1,
+            "createdAt": "2024-05-22T11:19:49.449Z",
+            "updatedAt": "2024-05-22T11:19:49.449Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>(SP of 33m) - (CP of 33m) = Gain = SP of 11m</p><p>∴ SP of 22m = CP of 33m</p><p>Let CP of each meter be Re 1. Then, CP of 22m = Re 22. &nbsp;</p><p>Hence SP of 22m = Re 33.</p><p>∴ %Gain = 11/22 * 100 = 50%</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>By selling 33 meters of cloth, one gains the selling price of 11 meters. Find the gain percent.</p>",
+                  "_id": "664de260e5aad51f824b526f"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>50%</p>",
+                  "isCorrect": true,
+                  "_id": "664de260e5aad51f824b5270"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>45%</p>",
+                  "isCorrect": false,
+                  "_id": "664de260e5aad51f824b5271"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>40%</p>",
+                  "isCorrect": false,
+                  "_id": "664de260e5aad51f824b5272"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>60%</p>",
+                  "isCorrect": false,
+                  "_id": "664de260e5aad51f824b5273"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664de260e5aad51f824b526e",
+            "examId": "664c334cfbc04ed7b0476ffb",
+            "subjectId": "6520e65f2f70a49505dcf920",
+            "topicId": "6520e67cad2bf08e657d4090",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "status": 1,
+            "createdAt": "2024-05-22T12:17:36.986Z",
+            "updatedAt": "2024-05-22T12:17:36.986Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Mean Cost price = Re (100/120)*96 = Re 80 per kg<br>Apply rule of allegation,<br>there4; Required ratio = 30:20 = 3:2</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Pure ghee costs Re 100 per kg. A shopkeeper mixes vegetable oil costing Re 50 per kg and sells the mixture at Re 96 per kg, making a profit of 20%. In what ratio does he mix the pure ghee with the vegetable oil.</p>",
+                  "_id": "664de2c28888a98831e2a946"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>3:2</p>",
+                  "isCorrect": true,
+                  "_id": "664de2c28888a98831e2a947"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2:3</p>",
+                  "isCorrect": false,
+                  "_id": "664de2c28888a98831e2a948"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4:3</p>",
+                  "isCorrect": false,
+                  "_id": "664de2c28888a98831e2a949"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3:1</p>",
+                  "isCorrect": false,
+                  "_id": "664de2c28888a98831e2a94a"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664de2c28888a98831e2a945",
+            "examId": "664c334cfbc04ed7b0476ffb",
+            "subjectId": "6520e65f2f70a49505dcf920",
+            "topicId": "6520e67cad2bf08e657d4090",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-05-22T12:19:14.391Z",
+            "updatedAt": "2024-05-22T12:19:14.391Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Let the CP of each article = Re 1.<br>Then CP of 20 articles = Re 20.<br>SP of 20 articles = CP of 25 articles = Re 25.<br>∴ Gain% = (5/20)*100% = 25%</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The CP of 25 articles is equal to SP of 20 articles. Find the loss or gain percent.</p>",
+                  "_id": "664de2f1e5aad51f824fba6d"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>35%</p>",
+                  "isCorrect": false,
+                  "_id": "664de2f1e5aad51f824fba6e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>30%</p>",
+                  "isCorrect": false,
+                  "_id": "664de2f1e5aad51f824fba6f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>25%</p>",
+                  "isCorrect": true,
+                  "_id": "664de2f1e5aad51f824fba70"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>None of these</p>",
+                  "isCorrect": false,
+                  "_id": "664de2f1e5aad51f824fba71"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664de2f1e5aad51f824fba6c",
+            "examId": "664c334cfbc04ed7b0476ffb",
+            "subjectId": "6520e65f2f70a49505dcf920",
+            "topicId": "6520e67cad2bf08e657d4090",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "status": 1,
+            "createdAt": "2024-05-22T12:20:01.984Z",
+            "updatedAt": "2024-05-22T12:20:01.984Z",
+            "__v": 0
+          }
+        ]
+      }
+    ]
+  }
+}

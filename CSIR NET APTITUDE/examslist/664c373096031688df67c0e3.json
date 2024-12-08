@@ -1,0 +1,776 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "108",
+  "msg": "Exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c373096031688df67c0e3",
+        "inDualLang": false,
+        "en": {
+          "name": "L01 HEIGHT AND DISTANCE",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "664b4a4345209d78a0f8d995",
+        "topicId": "664b4eaa45209d78a00b15e5",
+        "subTopicId": "664b4ebd484b8250dce3775b",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 40,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 10,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 0,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T05:54:56.439Z",
+        "updatedAt": "2024-05-21T10:13:10.115Z",
+        "__v": 2,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>&nbsp;From the right angled triangle</p><p>Tan(45°)= &nbsp;X/375</p><p>=&gt; X = 375 m</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1715086946813.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>From a point 375 meters away from the foot of a tower, the top of the tower is observed at an angle of elevation of 45°, then the height (in meters) of the tower is?</p>",
+                  "_id": "663a2668d84a68cf777fb1e8"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>375</p>",
+                  "isCorrect": true,
+                  "_id": "663a2668d84a68cf777fb1e9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>450</p>",
+                  "isCorrect": false,
+                  "_id": "663a2668d84a68cf777fb1ea"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>225</p>",
+                  "isCorrect": false,
+                  "_id": "663a2668d84a68cf777fb1eb"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>250</p>",
+                  "isCorrect": false,
+                  "_id": "663a2668d84a68cf777fb1ec"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c73a631aceb37f894d2d4",
+            "examId": "664c373096031688df67c0e3",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "status": 1,
+            "createdAt": "2024-05-07T13:02:32.381Z",
+            "updatedAt": "2024-05-07T13:02:32.381Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>&nbsp;Let cot-1(4/5) = x &nbsp;</p><p>=&gt; cotx = &nbsp;4/5 &nbsp; &nbsp;</p><p>=&gt; tan(x) = 5/4 &nbsp; &nbsp;</p><p>From the right angled triangle</p><p>Tan(x) = &nbsp;h/90 &nbsp;</p><p>=&gt; h = 5/4*90 =112.5 m</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1715087026696.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The angle of elevation of a tower at a point 90 m from it is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>cot</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math>(4/5).Then the height of the tower is</p>",
+                  "_id": "663a26b4b89c62b0c2677d44"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>45</p>",
+                  "isCorrect": false,
+                  "_id": "663a26b4b89c62b0c2677d45"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>90</p>",
+                  "isCorrect": false,
+                  "_id": "663a26b4b89c62b0c2677d46"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>112.5</p>",
+                  "isCorrect": true,
+                  "_id": "663a26b4b89c62b0c2677d47"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>150</p>",
+                  "isCorrect": false,
+                  "_id": "663a26b4b89c62b0c2677d48"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c73a631aceb37f894d2da",
+            "examId": "664c373096031688df67c0e3",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "status": 1,
+            "createdAt": "2024-05-07T13:03:48.491Z",
+            "updatedAt": "2024-05-07T13:03:48.491Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>&nbsp;Let h be the height of tower</p><p>From figure.</p><p>20 =h ( &nbsp;cot30 - cot60) &nbsp;</p><p>20 =h (√3-1/√3) &nbsp;</p><p>=&gt; 20√3 = h (3-1) &nbsp;</p><p>=&gt; h=10√3.</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1715087083136.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>On the level ground, the angle of elevation of the top of a tower is 30°.on moving 20 meters nearer, the angle of elevation is 45°.Then the height of the tower is</p>",
+                  "_id": "663a26edb89c62b0c26d8007"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>10</p>",
+                  "isCorrect": false,
+                  "_id": "663a26edb89c62b0c26d8008"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>√3</p>",
+                  "isCorrect": false,
+                  "_id": "663a26edb89c62b0c26d8009"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>10√3</p>",
+                  "isCorrect": true,
+                  "_id": "663a2a39b89c62b0c27ecc74"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>20√3</p>",
+                  "isCorrect": false,
+                  "_id": "663a26edb89c62b0c26d800b"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c73a631aceb37f894d2e0",
+            "examId": "664c373096031688df67c0e3",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "status": 1,
+            "createdAt": "2024-05-07T13:04:45.758Z",
+            "updatedAt": "2024-05-07T13:18:49.756Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>&nbsp;Tan(60)=h1/AB</p><p>=&gt; h1=√3AB</p><p>Tan(45)=h1/BC</p><p>=&gt; h2=BC</p><p>h1/ h2=√3/1</p><p>=&gt; h1:h2=√3:1</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1715087178215.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The angles of elevation of the tops of two vertical towers as seen from the middle point of the lines joining the foot of the towers are 45° &amp; 60°.The ratio of the height of the towers is</p>",
+                  "_id": "663a274bca14cffbf7938518"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>√3:2</p>",
+                  "isCorrect": false,
+                  "_id": "663a274bca14cffbf7938519"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>√3:1</p>",
+                  "isCorrect": true,
+                  "_id": "663a274bca14cffbf793851a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2:√3</p>",
+                  "isCorrect": false,
+                  "_id": "663a274bca14cffbf793851b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2:1</p>",
+                  "isCorrect": false,
+                  "_id": "663a274bca14cffbf793851c"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c73a631aceb37f894d2e6",
+            "examId": "664c373096031688df67c0e3",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "status": 1,
+            "createdAt": "2024-05-07T13:06:19.482Z",
+            "updatedAt": "2024-05-07T13:06:19.482Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>&nbsp;Let the distance between the towers be X &nbsp;</p><p>From the right angled triangle CFD &nbsp;</p><p>Tan(45)= &nbsp;(90-45)/X &nbsp; &nbsp;</p><p>=&gt; x=45 meters</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1715087239087.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The heights of two towers are 90 meters and 45 meters. The line joining their tops make an angle 450 with the horizontal then the distance between the two towers is</p>",
+                  "_id": "663a278bca14cffbf7938aab"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>22.5 m</p>",
+                  "isCorrect": false,
+                  "_id": "663a278bca14cffbf7938aac"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>45 m</p>",
+                  "isCorrect": true,
+                  "_id": "663a278bca14cffbf7938aad"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>60 m</p>",
+                  "isCorrect": false,
+                  "_id": "663a278bca14cffbf7938aae"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>30 m</p>",
+                  "isCorrect": false,
+                  "_id": "663a278bca14cffbf7938aaf"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c73a631aceb37f894d2ec",
+            "examId": "664c373096031688df67c0e3",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "status": 1,
+            "createdAt": "2024-05-07T13:07:23.691Z",
+            "updatedAt": "2024-05-07T13:07:23.691Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>&nbsp;From ∠APB = 60° and AB = 180 m.</p><p>AB/AP= tan 60° =√3</p><p>AP=AB/√3 =180/√3=60√3</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1715087495659.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>From a point P on a level ground, the angle of elevation of the top tower is 60°. If the tower is 180 m high, the distance of point P from the foot of the tower is</p>",
+                  "_id": "663a288aca14cffbf79f8f30"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>60√3</p>",
+                  "isCorrect": true,
+                  "_id": "663a288aca14cffbf79f8f31"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>40√3</p>",
+                  "isCorrect": false,
+                  "_id": "663a288aca14cffbf79f8f32"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>30√3</p>",
+                  "isCorrect": false,
+                  "_id": "663a288aca14cffbf79f8f33"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>20√3</p>",
+                  "isCorrect": false,
+                  "_id": "663a288aca14cffbf79f8f34"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c73a631aceb37f894d2f2",
+            "examId": "664c373096031688df67c0e3",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "status": 1,
+            "createdAt": "2024-05-07T13:11:38.328Z",
+            "updatedAt": "2024-05-07T13:11:38.328Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>&nbsp;Let AB be the tower and CD be the electric pole. &nbsp;</p><p>From the figure CA = DE</p><p>=&gt; 25/(Tan(45))=(25-h)/(Tan(30))</p><p>=&gt; 25 &nbsp;Tan(30) = 25-h</p><p>=&gt; h=25-25Tan(30)</p><p>=25(1- Tan(30)) &nbsp;</p><p>=25((√3-1)/√3)</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1715087558684.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The Top of a 25 meter high tower makes an angle of elevation of 450 with the bottom of an electric pole and angle of elevation of 30 degree with the top of pole. Find the height of the electric pole.</p>",
+                  "_id": "663a28c8d84a68cf77a77ba1"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>25√3</p>",
+                  "isCorrect": false,
+                  "_id": "663a28c8d84a68cf77a77ba2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>25((√3-1)/√3)</p>",
+                  "isCorrect": true,
+                  "_id": "663a28c8d84a68cf77a77ba3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>25/√3</p>",
+                  "isCorrect": false,
+                  "_id": "663a28c8d84a68cf77a77ba4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>25((1-√3)/√3)</p>",
+                  "isCorrect": false,
+                  "_id": "663a28c8d84a68cf77a77ba5"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c73a631aceb37f894d2f8",
+            "examId": "664c373096031688df67c0e3",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "status": 1,
+            "createdAt": "2024-05-07T13:12:40.832Z",
+            "updatedAt": "2024-05-07T13:12:40.832Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>&nbsp;Let AB be the observer and CD be the tower.</p><p>Then, CE = AB = 1.4 m,</p><p>BE = AC = 10v3 m.</p><p>DE/BE=Tan (30) =1/√3</p><p>DE=10√3/√3=10</p><p>CD=CE+DE=1.4+10=11.4 m</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1715087967210.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>An observer 1.4 m tall is 10√3 away from a tower. The angle of elevation from his eye to the top of the tower is 60°. The heights of the tower is</p>",
+                  "_id": "663a28f9d84a68cf77a84e06"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>12.4 m</p>",
+                  "isCorrect": false,
+                  "_id": "663a28f9d84a68cf77a84e07"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6.2 m</p>",
+                  "isCorrect": false,
+                  "_id": "663a28f9d84a68cf77a84e08"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>11.4√3 m</p>",
+                  "isCorrect": false,
+                  "_id": "663a28f9d84a68cf77a84e09"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>11.4 m</p>",
+                  "isCorrect": true,
+                  "_id": "663a28f9d84a68cf77a84e0a"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c73a631aceb37f894d2fe",
+            "examId": "664c373096031688df67c0e3",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "status": 1,
+            "createdAt": "2024-05-07T13:13:29.946Z",
+            "updatedAt": "2024-05-07T13:19:29.529Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>&nbsp;Let AB be the tower and C and D be the positions of the boat.</p><p>Distance travelled by boat = CD</p><p>From the figure 75tan(60)=(75+CD)tan(45)</p><p>=&gt;75√3 = 75+CD</p><p>=&gt;CD =55 m</p><p>Speed = distance/time=55/10</p><p>=5.5 m/sec=19.8 kmph</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1715087888406.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A man is watching form the top of the tower a boat speeding away from the tower. The boat makes the angle of depression of 60° with the man's eye when at a distance of 75 meters from the tower. After 10 seconds the angle of depression becomes 45°. What is the approximate speed of the boat, assuming that it is running in still water?</p>",
+                  "_id": "663a2930b89c62b0c27873cb"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>54 kmph</p>",
+                  "isCorrect": false,
+                  "_id": "663a2930b89c62b0c27873cc"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>64 kmph</p>",
+                  "isCorrect": false,
+                  "_id": "663a2930b89c62b0c27873cd"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>&nbsp;24 kmph</p>",
+                  "isCorrect": false,
+                  "_id": "663a2930b89c62b0c27873ce"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>19.8 kmph</p>",
+                  "isCorrect": true,
+                  "_id": "663a2930b89c62b0c27873cf"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c73a631aceb37f894d304",
+            "examId": "664c373096031688df67c0e3",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-05-07T13:14:24.938Z",
+            "updatedAt": "2024-05-07T13:18:10.446Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation</p><p>&nbsp;=&gt;(180-h)/90 = Tan(45)</p><p>=&gt; h =90 m</p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1715087716576.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The horizontal distance between two towers is 90 m. The angular depression of the top of the first as seen from the top of the second which is 180 m high is 450.Then the height of the first is</p>",
+                  "_id": "663a2967d84a68cf77aa3970"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>90√3 m</p>",
+                  "isCorrect": false,
+                  "_id": "663a2967d84a68cf77aa3971"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>45 m</p>",
+                  "isCorrect": false,
+                  "_id": "663a2967d84a68cf77aa3972"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>90 m</p>",
+                  "isCorrect": true,
+                  "_id": "663a2967d84a68cf77aa3973"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>150 m</p>",
+                  "isCorrect": false,
+                  "_id": "663a2967d84a68cf77aa3974"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c73a631aceb37f894d30a",
+            "examId": "664c373096031688df67c0e3",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "status": 1,
+            "createdAt": "2024-05-07T13:15:19.192Z",
+            "updatedAt": "2024-05-07T13:15:19.192Z",
+            "__v": 0
+          }
+        ]
+      }
+    ]
+  }
+}

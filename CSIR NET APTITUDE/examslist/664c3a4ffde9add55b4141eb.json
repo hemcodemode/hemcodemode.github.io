@@ -1,0 +1,776 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "108",
+  "msg": "Exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c3a4ffde9add55b4141eb",
+        "inDualLang": false,
+        "en": {
+          "name": "L02 CALENDER",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "6528ce3ae15987136707d202",
+        "topicId": "6528ce4928ad900d7cf6eb65",
+        "subTopicId": "6528ce54db0adb71e9f1f131",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 0,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 0,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T06:08:15.796Z",
+        "updatedAt": "2024-05-21T08:01:26.249Z",
+        "__v": 2,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>On 31st December, 2005 it was Saturday.<br>Number of odd days from the year 2006 to the year 2009 = (1 + 1 + 2 + 1) = 5 days. &nbsp;<br>On 31st December 2009, it was Thursday.&nbsp;<br>Thus, on 1st Jan, 2010 it is Friday.&nbsp;</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>It was Sunday on Jan 1, 2006. What was the day of the week Jan 1, 2010?&nbsp;</p>",
+                  "_id": "664c50f47873cb5a45012bc5"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Sunday&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "664c50f47873cb5a45012bc6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Saturday&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "664c50f47873cb5a45012bc7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Friday&nbsp;</p>",
+                  "isCorrect": true,
+                  "_id": "664c50f47873cb5a45012bc8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Wednesday&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "664c50f47873cb5a45012bc9"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c50f47873cb5a45012bc4",
+            "examId": "664c3a4ffde9add55b4141eb",
+            "subjectId": "6528ce3ae15987136707d202",
+            "topicId": "6528ce4928ad900d7cf6eb65",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "status": 1,
+            "createdAt": "2024-05-21T07:44:52.367Z",
+            "updatedAt": "2024-05-21T07:44:52.367Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>28 May, 2006 = (2005 years + Period from 1.1.2006 to 28.5.2006)<br>Odd days in 1600 years = 0<br>Odd days in 400 years = 0<br>5 years = (4 ordinary years + 1 leap year) = (4 x 1 + 1 x 2) 6 odd days<br>Jan. &nbsp;Feb. &nbsp; March &nbsp; &nbsp;April &nbsp; &nbsp;May &nbsp;<br>(31 + &nbsp;28 &nbsp;+ &nbsp;31 &nbsp; + &nbsp; 30 &nbsp; + &nbsp; 28 ) = 148 days &nbsp;<br>148 days = (21 weeks + 1 day) 1 odd day. &nbsp;<br>Total number of odd days = (0 + 0 + 6 + 1) = 7 0 odd day. Given day is Sunday.&nbsp;</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What was the day of the week on 28th May, 2006?&nbsp;</p>",
+                  "_id": "664c51b579f46e37fca7c9ac"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Thursday&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "664c51b579f46e37fca7c9ad"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Friday&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "664c51b579f46e37fca7c9ae"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Saturday&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "664c51b579f46e37fca7c9af"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Sunday&nbsp;</p>",
+                  "isCorrect": true,
+                  "_id": "664c51b579f46e37fca7c9b0"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c51b579f46e37fca7c9ab",
+            "examId": "664c3a4ffde9add55b4141eb",
+            "subjectId": "6528ce3ae15987136707d202",
+            "topicId": "6528ce4928ad900d7cf6eb65",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "status": 1,
+            "createdAt": "2024-05-21T07:48:05.062Z",
+            "updatedAt": "2024-05-21T07:48:05.062Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>17th June, 1998 = (1997 years + Period from 1.1.1998 to 17.6.1998) &nbsp;<br>Odd days in 1600 years = 0 &nbsp;<br>Odd days in 300 years = (5 x 3) 1 &nbsp;<br>97 years has 24 leap years + 73 ordinary years. &nbsp;<br>Number of odd days in 97 years ( 24 x 2 + 73) = 121 = 2 odd days. &nbsp;<br>Jan. &nbsp;Feb. &nbsp; March &nbsp; &nbsp;April &nbsp; &nbsp;May &nbsp; &nbsp; &nbsp;June &nbsp;<br>(31 + &nbsp;28 &nbsp;+ &nbsp;31 &nbsp; + &nbsp; 30 &nbsp; + &nbsp; 31 &nbsp; + &nbsp; 17) = 168 days &nbsp;<br>168 days = 24 weeks = 0 odd day. &nbsp;<br>Total number of odd days = (0 + 1 + 2 + 0) = 3. &nbsp;<br>Given day is Wednesday.&nbsp;</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What was the day of the week on 17th June, 1998?&nbsp;</p>",
+                  "_id": "664c527d79f46e37fcacefb3"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Monday&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "664c527d79f46e37fcacefb4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Tuesday&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "664c527d79f46e37fcacefb5"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Wednesday&nbsp;</p>",
+                  "isCorrect": true,
+                  "_id": "664c527d79f46e37fcacefb6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Thursday&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "664c527d79f46e37fcacefb7"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c527d79f46e37fcacefb2",
+            "examId": "664c3a4ffde9add55b4141eb",
+            "subjectId": "6528ce3ae15987136707d202",
+            "topicId": "6528ce4928ad900d7cf6eb65",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "status": 1,
+            "createdAt": "2024-05-21T07:51:25.277Z",
+            "updatedAt": "2024-05-21T07:51:25.277Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>15th August, 2010 = (2009 years + Period 1.1.2010 to 15.8.2010) &nbsp;<br>Odd days in 1600 years = 0 &nbsp;<br>Odd days in 400 years = 0 &nbsp;<br>9 years = (2 leap years + 7 ordinary years) = (2 x 2 + 7 x 1) = 11 odd days 4 odd days.<br>Jan. &nbsp;Feb. &nbsp; March &nbsp; &nbsp;April &nbsp; &nbsp;May &nbsp;June &nbsp;July &nbsp;Aug. &nbsp;<br>(31 + &nbsp;28 &nbsp;+ &nbsp;31 &nbsp; + &nbsp; 30 &nbsp; + &nbsp;31 &nbsp;+ 30 &nbsp;+ 31 &nbsp;+ 15) = 227 days &nbsp;<br>227 days = (32 weeks + 3 days) 3 odd days. &nbsp;<br>Total number of odd days = (0 + 0 + 4 + 3) = 7 0 odd days. &nbsp;<br>Given day is Sunday.&nbsp;</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What will be the day of the week 15th August, 2010?&nbsp;</p>",
+                  "_id": "664c52c879f46e37fcae2ad8"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Sunday&nbsp;</p>",
+                  "isCorrect": true,
+                  "_id": "664c52c879f46e37fcae2ad9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Monday&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "664c52c879f46e37fcae2ada"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Tuesday&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "664c52c879f46e37fcae2adb"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Friday&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "664c52c879f46e37fcae2adc"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c52c879f46e37fcae2ad7",
+            "examId": "664c3a4ffde9add55b4141eb",
+            "subjectId": "6528ce3ae15987136707d202",
+            "topicId": "6528ce4928ad900d7cf6eb65",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "status": 1,
+            "createdAt": "2024-05-21T07:52:40.614Z",
+            "updatedAt": "2024-05-21T07:52:40.614Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Each day of the week is repeated after 7 days. &nbsp;<br>So, after 63 days, it will be Monday. &nbsp;<br>After 61 days, it will be Saturday.&nbsp;</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Today is Monday. After 61 days, it will be:</p>",
+                  "_id": "664c52ff7873cb5a450256d0"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Wednesday&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "664c52ff7873cb5a450256d1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Saturday&nbsp;</p>",
+                  "isCorrect": true,
+                  "_id": "664c52ff7873cb5a450256d2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Tuesday&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "664c52ff7873cb5a450256d3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Thursday&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "664c52ff7873cb5a450256d4"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c52ff7873cb5a450256cf",
+            "examId": "664c3a4ffde9add55b4141eb",
+            "subjectId": "6528ce3ae15987136707d202",
+            "topicId": "6528ce4928ad900d7cf6eb65",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "status": 1,
+            "createdAt": "2024-05-21T07:53:35.466Z",
+            "updatedAt": "2024-05-21T07:53:35.466Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>The year 2004 is a leap year. So, it has 2 odd days. &nbsp;<br>But, Feb 2004 not included because we are calculating from March 2004 to March 2005. So it has 1 odd day only. &nbsp;<br>The day on 6th March, 2005 will be 1 day beyond the day on 6th March, 2004. &nbsp;<br>Given that, 6th March, 2005 is Monday.&nbsp;<br>6th March, 2004 is Sunday (1 day before to 6th March, 2005).</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>If 6th March, 2005 is Monday, what was the day of the week on 6th March, 2004?&nbsp;</p>",
+                  "_id": "664c532b79f46e37fcafe3b7"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Sunday</p>",
+                  "isCorrect": true,
+                  "_id": "664c532b79f46e37fcafe3b8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Saturday</p>",
+                  "isCorrect": false,
+                  "_id": "664c532b79f46e37fcafe3b9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Tuesday</p>",
+                  "isCorrect": false,
+                  "_id": "664c532b79f46e37fcafe3ba"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Wednesday</p>",
+                  "isCorrect": false,
+                  "_id": "664c532b79f46e37fcafe3bb"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c532b79f46e37fcafe3b6",
+            "examId": "664c3a4ffde9add55b4141eb",
+            "subjectId": "6528ce3ae15987136707d202",
+            "topicId": "6528ce4928ad900d7cf6eb65",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "status": 1,
+            "createdAt": "2024-05-21T07:54:19.707Z",
+            "updatedAt": "2024-05-21T07:54:55.381Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>15 Aug, 1947 = (1946 years + Period from 1.1.1947 to 15.8.1947)<br>15th_August_1947_day1534219857.jpg image<br>Odd days in 1600 years = 0 &nbsp;<br>Odd days in 300 years = 1<br>46 years = (35 ordinary years + 11 leap years) = (35 x 1 + 11 x 2)= 57 (8 weeks + 1 day) = 1 odd day &nbsp;<br>Jan. &nbsp; Feb. &nbsp; Mar. &nbsp; Apr. &nbsp; May. &nbsp; Jun. &nbsp; Jul. &nbsp; Aug &nbsp;<br>( 31 + 28 + 31 + 30 + 31 + 30 + 31 + 15 ) = 227 days = (32 weeks + 3 days) = 3 odd days.<br>Total number of odd days = (0 + 1 + 1 + 3) = 5 odd days. &nbsp;<br>Hence, as the number of odd days = 5 , given day is Friday.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What was the day on 15th august 1947 ?</p>",
+                  "_id": "664c53ae7873cb5a4502fb84"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Friday</p>",
+                  "isCorrect": true,
+                  "_id": "664c53ae7873cb5a4502fb85"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Saturday</p>",
+                  "isCorrect": false,
+                  "_id": "664c53ae7873cb5a4502fb86"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Sunday</p>",
+                  "isCorrect": false,
+                  "_id": "664c53ae7873cb5a4502fb87"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Thursday</p>",
+                  "isCorrect": false,
+                  "_id": "664c53ae7873cb5a4502fb88"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c53ae7873cb5a4502fb83",
+            "examId": "664c3a4ffde9add55b4141eb",
+            "subjectId": "6528ce3ae15987136707d202",
+            "topicId": "6528ce4928ad900d7cf6eb65",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "status": 1,
+            "createdAt": "2024-05-21T07:56:30.764Z",
+            "updatedAt": "2024-05-21T07:56:30.764Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>On 31st December, 2005 it was Saturday.<br>Number of odd days from 2006 to 2009 = (1 + 1 + 2 + 1) = 5 days. &nbsp;<br>On 31st December 2009, it was Thursday.<br>Thus, on 1st Jan, 2010 it is Friday</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>It was Sunday on Jan 1, 2006. What was the day of the week Jan 1, 2010?</p>",
+                  "_id": "664c53ef7873cb5a45038079"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Monday</p>",
+                  "isCorrect": false,
+                  "_id": "664c53ef7873cb5a4503807a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Friday</p>",
+                  "isCorrect": true,
+                  "_id": "664c53ef7873cb5a4503807b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Sunday</p>",
+                  "isCorrect": false,
+                  "_id": "664c53ef7873cb5a4503807c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Tuesday</p>",
+                  "isCorrect": false,
+                  "_id": "664c53ef7873cb5a4503807d"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c53ef7873cb5a45038078",
+            "examId": "664c3a4ffde9add55b4141eb",
+            "subjectId": "6528ce3ae15987136707d202",
+            "topicId": "6528ce4928ad900d7cf6eb65",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-05-21T07:57:35.720Z",
+            "updatedAt": "2024-05-21T07:57:35.720Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>100 years contain 5 odd days.<br>Last day of 1st century is Friday.<br>200 years contain (5 x 2) = 3 odd days.<br>Last day of 2nd century is Wednesday.<br>300 years contain (5 x 3) = 15 = 1 odd day.<br>Last day of 3rd century is Monday.<br>400 years contain 0 odd day.<br>Last day of 4th century is Sunday.<br>This cycle is repeated.<br>Last day of a century cannot be Tuesday or Thursday or Saturday.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The last day of a century cannot be</p>",
+                  "_id": "664c546779f46e37fcb5ecea"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Monday</p>",
+                  "isCorrect": false,
+                  "_id": "664c546779f46e37fcb5eceb"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Wednesday</p>",
+                  "isCorrect": false,
+                  "_id": "664c546779f46e37fcb5ecec"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Tuesday</p>",
+                  "isCorrect": true,
+                  "_id": "664c546779f46e37fcb5eced"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Friday</p>",
+                  "isCorrect": false,
+                  "_id": "664c546779f46e37fcb5ecee"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c546779f46e37fcb5ece9",
+            "examId": "664c3a4ffde9add55b4141eb",
+            "subjectId": "6528ce3ae15987136707d202",
+            "topicId": "6528ce4928ad900d7cf6eb65",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-05-21T07:59:35.888Z",
+            "updatedAt": "2024-05-21T07:59:35.888Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>28 May, 2006 = (2005 years + Period from 1.1.2006 to 28.5.2006)<br>Odd days in 1600 years = 0<br>Odd days in 400 years = 0<br>5 years = (4 ordinary years + 1 leap year) = (4 x 1 + 1 x 2) = 6 odd days<br>(31[jan] + 28 [Feb]+ 31[Mar] + 30[April] + 28[May] ) = 148 dayss = (21 weeks + 1 day) = 1 odd day.<br>Total number of odd days = (0 + 0 + 6 + 1) = 7 = 0 odd days.<br>Given day is Sunday</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What was the day of the week on 28th May, 2006?</p>",
+                  "_id": "664c549c79f46e37fcb69a83"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Sunday</p>",
+                  "isCorrect": true,
+                  "_id": "664c549c79f46e37fcb69a84"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Friday</p>",
+                  "isCorrect": false,
+                  "_id": "664c549c79f46e37fcb69a85"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Wednesday</p>",
+                  "isCorrect": false,
+                  "_id": "664c549c79f46e37fcb69a86"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Tuesday</p>",
+                  "isCorrect": false,
+                  "_id": "664c549c79f46e37fcb69a87"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c549c79f46e37fcb69a82",
+            "examId": "664c3a4ffde9add55b4141eb",
+            "subjectId": "6528ce3ae15987136707d202",
+            "topicId": "6528ce4928ad900d7cf6eb65",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "status": 1,
+            "createdAt": "2024-05-21T08:00:28.478Z",
+            "updatedAt": "2024-05-21T08:00:28.478Z",
+            "__v": 0
+          }
+        ]
+      }
+    ]
+  }
+}

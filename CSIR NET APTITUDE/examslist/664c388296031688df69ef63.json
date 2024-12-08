@@ -1,0 +1,776 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "108",
+  "msg": "Exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c388296031688df69ef63",
+        "inDualLang": false,
+        "en": {
+          "name": "L02 PROBABILITY",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "65058e72faa619ee634d1c6a",
+        "topicId": "65058e7e7c4da8fbcc2ca917",
+        "subTopicId": "65058e8d7c4da8fbcc2caa4c",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 0,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 0,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T06:00:34.344Z",
+        "updatedAt": "2024-05-24T12:59:31.332Z",
+        "__v": 2,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>(c) 0 ≤ P(A) ≤ 1</p><p>If P(A) denotes the probability of an event A, then 0 ≤ P(A) ≤ 1.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>If P(A) denotes the probability of an event A, then</p>",
+                  "_id": "664c8339ec39f6d9a70d9de1"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>P(A) &lt; 0</p>",
+                  "isCorrect": false,
+                  "_id": "664c8339ec39f6d9a70d9de2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>P(A) &gt; 1</p>",
+                  "isCorrect": false,
+                  "_id": "664c8339ec39f6d9a70d9de3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>0 ≤ P(A) ≤ 1&nbsp;</p>",
+                  "isCorrect": true,
+                  "_id": "664c8339ec39f6d9a70d9de4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>–1 ≤ P(A) ≤ 1</p>",
+                  "isCorrect": false,
+                  "_id": "664c8339ec39f6d9a70d9de5"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c8339ec39f6d9a70d9de0",
+            "examId": "664c388296031688df69ef63",
+            "subjectId": "65058e72faa619ee634d1c6a",
+            "topicId": "65058e7e7c4da8fbcc2ca917",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "status": 1,
+            "createdAt": "2024-05-21T11:19:21.473Z",
+            "updatedAt": "2024-05-21T11:19:21.473Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Non-leap year = 365 days</p><p>365 days = 52 weeks + 1 day</p><p>For 52 weeks, number of Sundays = 52</p><p>1 remaining day can be Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday.</p><p>Total possible outcomes = 7</p><p>The number of favourable outcomes = 1</p><p>Thus, the probability of getting 53 Sundays = 1/7</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The probability that a non leap year selected at random will contain 53 Sundays is</p>",
+                  "_id": "664c8422ec39f6d9a7111bf2"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1/7</p>",
+                  "isCorrect": true,
+                  "_id": "664c8422ec39f6d9a7111bf3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2/7</p>",
+                  "isCorrect": false,
+                  "_id": "664c8422ec39f6d9a7111bf4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3/7</p>",
+                  "isCorrect": false,
+                  "_id": "664c8422ec39f6d9a7111bf5"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>5/7</p>",
+                  "isCorrect": false,
+                  "_id": "664c8422ec39f6d9a7111bf6"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c8422ec39f6d9a7111bf1",
+            "examId": "664c388296031688df69ef63",
+            "subjectId": "65058e72faa619ee634d1c6a",
+            "topicId": "65058e7e7c4da8fbcc2ca917",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "status": 1,
+            "createdAt": "2024-05-21T11:23:14.118Z",
+            "updatedAt": "2024-05-21T11:23:14.118Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>The sum of probability of an event and it complementary event = 1</p><p>So, if the probability of an event is p, the probability of its complementary event will be 1 – p.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>If the probability of an event is p, the probability of its complementary event will be</p>",
+                  "_id": "66508b623263c0bbe4b032cb"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>p – 1&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "66508b623263c0bbe4b032cc"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>p</p>",
+                  "isCorrect": false,
+                  "_id": "66508b623263c0bbe4b032cd"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1 – p&nbsp;</p>",
+                  "isCorrect": true,
+                  "_id": "66508b623263c0bbe4b032ce"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1 – 1/p</p>",
+                  "isCorrect": false,
+                  "_id": "66508b623263c0bbe4b032cf"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "66508b623263c0bbe4b032ca",
+            "examId": "664c388296031688df69ef63",
+            "subjectId": "65058e72faa619ee634d1c6a",
+            "topicId": "65058e7e7c4da8fbcc2ca917",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "status": 1,
+            "createdAt": "2024-05-24T12:43:14.716Z",
+            "updatedAt": "2024-05-24T12:43:14.716Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>In a deck of 52 cards, there are 13 cards of heart and 1 is ace of heart.</p><p>Given that the event E is that card is not an ace of hearts. &nbsp;</p><p>Hence, the number of outcomes favorable to E = 52 – 1 = 51</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A card is drawn from a deck of 52 cards. The event E is that card is not an ace of hearts. The number of outcomes favourable to E is</p>",
+                  "_id": "66508b9c3263c0bbe4b0e304"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>4&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "66508b9c3263c0bbe4b0e305"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>13</p>",
+                  "isCorrect": false,
+                  "_id": "66508b9c3263c0bbe4b0e306"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>48</p>",
+                  "isCorrect": false,
+                  "_id": "66508b9c3263c0bbe4b0e307"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>51</p>",
+                  "isCorrect": true,
+                  "_id": "66508b9c3263c0bbe4b0e308"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "66508b9c3263c0bbe4b0e303",
+            "examId": "664c388296031688df69ef63",
+            "subjectId": "65058e72faa619ee634d1c6a",
+            "topicId": "65058e7e7c4da8fbcc2ca917",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "status": 1,
+            "createdAt": "2024-05-24T12:44:12.499Z",
+            "updatedAt": "2024-05-24T12:44:12.499Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Total number of eggs = 400</p><p>Probability of getting a bad egg = Number of bad eggs/Total number of eggs</p><p>0.035 = Number of bad eggs/400</p><p>Number of bad eggs = 0.035 × 400 = 14</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The probability of getting a bad egg in a lot of 400 is 0.035. The number of bad eggs in the lot is</p>",
+                  "_id": "66508bc73263c0bbe4b1cad2"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>7</p>",
+                  "isCorrect": false,
+                  "_id": "66508bc73263c0bbe4b1cad3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>14</p>",
+                  "isCorrect": true,
+                  "_id": "66508bc73263c0bbe4b1cad4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>21</p>",
+                  "isCorrect": false,
+                  "_id": "66508bc73263c0bbe4b1cad5"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>28</p>",
+                  "isCorrect": false,
+                  "_id": "66508bc73263c0bbe4b1cad6"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "66508bc73263c0bbe4b1cad1",
+            "examId": "664c388296031688df69ef63",
+            "subjectId": "65058e72faa619ee634d1c6a",
+            "topicId": "65058e7e7c4da8fbcc2ca917",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "status": 1,
+            "createdAt": "2024-05-24T12:44:55.954Z",
+            "updatedAt": "2024-05-24T12:44:55.954Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Probability of Sangeeta’s winning = P(S) = 0.62</p><p>Probability of Reshma’s winning = P(R) = 1 – P(S) {since events R and S are complementary}</p><p>= 1 – 0.62 &nbsp;</p><p>= 0.38</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Two players, Sangeeta and Reshma, play a tennis match. It is known that the probability of Sangeeta winning the match is 0.62. The probability of Reshma winning the match is</p>",
+                  "_id": "66508bf67036675413b69d80"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>0.62</p>",
+                  "isCorrect": false,
+                  "_id": "66508bf67036675413b69d81"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>0.38</p>",
+                  "isCorrect": true,
+                  "_id": "66508bf67036675413b69d82"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>0.58</p>",
+                  "isCorrect": false,
+                  "_id": "66508bf67036675413b69d83"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>0.42</p>",
+                  "isCorrect": false,
+                  "_id": "66508bf67036675413b69d84"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "66508bf67036675413b69d7f",
+            "examId": "664c388296031688df69ef63",
+            "subjectId": "65058e72faa619ee634d1c6a",
+            "topicId": "65058e7e7c4da8fbcc2ca917",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "status": 1,
+            "createdAt": "2024-05-24T12:45:42.094Z",
+            "updatedAt": "2024-05-24T12:45:42.094Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation: Number of red balls = 3</p><p>Number of green balls = 5</p><p>Total balls in bag = 3+5 = 8</p><p>Probability of getting red balls = number of red balls/total number of balls</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac bevelled=\"true\"><mn>3</mn><mn>8</mn></mfrac></math></p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A bag has 3 red balls and 5 green balls. If we take a ball from the bag, then what is the probability of getting red balls only?</p>",
+                  "_id": "66508c583263c0bbe4b8d13a"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>3</p>",
+                  "isCorrect": false,
+                  "_id": "66508c583263c0bbe4b8d13b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>8</p>",
+                  "isCorrect": false,
+                  "_id": "66508c583263c0bbe4b8d13c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac bevelled=\"true\"><mn>3</mn><mn>8</mn></mfrac></math></p>",
+                  "isCorrect": true,
+                  "_id": "66508c583263c0bbe4b8d13d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>8/3</p>",
+                  "isCorrect": false,
+                  "_id": "66508c583263c0bbe4b8d13e"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "66508c583263c0bbe4b8d139",
+            "examId": "664c388296031688df69ef63",
+            "subjectId": "65058e72faa619ee634d1c6a",
+            "topicId": "65058e7e7c4da8fbcc2ca917",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "status": 1,
+            "createdAt": "2024-05-24T12:47:20.248Z",
+            "updatedAt": "2024-05-24T12:47:20.248Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation: Total number of purple marbles = 4</p><p>Total number of marbles in bag = 5 + 8 + 4 = 17</p><p>Probability of getting purple marbles = 4/17</p><p>Hence, the probability of not getting purple marbles = 1-4/17 = 0.77</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A bag has 5 white marbles, 8 red marbles and 4 purple marbles. If we take a marble randomly, then what is the probability of not getting purple marble?</p>",
+                  "_id": "66508c963263c0bbe4c290bf"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>0.5</p>",
+                  "isCorrect": false,
+                  "_id": "66508c963263c0bbe4c290c0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>0.66</p>",
+                  "isCorrect": false,
+                  "_id": "66508c963263c0bbe4c290c1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>0.08</p>",
+                  "isCorrect": false,
+                  "_id": "66508c963263c0bbe4c290c2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>0.77</p>",
+                  "isCorrect": true,
+                  "_id": "66508c963263c0bbe4c290c3"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "66508c963263c0bbe4c290be",
+            "examId": "664c388296031688df69ef63",
+            "subjectId": "65058e72faa619ee634d1c6a",
+            "topicId": "65058e7e7c4da8fbcc2ca917",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "status": 1,
+            "createdAt": "2024-05-24T12:48:22.523Z",
+            "updatedAt": "2024-05-24T12:48:22.523Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation: A dice has six faces having values 1, 2, 3, 4, 5 and 6.</p><p>There are three odd numbers and three even numbers.</p><p>Therefore, the probability of getting only odd numbers is = 3/6 =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac bevelled=\"true\"><mn>1</mn><mn>2</mn></mfrac></math></p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A dice is thrown in the air. The probability of getting odd numbers is</p>",
+                  "_id": "66508ce23263c0bbe4cc6def"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac bevelled=\"true\"><mn>1</mn><mn>2</mn></mfrac></math></p>",
+                  "isCorrect": true,
+                  "_id": "66508ce23263c0bbe4cc6df0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3/2</p>",
+                  "isCorrect": false,
+                  "_id": "66508ce23263c0bbe4cc6df1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3</p>",
+                  "isCorrect": false,
+                  "_id": "66508ce23263c0bbe4cc6df2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4</p>",
+                  "isCorrect": false,
+                  "_id": "66508ce23263c0bbe4cc6df3"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "66508ce23263c0bbe4cc6dee",
+            "examId": "664c388296031688df69ef63",
+            "subjectId": "65058e72faa619ee634d1c6a",
+            "topicId": "65058e7e7c4da8fbcc2ca917",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-05-24T12:49:38.189Z",
+            "updatedAt": "2024-05-24T12:49:38.189Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation: When two coins are tossed, the total outcomes will be = 2 x 2 = 4</p><p>Hence, the probability of getting both tails =<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac bevelled=\"true\"><mn>1</mn><mn>4</mn></mfrac></math></p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>If we throw two coins in the air, then the probability of getting both tails will be:</p>",
+                  "_id": "66508d2a7036675413cea2a0"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac bevelled=\"true\"><mn>1</mn><mn>2</mn></mfrac></math></p>",
+                  "isCorrect": false,
+                  "_id": "66508d2a7036675413cea2a1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac bevelled=\"true\"><mn>1</mn><mn>4</mn></mfrac></math></p>",
+                  "isCorrect": true,
+                  "_id": "66508d2a7036675413cea2a2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2</p>",
+                  "isCorrect": false,
+                  "_id": "66508d2a7036675413cea2a3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4</p>",
+                  "isCorrect": false,
+                  "_id": "66508d2a7036675413cea2a4"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "66508d2a7036675413cea29f",
+            "examId": "664c388296031688df69ef63",
+            "subjectId": "65058e72faa619ee634d1c6a",
+            "topicId": "65058e7e7c4da8fbcc2ca917",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "status": 1,
+            "createdAt": "2024-05-24T12:50:50.445Z",
+            "updatedAt": "2024-05-24T12:50:50.445Z",
+            "__v": 0
+          }
+        ]
+      }
+    ]
+  }
+}

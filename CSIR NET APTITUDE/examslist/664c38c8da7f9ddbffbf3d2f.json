@@ -1,0 +1,821 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "108",
+  "msg": "Exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c38c8da7f9ddbffbf3d2f",
+        "inDualLang": false,
+        "en": {
+          "name": "L02 DATA INTERPRETATION",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "652ce231347a0acc1fe4eb6e",
+        "topicId": "652ce255347a0acc1fe4f1a8",
+        "subTopicId": "652ce285347a0acc1fe4f9ae",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 0,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 0,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T06:01:44.605Z",
+        "updatedAt": "2024-05-21T13:20:53.076Z",
+        "__v": 2,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Required percentage = 420/480 * 100 &nbsp;</p><p>= 87.5%</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1716293930038.png",
+                  "_id": "664c9152439d1906f91ef7a9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>The number of steel bottles in A is what &nbsp;percent of the number of steel bottles in D?</p>",
+                  "_id": "664c9152439d1906f91ef7aa"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>82.5%</p>",
+                  "isCorrect": false,
+                  "_id": "664c9152439d1906f91ef7ab"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>87.5%</p>",
+                  "isCorrect": true,
+                  "_id": "664c9152439d1906f91ef7ac"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>90.5%</p>",
+                  "isCorrect": false,
+                  "_id": "664c9152439d1906f91ef7ad"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>78.5%</p>",
+                  "isCorrect": false,
+                  "_id": "664c9152439d1906f91ef7ae"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c9152439d1906f91ef7a8",
+            "examId": "664c38c8da7f9ddbffbf3d2f",
+            "subjectId": "652ce231347a0acc1fe4eb6e",
+            "topicId": "652ce255347a0acc1fe4f1a8",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "status": 1,
+            "createdAt": "2024-05-21T12:19:30.654Z",
+            "updatedAt": "2024-05-21T12:19:30.654Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Required average = (380 + 400 + 240 + 320 + 420)/5<br>= 352</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1716293996630.png",
+                  "_id": "664c918d439d1906f920253b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>What is the average number of plastic bottles &nbsp;in all the shops together?</p>",
+                  "_id": "664c918d439d1906f920253c"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>352</p>",
+                  "isCorrect": true,
+                  "_id": "664c918d439d1906f920253d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>356</p>",
+                  "isCorrect": false,
+                  "_id": "664c918d439d1906f920253e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>350</p>",
+                  "isCorrect": false,
+                  "_id": "664c918d439d1906f920253f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>354</p>",
+                  "isCorrect": false,
+                  "_id": "664c918d439d1906f9202540"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c918d439d1906f920253a",
+            "examId": "664c38c8da7f9ddbffbf3d2f",
+            "subjectId": "652ce231347a0acc1fe4eb6e",
+            "topicId": "652ce255347a0acc1fe4f1a8",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "status": 1,
+            "createdAt": "2024-05-21T12:20:29.885Z",
+            "updatedAt": "2024-05-21T12:20:29.885Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Required ratio = (280 + 400):(180 + 420) &nbsp;<br>= 680:600</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1716294052665.png",
+                  "_id": "664c91c7d950a07ad6328821"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>What is the ratio of the number of steel and &nbsp;plastic bottles in B and E?</p>",
+                  "_id": "664c91c7d950a07ad6328822"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>7:5</p>",
+                  "isCorrect": false,
+                  "_id": "664c91c7d950a07ad6328823"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>12:7</p>",
+                  "isCorrect": false,
+                  "_id": "664c91c7d950a07ad6328824"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>17:15</p>",
+                  "isCorrect": true,
+                  "_id": "664c91c7d950a07ad6328825"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>15:13</p>",
+                  "isCorrect": false,
+                  "_id": "664c91c7d950a07ad6328826"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c91c7d950a07ad6328820",
+            "examId": "664c38c8da7f9ddbffbf3d2f",
+            "subjectId": "652ce231347a0acc1fe4eb6e",
+            "topicId": "652ce255347a0acc1fe4f1a8",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "status": 1,
+            "createdAt": "2024-05-21T12:21:27.815Z",
+            "updatedAt": "2024-05-21T12:21:27.815Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Required percentage = (380 + 240)/(360 + 480) &nbsp;* 100<br>=620*100/840&nbsp;<br>= 73.8%</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1716294153729.png",
+                  "_id": "664c924d439d1906f923bc9a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>The number of plastic bottles in A and C &nbsp;together is what percent of the number of steel &nbsp;bottles in C and D together?</p>",
+                  "_id": "664c924d439d1906f923bc9b"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>73.8%</p>",
+                  "isCorrect": true,
+                  "_id": "664c924d439d1906f923bc9c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>75.9%</p>",
+                  "isCorrect": false,
+                  "_id": "664c924d439d1906f923bc9d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>77.3%</p>",
+                  "isCorrect": false,
+                  "_id": "664c924d439d1906f923bc9e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>79.5%</p>",
+                  "isCorrect": false,
+                  "_id": "664c924d439d1906f923bc9f"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c924d439d1906f923bc99",
+            "examId": "664c38c8da7f9ddbffbf3d2f",
+            "subjectId": "652ce231347a0acc1fe4eb6e",
+            "topicId": "652ce255347a0acc1fe4f1a8",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "status": 1,
+            "createdAt": "2024-05-21T12:23:41.396Z",
+            "updatedAt": "2024-05-21T12:23:41.396Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Required ratio = (420 + 180):(400 + 420) &nbsp;<br>= 600:820<br>= 30:41</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1716297225277.png",
+                  "_id": "664c9e41d2849fa3b4a66c9c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>What is the ratio of the number of steel bottles &nbsp;in A and E together to the number of plastic bottles in B and E together?</p>",
+                  "_id": "664c9e41d2849fa3b4a66c9d"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>29:39</p>",
+                  "isCorrect": false,
+                  "_id": "664c9e41d2849fa3b4a66c9e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>30:37</p>",
+                  "isCorrect": false,
+                  "_id": "664c9e41d2849fa3b4a66c9f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>29:37</p>",
+                  "isCorrect": false,
+                  "_id": "664c9e41d2849fa3b4a66ca0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>30:41</p>",
+                  "isCorrect": true,
+                  "_id": "664c9e41d2849fa3b4a66ca1"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c9e41d2849fa3b4a66c9b",
+            "examId": "664c38c8da7f9ddbffbf3d2f",
+            "subjectId": "652ce231347a0acc1fe4eb6e",
+            "topicId": "652ce255347a0acc1fe4f1a8",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "status": 1,
+            "createdAt": "2024-05-21T13:14:41.290Z",
+            "updatedAt": "2024-05-21T13:14:41.290Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Required ratio = (200 + 320):(220 + 320) &nbsp;<br>= 520:540<br>= 26:27</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1716297323278.png",
+                  "_id": "664c9e92d950a07ad647c687"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>What is the ratio of the number of ECE and &nbsp;CSE students in A and E?</p>",
+                  "_id": "664c9e92d950a07ad647c688"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>26:27</p>",
+                  "isCorrect": true,
+                  "_id": "664c9e92d950a07ad647c689"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>28:29</p>",
+                  "isCorrect": false,
+                  "_id": "664c9e92d950a07ad647c68a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>29:30</p>",
+                  "isCorrect": false,
+                  "_id": "664c9e92d950a07ad647c68b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>25:26</p>",
+                  "isCorrect": false,
+                  "_id": "664c9e92d950a07ad647c68c"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c9e92d950a07ad647c686",
+            "examId": "664c38c8da7f9ddbffbf3d2f",
+            "subjectId": "652ce231347a0acc1fe4eb6e",
+            "topicId": "652ce255347a0acc1fe4f1a8",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "status": 1,
+            "createdAt": "2024-05-21T13:16:02.412Z",
+            "updatedAt": "2024-05-21T13:16:02.412Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Required percentage = 240/180 * 100 &nbsp;<br>= 133.33%</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1716297381347.png",
+                  "_id": "664c9ec5d2849fa3b4a7eaeb"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>The number of CSE students in C is what &nbsp;percent of the number of ECE students in B?</p>",
+                  "_id": "664c9ec5d2849fa3b4a7eaec"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>122.22%</p>",
+                  "isCorrect": false,
+                  "_id": "664c9ec5d2849fa3b4a7eaed"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>133.33%</p>",
+                  "isCorrect": true,
+                  "_id": "664c9ec5d2849fa3b4a7eaee"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>144.44%</p>",
+                  "isCorrect": false,
+                  "_id": "664c9ec5d2849fa3b4a7eaef"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>111.11%</p>",
+                  "isCorrect": false,
+                  "_id": "664c9ec5d2849fa3b4a7eaf0"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c9ec5d2849fa3b4a7eaea",
+            "examId": "664c38c8da7f9ddbffbf3d2f",
+            "subjectId": "652ce231347a0acc1fe4eb6e",
+            "topicId": "652ce255347a0acc1fe4f1a8",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "status": 1,
+            "createdAt": "2024-05-21T13:16:53.974Z",
+            "updatedAt": "2024-05-21T13:16:53.974Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Required average = (320 + 280 + 240 + 300 + 220)/5<br>= 272</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What is the average number of CSE students &nbsp;in all the colleges together?</p>",
+                  "_id": "664c9f00d950a07ad647dbba"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>258</p>",
+                  "isCorrect": false,
+                  "_id": "664c9f00d950a07ad647dbbb"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>268</p>",
+                  "isCorrect": false,
+                  "_id": "664c9f00d950a07ad647dbbc"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>272</p>",
+                  "isCorrect": true,
+                  "_id": "664c9f00d950a07ad647dbbd"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>278</p>",
+                  "isCorrect": false,
+                  "_id": "664c9f00d950a07ad647dbbe"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c9f00d950a07ad647dbb9",
+            "examId": "664c38c8da7f9ddbffbf3d2f",
+            "subjectId": "652ce231347a0acc1fe4eb6e",
+            "topicId": "652ce255347a0acc1fe4f1a8",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "status": 1,
+            "createdAt": "2024-05-21T13:17:52.497Z",
+            "updatedAt": "2024-05-21T13:17:52.497Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Required difference = (360 + 240) – &nbsp;(220 + 280) &nbsp;<br>= 100</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1716297519639.png",
+                  "_id": "664c9f5e307f4d5b7259a2bb"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>What is the difference between the number of &nbsp;ECE students in C and D together and the &nbsp;number of CSE students in B and E together?</p>",
+                  "_id": "664c9f5e307f4d5b7259a2bc"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>100</p>",
+                  "isCorrect": true,
+                  "_id": "664c9f5e307f4d5b7259a2bd"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>120</p>",
+                  "isCorrect": false,
+                  "_id": "664c9f5e307f4d5b7259a2be"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>80</p>",
+                  "isCorrect": false,
+                  "_id": "664c9f5e307f4d5b7259a2bf"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>90</p>",
+                  "isCorrect": false,
+                  "_id": "664c9f5e307f4d5b7259a2c0"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c9f5e307f4d5b7259a2ba",
+            "examId": "664c38c8da7f9ddbffbf3d2f",
+            "subjectId": "652ce231347a0acc1fe4eb6e",
+            "topicId": "652ce255347a0acc1fe4f1a8",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-05-21T13:19:26.485Z",
+            "updatedAt": "2024-05-21T13:19:26.485Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Required percentage = (280 + 180)/(240 + 300)* 100<br>=460*100/540&nbsp;<br>= 85%</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "img",
+                  "description": "https://media.ifasonline.com/production/exam/exam_1716297591567.png",
+                  "_id": "664c9fa5307f4d5b725b7b42"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>The number of ECE and CSE students in B &nbsp;is approximately what percent of the number of &nbsp;ECE and CSE students in D?</p>",
+                  "_id": "664c9fa5307f4d5b725b7b43"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>82%</p>",
+                  "isCorrect": false,
+                  "_id": "664c9fa5307f4d5b725b7b44"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>85%</p>",
+                  "isCorrect": true,
+                  "_id": "664c9fa5307f4d5b725b7b45"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>88%</p>",
+                  "isCorrect": false,
+                  "_id": "664c9fa5307f4d5b725b7b46"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>91%</p>",
+                  "isCorrect": false,
+                  "_id": "664c9fa5307f4d5b725b7b47"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c9fa5307f4d5b725b7b41",
+            "examId": "664c38c8da7f9ddbffbf3d2f",
+            "subjectId": "652ce231347a0acc1fe4eb6e",
+            "topicId": "652ce255347a0acc1fe4f1a8",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "status": 1,
+            "createdAt": "2024-05-21T13:20:37.699Z",
+            "updatedAt": "2024-05-21T13:20:37.699Z",
+            "__v": 0
+          }
+        ]
+      }
+    ]
+  }
+}

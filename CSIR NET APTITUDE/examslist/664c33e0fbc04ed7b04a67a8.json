@@ -1,0 +1,776 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "108",
+  "msg": "Exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c33e0fbc04ed7b04a67a8",
+        "inDualLang": false,
+        "en": {
+          "name": "L01 SIMPLE AND COMPOUND INTEREST",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "6520e66bad2bf08e657d3f74",
+        "topicId": "6520e6872f70a49505dcfb89",
+        "subTopicId": "6520e6a22f70a49505dcfec3",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 10,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 0,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T05:40:48.914Z",
+        "updatedAt": "2024-05-21T06:55:18.366Z",
+        "__v": 2,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CP</mi><mo> </mo><mi>of</mi><mo>&nbsp;</mo><mi>article</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mfrac><mn>100</mn><mn>260</mn></mfrac><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>520</mn></math></p><p>&nbsp;= Rs 200</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">S</mi><mo>.</mo><mi mathvariant=\"normal\">p</mi><mo>.</mo><mo>&nbsp;</mo><mi>of</mi><mo>&nbsp;</mo><mi>article</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mfrac><mrow><mn>156</mn><mo>&nbsp;</mo></mrow><mn>100</mn></mfrac><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>200</mn></math></p><p>&nbsp;= Rs 312</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A seller marks up an article 160% above of its cost price. After it he allows two successive discount of 20% and 25% and yet he gets 56% profit on it. If marked price of article is Rs 520 then find its selling price</p>",
+                  "_id": "662f5129d549f977b282664d"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Rs 320</p>",
+                  "isCorrect": false,
+                  "_id": "662f5129d549f977b282664e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs 312</p>",
+                  "isCorrect": true,
+                  "_id": "662f5129d549f977b282664f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs 240</p>",
+                  "isCorrect": false,
+                  "_id": "662f5129d549f977b2826650"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs 324</p>",
+                  "isCorrect": false,
+                  "_id": "662f5129d549f977b2826651"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c4437c0b33223b021933e",
+            "examId": "664c33e0fbc04ed7b04a67a8",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "status": 1,
+            "createdAt": "2024-04-29T07:50:01.940Z",
+            "updatedAt": "2024-04-29T07:50:01.940Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Let the milkman buy = y litre of milk.<br>At the rate of x Rs./litre<br>xy - 5y = 300 &nbsp;-------------------------(i)<br>6y - xy = 250 &nbsp; ------------------------(ii)<br>from solving equation (i) &amp; (ii)<br>y = 550 litre</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A milkman buys some milk. If he sells it at Rs 5 per litre, he loses Rs 300, but when he sells it at Rs 6 per litre, he gains Rs 250. How much milk did he purchase?</p>",
+                  "_id": "662f51bd37d55db27ba111cc"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>550 lt</p>",
+                  "isCorrect": true,
+                  "_id": "662f51bd37d55db27ba111cd"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>300 lt</p>",
+                  "isCorrect": false,
+                  "_id": "662f51bd37d55db27ba111ce"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>250 lt</p>",
+                  "isCorrect": false,
+                  "_id": "662f51bd37d55db27ba111cf"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>800 lt</p>",
+                  "isCorrect": false,
+                  "_id": "662f51bd37d55db27ba111d0"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c4437c0b33223b0219344",
+            "examId": "664c33e0fbc04ed7b04a67a8",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "status": 1,
+            "createdAt": "2024-04-29T07:52:29.861Z",
+            "updatedAt": "2024-04-29T07:52:29.861Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>C.P Of Mixture of Tea</p><p>=&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>&nbsp;</mo><mo>×</mo><mfrac><mn>100</mn><mn>110</mn></mfrac></math></p><p>=&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>300</mn><mn>11</mn></mfrac><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mi>rupee</mi><mo>/</mo><mi>kg</mi></math></p><p>According to law of allegation</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>tea</mi><mo>&nbsp;</mo><mn>1</mn></mrow><mrow><mi>tea</mi><mo>&nbsp;</mo><mn>2</mn></mrow></mfrac><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mfrac><mn>30</mn><mn>25</mn></mfrac><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mfrac><mn>6</mn><mn>5</mn></mfrac></math></p><p>Quantity of tea1 =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>6</mn><mn>5</mn></mfrac><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>30</mn><mo>&nbsp;</mo><mo>=</mo><mn>36</mn><mo>&nbsp;</mo><mi>kg</mi></math></p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1714377225613.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>How many kg of tea worth Rs. 25 per kg must be blended with 30 kg of tea worth Rs. 30 per kg so that by selling the blended variety at Rs. 30 per kg there should be gain of 10%?</p>",
+                  "_id": "662f52b16d70b36ae08b6a14"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>30 kg</p>",
+                  "isCorrect": false,
+                  "_id": "662f52b16d70b36ae08b6a15"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>32 kg</p>",
+                  "isCorrect": false,
+                  "_id": "662f52b16d70b36ae08b6a16"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>36 kg</p>",
+                  "isCorrect": true,
+                  "_id": "662f52b16d70b36ae08b6a17"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>42 kg</p>",
+                  "isCorrect": false,
+                  "_id": "662f52b16d70b36ae08b6a18"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c4437c0b33223b021934a",
+            "examId": "664c33e0fbc04ed7b04a67a8",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "status": 1,
+            "createdAt": "2024-04-29T07:56:33.723Z",
+            "updatedAt": "2024-04-29T07:56:33.723Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>If MP is x Rs then after 10% discount, selling price of the product will be equal to 0.9x<br>But there is 5% tax on selling price which is also included in the price of the product.<br>5% of 0.9x ⇒ 0.045x<br>Net value of the product-0.9x + 0.045x = 0.945x<br>ATQ,<br>0.945x = 9450<br>⇒ x=<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9450</mn><mrow><mo>&nbsp;</mo><mn>0</mn><mo>.</mo><mn>945</mn></mrow></mfrac></math><br>⇒x=10000</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The price of a product after getting 10% discount is Rs.9450 which includes 5% tax on selling price. Find the marked price of the product (in Rs)?</p>",
+                  "_id": "662f5379fa8c934df913cfad"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>8500</p>",
+                  "isCorrect": false,
+                  "_id": "662f5379fa8c934df913cfae"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9000</p>",
+                  "isCorrect": false,
+                  "_id": "662f5379fa8c934df913cfaf"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>10000</p>",
+                  "isCorrect": true,
+                  "_id": "662f5379fa8c934df913cfb0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9500</p>",
+                  "isCorrect": false,
+                  "_id": "662f5379fa8c934df913cfb1"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c4437c0b33223b0219350",
+            "examId": "664c33e0fbc04ed7b04a67a8",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "status": 1,
+            "createdAt": "2024-04-29T07:59:53.115Z",
+            "updatedAt": "2024-04-29T07:59:53.115Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Let C.P. of article = 100x<br>S.P. of article if sold at 10% profit = 110x<br>S.P. of article if it is marked up above 30% of C.P. and 10% discount is given<br>=&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mi mathvariant=\"normal\">x</mi><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mfrac><mn>130</mn><mn>100</mn></mfrac><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mfrac><mn>90</mn><mn>100</mn></mfrac></math><br>= 117x<br>ATQ,<br>117x - 110x = 56<br>x = 8<br>So, C.P. of article = 100x<br>= 100 × 8<br>= Rs. 800</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A shopkeeper in place of selling a article at 10% profit, mark up the article 30% above cost price and gives a discount of 10%. In this process he gets Rs. 56 more profit. Find the cost price of article.</p>",
+                  "_id": "662f5408d549f977b2829021"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 400</p>",
+                  "isCorrect": false,
+                  "_id": "662f5408d549f977b2829022"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 1000</p>",
+                  "isCorrect": false,
+                  "_id": "662f5408d549f977b2829023"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 800</p>",
+                  "isCorrect": true,
+                  "_id": "662f5408d549f977b2829024"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 600</p>",
+                  "isCorrect": false,
+                  "_id": "662f5408d549f977b2829025"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c4437c0b33223b0219356",
+            "examId": "664c33e0fbc04ed7b04a67a8",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "status": 1,
+            "createdAt": "2024-04-29T08:02:16.257Z",
+            "updatedAt": "2024-04-29T08:02:16.257Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Sum of profit and discount offered on one bicycle =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2560</mn><mn>4</mn></mfrac><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>640</mn></math><br>And<br>Cost price + Profit = Marked price - Discount<br>Profit + Discount = Marked price - cost price = 640</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A person purchases four bicycles at a discount of 20% on marked price on each bicycle. If sum of discount offered and profit obtained on all 4 bicycles is 2560 then find the difference in marked price and cost price on one bicycle.</p>",
+                  "_id": "662f546e37d55db27ba9f61d"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>520</p>",
+                  "isCorrect": false,
+                  "_id": "662f546e37d55db27ba9f61e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>640</p>",
+                  "isCorrect": false,
+                  "_id": "662f546e37d55db27ba9f61f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1220</p>",
+                  "isCorrect": false,
+                  "_id": "662f546e37d55db27ba9f620"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>880</p>",
+                  "isCorrect": true,
+                  "_id": "662f546e37d55db27ba9f621"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c4437c0b33223b021935c",
+            "examId": "664c33e0fbc04ed7b04a67a8",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "status": 1,
+            "createdAt": "2024-04-29T08:03:58.280Z",
+            "updatedAt": "2024-04-29T08:03:58.280Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Initial C.P. = Rs. 480<br>SP after selling it 12% loss<br>=&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>480</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mfrac><mn>88</mn><mrow><mo>&nbsp;</mo><mn>100</mn></mrow></mfrac><mo>&nbsp;</mo></math><br>New C.P. = 422.4 Rs<br>Final S.P. after selling new C.P. price at 25 % gain<br>=&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>422</mn><mo>.</mo><mn>4</mn><mo>&nbsp;</mo><mi mathvariant=\"normal\">X</mi><mo>&nbsp;</mo><mo>&nbsp;</mo><mfrac><mn>125</mn><mn>100</mn></mfrac><mo>=</mo><mo>&nbsp;</mo><mn>528</mn></math><br>Total profit = Final S.P - Initial C.P.<br>= 528 - 480<br>= 48 Rs.<br>Required profit percentage<br><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>48</mn><mn>480</mn></mfrac><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>100</mn><mo>&nbsp;</mo><mo>&nbsp;</mo></math><br>= 10%</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Veer buy an article for Rs. 480. He sold it at 12% loss and get some money and from that money he again buys an article and this he sold at 25% profit. What was profit percentage he got from this transaction?</p>",
+                  "_id": "662f554137d55db27ba9ffe3"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>16%</p>",
+                  "isCorrect": false,
+                  "_id": "662f554137d55db27ba9ffe4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>12%</p>",
+                  "isCorrect": false,
+                  "_id": "662f554137d55db27ba9ffe5"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>10%</p>",
+                  "isCorrect": true,
+                  "_id": "662f554137d55db27ba9ffe6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>14%</p>",
+                  "isCorrect": false,
+                  "_id": "662f554137d55db27ba9ffe7"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c4437c0b33223b0219362",
+            "examId": "664c33e0fbc04ed7b04a67a8",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "status": 1,
+            "createdAt": "2024-04-29T08:07:29.738Z",
+            "updatedAt": "2024-04-29T08:07:29.738Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Let C.P. of potato = X Rs.<br>C.P. of tomato (7.5 - X) Rs.<br>And S. P. of potato =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>122</mn><mi mathvariant=\"normal\">X</mi></mrow><mn>100</mn></mfrac><mo>&nbsp;</mo><mi>Rs</mi></math><br>S. P. of tomato =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>92</mn><mn>100</mn></mfrac><mo>&nbsp;</mo><mo>(</mo><mn>7</mn><mo>.</mo><mn>5</mn><mo>&nbsp;</mo><mo>-</mo><mo>&nbsp;</mo><mi mathvariant=\"normal\">X</mi><mo>&nbsp;</mo><mo>)</mo><mo>&nbsp;</mo><mi>Rs</mi><mo>.</mo></math><br>:. 7.5 = &nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>122</mn><mi mathvariant=\"normal\">X</mi></mrow><mn>100</mn></mfrac><mo>&nbsp;</mo><mo>+</mo></math>&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>92</mn><mn>100</mn></mfrac><mo>&nbsp;</mo><mo>(</mo><mn>7</mn><mo>.</mo><mn>5</mn><mo>&nbsp;</mo><mo>-</mo><mo>&nbsp;</mo><mi mathvariant=\"normal\">X</mi><mo>&nbsp;</mo><mo>)</mo><mo>&nbsp;</mo></math><br>X = 2 Rs.<br>C.P. of tomato = (7.5 - 2)<br>= 5.5 Rs.<br>S. P. of tomato =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>92</mn><mn>100</mn></mfrac><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>5</mn><mo>.</mo><mn>5</mn><mo>&nbsp;</mo></math><br>= 5.06 Rs.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A vegetable seller buy potato and tomato in Rs. 7.5 per kg. He sells potato at a profit of 22% and tomato at a loss of 8%, What is the S.P. of tomato, if in whole transaction there is no profit no loss ?</p>",
+                  "_id": "662f66507cfaf047dcf7836c"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>5.08 Rs.</p>",
+                  "isCorrect": false,
+                  "_id": "662f66507cfaf047dcf7836d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4.97Rs.</p>",
+                  "isCorrect": false,
+                  "_id": "662f66507cfaf047dcf7836e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>5.07Rs.</p>",
+                  "isCorrect": false,
+                  "_id": "662f66507cfaf047dcf7836f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>&nbsp;5.06Rs.</p>",
+                  "isCorrect": true,
+                  "_id": "662f66507cfaf047dcf78370"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c4437c0b33223b0219368",
+            "examId": "664c33e0fbc04ed7b04a67a8",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "status": 1,
+            "createdAt": "2024-04-29T09:20:16.687Z",
+            "updatedAt": "2024-04-29T09:20:16.687Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>33&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>&nbsp;% =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>100</mn><mn>3</mn></mfrac></math>&nbsp;% =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math><br>Oranges stolen by thief=&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math><br><br>Rotten oranges =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>&nbsp;</mo><mo>−</mo><mo>&nbsp;</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>)</mo><mo>&nbsp;</mo><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mfrac><mn>30</mn><mn>100</mn></mfrac></math><br>&nbsp;=&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mfrac><mn>3</mn><mn>10</mn></mfrac><mo>=</mo><mo>&nbsp;</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></math><br>. Good oranges =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>=</mo><mo>&nbsp;</mo><mfrac><mn>7</mn><mn>15</mn></mfrac></math><br>ATQ,<br><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>15</mn></mfrac><mo>&nbsp;</mo><mo>→</mo><mn>140</mn></math><br>.. total oranges =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>140</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>15</mn></mrow><mn>7</mn></mfrac><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>300</mn></math><br>= 300<br>&nbsp;</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>In a basket there are some oranges. 33⅓% oranges were stolen by a thief, 30% of the remaining were rotten and rest oranges were good. If no. of good oranges was 140 then find total no. oranges in the basket.</p>",
+                  "_id": "662f69c37cfaf047dcf9040e"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>300</p>",
+                  "isCorrect": true,
+                  "_id": "662f69c37cfaf047dcf9040f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>350</p>",
+                  "isCorrect": false,
+                  "_id": "662f69c37cfaf047dcf90410"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>320</p>",
+                  "isCorrect": false,
+                  "_id": "662f69c37cfaf047dcf90411"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>400</p>",
+                  "isCorrect": false,
+                  "_id": "662f69c37cfaf047dcf90412"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c4437c0b33223b021936e",
+            "examId": "664c33e0fbc04ed7b04a67a8",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-04-29T09:34:59.406Z",
+            "updatedAt": "2024-04-29T09:34:59.406Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>C.P. = Rs. 4500<br>.. M.P. = (100+<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>100</mn><mn>3</mn></mfrac></math>&nbsp;) % of 4500<br>=&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>3</mn></mfrac></math>&nbsp;x 4500 Rs. 6000<br><br>.. S.P. = 6000 ×&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>6</mn></mfrac></math>&nbsp;(16&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>&nbsp;% =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>50</mn><mn>3</mn></mfrac></math>&nbsp;% = &nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math>)<br>= Rs. 5000<br>.. Profit = 5000 - 4500<br>= Rs. 500</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A shopkeeper marks up the price of a T.V. 33⅓% above its cast price and gives a discount of 16⅔% on marked price. If cost price of the T.V. is Rs. 4500 then find the profit (in rupees)</p>",
+                  "_id": "662f6c14fa8c934df97fa02d"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1500</p>",
+                  "isCorrect": false,
+                  "_id": "662f6c14fa8c934df97fa02e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1000</p>",
+                  "isCorrect": false,
+                  "_id": "662f6c14fa8c934df97fa02f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>500</p>",
+                  "isCorrect": true,
+                  "_id": "662f6c14fa8c934df97fa030"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>400</p>",
+                  "isCorrect": false,
+                  "_id": "662f6c14fa8c934df97fa031"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c4437c0b33223b0219374",
+            "examId": "664c33e0fbc04ed7b04a67a8",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "status": 1,
+            "createdAt": "2024-04-29T09:44:52.393Z",
+            "updatedAt": "2024-04-29T09:44:52.393Z",
+            "__v": 0
+          }
+        ]
+      }
+    ]
+  }
+}

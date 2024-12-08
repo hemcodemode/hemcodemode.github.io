@@ -1,0 +1,776 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "108",
+  "msg": "Exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c3402fbc04ed7b04b1810",
+        "inDualLang": false,
+        "en": {
+          "name": "L01 SPEED TIME DISTANCE",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "650bf38d159a91c4291566ce",
+        "topicId": "650bf3a151c590476eb18fc2",
+        "subTopicId": "650bf3b751c590476eb1913d",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 10,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 0,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T05:41:22.891Z",
+        "updatedAt": "2024-05-21T06:55:20.196Z",
+        "__v": 2,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Answer:</p><p>The distance between X and Y is 1000 km.</p><p>Time taken to fly from X to Y is 2 hr.</p><p>After a halt of 4 hr, the journey from Y to X starts.</p><p>⇒ Journey from Y starts at 2 PM.</p><p>Given the person reaches X at 4 PM.</p><p>∴ Time taken to fly from Y to X is 2 hr.</p><p>∴ Total distance travelled = 1000 + 1000 = 2000 km.</p><p>Total time taken = 2 + 2 = 4 hr.</p><p>⇒ Average speed = 2000/4 = 500 km/hr.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The distance between X and Y is 1000 km. A person ﬂies from X at 8 AM local time and reachesY at 10 AM local time. He ﬂies back after a halt of 4 hours at Y and reaches X at 4 PM local timeon the same day. What is his average speed for the duration he is in the air?</p>",
+                  "_id": "662f6e20fa8c934df98c60e0"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>500 km/hour</p>",
+                  "isCorrect": true,
+                  "_id": "662f6e20fa8c934df98c60e1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>250 km/hour</p>",
+                  "isCorrect": false,
+                  "_id": "662f6e20fa8c934df98c60e2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>750 km/hour</p>",
+                  "isCorrect": false,
+                  "_id": "662f6e20fa8c934df98c60e3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>can not be calculated with the given information</p>",
+                  "isCorrect": false,
+                  "_id": "662f6e20fa8c934df98c60e4"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c44b9019f204e872c8872",
+            "examId": "664c3402fbc04ed7b04b1810",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "status": 1,
+            "createdAt": "2024-04-29T09:53:36.341Z",
+            "updatedAt": "2024-04-29T09:53:36.341Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Speed of man = 2 m/sec<br>Speed of train = 72 x&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>18</mn></mfrac></math>&nbsp;= 20 m/sec<br>.. Length of train = (20 - 2) x 10 = 180 m<br>.. Length of tunnel 54 x 20-180 = 900 m</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A train crosses a man, who is running in the same direction of train at the speed of 2m/sec. in 10 seconds. The same train crosses a tunnel in 54 seconds. If speed of train is 72 km/h then what is the length of tunnel?</p>",
+                  "_id": "662f6fd872ec76a17576334b"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>850 m</p>",
+                  "isCorrect": false,
+                  "_id": "662f6fd872ec76a17576334c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>800 m</p>",
+                  "isCorrect": false,
+                  "_id": "662f6fd872ec76a17576334d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>900 m</p>",
+                  "isCorrect": true,
+                  "_id": "662f6fd872ec76a17576334e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>750 m</p>",
+                  "isCorrect": false,
+                  "_id": "662f6fd872ec76a17576334f"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c44b9019f204e872c8878",
+            "examId": "664c3402fbc04ed7b04b1810",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "status": 1,
+            "createdAt": "2024-04-29T10:00:56.368Z",
+            "updatedAt": "2024-04-29T10:00:56.368Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Raghav can beat Suresh by 100m in a race of 1 km and they run at speed of 10m/sec and 8 m/sec respectively. If Suresh increases his speed by 7m/sec then by how much time he will beat Raghav in the same race of 1km?</p>",
+                  "_id": "662f7114fa8c934df99c65b9"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>43 sec</p>",
+                  "isCorrect": false,
+                  "_id": "662f7114fa8c934df99c65ba"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>36 sec</p>",
+                  "isCorrect": false,
+                  "_id": "662f7114fa8c934df99c65bb"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>110/3 sec</p>",
+                  "isCorrect": false,
+                  "_id": "662f7114fa8c934df99c65bc"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>100/3 sec</p>",
+                  "isCorrect": true,
+                  "_id": "662f7114fa8c934df99c65bd"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c44b9019f204e872c887e",
+            "examId": "664c3402fbc04ed7b04b1810",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "status": 1,
+            "createdAt": "2024-04-29T10:06:12.394Z",
+            "updatedAt": "2024-04-29T10:06:12.394Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A boat can cover upstream distance between two points in 6 hours and same distance downstream in 4 hours. If speed of boat in still water is 8 km/h, then find speed of stream.</p>",
+                  "_id": "662f739b72ec76a175766881"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>&nbsp;2 km/h</p>",
+                  "isCorrect": false,
+                  "_id": "662f739b72ec76a175766882"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1.6 km/h</p>",
+                  "isCorrect": true,
+                  "_id": "662f739b72ec76a175766883"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3.2 km/h</p>",
+                  "isCorrect": false,
+                  "_id": "662f739b72ec76a175766884"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4.8 km/h</p>",
+                  "isCorrect": false,
+                  "_id": "662f739b72ec76a175766885"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c44b9019f204e872c8884",
+            "examId": "664c3402fbc04ed7b04b1810",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "status": 1,
+            "createdAt": "2024-04-29T10:16:59.908Z",
+            "updatedAt": "2024-04-29T10:16:59.908Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Speed of train X (in m/sec) = 54 x&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>18</mn></mfrac></math>&nbsp;= 15 m/s<br>Speed of train Y (in m/sec) = 72 x &nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>18</mn></mfrac></math>&nbsp;= 20 m/s<br>ATQ,<br>Let length of train Y = y meters<br>18<br><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>160</mn><mo>+</mo><mi mathvariant=\"normal\">y</mi><mo>)</mo></mrow><mrow><mo>(</mo><mn>20</mn><mo>-</mo><mn>15</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mo>&nbsp;</mo><mn>48</mn></math><br>⇒ y = 80 m</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Two trains X and Y cross each other in 48 sec, when both are running in same direction. If length of train X is 160 m and speed of train X and train Y are 54 km/h and 72 km/h respectively then find the length of train Y.</p>",
+                  "_id": "662f76cad549f977b287fa61"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>160 m</p>",
+                  "isCorrect": false,
+                  "_id": "662f76cad549f977b287fa62"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>120 m</p>",
+                  "isCorrect": false,
+                  "_id": "662f76cad549f977b287fa63"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>&nbsp;80 m</p>",
+                  "isCorrect": true,
+                  "_id": "662f76cad549f977b287fa64"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>100 m</p>",
+                  "isCorrect": false,
+                  "_id": "662f76cad549f977b287fa65"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c44b9019f204e872c888a",
+            "examId": "664c3402fbc04ed7b04b1810",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "status": 1,
+            "createdAt": "2024-04-29T10:30:34.010Z",
+            "updatedAt": "2024-04-29T10:30:34.010Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>We know,<br><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Speed</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mfrac><mi>distance</mi><mi>time</mi></mfrac></math><br>Speed = (&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>240</mn><mn>24</mn></mfrac></math>)m/sec = 10m/sec.<br>Time =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>Distance</mi><mi>Speed</mi></mfrac></math><br>Required time =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mfrac><mrow><mn>240</mn><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>650</mn></mrow><mn>10</mn></mfrac><mo>&nbsp;</mo><mo>)</mo><mi>S</mi><mi>e</mi><mi>c</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>89</mn><mi>S</mi><mi>e</mi><mi>c</mi><mo>&nbsp;</mo><mo>&nbsp;</mo></math></p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A train 240 m long passes a pole in 24 seconds. How long will it take to pass a platform 650 m long?</p>",
+                  "_id": "662f783fd549f977b2884ba9"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>65 sec</p>",
+                  "isCorrect": false,
+                  "_id": "662f783fd549f977b2884baa"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>89 sec</p>",
+                  "isCorrect": true,
+                  "_id": "662f783fd549f977b2884bab"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>100 sec</p>",
+                  "isCorrect": false,
+                  "_id": "662f783fd549f977b2884bac"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>150 sec</p>",
+                  "isCorrect": false,
+                  "_id": "662f783fd549f977b2884bad"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c44b9019f204e872c8890",
+            "examId": "664c3402fbc04ed7b04b1810",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "status": 1,
+            "createdAt": "2024-04-29T10:36:47.074Z",
+            "updatedAt": "2024-04-29T10:36:47.074Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>The correct option is B 22.5 km<br>Time taken by A in covering (27 - x) km is the same as time taken by B in<br>covering (27 + x) km<br>Therefore,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>27</mn><mo>-</mo><mi>X</mi></mrow><mn>5</mn></mfrac><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mfrac><mrow><mn>27</mn><mo>+</mo><mo>&nbsp;</mo><mi>X</mi></mrow><mn>7</mn></mfrac></math><br>⇒ 189 - 7x= 135 + 5X<br>⇒ 12X = 54<br>⇒ x =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>54</mn><mn>12</mn></mfrac><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mfrac><mn>27</mn><mn>6</mn></mfrac><mo>&nbsp;</mo><mi>km</mi></math><br>Thus XZ =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>27</mn><mo>&nbsp;</mo><mo>-</mo><mo>&nbsp;</mo><mfrac><mrow><mo>&nbsp;</mo><mn>27</mn></mrow><mrow><mo>&nbsp;</mo><mn>6</mn></mrow></mfrac><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>27</mn><mo>&nbsp;</mo><mi>x</mi><mo>&nbsp;</mo><mo>&nbsp;</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>22</mn><mo>.</mo><mn>5</mn><mo>&nbsp;</mo><mi>k</mi><mi>m</mi></math></p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1714387795427.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The distance from city P to city Q is 27 km. A and B start walking from P towards Q at speeds of 5 km/hr and 7 km/hr, respectively. B reaches Q, returns immediately, and meets A at R. What is the distance between P and R? (assume all three cities to be in one straight line)&nbsp;</p>",
+                  "_id": "662f7b663ee8dc7da028d76e"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>12.5 km</p>",
+                  "isCorrect": false,
+                  "_id": "662f7b663ee8dc7da028d76f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>22.5 km</p>",
+                  "isCorrect": true,
+                  "_id": "662f7b663ee8dc7da028d770"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4.5 km</p>",
+                  "isCorrect": false,
+                  "_id": "662f7b663ee8dc7da028d771"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>13.5 km</p>",
+                  "isCorrect": false,
+                  "_id": "662f7b663ee8dc7da028d772"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c44b9019f204e872c8896",
+            "examId": "664c3402fbc04ed7b04b1810",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "status": 1,
+            "createdAt": "2024-04-29T10:50:14.353Z",
+            "updatedAt": "2024-04-29T10:50:14.353Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Speed of the train relative to man = (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>125</mn><mn>10</mn></mfrac></math>) m/sec<br>=(<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>25</mn><mn>2</mn></mfrac></math>) m/sec<br>=(<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>25</mn><mn>2</mn></mfrac><mo>&nbsp;</mo><mi mathvariant=\"normal\">x</mi><mo>&nbsp;</mo><mfrac><mn>18</mn><mn>5</mn></mfrac></math>) km/hr&nbsp;<br>= 45km/hr<br>Let the speed of the train be x km/hr. Then, relative speed = (x - 5) km/hr.<br>X - 5 = 45 ⇒ x = 50km/hr.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A train 125 m long passes a man, running at 5 km/hr in the same direction in which the train is going, in 10 seconds. The speed of the train is:</p>",
+                  "_id": "662f7ca0b9440d24ecaaf57b"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>45 km/hr</p>",
+                  "isCorrect": false,
+                  "_id": "662f7ca0b9440d24ecaaf57c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>50 km/hr&nbsp;</p>",
+                  "isCorrect": true,
+                  "_id": "662f7ca0b9440d24ecaaf57d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>54 km/hr</p>",
+                  "isCorrect": false,
+                  "_id": "662f7ca0b9440d24ecaaf57e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>55 km/hr</p>",
+                  "isCorrect": false,
+                  "_id": "662f7ca0b9440d24ecaaf57f"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c44b9019f204e872c889c",
+            "examId": "664c3402fbc04ed7b04b1810",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "status": 1,
+            "createdAt": "2024-04-29T10:55:28.724Z",
+            "updatedAt": "2024-04-29T10:55:28.724Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>The correct option is A 400 m<br>Let the length of the first train be x metres.<br>Then, the length of the second train is (&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>2</mn></mfrac></math>&nbsp;) metres.<br>Relative speed = (48 + 42)kmph = (90 ×&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>18</mn></mfrac></math>&nbsp;) m/ sec = 25 m/ sec<br><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>[</mo><mi mathvariant=\"normal\">x</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mo>(</mo><mi mathvariant=\"normal\">x</mi><mo>/</mo><mn>2</mn><mo>)</mo><mo>]</mo></mrow><mrow><mn>25</mn><mo>&nbsp;</mo></mrow></mfrac><mo>&nbsp;</mo><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>12</mn><mo>&nbsp;</mo><mi>or</mi><mo>&nbsp;</mo><mo>&nbsp;</mo><mfrac><mrow><mn>3</mn><mi mathvariant=\"normal\">x</mi><mo>&nbsp;</mo></mrow><mn>2</mn></mfrac><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>300</mn><mo>&nbsp;</mo><mi>or</mi><mo>&nbsp;</mo><mi mathvariant=\"normal\">x</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>200</mn><mo>&nbsp;</mo><mo>&nbsp;</mo></math><br>.. Length of first train = 200 m<br>Let the length of platform be y metres.<br>Speed of the first train = (45 ×&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>18</mn></mfrac></math>&nbsp;) m/ sec =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>40</mn><mn>3</mn></mfrac></math>&nbsp;m/ sec<br>.. (200 + y) x&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>40</mn></mfrac><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>45</mn></math><br>⇒ 600 + 3y = 1800<br>⇒ y = 400m</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A train travelling at 48 kmph completely crosses another train having half its length and travelling in opposite direction at 42 kmph, in 12 seconds. It also passes a railway platform in 45 seconds. The length of the platform is</p>",
+                  "_id": "662f7df8d549f977b28d60c0"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>400 m</p>",
+                  "isCorrect": true,
+                  "_id": "662f7df8d549f977b28d60c1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>450 m</p>",
+                  "isCorrect": false,
+                  "_id": "662f7df8d549f977b28d60c2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>560 m</p>",
+                  "isCorrect": false,
+                  "_id": "662f7df8d549f977b28d60c3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>600 m</p>",
+                  "isCorrect": false,
+                  "_id": "662f7df8d549f977b28d60c4"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c44b9019f204e872c88a2",
+            "examId": "664c3402fbc04ed7b04b1810",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-04-29T11:01:12.056Z",
+            "updatedAt": "2024-04-29T11:01:12.056Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Let the speeds of the two trains be x m/sec and y m/sec .</p><p>Then, length of the first train = 27x metres</p><p>and length of the second train = 17y metres.</p><p>&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>27</mn><mo>&nbsp;</mo><mi mathvariant=\"normal\">X</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>17</mn><mo>&nbsp;</mo><mi mathvariant=\"normal\">Y</mi></mrow><mrow><mi mathvariant=\"normal\">X</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mi mathvariant=\"normal\">Y</mi></mrow></mfrac></math></p><p>27x + 17y =23x + 23y</p><p>4x=6y</p><p>xy=32</p><p>Hence The ratio of their speeds is 3:2</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Two trains running in opposite directions cross a man standing on the platform in 27 seconds and 17 seconds respectively and they cross each other in 23 seconds. The ratio of their speeds is:</p>",
+                  "_id": "662f7e9ed549f977b28d767a"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1: 3</p>",
+                  "isCorrect": false,
+                  "_id": "662f7e9ed549f977b28d767b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3 : 2</p>",
+                  "isCorrect": true,
+                  "_id": "662f7e9ed549f977b28d767c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3 : 4</p>",
+                  "isCorrect": false,
+                  "_id": "662f7e9ed549f977b28d767d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>None of these</p>",
+                  "isCorrect": false,
+                  "_id": "662f7e9ed549f977b28d767e"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c44b9019f204e872c88a8",
+            "examId": "664c3402fbc04ed7b04b1810",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "status": 1,
+            "createdAt": "2024-04-29T11:03:58.817Z",
+            "updatedAt": "2024-04-29T11:03:58.817Z",
+            "__v": 0
+          }
+        ]
+      }
+    ]
+  }
+}

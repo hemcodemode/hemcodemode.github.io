@@ -1,0 +1,776 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "108",
+  "msg": "Exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c3575fde9add55b3fcf28",
+        "inDualLang": false,
+        "en": {
+          "name": "L01 STATISTICS",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "6527d3271f3858c8153c225c",
+        "topicId": "664c2a08fde9add55b39ec90",
+        "subTopicId": "664c2a1ca406b9a23ddb600b",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 0,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 0,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T05:47:33.121Z",
+        "updatedAt": "2024-05-21T09:19:50.305Z",
+        "__v": 1,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Mean (M) =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>S</mi><mi>u</mi><mi>m</mi><mo>&nbsp;</mo><mi>o</mi><mi>f</mi><mo>&nbsp;</mo><mi>O</mi><mi>b</mi><mi>s</mi><mi>e</mi><mi>r</mi><mi>v</mi><mi>a</mi><mi>t</mi><mi>i</mi><mi>o</mi><mi>n</mi><mi>s</mi></mrow><mrow><mi>T</mi><mi>o</mi><mi>t</mi><mi>a</mi><mi>l</mi><mo>&nbsp;</mo><mi>N</mi><mi>u</mi><mi>m</mi><mi>b</mi><mi>e</mi><mi>r</mi><mo>&nbsp;</mo><mi>o</mi><mi>f</mi><mo>&nbsp;</mo><mi>O</mi><mi>b</mi><mi>s</mi><mi>e</mi><mi>r</mi><mi>v</mi><mi>a</mi><mi>t</mi><mi>i</mi><mi>o</mi><mi>n</mi><mi>s</mi></mrow></mfrac><mo>&nbsp;</mo></math></p><p>If we change only 1 observation, the sum of observations will also change definitely. Thus, Mean will definitely change if there is change in only 1 observation.</p><p>Answer (1)</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>If you change only one observation from a set of 10 observations, which of the following will definitely change?</p>",
+                  "_id": "664c627932cd1c76a30415fc"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Mean</p>",
+                  "isCorrect": true,
+                  "_id": "664c627932cd1c76a30415fd"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Median</p>",
+                  "isCorrect": false,
+                  "_id": "664c627932cd1c76a30415fe"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Mode</p>",
+                  "isCorrect": false,
+                  "_id": "664c627932cd1c76a30415ff"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Standard Deviation</p>",
+                  "isCorrect": false,
+                  "_id": "664c627932cd1c76a3041600"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c627932cd1c76a30415fb",
+            "examId": "664c3575fde9add55b3fcf28",
+            "subjectId": "6527d3271f3858c8153c225c",
+            "topicId": "664c2a08fde9add55b39ec90",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "status": 1,
+            "createdAt": "2024-05-21T08:59:37.836Z",
+            "updatedAt": "2024-05-21T08:59:37.836Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>By definition of median, it is a number which divides the given group in two equal parts. So, option (1), (2) and (3) cannot satisfy in each case, while option (4) can be possible.</p><p>Answer (4)</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A student appearing for an exam is declared to have failed the exam if his/her score is less than half the median score. This implies:&nbsp;</p>",
+                  "_id": "664c62ccf25534ae98979d89"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1/4 of the students appearing for the exam always fail.&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "664c62ccf25534ae98979d8a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>if a student scores less than 1/4 of the maximum score, he/she always fails.</p>",
+                  "isCorrect": false,
+                  "_id": "664c62ccf25534ae98979d8b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>if a student scores more than 1/2of the maximum score, he/she always passes.&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "664c62ccf25534ae98979d8c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>it is possible that no one fails.</p>",
+                  "isCorrect": true,
+                  "_id": "664c62ccf25534ae98979d8d"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c62ccf25534ae98979d88",
+            "examId": "664c3575fde9add55b3fcf28",
+            "subjectId": "6527d3271f3858c8153c225c",
+            "topicId": "664c2a08fde9add55b39ec90",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "status": 1,
+            "createdAt": "2024-05-21T09:01:00.568Z",
+            "updatedAt": "2024-05-21T09:01:00.568Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Average or Mean or Arithmetic Mean (M) =<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&nbsp;</mo><mfrac><mrow><mi>Sum</mi><mo>&nbsp;</mo><mi>of</mi><mo>&nbsp;</mo><mi>Elements</mi></mrow><mrow><mi>Total</mi><mo>&nbsp;</mo><mi>Number</mi><mo>&nbsp;</mo><mi>of</mi><mo>&nbsp;</mo><mi>Elements</mi></mrow></mfrac><mo>&nbsp;</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mfrac><mrow><mn>5</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>7</mn><mo>+</mo><mi>m</mi><mo>+</mo><mn>6</mn><mo>+</mo><mn>7</mn><mo>+</mo><mn>8</mn><mo>+</mo><mi>n</mi></mrow><mrow><mn>8</mn><mo>=</mo><mn>6</mn></mrow></mfrac><mo>&nbsp;</mo></math></p><p>39 + m + n = 48 &nbsp; or &nbsp; m + n = 9</p><p>Given: mode = 7</p><p>So, at least either m or n must be 7</p><p>Let m = 7, then n = 2</p><p>Hence: m x n = 7 x 2 = 14</p><p>Answer (4)</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The set of numbers (5, 6, 7, m, 6, 7, 8, n) has an arithmetic mean of 6 and mode (most frequently occurring number) of 7. Then m x n=</p>",
+                  "_id": "664c6331f25534ae9899aa01"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>18</p>",
+                  "isCorrect": false,
+                  "_id": "664c6331f25534ae9899aa02"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>35</p>",
+                  "isCorrect": false,
+                  "_id": "664c6331f25534ae9899aa03"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>28</p>",
+                  "isCorrect": false,
+                  "_id": "664c6331f25534ae9899aa04"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>14</p>",
+                  "isCorrect": true,
+                  "_id": "664c6331f25534ae9899aa05"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c6331f25534ae9899aa00",
+            "examId": "664c3575fde9add55b3fcf28",
+            "subjectId": "6527d3271f3858c8153c225c",
+            "topicId": "664c2a08fde9add55b39ec90",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "status": 1,
+            "createdAt": "2024-05-21T09:02:41.649Z",
+            "updatedAt": "2024-05-21T09:02:41.649Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Given:</p><p>Distance between X and Y = 1000 km.</p><p>A travel from X at 8 am and reaches Y at 10 am = 2 hrs</p><p>After halting 4 hrs, he started from Y at 2 pm and reaches X at 4 pm= 2 hrs</p><p>Total Time taken = 2 hrs + 2hrs = 4 hrs</p><p>Total Distance Covered = XY + YX = 1000 + 1000 =2000Km</p><p>Average Speed =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>T</mi><mi>o</mi><mi>t</mi><mi>a</mi><mi>l</mi><mo>&nbsp;</mo><mi>D</mi><mi>i</mi><mi>s</mi><mi>tan</mi><mi>c</mi><mi>e</mi></mrow><mrow><mi>T</mi><mi>o</mi><mi>t</mi><mi>a</mi><mi>l</mi><mo>&nbsp;</mo><mi>T</mi><mi>I</mi><mi>m</mi><mi>e</mi></mrow></mfrac><mo>=</mo><mo>&nbsp;</mo><mfrac><mn>2000</mn><mn>4</mn></mfrac></math>&nbsp;= 500 km/hr</p><p>Average speed = 500 kms</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The distance between X and Y is 1000km. A person flies from X at 8 AM local time and reaches Y at 10 AM local time. He flies back after a halt of 4 hours at Y and reaches X at 4 PM local time on the same day. What is his average speed for the duration he is in the air? &nbsp;</p>",
+                  "_id": "664c63b132cd1c76a3048e2b"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>500 km/hour</p>",
+                  "isCorrect": true,
+                  "_id": "664c63b132cd1c76a3048e2c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>250 km/hour</p>",
+                  "isCorrect": false,
+                  "_id": "664c63b132cd1c76a3048e2d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>750 km/hour</p>",
+                  "isCorrect": false,
+                  "_id": "664c63b132cd1c76a3048e2e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Cannot be calculated with the given information</p>",
+                  "isCorrect": false,
+                  "_id": "664c63b132cd1c76a3048e2f"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c63b132cd1c76a3048e2a",
+            "examId": "664c3575fde9add55b3fcf28",
+            "subjectId": "6527d3271f3858c8153c225c",
+            "topicId": "664c2a08fde9add55b39ec90",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "status": 1,
+            "createdAt": "2024-05-21T09:04:49.675Z",
+            "updatedAt": "2024-05-21T09:04:49.675Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Let the current staff strength be x . Then the total salary of the staff Rs 8000x. &nbsp;</p><p>After a new &nbsp;managers and new guard are recruited the sum of the salary of the staff is new &nbsp;</p><p>= Rs. 8000x + Rs. 5000 + Rs. 20000</p><p>= Rs. 8000x + Rs. 25000</p><p>The new average of the salary of the staff &nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;= Rs. 8000x + RS. 25000</p><p>According to the question &nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>&nbsp;</mo><mfrac><mrow><mi>R</mi><mi>s</mi><mo>.</mo><mn>8000</mn><mi>x</mi><mo>+</mo><mi>R</mi><mi>s</mi><mo>.</mo><mn>25000</mn><mo>&nbsp;</mo></mrow><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac></math>=Rs.5000+Rs.4000</p><p>Or , 8000x + 25000 = 9000x + 18000 &nbsp;</p><p>Or , 1000x = 7000</p><p>X = 7 &nbsp;</p><p>And hence, strength of current staff = 7 + 2 = 9 &nbsp;</p><p>Thus option (b) is correct &nbsp;</p><p>Answer (2)</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The average staff salary of a company is Rs 8000/-. A new guard and a new manager are recruited with salaries of Rs 5000/- and Rs 20000/-, respectively. What is the current staff strength if the new average salary is Rs 4000/- more than that of the guard?&nbsp;</p>",
+                  "_id": "664c63e532cd1c76a3049ed3"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>7</p>",
+                  "isCorrect": false,
+                  "_id": "664c63e532cd1c76a3049ed4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9</p>",
+                  "isCorrect": true,
+                  "_id": "664c63e532cd1c76a3049ed5"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>10</p>",
+                  "isCorrect": false,
+                  "_id": "664c63e532cd1c76a3049ed6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>11</p>",
+                  "isCorrect": false,
+                  "_id": "664c63e532cd1c76a3049ed7"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c63e532cd1c76a3049ed2",
+            "examId": "664c3575fde9add55b3fcf28",
+            "subjectId": "6527d3271f3858c8153c225c",
+            "topicId": "664c2a08fde9add55b39ec90",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "status": 1,
+            "createdAt": "2024-05-21T09:05:41.698Z",
+            "updatedAt": "2024-05-21T09:08:10.178Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Ans. (b) : if a stick of length L is broken into two pieces, the minimum length of the smaller piece should &nbsp;be above (o) and maximum length of the smaller piece &nbsp;</p><p>Should be Mean of group C = &nbsp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>L</mi><mn>2</mn></mfrac></math></p><p>* Average length of smaller piece &nbsp;</p><p>= &nbsp; (minimun lenght+ &nbsp;maximum lenght )/2</p><p>=&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>+</mo><mstyle displaystyle=\"true\"><mfrac><mi>L</mi><mn>2</mn></mfrac></mstyle></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mi>L</mi><mn>4</mn></mfrac></math></p><p>Answer (2)</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A stick of length L is broken into two pieces at random. What is the average length of the smaller piece?</p>",
+                  "_id": "664c64ec32cd1c76a304c8fe"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>L/6&nbsp;</p>",
+                  "isCorrect": false,
+                  "_id": "664c64ec32cd1c76a304c8ff"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>L/4</p>",
+                  "isCorrect": true,
+                  "_id": "664c64ec32cd1c76a304c900"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>L/3</p>",
+                  "isCorrect": false,
+                  "_id": "664c64ec32cd1c76a304c901"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>L/2</p>",
+                  "isCorrect": false,
+                  "_id": "664c64ec32cd1c76a304c902"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c64ec32cd1c76a304c8fd",
+            "examId": "664c3575fde9add55b3fcf28",
+            "subjectId": "6527d3271f3858c8153c225c",
+            "topicId": "664c2a08fde9add55b39ec90",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "status": 1,
+            "createdAt": "2024-05-21T09:10:04.650Z",
+            "updatedAt": "2024-05-21T09:10:04.650Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Given set of observed values:&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"{\"><mrow><mn>60</mn><mo>,</mo><mn>65</mn><mo>,</mo><mn>65</mn><mo>,</mo><mn>70</mn><mo>,</mo><mn>70</mn><mo>,</mo><mn>70</mn><mo>,</mo><mn>70</mn><mo>,</mo><mn>82</mn><mo>,</mo><mn>85</mn><mo>,</mo><mn>90</mn><mo>,</mo><mn>95</mn><mo>,</mo><mn>95</mn><mo>,</mo><mn>100</mn><mo>,</mo><mn>160</mn><mo>,</mo><mn>160</mn></mrow></mfenced></math></p><p>Sorted Data Set:&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"{\"><mrow><mn>160</mn><mo>,</mo><mn>160</mn><mo>,</mo><mn>100</mn><mo>,</mo><mn>95</mn><mo>,</mo><mn>95</mn><mo>,</mo><mn>90</mn><mo>,</mo><mn>85</mn><mo>,</mo><mn>82</mn><mo>,</mo><mn>70</mn><mo>,</mo><mn>70</mn><mo>,</mo><mn>70</mn><mo>,</mo><mn>70</mn><mo>,</mo><mn>65</mn><mo>,</mo><mn>65</mn><mo>,</mo><mn>60</mn></mrow></mfenced></math></p><p>Mean: The mean is the total sum of numbers divided by total frequencies of these numbers. &nbsp;</p><p>Mean=<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>1</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>60</mn><mo>&nbsp;</mo><mo>)</mo><mo>+</mo><mo>&nbsp;</mo><mo>(</mo><mo>&nbsp;</mo><mn>2</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>65</mn><mo>&nbsp;</mo><mo>)</mo><mo>+</mo><mo>&nbsp;</mo><mo>(</mo><mo>&nbsp;</mo><mn>4</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>70</mn><mo>&nbsp;</mo><mo>)</mo><mo>+</mo><mo>&nbsp;</mo><mo>(</mo><mo>&nbsp;</mo><mn>1</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>82</mn><mo>&nbsp;</mo><mo>)</mo><mo>+</mo><mo>(</mo><mn>1</mn><mo>×</mo><mn>85</mn><mo>)</mo><mo>+</mo><mo>&nbsp;</mo><mo>(</mo><mo>&nbsp;</mo><mn>1</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>90</mn><mo>&nbsp;</mo><mo>)</mo><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mo>(</mo><mo>&nbsp;</mo><mn>2</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>95</mn><mo>&nbsp;</mo><mo>)</mo><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mo>(</mo><mo>&nbsp;</mo><mn>1</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>100</mn><mo>&nbsp;</mo><mo>)</mo><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mo>(</mo><mo>&nbsp;</mo><mn>2</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>160</mn><mo>&nbsp;</mo><mo>)</mo></mrow><mrow><mo>(</mo><mn>1</mn><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>2</mn><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>4</mn><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>1</mn><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>1</mn><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>1</mn><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>2</mn><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>1</mn><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>2</mn><mo>)</mo></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>&nbsp;</mo><mfrac><mn>1337</mn><mn>15</mn></mfrac></math></p><p>= 89.13. &nbsp;</p><p>The number of times a value occurs in a set of values is known as its frequency. (here the frequencies add up to 15)</p><p>Thus mean = 89.13.</p><p>Mode: The mode is the number with the highest frequency (when the frequency is at-least 2 or more). Evidently mode is 70 here. (frequency 4)</p><p>Thus Mode = 70.</p><p>Median: The median of a set of numbers is the one lying in the exact middle of the sequence.</p><p>For odd number of numbers, the middle position refers to the (“number of numbers” – 1) divided by (2). &nbsp;</p><p>So here we need to find the number at the 7th position; &nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>15</mn><mo>-</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>7</mn></math></p><p>Thus Median = 82</p><p>Answer: (1)</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>For the following set of observed values:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"{\"><mrow><mn>60</mn><mo>,</mo><mn>65</mn><mo>,</mo><mn>65</mn><mo>,</mo><mn>70</mn><mo>,</mo><mn>70</mn><mo>,</mo><mn>70</mn><mo>,</mo><mn>70</mn><mo>,</mo><mn>82</mn><mo>,</mo><mn>85</mn><mo>,</mo><mn>90</mn><mo>,</mo><mn>95</mn><mo>,</mo><mn>95</mn><mo>,</mo><mn>100</mn><mo>,</mo><mn>160</mn><mo>,</mo><mn>160</mn><mo>,</mo></mrow></mfenced></math></p><p>Which of the statements is true?</p>",
+                  "_id": "664c65bf32cd1c76a304ef28"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>mode &lt; median &lt; mean</p>",
+                  "isCorrect": true,
+                  "_id": "664c65bf32cd1c76a304ef29"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Mode &lt; mean &lt; median</p>",
+                  "isCorrect": false,
+                  "_id": "664c65bf32cd1c76a304ef2a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>mean &lt; median&lt; mode</p>",
+                  "isCorrect": false,
+                  "_id": "664c65bf32cd1c76a304ef2b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Median &lt; mode &lt; mean</p>",
+                  "isCorrect": false,
+                  "_id": "664c65bf32cd1c76a304ef2c"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c65bf32cd1c76a304ef27",
+            "examId": "664c3575fde9add55b3fcf28",
+            "subjectId": "6527d3271f3858c8153c225c",
+            "topicId": "664c2a08fde9add55b39ec90",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "status": 1,
+            "createdAt": "2024-05-21T09:13:35.291Z",
+            "updatedAt": "2024-05-21T09:13:35.291Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation: &nbsp;</p><p>Let the number of students in section B be x</p><p>Since if you think about the sum of marks of students in A + sum of ages of students in B will not change.</p><p>Hence after exchange of the student,</p><p>24×1.25=x×1</p><p>Becausethe amount of increase in sum of ages in A= the amount of decrease in sum of ages in B</p><p>So value of x=30</p><p>Answer (4)</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Section A has 24 students. If one student of this section is exchanged for another in section B, then the average mark of A is increased by 1.25, while that of B reduced by 1. The number of students in section B is</p>",
+                  "_id": "664c65f2f25534ae98a84485"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>16</p>",
+                  "isCorrect": false,
+                  "_id": "664c65f2f25534ae98a84486"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>20</p>",
+                  "isCorrect": false,
+                  "_id": "664c65f2f25534ae98a84487"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>25</p>",
+                  "isCorrect": false,
+                  "_id": "664c65f2f25534ae98a84488"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>30</p>",
+                  "isCorrect": true,
+                  "_id": "664c65f2f25534ae98a84489"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c65f2f25534ae98a84484",
+            "examId": "664c3575fde9add55b3fcf28",
+            "subjectId": "6527d3271f3858c8153c225c",
+            "topicId": "664c2a08fde9add55b39ec90",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "status": 1,
+            "createdAt": "2024-05-21T09:14:26.411Z",
+            "updatedAt": "2024-05-21T09:14:26.411Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation: &nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>2</mn></mfrac></math></p><p>Just go by options.</p><p>The arithmetic means of x and y is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>2</mn></mfrac></math>&nbsp;and the geometric mean is √xy</p><p>The only option satisfies is 4.</p><p>Answer: (4)</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The arithmetic and geometric means of two numbers are 65 and 25, respectively. What are these two numbers?</p>",
+                  "_id": "664c6659f25534ae98a9e8a5"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>110, 20</p>",
+                  "isCorrect": false,
+                  "_id": "664c6659f25534ae98a9e8a6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>115, 15</p>",
+                  "isCorrect": false,
+                  "_id": "664c6659f25534ae98a9e8a7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>120, 10</p>",
+                  "isCorrect": false,
+                  "_id": "664c6659f25534ae98a9e8a8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>125, 5</p>",
+                  "isCorrect": true,
+                  "_id": "664c6659f25534ae98a9e8a9"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c6659f25534ae98a9e8a4",
+            "examId": "664c3575fde9add55b3fcf28",
+            "subjectId": "6527d3271f3858c8153c225c",
+            "topicId": "664c2a08fde9add55b39ec90",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-05-21T09:16:09.103Z",
+            "updatedAt": "2024-05-21T09:16:09.103Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation: &nbsp;</p><p>Let number of students in class = 100</p><p>Average mark of total students = 60</p><p>Total marks = 60 x 100 = 6000</p><p>Let no of passed students = x</p><p>Then no of failed students = 100 – x</p><p>Average of passed students =70</p><p>Total marks of passed students = 70x &nbsp;</p><p>Total marks of failed students = (100-x) 30</p><p>Total marks of passed students + total marks of failed students = total marks &nbsp;</p><p>70x+(100-x)30=6000</p><p>70x+3000-30x=6000</p><p>40x=3000</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mn>300</mn><mn>4</mn></mfrac></math></p><p>= 75</p><p>Number of failed students =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>&nbsp;</mo><mo>-</mo><mo>&nbsp;</mo><mfrac><mn>300</mn><mn>4</mn></mfrac><mo>=</mo><mfrac><mn>100</mn><mn>4</mn></mfrac><mo>=</mo><mn>25</mn></math></p><p>Students who failed =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>25</mn><mn>100</mn></mfrac><mi>X</mi><mo>&nbsp;</mo><mn>100</mn></math>&nbsp;= 25%</p><p>Answer: (1)</p><p>&nbsp;</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>In an exam the average marks for the class was 60, the average of marks of the studentswho passed was 70 and those failed was 30. What is the percentage of the students ofthe class who failed?</p>",
+                  "_id": "664c672332cd1c76a306507c"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>25</p>",
+                  "isCorrect": true,
+                  "_id": "664c672332cd1c76a306507d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>40</p>",
+                  "isCorrect": false,
+                  "_id": "664c672332cd1c76a306507e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>60</p>",
+                  "isCorrect": false,
+                  "_id": "664c672332cd1c76a306507f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>75</p>",
+                  "isCorrect": false,
+                  "_id": "664c672332cd1c76a3065080"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c672332cd1c76a306507b",
+            "examId": "664c3575fde9add55b3fcf28",
+            "subjectId": "6527d3271f3858c8153c225c",
+            "topicId": "664c2a08fde9add55b39ec90",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "status": 1,
+            "createdAt": "2024-05-21T09:19:31.659Z",
+            "updatedAt": "2024-05-21T09:19:31.659Z",
+            "__v": 0
+          }
+        ]
+      }
+    ]
+  }
+}

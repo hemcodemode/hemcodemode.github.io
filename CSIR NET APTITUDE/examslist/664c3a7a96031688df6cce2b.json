@@ -1,0 +1,776 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "108",
+  "msg": "Exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c3a7a96031688df6cce2b",
+        "inDualLang": false,
+        "en": {
+          "name": "L01 CLOCK",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "65324b4560ba635a6fd0c71e",
+        "topicId": "6548815fc4275bcf6b4aabe1",
+        "subTopicId": "6548816a84754f6186293167",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 10,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 0,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T06:08:58.771Z",
+        "updatedAt": "2024-05-21T07:06:14.994Z",
+        "__v": 2,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Angle= ½ │60H-11M│= ½ │60×3-11×25│= 47.5°&nbsp;</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Find the angle between the hour hand and the minute</p><p>hand of a clock at 3:25 am?</p>",
+                  "_id": "661d230d5a9cf73c85297f2d"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>45.5°</p>",
+                  "isCorrect": false,
+                  "_id": "661d230d5a9cf73c85297f2e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>47.5°</p>",
+                  "isCorrect": true,
+                  "_id": "661d230d5a9cf73c85297f2f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>49.5°</p>",
+                  "isCorrect": false,
+                  "_id": "661d230d5a9cf73c85297f30"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>51.5°</p>",
+                  "isCorrect": false,
+                  "_id": "661d230d5a9cf73c85297f31"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c44e1c0b33223b024a3e9",
+            "examId": "664c3a7a96031688df6cce2b",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "status": 1,
+            "createdAt": "2024-04-15T12:52:29.426Z",
+            "updatedAt": "2024-04-15T12:52:29.426Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Angle= ½ │60H-11M│= ½ │60×8-11×30│= 75°</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The angle between the minute hand and the hour hand of</p><p>a clock when the time is 8:30 is</p>",
+                  "_id": "661d27a05a9cf73c85602aa6"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>80°</p>",
+                  "isCorrect": false,
+                  "_id": "661d27a05a9cf73c85602aa7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>75°</p>",
+                  "isCorrect": true,
+                  "_id": "661d27a05a9cf73c85602aa8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>60°</p>",
+                  "isCorrect": false,
+                  "_id": "661d27a05a9cf73c85602aa9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>105°</p>",
+                  "isCorrect": false,
+                  "_id": "661d27a05a9cf73c85602aaa"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c44e1c0b33223b024a3ef",
+            "examId": "664c3a7a96031688df6cce2b",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "status": 1,
+            "createdAt": "2024-04-15T13:12:00.150Z",
+            "updatedAt": "2024-04-15T13:12:00.150Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>22 times in a day&nbsp;</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>How many times do the hands of a clock coincide in a day?</p>",
+                  "_id": "661d27f359aa687ec287a46e"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>20</p>",
+                  "isCorrect": false,
+                  "_id": "661d27f359aa687ec287a46f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>21</p>",
+                  "isCorrect": false,
+                  "_id": "661d27f359aa687ec287a470"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>22</p>",
+                  "isCorrect": true,
+                  "_id": "661d27f359aa687ec287a471"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>23</p>",
+                  "isCorrect": false,
+                  "_id": "661d27f359aa687ec287a472"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c44e1c0b33223b024a3f5",
+            "examId": "664c3a7a96031688df6cce2b",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "status": 1,
+            "createdAt": "2024-04-15T13:13:23.814Z",
+            "updatedAt": "2024-04-15T13:13:23.814Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>44 &nbsp;times in a day&nbsp;</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>In a day how many times the minute-hand and hour-hand</p><p>make right angle between them?</p>",
+                  "_id": "661d2821efa1f18c71faff06"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>12</p>",
+                  "isCorrect": false,
+                  "_id": "661d2821efa1f18c71faff07"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>20</p>",
+                  "isCorrect": false,
+                  "_id": "661d2821efa1f18c71faff08"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>22</p>",
+                  "isCorrect": false,
+                  "_id": "661d2821efa1f18c71faff09"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>44</p>",
+                  "isCorrect": true,
+                  "_id": "661d2821efa1f18c71faff0a"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c44e1c0b33223b024a3fb",
+            "examId": "664c3a7a96031688df6cce2b",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "status": 1,
+            "createdAt": "2024-04-15T13:14:09.661Z",
+            "updatedAt": "2024-04-15T13:14:09.661Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "",
+                "image": "https://media.ifasonline.com/production/exam/exam_1713186934332.jpg",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Varun on his way to dinner shortly after 6:00 pm observes that the hands of his watch form an angle of 1100. Returning before 7:00 pm he notices again the hands of his watch form an angle of 110◦.The number of minutes that he has been away?</p>",
+                  "_id": "661d287984a3ceca488c09a5"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>36</p>",
+                  "isCorrect": false,
+                  "_id": "661d287984a3ceca488c09a6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>40</p>",
+                  "isCorrect": true,
+                  "_id": "661d287984a3ceca488c09a7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>42</p>",
+                  "isCorrect": false,
+                  "_id": "661d287984a3ceca488c09a8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>42.4</p>",
+                  "isCorrect": false,
+                  "_id": "661d287984a3ceca488c09a9"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c44e1c0b33223b024a401",
+            "examId": "664c3a7a96031688df6cce2b",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "status": 1,
+            "createdAt": "2024-04-15T13:15:37.203Z",
+            "updatedAt": "2024-04-15T13:15:37.203Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>44 &nbsp;times in a day</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Number of times the hands of a clock are in straight line</p><p>every day is?</p>",
+                  "_id": "661d28a49dbb27a114092505"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>44</p>",
+                  "isCorrect": true,
+                  "_id": "661d28a49dbb27a114092506"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>24</p>",
+                  "isCorrect": false,
+                  "_id": "661d28a49dbb27a114092507"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>42</p>",
+                  "isCorrect": false,
+                  "_id": "661d28a49dbb27a114092508"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>22</p>",
+                  "isCorrect": false,
+                  "_id": "661d28a49dbb27a114092509"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c44e1c0b33223b024a407",
+            "examId": "664c3a7a96031688df6cce2b",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "status": 1,
+            "createdAt": "2024-04-15T13:16:20.537Z",
+            "updatedAt": "2024-04-15T13:16:20.537Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>In every minute 6 degree angle is subtended</p><p>In 22 minute = 22×6= 132°</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>What is the angle covered by the minute hand in 22 minutes?</p>",
+                  "_id": "661d29079dbb27a11409390e"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>66°</p>",
+                  "isCorrect": false,
+                  "_id": "661d29079dbb27a11409390f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>110°</p>",
+                  "isCorrect": false,
+                  "_id": "661d29079dbb27a114093910"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>121°</p>",
+                  "isCorrect": false,
+                  "_id": "661d29079dbb27a114093911"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>132°</p>",
+                  "isCorrect": true,
+                  "_id": "661d29079dbb27a114093912"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c44e1c0b33223b024a40d",
+            "examId": "664c3a7a96031688df6cce2b",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "status": 1,
+            "createdAt": "2024-04-15T13:17:59.287Z",
+            "updatedAt": "2024-04-15T13:17:59.287Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>For every hour, the hour hand rotates by 30◦ .</p><p>The angle rotated by the hour hand when it moves from 8 to 2 o' clock is 6 hrs = 180∘.</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>An accurate clock shows 8 o'clock in the morning. Through how many degrees will the hour hand rotate when the clock shows 2 o'clock in the afternoon?</p>",
+                  "_id": "661d294b59aa687ec28bbc45"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>144°</p>",
+                  "isCorrect": false,
+                  "_id": "661d294b59aa687ec28bbc46"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>150°</p>",
+                  "isCorrect": false,
+                  "_id": "661d294b59aa687ec28bbc47"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>168°</p>",
+                  "isCorrect": false,
+                  "_id": "661d294b59aa687ec28bbc48"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>180°</p>",
+                  "isCorrect": true,
+                  "_id": "661d294b59aa687ec28bbc49"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c44e1c0b33223b024a413",
+            "examId": "664c3a7a96031688df6cce2b",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "status": 1,
+            "createdAt": "2024-04-15T13:19:07.800Z",
+            "updatedAt": "2024-04-15T13:19:07.800Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Solution:</p><p>In every 5 minute 30 degree angle is subtended</p><p>In a quarter of an hour ie. 1/4× 30 &nbsp;= 7.5◦</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>By how many degrees does an hour hand moves in one quarter of an hour?</p>",
+                  "_id": "661d29799dbb27a114099cbc"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>5°</p>",
+                  "isCorrect": false,
+                  "_id": "661d29799dbb27a114099cbd"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>7.5°</p>",
+                  "isCorrect": true,
+                  "_id": "661d29799dbb27a114099cbe"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>10°</p>",
+                  "isCorrect": false,
+                  "_id": "661d29799dbb27a114099cbf"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>12.5°</p>",
+                  "isCorrect": false,
+                  "_id": "661d29799dbb27a114099cc0"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c44e1c0b33223b024a419",
+            "examId": "664c3a7a96031688df6cce2b",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-04-15T13:19:53.655Z",
+            "updatedAt": "2024-04-15T13:19:53.655Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>An hour hand move 6 degree in 60/5 =12 minutes In 12 minutes minute hand will move 12 × 6 = 72 degree</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>By how many degrees will the minute hand move, in the same time, in which the hour hand moves 6°?</p>",
+                  "_id": "661d29af0f0718baec04c649"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>54°</p>",
+                  "isCorrect": false,
+                  "_id": "661d29af0f0718baec04c64a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>84°</p>",
+                  "isCorrect": false,
+                  "_id": "661d29af0f0718baec04c64b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>72°</p>",
+                  "isCorrect": true,
+                  "_id": "661d29af0f0718baec04c64c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>60°</p>",
+                  "isCorrect": false,
+                  "_id": "661d29af0f0718baec04c64d"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c44e1c0b33223b024a41f",
+            "examId": "664c3a7a96031688df6cce2b",
+            "subjectId": "64bfc05732acbefb9bb63321",
+            "topicId": "65447f074af57de5eade8f55",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "status": 1,
+            "createdAt": "2024-04-15T13:20:47.367Z",
+            "updatedAt": "2024-04-15T13:20:47.367Z",
+            "__v": 0
+          }
+        ]
+      }
+    ]
+  }
+}

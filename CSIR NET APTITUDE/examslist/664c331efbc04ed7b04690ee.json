@@ -1,0 +1,776 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "108",
+  "msg": "Exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c331efbc04ed7b04690ee",
+        "inDualLang": false,
+        "en": {
+          "name": "L01 PERCENTAGE",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "651418078fa6161d205d2533",
+        "topicId": "65141896dc0ebca59d671bba",
+        "subTopicId": "651418a98fa6161d205d4b31",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 0,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 10,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 0,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T05:37:34.534Z",
+        "updatedAt": "2024-05-21T06:33:37.020Z",
+        "__v": 2,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Answer:</p><p>Let the total number of guests be 100</p><p>Male invited guest = 60% of 100 = 60</p><p>Female invited guest = 40% of 100 = 40</p><p>Guests attended the party = 80% of 100 = 80</p><p>All females invited female attended the party</p><p>Therefore Male attended the party = 80 – 40 = 40</p><p>The ration of males to females attends the party = 40/40 = 1:1</p><p>Therefore, the ratio of males to females among the attendees at the party is 1:1</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>In a party. 60 % of the invited groups are male and 40 % are female. If 80 % of the invited guests attended the party and if all invited female guests attended. What would be the ration of males to females among the attendees in the party?</p>",
+                  "_id": "662b73e62a298dde0ad39b23"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>2:3</p>",
+                  "isCorrect": false,
+                  "_id": "662b73e62a298dde0ad39b24"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1:1</p>",
+                  "isCorrect": true,
+                  "_id": "662b73e62a298dde0ad39b25"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3:2</p>",
+                  "isCorrect": false,
+                  "_id": "662b73e62a298dde0ad39b26"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2:1</p>",
+                  "isCorrect": false,
+                  "_id": "662b73e62a298dde0ad39b27"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3e7096031688df7dd4f8",
+            "examId": "664c331efbc04ed7b04690ee",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "status": 1,
+            "createdAt": "2024-04-26T09:29:10.184Z",
+            "updatedAt": "2024-04-26T09:29:10.184Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Concept:<br>The volume of a right circular cone (V) is given by,<br><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mo>&nbsp;</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>&nbsp;</mo><mo>*</mo><mo>&nbsp;</mo><mi mathvariant=\"normal\">π</mi><mo>&nbsp;</mo><mo>*</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">R</mi><mrow><mn>2</mn><mo>&nbsp;</mo></mrow></msup><mo>*</mo><mo>&nbsp;</mo><mi mathvariant=\"normal\">H</mi></math><br>Where<br>R = radius of a cone<br>H = height of a cone<br>.. V ∞&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi mathvariant=\"normal\">R</mi><mn>2</mn></msup></math><br>Calculation:<br>V₁ ∞&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi mathvariant=\"normal\">R</mi><mn>2</mn></msup></math>&nbsp; and V₂ ∞ (1.5)2 x&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi mathvariant=\"normal\">R</mi><mn>2</mn></msup></math>&nbsp;<br>:: V₂ = 2.25 V₁<br>.. Increase in volume<br><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mo>&nbsp;</mo><msub><mi>V</mi><mrow><mo>∆</mo><mo>&nbsp;</mo></mrow></msub><mo>=</mo><mo>&nbsp;</mo><mfrac><mrow><msub><mi>V</mi><mn>2</mn></msub><mo>&nbsp;</mo><mo>-</mo><mo>&nbsp;</mo><msub><mi>V</mi><mn>1</mn></msub></mrow><msub><mi>V</mi><mn>1</mn></msub></mfrac><mo>&nbsp;</mo><mi>x</mi><mo>&nbsp;</mo><mn>100</mn><mo>&nbsp;</mo><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mfrac><mrow><mn>2</mn><mo>.</mo><mn>25</mn><msub><mi>V</mi><mn>1</mn></msub><mo>&nbsp;</mo><mo>-</mo><mo>&nbsp;</mo><msub><mi>V</mi><mn>1</mn></msub></mrow><msub><mi>V</mi><mn>1</mn></msub></mfrac><mo>&nbsp;</mo><mi>x</mi><mo>&nbsp;</mo><mn>100</mn><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>1</mn><mo>.</mo><mn>25</mn><mo>&nbsp;</mo><mi>x</mi><mo>&nbsp;</mo><mn>100</mn><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>125</mn><mo>%</mo></math></p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>If the radius of a right circular cone is increased by 50% its volume increases by</p>",
+                  "_id": "662b7547cef8a4c9e1646a64"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>75 %</p>",
+                  "isCorrect": false,
+                  "_id": "662b7547cef8a4c9e1646a65"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>100 %</p>",
+                  "isCorrect": false,
+                  "_id": "662b7547cef8a4c9e1646a66"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>125 %</p>",
+                  "isCorrect": true,
+                  "_id": "662b7547cef8a4c9e1646a67"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>237.5 %</p>",
+                  "isCorrect": false,
+                  "_id": "662b7547cef8a4c9e1646a68"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3e7096031688df7dd4fe",
+            "examId": "664c331efbc04ed7b04690ee",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "status": 1,
+            "createdAt": "2024-04-26T09:35:03.753Z",
+            "updatedAt": "2024-04-26T09:35:03.753Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Total of maximum marks of all subjects<br>= 105 x 5 = 525<br>525×80<br>80% of 525 =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>525</mn><mo>&nbsp;</mo><mo>*</mo><mo>&nbsp;</mo><mn>80</mn></mrow><mn>100</mn></mfrac></math>= 420<br>Obtained marks of four subjects<br>(Hindi, Sanskrit, Mathematics and English)<br>= 89+92 +98 +81<br>= 360<br>So, the obtained marks in Science = 420 - 360 = 60</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Nandita scored 80% marks in five subjects together Hindi, Science, Mathematics, English and Sanskrit, where the maximum marks of each subject were 105. How many marks did Nandita scored in Science, if she scored 89 marks in hindi 92 marks in Sanskrit, 98 marks in Mathematics and 81 marks in English?</p>",
+                  "_id": "662b77d681270cdb1683aff5"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>60</p>",
+                  "isCorrect": true,
+                  "_id": "662b77d681270cdb1683aff6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>75</p>",
+                  "isCorrect": false,
+                  "_id": "662b77d681270cdb1683aff7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>65</p>",
+                  "isCorrect": false,
+                  "_id": "662b77d681270cdb1683aff8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>70</p>",
+                  "isCorrect": false,
+                  "_id": "662b77d681270cdb1683aff9"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3e7096031688df7dd504",
+            "examId": "664c331efbc04ed7b04690ee",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "status": 1,
+            "createdAt": "2024-04-26T09:45:58.777Z",
+            "updatedAt": "2024-04-26T09:45:58.777Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Actual price of handbag</p><p>=&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>100</mn><mn>105</mn></mfrac><mo>*</mo><mo>&nbsp;</mo><mn>2520</mn><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mi>Rs</mi><mo>.</mo><mo>&nbsp;</mo><mn>2</mn><mo>,</mo><mn>400</mn></math></p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Udita purchased a hand bag in Rs. 2,520. Later she felt that she had given 5% extra of the actual price of hand bag. Find the actual price of hand bag.</p>",
+                  "_id": "662b78cecef8a4c9e164ef7c"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 2,646</p>",
+                  "isCorrect": false,
+                  "_id": "662b78cecef8a4c9e164ef7d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 2,500</p>",
+                  "isCorrect": false,
+                  "_id": "662b78cecef8a4c9e164ef7e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 2400&nbsp;</p>",
+                  "isCorrect": true,
+                  "_id": "662b78cecef8a4c9e164ef7f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Rs. 2,450</p>",
+                  "isCorrect": false,
+                  "_id": "662b78cecef8a4c9e164ef80"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3e7096031688df7dd50a",
+            "examId": "664c331efbc04ed7b04690ee",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "status": 1,
+            "createdAt": "2024-04-26T09:50:06.452Z",
+            "updatedAt": "2024-04-26T09:50:06.452Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>First part = Rs. x and second part = Rs. y.<br>&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>&nbsp;</mo><mo>*</mo><mo>&nbsp;</mo><mn>80</mn></mrow><mn>100</mn></mfrac><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mfrac><mrow><mi>y</mi><mo>&nbsp;</mo><mo>*</mo><mo>&nbsp;</mo><mn>60</mn></mrow><mn>100</mn></mfrac><mo>&nbsp;</mo><mo>+</mo><mn>3</mn></math></p><p><br>⇒<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mi>x</mi></mrow><mrow><mn>5</mn><mo>&nbsp;</mo></mrow></mfrac><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mfrac><mrow><mn>3</mn><mi>y</mi></mrow><mn>5</mn></mfrac><mo>&nbsp;</mo><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>3</mn></math></p><p>⇒ 4x - 3y =15 &nbsp;.............(i)<br>Again,<br><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mi>y</mi></mrow><mrow><mn>5</mn><mo>&nbsp;</mo></mrow></mfrac><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mfrac><mrow><mn>9</mn><mi>x</mi></mrow><mn>10</mn></mfrac><mo>&nbsp;</mo><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>6</mn></math><br>&nbsp;</p><p>⇒ 8y = 9x + 60</p><p>8y -9x = 60</p><p>&nbsp;<br>By equation (i) × 8+ (ii) × 3,<br>32x - 24y = 120<br>24y - 27x = 180<br>5x = 300 ⇒ x = 60<br>From equation (i)<br>4 x 60 - 3y=15<br>3y = 240-15 = 225<br>⇒&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mfrac><mn>225</mn><mn>3</mn></mfrac><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>75</mn></math><br><br>.. Required number = x + y = 60 + 75 = 135</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>A number is divided into two parts in such a way that 80% of 1st part is 3 more than 60% of 2nd part and 80% of 2nd part is 6 more than 90% of the 1st part. Then the number is:</p>",
+                  "_id": "662b7c202a298dde0ad54ea1"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>125</p>",
+                  "isCorrect": false,
+                  "_id": "662b7c202a298dde0ad54ea2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>130</p>",
+                  "isCorrect": false,
+                  "_id": "662b7c202a298dde0ad54ea3"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>135</p>",
+                  "isCorrect": true,
+                  "_id": "662b7c202a298dde0ad54ea4"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>145</p>",
+                  "isCorrect": false,
+                  "_id": "662b7c202a298dde0ad54ea5"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3e7096031688df7dd510",
+            "examId": "664c331efbc04ed7b04690ee",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "status": 1,
+            "createdAt": "2024-04-26T10:04:16.975Z",
+            "updatedAt": "2024-04-26T10:04:16.975Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Let the initial expenses on rice, fish and oil be<br>Rs. 12x, Rs. 17x and Rs. 3x respectively.<br>Total expenditure = Rs. (12x + 17x + 3x)<br>= Rs. 32x<br>After increase,<br>Expenditure on rice =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>120</mn><mn>100</mn></mfrac><mo>&nbsp;</mo><mi>X</mi><mo>&nbsp;</mo><mn>12</mn><mi>x</mi></math><br>= Rs. 14.4x<br><br>Expenditure of fish =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>130</mn><mn>100</mn></mfrac><mo>&nbsp;</mo><mo>&nbsp;</mo><mi mathvariant=\"normal\">X</mi><mo>&nbsp;</mo><mn>17</mn><mi mathvariant=\"normal\">x</mi></math><br>= Rs. 22.1x<br><br>Expenditure on oil =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>150</mn><mn>100</mn></mfrac><mi>X</mi><mo>&nbsp;</mo><mn>3</mn><mi>x</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mo>&nbsp;</mo><mi>R</mi><mi>s</mi><mo>.</mo><mo>&nbsp;</mo><mn>4</mn><mo>.</mo><mn>5</mn><mi>x</mi></math><br>Total expenditure = Rs. (14.4x + 22.1x + 4.5x) = Rs. 41x<br>Increase = Rs. (41x - 32x) = Rs. 9x<br><br>. Percentage increase =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>9</mn><mi>x</mi></mrow><mrow><mn>32</mn><mi>x</mi></mrow></mfrac><mo>&nbsp;</mo><mi>X</mi><mo>&nbsp;</mo><mn>100</mn></math><br><br>=&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>225</mn><mn>8</mn></mfrac><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>28</mn><mo>&nbsp;</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>%</mo><mo>&nbsp;</mo></math></p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The expenses on rice, fish and oil of a family are in the ratio 12 : 17 : 3 respectively. The price of these articles is increased by 20%, 30% and 50% respectively. The total expenses increased by:</p>",
+                  "_id": "662b7da381270cdb1686a13d"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>113/8 %</p>",
+                  "isCorrect": false,
+                  "_id": "662b7da381270cdb1686a13e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>57/8 %</p>",
+                  "isCorrect": false,
+                  "_id": "662b7da381270cdb1686a13f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>449/8 %</p>",
+                  "isCorrect": false,
+                  "_id": "662b7da381270cdb1686a140"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>225/8 %</p>",
+                  "isCorrect": true,
+                  "_id": "662b7da381270cdb1686a141"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3e7096031688df7dd516",
+            "examId": "664c331efbc04ed7b04690ee",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "status": 1,
+            "createdAt": "2024-04-26T10:10:43.654Z",
+            "updatedAt": "2024-04-26T10:10:43.654Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Average Increment =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>600</mn><mn>5000</mn></mfrac><mo>&nbsp;</mo><mo>*</mo><mo>&nbsp;</mo><mn>100</mn><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>12</mn><mo>&nbsp;</mo><mo>%</mo></math></p><p>No.Of Males =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>*</mo><mo>&nbsp;</mo><mn>5000</mn><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>2500</mn></math></p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1714126461522.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The total strength of capital Education is 5000. The number of males and females increases by 8% and 16% respectively and strength becomes 5600. What was the number of males at Capital Education?</p>",
+                  "_id": "662b7e8681270cdb16870f24"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>2500</p>",
+                  "isCorrect": true,
+                  "_id": "662b7e8681270cdb16870f25"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2000</p>",
+                  "isCorrect": false,
+                  "_id": "662b7e8681270cdb16870f26"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3000</p>",
+                  "isCorrect": false,
+                  "_id": "662b7e8681270cdb16870f27"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4000</p>",
+                  "isCorrect": false,
+                  "_id": "662b7e8681270cdb16870f28"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3e7096031688df7dd51c",
+            "examId": "664c331efbc04ed7b04690ee",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "status": 1,
+            "createdAt": "2024-04-26T10:14:30.406Z",
+            "updatedAt": "2024-04-26T10:14:30.406Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Required families which do not have a cow or a buffalo<br>= 100 (45+ 15 +15) = 25%<br>According to the question<br>Required number =&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>96</mn><mn>100</mn></mfrac><mo>&nbsp;</mo><mi mathvariant=\"normal\">X</mi><mo>&nbsp;</mo><mn>25</mn><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>24</mn></math></p>",
+                "image": "https://media.ifasonline.com/production/exam/exam_1714126654098.png",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>In a village, each of the 60% of families has a cow; each of the 30% of families has a buffalo and each of the 15% of families has both a cow and a buffalo. In all there are 96 families in the village. How many families do not have a cow or a buffalo?</p>",
+                  "_id": "662b7fa20707ddd5ec82b3e6"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>20</p>",
+                  "isCorrect": false,
+                  "_id": "662b7fa20707ddd5ec82b3e7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>24</p>",
+                  "isCorrect": true,
+                  "_id": "662b7fa20707ddd5ec82b3e8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>26</p>",
+                  "isCorrect": false,
+                  "_id": "662b7fa20707ddd5ec82b3e9"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>17</p>",
+                  "isCorrect": false,
+                  "_id": "662b7fa20707ddd5ec82b3ea"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3e7096031688df7dd522",
+            "examId": "664c331efbc04ed7b04690ee",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "status": 1,
+            "createdAt": "2024-04-26T10:19:14.369Z",
+            "updatedAt": "2024-04-26T10:19:14.369Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Let total no. of students in the college = 100<br>No. of students who study math only = 60 - 15 = 45<br>No. of students who study commerce only = 55 - 15 = 40<br>.. Total no. of boys who study only math and only commerce<br>=&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>45</mn><mo>+</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>&nbsp;</mo><mo>×</mo><mn>40</mn><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>43</mn></math><br>Total no. of girls who study only math and only commerce<br><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>45</mn><mo>+</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>&nbsp;</mo><mo>×</mo><mn>40</mn><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>42</mn></math><br>Required percentage=&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>43</mn><mn>42</mn></mfrac><mo>&nbsp;</mo><mo>*</mo><mo> </mo><mn>100</mn><mo>&nbsp;</mo><mo>≈</mo><mn>102</mn><mo>&nbsp;</mo><mo>%</mo></math><br>&nbsp;</p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>60% students of a college study math, 55% students study commerce and 15% students study both. If ratio of boys to girl who study math only is 3 : 2 and ratio of boys to girls who study commerce only is 2 : 3, then total number of boys who study only math and only commerce together is what percent of total number of girls who study only math and only commerce together? (in approximate)</p>",
+                  "_id": "662b80c020f22c6ae658c7f5"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>102%</p>",
+                  "isCorrect": true,
+                  "_id": "662b80c020f22c6ae658c7f6"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>109%</p>",
+                  "isCorrect": false,
+                  "_id": "662b80c020f22c6ae658c7f7"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>117%</p>",
+                  "isCorrect": false,
+                  "_id": "662b80c020f22c6ae658c7f8"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>123%</p>",
+                  "isCorrect": false,
+                  "_id": "662b80c020f22c6ae658c7f9"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3e7096031688df7dd528",
+            "examId": "664c331efbc04ed7b04690ee",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "status": 1,
+            "createdAt": "2024-04-26T10:24:00.988Z",
+            "updatedAt": "2024-04-26T10:24:00.988Z",
+            "__v": 0
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Monthly Salary of Mr.Raghav</p><p>=&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>10</mn><mo>.</mo><mn>8</mn></mrow><mn>12</mn></mfrac><mo>&nbsp;</mo><mo>×</mo><mn>100000</mn><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>90</mn><mo>,</mo><mn>000</mn></math></p><p>Total Spending made by Mr. Raghav</p><p>=&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><mo>,</mo><mn>20</mn><mo>,</mo><mn>000</mn><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mfrac><mn>60</mn><mn>100</mn></mfrac><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>90</mn><mo>,</mo><mn>000</mn><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>13</mn><mo>,</mo><mn>74</mn><mo>,</mo><mn>000</mn></math></p>",
+                "image": "",
+                "video": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Mr. Raghav owned a flat for Rs. 13.2 lacs. He spends 20% of his monthly salary on its paintings. 25% on lighting and furniture, 15% on foods and other supplements. If Mr. Raghav’s annual salary is 10.8 lacs then find the total spending made by Mr. Raghav.&nbsp;</p>",
+                  "_id": "662b82080ec6b2ada49d1436"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>137.4 lacs</p>",
+                  "isCorrect": false,
+                  "_id": "662b82080ec6b2ada49d1437"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1.374 lacs</p>",
+                  "isCorrect": false,
+                  "_id": "662b82080ec6b2ada49d1438"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>13.74 lacs</p>",
+                  "isCorrect": true,
+                  "_id": "662b82080ec6b2ada49d1439"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>11.74 lacs</p>",
+                  "isCorrect": false,
+                  "_id": "662b82080ec6b2ada49d143a"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "_id": "664c3e7096031688df7dd52e",
+            "examId": "664c331efbc04ed7b04690ee",
+            "subjectId": "64a6c34160bc4bf0e34fb033",
+            "topicId": "64a6c35e60bc4bf0e34fb5e7",
+            "complexityLevel": 1,
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "status": 1,
+            "createdAt": "2024-04-26T10:29:28.841Z",
+            "updatedAt": "2024-04-26T10:29:28.841Z",
+            "__v": 0
+          }
+        ]
+      }
+    ]
+  }
+}

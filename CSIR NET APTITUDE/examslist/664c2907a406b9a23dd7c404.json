@@ -1,0 +1,1547 @@
+{
+  "statusCode": 200,
+  "status": "success",
+  "msgCode": "107",
+  "msg": "User exam data fetched successfully.",
+  "data": {
+    "examData": [
+      {
+        "_id": "664c2907a406b9a23dd7c404",
+        "inDualLang": false,
+        "en": {
+          "name": "L02 NUMBER SYSTEML",
+          "adminCardDetails": [],
+          "instruction": "https://media.ifasonline.com/production/examInstructions/agreementEnglish.html"
+        },
+        "lz": {
+          "adminCardDetails": []
+        },
+        "subjectId": "650584908a1d5b42cf96c604",
+        "topicId": "65058e127c4da8fbcc2c97e6",
+        "subTopicId": "65058e1e7c4da8fbcc2c9992",
+        "baseCourseId": "650f1605a623c3fc42fa3336",
+        "examTypeId": "6433b5b36f88433b504b4258",
+        "examPatternId": "652543c96cdd552d365f2923",
+        "examType": 3,
+        "duration": 15,
+        "order": 1,
+        "totalQuestions": 10,
+        "totalAddedQuestion": 10,
+        "totalMarks": 20,
+        "calcType": 1,
+        "isContestTest": false,
+        "getAdmitCard": false,
+        "isSectionWise": false,
+        "displayResult": false,
+        "isActive": true,
+        "isPublished": false,
+        "discussionVideo": {
+          "youtubeUrl": "",
+          "awsMobileUrl": "",
+          "awsDesktopUrl": ""
+        },
+        "isFreeUser": false,
+        "isPYQ": false,
+        "sections": [
+          {
+            "name": "SECTION A",
+            "maxAttempt": 145,
+            "parts": [
+              {
+                "questionType": 1,
+                "correct": 2,
+                "negative": 0.5,
+                "_id": "652543c96cdd552d365f2925",
+                "totalQuestions": 10,
+                "addedQuestion": 10
+              }
+            ],
+            "_id": "652543c96cdd552d365f2924",
+            "totalQuestions": 0,
+            "addedQuestion": 10
+          }
+        ],
+        "status": 2,
+        "assignedCoursesId": [],
+        "isPracticeTest": false,
+        "language": [],
+        "createdAt": "2024-05-21T04:54:31.106Z",
+        "updatedAt": "2024-05-21T05:37:05.406Z",
+        "__v": 1,
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation: &nbsp;</p><p>Let us consider that x be the missed number.</p><p>Since x is a positive number, the sum of the first ‘n’ natural numbers including x should be greater than 42.</p><p>Note: &nbsp;Sum of first ‘n’ natural numbers&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>n</mi><mo>&nbsp;</mo><mo>×</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></mfrac></math></p><p>If we take the sum for first 9 natural numbers=<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&nbsp;</mo><mfrac><mrow><mo>(</mo><mn>9</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>10</mn><mo>)</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mo>&nbsp;</mo><mn>45</mn></math>, (Nearest sum to 45, since sum of first 8 natural numbers would be 36 and that of first 10 would be 55)</p><p>Thus, 45 – x = 42</p><p>x = 3.</p><p>Answer (3)</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The sum of first n natural numbers with one of them missed is 42. What is the number that was missed?&nbsp;</p>",
+                  "_id": "664c2cf2fbc04ed7b027b58f"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2cf2fbc04ed7b027b590"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2cf2fbc04ed7b027b591"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3</p>",
+                  "isCorrect": true,
+                  "isAnswer": true,
+                  "_id": "664c2cf2fbc04ed7b027b592"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2cf2fbc04ed7b027b593"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "questionStatus": 0,
+            "timeSpent": 127.112,
+            "ansType": 1,
+            "ansStatus": 1,
+            "answer": [
+              null
+            ],
+            "_id": "664c2cf2fbc04ed7b027b58e"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Consider the given options:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msup><mn>2</mn><mn>3</mn></msup><mn>4</mn></msup><mo>=</mo><mn>281</mn><mo>,</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msup><mn>3</mn><mn>4</mn></msup><mn>2</mn></msup><mo>=</mo><mn>316</mn><mo>,</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msup><mn>4</mn><mn>3</mn></msup><mn>2</mn></msup><mo>=</mo><mn>49</mn></math>,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msup><mn>4</mn><mn>2</mn></msup><mn>3</mn></msup><mo>=</mo><mn>48</mn></math></p><p>We can clearly say that&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>8</mn></msup><mo>&lt;</mo><mo>&nbsp;</mo><msup><mn>4</mn><mn>9</mn></msup></math>. So, option 3 can be eliminated from the above-considered options.</p><p>To compare the remaining 3 numbers,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>81</mn></msup><mo>,</mo><mo>&nbsp;</mo><msup><mn>3</mn><mn>16</mn></msup><mo>,</mo><mo>&nbsp;</mo><msup><mn>4</mn><mn>9</mn></msup></math>&nbsp;we need to make base or power of each number the same. So we can try to make the bases same.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>81</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>2</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><msup><mn>2</mn><mn>80</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>2</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><msup><mrow><mo>(</mo><msup><mn>2</mn><mn>2</mn></msup><mo>)</mo></mrow><mn>80</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>2</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><msup><mn>4</mn><mn>40</mn></msup></math></p><p>Thus, our remaining three numbers become&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><msup><mn>4</mn><mn>40</mn></msup><mo>,</mo><mo>&nbsp;</mo><msup><mn>3</mn><mn>16</mn></msup><mo>,</mo><mo>&nbsp;</mo><msup><mn>4</mn><mn>9</mn></msup><mo>.</mo></math></p><p>Notice that the base and power of<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&nbsp;</mo><msup><mn>4</mn><mn>40</mn></msup></math>&nbsp;is greater than&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>16</mn></msup><mo>&nbsp;</mo><mi>a</mi><mi>n</mi><mi>d</mi><mo>&nbsp;</mo><msup><mn>4</mn><mn>9</mn></msup><mo>,</mo><mo>&nbsp;</mo><msup><mn>4</mn><mn>40</mn></msup></math>&nbsp;is greater than both the other numbers. Then surely, 2 times&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>40</mn></msup></math>&nbsp;is also greater than both the other numbers.</p><p>Hence,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>81</mn></msup></math>&nbsp;is the largest.</p><p>Answer (1)&nbsp;</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Which of the following numbers is the largest?</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msup><mn>2</mn><mn>3</mn></msup><mn>4</mn></msup><mo>,</mo><msup><msup><mn>2</mn><mn>4</mn></msup><mn>3</mn></msup><mo>,</mo><msup><msup><mn>3</mn><mn>2</mn></msup><mn>4</mn></msup><mo>,</mo><msup><msup><mn>3</mn><mn>4</mn></msup><mn>2</mn></msup><mo>,</mo><msup><msup><mn>4</mn><mn>2</mn></msup><mn>3</mn></msup><mo>,</mo><msup><msup><mn>4</mn><mn>3</mn></msup><mn>2</mn></msup></math></p>",
+                  "_id": "664c2e6614d4a764bd1eb1e9"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msup><mn>2</mn><mn>3</mn></msup><mn>4</mn></msup></math></p>",
+                  "isCorrect": true,
+                  "isAnswer": true,
+                  "_id": "664c2e6614d4a764bd1eb1ea"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msup><mn>3</mn><mn>4</mn></msup><mn>2</mn></msup></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2e6614d4a764bd1eb1eb"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msup><mn>4</mn><mn>3</mn></msup><mn>2</mn></msup></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2e6614d4a764bd1eb1ec"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msup><mn>4</mn><mn>2</mn></msup><mn>3</mn></msup></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2e6614d4a764bd1eb1ed"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "questionStatus": 0,
+            "timeSpent": 264.909,
+            "ansType": 1,
+            "ansStatus": 1,
+            "answer": [
+              null
+            ],
+            "_id": "664c2e6614d4a764bd1eb1e8"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Clearly&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>-</mo><mo>&nbsp;</mo><mn>10</mn><mi>x</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>25</mn><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>x</mi><mo>&nbsp;</mo><mo>-</mo><mo>&nbsp;</mo><mn>5</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>0</mn></math></p><p>x = 5, 5, real and equal roots.</p><p>Answer (3)</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Which of the following curve just touches the x-axis?</p>",
+                  "_id": "664c2ecdfde9add55b3b0482"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">y</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">x</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>-</mo><mo>&nbsp;</mo><mi mathvariant=\"normal\">x</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>1</mn></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2ecdfde9add55b3b0483"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">y</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">x</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>-</mo><mo>&nbsp;</mo><mn>2</mn><mi mathvariant=\"normal\">x</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>2</mn></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2ecdfde9add55b3b0484"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">y</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">x</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>-</mo><mo>&nbsp;</mo><mn>10</mn><mi mathvariant=\"normal\">x</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>25</mn></math></p>",
+                  "isCorrect": true,
+                  "isAnswer": true,
+                  "_id": "664c2ecdfde9add55b3b0485"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">y</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">x</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>-</mo><mo>&nbsp;</mo><mn>7</mn><mi mathvariant=\"normal\">x</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>12</mn><mo>&nbsp;</mo></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2ecdfde9add55b3b0486"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "questionStatus": 0,
+            "timeSpent": 39.13,
+            "ansType": 1,
+            "ansStatus": 1,
+            "answer": [
+              null
+            ],
+            "_id": "664c2ecdfde9add55b3b0481"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mn>9</mn><msup><mi>z</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>14</mn><mi>x</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>28</mn><mi>y</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>42</mn><mi>z</mi><mo>&nbsp;</mo><mo>-</mo><mn>147</mn><mo>&nbsp;</mo><mo>&nbsp;</mo><mspace linebreak=\"newline\">&nbsp;</mspace><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mn>9</mn><msup><mi>z</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>-</mo><mn>14</mn><mi>x</mi><mo>-</mo><mn>28</mn><mi>y</mi><mo>-</mo><mn>42</mn><mi>z</mi><mo>+</mo><mo>&nbsp;</mo><mn>147</mn><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mn>9</mn><msup><mi>z</mi><mn>2</mn></msup><mo>-</mo><mn>14</mn><mi>x</mi><mo>-</mo><mn>28</mn><mi>y</mi><mo>-</mo><mn>42</mn><mi>z</mi><mo>+</mo><mn>49</mn><mo>&nbsp;</mo><mo>+</mo><mn>49</mn><mo>&nbsp;</mo><mo>+</mo><mn>49</mn><mo>=</mo><mn>0</mn><mo>&nbsp;</mo><mo>&nbsp;</mo><mspace linebreak=\"newline\">&nbsp;</mspace><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>14</mn><mi>x</mi><mo>+</mo><mn>49</mn><mo>&nbsp;</mo><mo>+</mo><mn>4</mn><msup><mi>y</mi><mn>2</mn></msup><mo>-</mo><mn>28</mn><mi>y</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>49</mn><mo>+</mo><mo>&nbsp;</mo><mn>9</mn><mo>&nbsp;</mo><msup><mi>z</mi><mn>2</mn></msup><mo>-</mo><mn>42</mn><mi>z</mi><mo>+</mo><mn>49</mn><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>14</mn><mi>x</mi><mo>+</mo><mn>49</mn><mo>)</mo><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mo>(</mo><mn>4</mn><msup><mi>y</mi><mn>2</mn></msup><mo>-</mo><mn>28</mn><mi>y</mi><mo>+</mo><mn>49</mn><mo>)</mo><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mo>(</mo><mn>9</mn><msup><mi>z</mi><mn>2</mn></msup><mo>-</mo><mn>42</mn><mi>z</mi><mo>+</mo><mn>49</mn><mo>)</mo><mo>=</mo><mn>0</mn><mo>&nbsp;</mo><mo>&nbsp;</mo><mspace linebreak=\"newline\">&nbsp;</mspace><msup><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>7</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>&nbsp;</mo><mo>+</mo><msup><mrow><mo>(</mo><mn>2</mn><mi>y</mi><mo>-</mo><mn>7</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>&nbsp;</mo><mo>&nbsp;</mo><msup><mrow><mo>(</mo><mn>3</mn><mo>&nbsp;</mo><mi>z</mi><mo>&nbsp;</mo><mo>-</mo><mn>7</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>0</mn></math></p><p>Thus, each term must be separately zero.</p><p>(x-7)²=0</p><p>Take square root on both sides,</p><p>(x-7)=0</p><p>x = 7</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>2</mn><mi>y</mi><mo>-</mo><mn>7</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>0</mn></math></p><p>Take square root on both sides.</p><p>(2y-7)=0</p><p>y = 7/2</p><p>As, (3 z -7)2</p><p>Z = 7/3</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>3</mn><mi>z</mi><mo>=</mo><mn>7</mn><mo>+</mo><mn>2</mn><mo>&nbsp;</mo><mfenced><mfrac><mn>7</mn><mn>2</mn></mfrac></mfenced><mo>+</mo><mn>3</mn><mfenced><mfrac><mn>7</mn><mn>3</mn></mfrac></mfenced><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>7</mn><mo>+</mo><mn>7</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>21</mn></math></p><p>Then, the value of x + 2y + 3z is 21</p><p>Answer (3) &nbsp;</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Consider the following equation &nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi mathvariant=\"normal\">x</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>4</mn><msup><mi mathvariant=\"normal\">y</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>9</mn><msup><mi mathvariant=\"normal\">z</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>14</mn><mi mathvariant=\"normal\">x</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>28</mn><mi mathvariant=\"normal\">y</mi><mo>+</mo><mn>42</mn><mi mathvariant=\"normal\">z</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>147</mn></math></p><p>Where, x, y and z are real numbers. Then the value of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>3</mn><mi>z</mi><mo>&nbsp;</mo><mi>i</mi><mi>s</mi></math></p>",
+                  "_id": "664c3003fbc04ed7b036d739"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>7</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c3003fbc04ed7b036d73a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>14</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c3003fbc04ed7b036d73b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>21</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c3003fbc04ed7b036d73c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>not unique</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c3003fbc04ed7b036d73d"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 2,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c3003fbc04ed7b036d738"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>183 is divisible by 3</p><p>121 is divisible by 11</p><p>10201 is divisible by 101. &nbsp;</p><p>Only 157 cannot be divided by any other number other than 1 or itself.</p><p>Answer: (3)</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Which one of the following numbers is a prime number?</p>",
+                  "_id": "664c3037fbc04ed7b038222c"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>183</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c3037fbc04ed7b038222d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>121</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c3037fbc04ed7b038222e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>157</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c3037fbc04ed7b038222f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1020</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c3037fbc04ed7b0382230"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c3037fbc04ed7b038222b"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>s we know the rules of perfect squares.</p><p>No perfect square ends with an odd number of zeros.</p><p>Perfect squares (unit digit- 0, 1, 4, 5, 6, 9)</p><figure class=\"table\"><table><tbody><tr><td><strong>Unit’s digit</strong></td><td><strong>0</strong></td><td><strong>1</strong></td><td><strong>4</strong></td><td><strong>5</strong></td><td><strong>6</strong></td><td><strong>9</strong></td></tr><tr><td><strong>Ten’s digit</strong></td><td><strong>0</strong></td><td><strong>Even</strong></td><td><strong>even</strong></td><td><strong>2</strong></td><td><strong>odd</strong></td><td><strong>even</strong></td></tr></tbody></table></figure><p>Through these rules we can easily discard the options.</p><p>As in A ten’s digit should be odd, in B ten’s digit should be 2 and in C there should be even number of zeros</p><p>So, A, B and C all are not perfect squares.</p><p>Answer: (4)</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Which of the following 7-digit numbers CANNOT be a perfect square?</p><p>A=45xyz26, B=2xyz175, C=xyz3310</p>",
+                  "_id": "664c309214d4a764bd256f95"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Only A</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c309214d4a764bd256f96"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Only B</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c309214d4a764bd256f97"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Only C</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c309214d4a764bd256f98"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>All three</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c309214d4a764bd256f99"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c309214d4a764bd256f94"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation: &nbsp;</p><p>The numbers which can be expressed as a square of a prime will have exactly 3 divisors. Like for 3^2, it has 3 divisors 1,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>,</mo><msup><mn>3</mn><mn>2</mn></msup><mo>.</mo></math></p><p>So starting from<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2</mn></msup><mi>t</mi><mi>o</mi><mo>&nbsp;</mo><msup><mn>10</mn><mn>2</mn></msup><mo>,</mo></math>&nbsp;there will be 4 numbers.</p><p>Answer (1)</p><p>&nbsp;</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>How many integers in the set&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"{\"><mrow><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>,</mo><mn>100</mn></mrow></mfenced></math>have exactly 3 divisors?</p>",
+                  "_id": "664c310a14d4a764bd272737"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>4</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c310a14d4a764bd272738"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>12</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c310a14d4a764bd272739"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>5</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c310a14d4a764bd27273a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c310a14d4a764bd27273b"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c310a14d4a764bd272736"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>As,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mi>a</mi></msup><mo>×</mo><msup><mn>5</mn><mi>b</mi></msup><mo>=</mo><mn>500</mn><mo>,</mo><mn>500</mn><mo>-</mo><mn>2</mn><mo>×</mo><mn>2</mn><mo>×</mo><mn>5</mn><mo>×</mo><mn>5</mn><mo>×</mo><mn>5</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mi>a</mi></msup><mo>×</mo><msup><mn>5</mn><mi>b</mi></msup><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>×</mo><msup><mn>5</mn><mn>3</mn></msup></math></p><p>a= 2 , b = 3</p><p>a+b = 5</p><p>Answer : (1)</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>If&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mi>a</mi></msup><mo>×</mo><msup><mn>5</mn><mi>b</mi></msup><mo>=</mo><mn>500</mn></math>, and a and b are integers, then a + b is&nbsp;</p>",
+                  "_id": "664c316c14d4a764bd288572"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>5</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c316c14d4a764bd288573"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c316c14d4a764bd288574"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>7</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c316c14d4a764bd288575"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Indeterminable</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c316c14d4a764bd288576"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c316c14d4a764bd288571"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>We know that:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>0</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>1</mn><mo>,</mo><mo>&nbsp;</mo><mo>&nbsp;</mo><mo>&nbsp;</mo><msup><mn>4</mn><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>16</mn><mo>,</mo><mo>&nbsp;</mo><mo>&nbsp;</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>/</mo><msup><mn>4</mn><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>1</mn><mo>/</mo><mn>16</mn><mo>,</mo><mo>&nbsp;</mo><msup><mn>4</mn><mrow><mrow><mn>1</mn><mo>/</mo><mn>2</mn></mrow><mo>&nbsp;</mo></mrow></msup><mo>=</mo><mo>&nbsp;</mo><mo>√</mo><mn>4</mn><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>2</mn><mo>,</mo><mo>&nbsp;</mo><mo>&nbsp;</mo><mn>1</mn><mo>/</mo><msup><mn>4</mn><mrow><mn>1</mn><mo>/</mo><mn>2</mn></mrow></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>1</mn><mo>/</mo><mo>√</mo><mn>4</mn><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>1</mn><mo>/</mo><mn>2</mn></math></p><p>So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>0</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo>/</mo><msup><mn>4</mn><mn>2</mn></msup><mo>&nbsp;</mo><mo>+</mo><msup><mn>4</mn><mrow><mn>1</mn><mo>/</mo><mn>2</mn></mrow></msup><mo>+</mo><mn>1</mn><mo>/</mo><msup><mn>4</mn><mrow><mn>1</mn><mo>/</mo><mn>2</mn></mrow></msup></math></p><p>= 1+16+ 1/16+2+ 1/2</p><p>= 19 + 1/16 + ½ = 19 + 9/16.</p><p>Answer (3)&nbsp;</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>0</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo>/</mo><msup><mn>4</mn><mn>2</mn></msup><mo>&nbsp;</mo><mo>+</mo><msup><mn>4</mn><mn>1</mn></msup><mo>/</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>/</mo><msup><mn>4</mn><mn>1</mn></msup><mo>/</mo><mn>2</mn></math>&nbsp;equals</p>",
+                  "_id": "664c3264fde9add55b3dc40e"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>40</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c3264fde9add55b3dc40f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><msubsup><mn>2</mn><mn>2</mn><mn>1</mn></msubsup></msup><mo>+</mo><msup><mn>4</mn><mrow><mo>-</mo><msubsup><mn>2</mn><mn>2</mn><mn>1</mn></msubsup></mrow></msup></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c3264fde9add55b3dc410"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>19</mn><mfrac><mn>9</mn><mn>16</mn></mfrac></math></p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c3264fde9add55b3dc411"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22</mn><mfrac><mn>9</mn><mn>16</mn></mfrac></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c3264fde9add55b3dc412"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c3264fde9add55b3dc40d"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>A × B = 24 -------- (1)</p><p>B × C = 32 -------- (2)</p><p>C × D = 48 -------- (3)</p><p>Equation (1) divided by equation (2) gives as below:</p><p>A/C = 3/4------ (4)</p><p>Equation (3) multiplied by equation (4) gives as below:</p><p>A × D = 48×3/4 = 36 &nbsp;</p><p>= 62, a perfect square.</p><p>Alternate method:&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>A</mi><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mi>D</mi><mo>)</mo><mo>=</mo><mfrac><mrow><mo>(</mo><mi>A</mi><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mi>B</mi><mo>)</mo><mo>×</mo><mo>&nbsp;</mo><mo>(</mo><mi>C</mi><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mi>D</mi><mo>)</mo></mrow><mrow><mo>(</mo><mi>B</mi><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mi>C</mi><mo>&nbsp;</mo><mo>)</mo></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>24</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>48</mn></mrow><mn>32</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>36</mn><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><msup><mn>6</mn><mn>2</mn></msup></math>, a perfect square.</p><p>Answer (2) &nbsp;</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>If A × B = 24, B × C = 32, C × D = 48, then A×D&nbsp;</p>",
+                  "_id": "664c32dbfbc04ed7b04576cf"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>cannot be found</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c32dbfbc04ed7b04576d0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>is a perfect square</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c32dbfbc04ed7b04576d1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>is a perfect cube</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c32dbfbc04ed7b04576d2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>is odd</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c32dbfbc04ed7b04576d3"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c32dbfbc04ed7b04576ce"
+          }
+        ],
+        "examStats": {
+          "correct": 3,
+          "incorrect": 0,
+          "skipped": 7,
+          "marksObtained": 6,
+          "totalTimeSpent": 431.15099999999995,
+          "totalMarks": 20,
+          "attempted": 30,
+          "accuracy": 100,
+          "percentage": 30,
+          "percentile": 50,
+          "rank": 4,
+          "userRank": 4
+        },
+        "startedFrom": 1,
+        "startedOn": "2024-11-16T10:24:56.000Z",
+        "submittedOn": "2024-11-16T00:00:00.000Z",
+        "examPatternSection": []
+      }
+    ],
+    "sectionsData": [
+      {
+        "questionsData": [
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation: &nbsp;</p><p>Let us consider that x be the missed number.</p><p>Since x is a positive number, the sum of the first ‘n’ natural numbers including x should be greater than 42.</p><p>Note: &nbsp;Sum of first ‘n’ natural numbers&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>n</mi><mo>&nbsp;</mo><mo>×</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></mfrac></math></p><p>If we take the sum for first 9 natural numbers=<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&nbsp;</mo><mfrac><mrow><mo>(</mo><mn>9</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>10</mn><mo>)</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mo>&nbsp;</mo><mn>45</mn></math>, (Nearest sum to 45, since sum of first 8 natural numbers would be 36 and that of first 10 would be 55)</p><p>Thus, 45 – x = 42</p><p>x = 3.</p><p>Answer (3)</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>The sum of first n natural numbers with one of them missed is 42. What is the number that was missed?&nbsp;</p>",
+                  "_id": "664c2cf2fbc04ed7b027b58f"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>1</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2cf2fbc04ed7b027b590"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>2</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2cf2fbc04ed7b027b591"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>3</p>",
+                  "isCorrect": true,
+                  "isAnswer": true,
+                  "_id": "664c2cf2fbc04ed7b027b592"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>4</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2cf2fbc04ed7b027b593"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 1,
+            "questionStatus": 0,
+            "timeSpent": 127.112,
+            "ansType": 1,
+            "ansStatus": 1,
+            "answer": [
+              null
+            ],
+            "_id": "664c2cf2fbc04ed7b027b58e"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Consider the given options:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msup><mn>2</mn><mn>3</mn></msup><mn>4</mn></msup><mo>=</mo><mn>281</mn><mo>,</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msup><mn>3</mn><mn>4</mn></msup><mn>2</mn></msup><mo>=</mo><mn>316</mn><mo>,</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msup><mn>4</mn><mn>3</mn></msup><mn>2</mn></msup><mo>=</mo><mn>49</mn></math>,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msup><mn>4</mn><mn>2</mn></msup><mn>3</mn></msup><mo>=</mo><mn>48</mn></math></p><p>We can clearly say that&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>8</mn></msup><mo>&lt;</mo><mo>&nbsp;</mo><msup><mn>4</mn><mn>9</mn></msup></math>. So, option 3 can be eliminated from the above-considered options.</p><p>To compare the remaining 3 numbers,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>81</mn></msup><mo>,</mo><mo>&nbsp;</mo><msup><mn>3</mn><mn>16</mn></msup><mo>,</mo><mo>&nbsp;</mo><msup><mn>4</mn><mn>9</mn></msup></math>&nbsp;we need to make base or power of each number the same. So we can try to make the bases same.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>81</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>2</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><msup><mn>2</mn><mn>80</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>2</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><msup><mrow><mo>(</mo><msup><mn>2</mn><mn>2</mn></msup><mo>)</mo></mrow><mn>80</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>2</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><msup><mn>4</mn><mn>40</mn></msup></math></p><p>Thus, our remaining three numbers become&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><msup><mn>4</mn><mn>40</mn></msup><mo>,</mo><mo>&nbsp;</mo><msup><mn>3</mn><mn>16</mn></msup><mo>,</mo><mo>&nbsp;</mo><msup><mn>4</mn><mn>9</mn></msup><mo>.</mo></math></p><p>Notice that the base and power of<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&nbsp;</mo><msup><mn>4</mn><mn>40</mn></msup></math>&nbsp;is greater than&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>16</mn></msup><mo>&nbsp;</mo><mi>a</mi><mi>n</mi><mi>d</mi><mo>&nbsp;</mo><msup><mn>4</mn><mn>9</mn></msup><mo>,</mo><mo>&nbsp;</mo><msup><mn>4</mn><mn>40</mn></msup></math>&nbsp;is greater than both the other numbers. Then surely, 2 times&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>40</mn></msup></math>&nbsp;is also greater than both the other numbers.</p><p>Hence,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>81</mn></msup></math>&nbsp;is the largest.</p><p>Answer (1)&nbsp;</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Which of the following numbers is the largest?</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msup><mn>2</mn><mn>3</mn></msup><mn>4</mn></msup><mo>,</mo><msup><msup><mn>2</mn><mn>4</mn></msup><mn>3</mn></msup><mo>,</mo><msup><msup><mn>3</mn><mn>2</mn></msup><mn>4</mn></msup><mo>,</mo><msup><msup><mn>3</mn><mn>4</mn></msup><mn>2</mn></msup><mo>,</mo><msup><msup><mn>4</mn><mn>2</mn></msup><mn>3</mn></msup><mo>,</mo><msup><msup><mn>4</mn><mn>3</mn></msup><mn>2</mn></msup></math></p>",
+                  "_id": "664c2e6614d4a764bd1eb1e9"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msup><mn>2</mn><mn>3</mn></msup><mn>4</mn></msup></math></p>",
+                  "isCorrect": true,
+                  "isAnswer": true,
+                  "_id": "664c2e6614d4a764bd1eb1ea"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msup><mn>3</mn><mn>4</mn></msup><mn>2</mn></msup></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2e6614d4a764bd1eb1eb"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msup><mn>4</mn><mn>3</mn></msup><mn>2</mn></msup></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2e6614d4a764bd1eb1ec"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msup><mn>4</mn><mn>2</mn></msup><mn>3</mn></msup></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2e6614d4a764bd1eb1ed"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 2,
+            "questionStatus": 0,
+            "timeSpent": 264.909,
+            "ansType": 1,
+            "ansStatus": 1,
+            "answer": [
+              null
+            ],
+            "_id": "664c2e6614d4a764bd1eb1e8"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>Clearly&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>-</mo><mo>&nbsp;</mo><mn>10</mn><mi>x</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>25</mn><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>x</mi><mo>&nbsp;</mo><mo>-</mo><mo>&nbsp;</mo><mn>5</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>0</mn></math></p><p>x = 5, 5, real and equal roots.</p><p>Answer (3)</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Which of the following curve just touches the x-axis?</p>",
+                  "_id": "664c2ecdfde9add55b3b0482"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">y</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">x</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>-</mo><mo>&nbsp;</mo><mi mathvariant=\"normal\">x</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>1</mn></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2ecdfde9add55b3b0483"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">y</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">x</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>-</mo><mo>&nbsp;</mo><mn>2</mn><mi mathvariant=\"normal\">x</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>2</mn></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2ecdfde9add55b3b0484"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">y</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">x</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>-</mo><mo>&nbsp;</mo><mn>10</mn><mi mathvariant=\"normal\">x</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>25</mn></math></p>",
+                  "isCorrect": true,
+                  "isAnswer": true,
+                  "_id": "664c2ecdfde9add55b3b0485"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">y</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><msup><mi mathvariant=\"normal\">x</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>-</mo><mo>&nbsp;</mo><mn>7</mn><mi mathvariant=\"normal\">x</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>12</mn><mo>&nbsp;</mo></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c2ecdfde9add55b3b0486"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 3,
+            "questionStatus": 0,
+            "timeSpent": 39.13,
+            "ansType": 1,
+            "ansStatus": 1,
+            "answer": [
+              null
+            ],
+            "_id": "664c2ecdfde9add55b3b0481"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mn>9</mn><msup><mi>z</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>14</mn><mi>x</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>28</mn><mi>y</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>42</mn><mi>z</mi><mo>&nbsp;</mo><mo>-</mo><mn>147</mn><mo>&nbsp;</mo><mo>&nbsp;</mo><mspace linebreak=\"newline\">&nbsp;</mspace><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mn>9</mn><msup><mi>z</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>-</mo><mn>14</mn><mi>x</mi><mo>-</mo><mn>28</mn><mi>y</mi><mo>-</mo><mn>42</mn><mi>z</mi><mo>+</mo><mo>&nbsp;</mo><mn>147</mn><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mn>9</mn><msup><mi>z</mi><mn>2</mn></msup><mo>-</mo><mn>14</mn><mi>x</mi><mo>-</mo><mn>28</mn><mi>y</mi><mo>-</mo><mn>42</mn><mi>z</mi><mo>+</mo><mn>49</mn><mo>&nbsp;</mo><mo>+</mo><mn>49</mn><mo>&nbsp;</mo><mo>+</mo><mn>49</mn><mo>=</mo><mn>0</mn><mo>&nbsp;</mo><mo>&nbsp;</mo><mspace linebreak=\"newline\">&nbsp;</mspace><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>14</mn><mi>x</mi><mo>+</mo><mn>49</mn><mo>&nbsp;</mo><mo>+</mo><mn>4</mn><msup><mi>y</mi><mn>2</mn></msup><mo>-</mo><mn>28</mn><mi>y</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>49</mn><mo>+</mo><mo>&nbsp;</mo><mn>9</mn><mo>&nbsp;</mo><msup><mi>z</mi><mn>2</mn></msup><mo>-</mo><mn>42</mn><mi>z</mi><mo>+</mo><mn>49</mn><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>14</mn><mi>x</mi><mo>+</mo><mn>49</mn><mo>)</mo><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mo>(</mo><mn>4</mn><msup><mi>y</mi><mn>2</mn></msup><mo>-</mo><mn>28</mn><mi>y</mi><mo>+</mo><mn>49</mn><mo>)</mo><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mo>(</mo><mn>9</mn><msup><mi>z</mi><mn>2</mn></msup><mo>-</mo><mn>42</mn><mi>z</mi><mo>+</mo><mn>49</mn><mo>)</mo><mo>=</mo><mn>0</mn><mo>&nbsp;</mo><mo>&nbsp;</mo><mspace linebreak=\"newline\">&nbsp;</mspace><msup><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>7</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>&nbsp;</mo><mo>+</mo><msup><mrow><mo>(</mo><mn>2</mn><mi>y</mi><mo>-</mo><mn>7</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>&nbsp;</mo><mo>&nbsp;</mo><msup><mrow><mo>(</mo><mn>3</mn><mo>&nbsp;</mo><mi>z</mi><mo>&nbsp;</mo><mo>-</mo><mn>7</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>0</mn></math></p><p>Thus, each term must be separately zero.</p><p>(x-7)²=0</p><p>Take square root on both sides,</p><p>(x-7)=0</p><p>x = 7</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>2</mn><mi>y</mi><mo>-</mo><mn>7</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>0</mn></math></p><p>Take square root on both sides.</p><p>(2y-7)=0</p><p>y = 7/2</p><p>As, (3 z -7)2</p><p>Z = 7/3</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>3</mn><mi>z</mi><mo>=</mo><mn>7</mn><mo>+</mo><mn>2</mn><mo>&nbsp;</mo><mfenced><mfrac><mn>7</mn><mn>2</mn></mfrac></mfenced><mo>+</mo><mn>3</mn><mfenced><mfrac><mn>7</mn><mn>3</mn></mfrac></mfenced><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>7</mn><mo>+</mo><mn>7</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>21</mn></math></p><p>Then, the value of x + 2y + 3z is 21</p><p>Answer (3) &nbsp;</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Consider the following equation &nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi mathvariant=\"normal\">x</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>4</mn><msup><mi mathvariant=\"normal\">y</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>9</mn><msup><mi mathvariant=\"normal\">z</mi><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>14</mn><mi mathvariant=\"normal\">x</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>28</mn><mi mathvariant=\"normal\">y</mi><mo>+</mo><mn>42</mn><mi mathvariant=\"normal\">z</mi><mo>&nbsp;</mo><mo>+</mo><mo>&nbsp;</mo><mn>147</mn></math></p><p>Where, x, y and z are real numbers. Then the value of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>3</mn><mi>z</mi><mo>&nbsp;</mo><mi>i</mi><mi>s</mi></math></p>",
+                  "_id": "664c3003fbc04ed7b036d739"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>7</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c3003fbc04ed7b036d73a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>14</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c3003fbc04ed7b036d73b"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>21</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c3003fbc04ed7b036d73c"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>not unique</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c3003fbc04ed7b036d73d"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 4,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 2,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c3003fbc04ed7b036d738"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>183 is divisible by 3</p><p>121 is divisible by 11</p><p>10201 is divisible by 101. &nbsp;</p><p>Only 157 cannot be divided by any other number other than 1 or itself.</p><p>Answer: (3)</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Which one of the following numbers is a prime number?</p>",
+                  "_id": "664c3037fbc04ed7b038222c"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>183</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c3037fbc04ed7b038222d"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>121</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c3037fbc04ed7b038222e"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>157</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c3037fbc04ed7b038222f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>1020</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c3037fbc04ed7b0382230"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 5,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c3037fbc04ed7b038222b"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>s we know the rules of perfect squares.</p><p>No perfect square ends with an odd number of zeros.</p><p>Perfect squares (unit digit- 0, 1, 4, 5, 6, 9)</p><figure class=\"table\"><table><tbody><tr><td><strong>Unit’s digit</strong></td><td><strong>0</strong></td><td><strong>1</strong></td><td><strong>4</strong></td><td><strong>5</strong></td><td><strong>6</strong></td><td><strong>9</strong></td></tr><tr><td><strong>Ten’s digit</strong></td><td><strong>0</strong></td><td><strong>Even</strong></td><td><strong>even</strong></td><td><strong>2</strong></td><td><strong>odd</strong></td><td><strong>even</strong></td></tr></tbody></table></figure><p>Through these rules we can easily discard the options.</p><p>As in A ten’s digit should be odd, in B ten’s digit should be 2 and in C there should be even number of zeros</p><p>So, A, B and C all are not perfect squares.</p><p>Answer: (4)</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>Which of the following 7-digit numbers CANNOT be a perfect square?</p><p>A=45xyz26, B=2xyz175, C=xyz3310</p>",
+                  "_id": "664c309214d4a764bd256f95"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>Only A</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c309214d4a764bd256f96"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Only B</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c309214d4a764bd256f97"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Only C</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c309214d4a764bd256f98"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>All three</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c309214d4a764bd256f99"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 6,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c309214d4a764bd256f94"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation: &nbsp;</p><p>The numbers which can be expressed as a square of a prime will have exactly 3 divisors. Like for 3^2, it has 3 divisors 1,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>,</mo><msup><mn>3</mn><mn>2</mn></msup><mo>.</mo></math></p><p>So starting from<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2</mn></msup><mi>t</mi><mi>o</mi><mo>&nbsp;</mo><msup><mn>10</mn><mn>2</mn></msup><mo>,</mo></math>&nbsp;there will be 4 numbers.</p><p>Answer (1)</p><p>&nbsp;</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>How many integers in the set&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"{\"><mrow><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>,</mo><mn>100</mn></mrow></mfenced></math>have exactly 3 divisors?</p>",
+                  "_id": "664c310a14d4a764bd272737"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>4</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c310a14d4a764bd272738"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>12</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c310a14d4a764bd272739"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>5</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c310a14d4a764bd27273a"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>9</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c310a14d4a764bd27273b"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 7,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c310a14d4a764bd272736"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>As,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mi>a</mi></msup><mo>×</mo><msup><mn>5</mn><mi>b</mi></msup><mo>=</mo><mn>500</mn><mo>,</mo><mn>500</mn><mo>-</mo><mn>2</mn><mo>×</mo><mn>2</mn><mo>×</mo><mn>5</mn><mo>×</mo><mn>5</mn><mo>×</mo><mn>5</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mi>a</mi></msup><mo>×</mo><msup><mn>5</mn><mi>b</mi></msup><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>×</mo><msup><mn>5</mn><mn>3</mn></msup></math></p><p>a= 2 , b = 3</p><p>a+b = 5</p><p>Answer : (1)</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>If&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mi>a</mi></msup><mo>×</mo><msup><mn>5</mn><mi>b</mi></msup><mo>=</mo><mn>500</mn></math>, and a and b are integers, then a + b is&nbsp;</p>",
+                  "_id": "664c316c14d4a764bd288572"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>5</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c316c14d4a764bd288573"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>6</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c316c14d4a764bd288574"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>7</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c316c14d4a764bd288575"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>Indeterminable</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c316c14d4a764bd288576"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 8,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c316c14d4a764bd288571"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>We know that:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>0</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>1</mn><mo>,</mo><mo>&nbsp;</mo><mo>&nbsp;</mo><mo>&nbsp;</mo><msup><mn>4</mn><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>16</mn><mo>,</mo><mo>&nbsp;</mo><mo>&nbsp;</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>/</mo><msup><mn>4</mn><mn>2</mn></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>1</mn><mo>/</mo><mn>16</mn><mo>,</mo><mo>&nbsp;</mo><msup><mn>4</mn><mrow><mrow><mn>1</mn><mo>/</mo><mn>2</mn></mrow><mo>&nbsp;</mo></mrow></msup><mo>=</mo><mo>&nbsp;</mo><mo>√</mo><mn>4</mn><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>2</mn><mo>,</mo><mo>&nbsp;</mo><mo>&nbsp;</mo><mn>1</mn><mo>/</mo><msup><mn>4</mn><mrow><mn>1</mn><mo>/</mo><mn>2</mn></mrow></msup><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>1</mn><mo>/</mo><mo>√</mo><mn>4</mn><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>1</mn><mo>/</mo><mn>2</mn></math></p><p>So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>0</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo>/</mo><msup><mn>4</mn><mn>2</mn></msup><mo>&nbsp;</mo><mo>+</mo><msup><mn>4</mn><mrow><mn>1</mn><mo>/</mo><mn>2</mn></mrow></msup><mo>+</mo><mn>1</mn><mo>/</mo><msup><mn>4</mn><mrow><mn>1</mn><mo>/</mo><mn>2</mn></mrow></msup></math></p><p>= 1+16+ 1/16+2+ 1/2</p><p>= 19 + 1/16 + ½ = 19 + 9/16.</p><p>Answer (3)&nbsp;</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>0</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo>/</mo><msup><mn>4</mn><mn>2</mn></msup><mo>&nbsp;</mo><mo>+</mo><msup><mn>4</mn><mn>1</mn></msup><mo>/</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>/</mo><msup><mn>4</mn><mn>1</mn></msup><mo>/</mo><mn>2</mn></math>&nbsp;equals</p>",
+                  "_id": "664c3264fde9add55b3dc40e"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>40</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c3264fde9add55b3dc40f"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><msubsup><mn>2</mn><mn>2</mn><mn>1</mn></msubsup></msup><mo>+</mo><msup><mn>4</mn><mrow><mo>-</mo><msubsup><mn>2</mn><mn>2</mn><mn>1</mn></msubsup></mrow></msup></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c3264fde9add55b3dc410"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>19</mn><mfrac><mn>9</mn><mn>16</mn></mfrac></math></p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c3264fde9add55b3dc411"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22</mn><mfrac><mn>9</mn><mn>16</mn></mfrac></math></p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c3264fde9add55b3dc412"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 9,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c3264fde9add55b3dc40d"
+          },
+          {
+            "en": {
+              "ansDescription": {
+                "text": "<p>Explanation:</p><p>A × B = 24 -------- (1)</p><p>B × C = 32 -------- (2)</p><p>C × D = 48 -------- (3)</p><p>Equation (1) divided by equation (2) gives as below:</p><p>A/C = 3/4------ (4)</p><p>Equation (3) multiplied by equation (4) gives as below:</p><p>A × D = 48×3/4 = 36 &nbsp;</p><p>= 62, a perfect square.</p><p>Alternate method:&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>A</mi><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mi>D</mi><mo>)</mo><mo>=</mo><mfrac><mrow><mo>(</mo><mi>A</mi><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mi>B</mi><mo>)</mo><mo>×</mo><mo>&nbsp;</mo><mo>(</mo><mi>C</mi><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mi>D</mi><mo>)</mo></mrow><mrow><mo>(</mo><mi>B</mi><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mi>C</mi><mo>&nbsp;</mo><mo>)</mo></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>24</mn><mo>&nbsp;</mo><mo>×</mo><mo>&nbsp;</mo><mn>48</mn></mrow><mn>32</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>36</mn><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><msup><mn>6</mn><mn>2</mn></msup></math>, a perfect square.</p><p>Answer (2) &nbsp;</p>",
+                "video": "",
+                "image": ""
+              },
+              "title": [
+                {
+                  "descType": "text",
+                  "description": "<p>If A × B = 24, B × C = 32, C × D = 48, then A×D&nbsp;</p>",
+                  "_id": "664c32dbfbc04ed7b04576cf"
+                }
+              ],
+              "options": [
+                {
+                  "descType": "text",
+                  "description": "<p>cannot be found</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c32dbfbc04ed7b04576d0"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>is a perfect square</p>",
+                  "isCorrect": true,
+                  "isAnswer": false,
+                  "_id": "664c32dbfbc04ed7b04576d1"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>is a perfect cube</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c32dbfbc04ed7b04576d2"
+                },
+                {
+                  "descType": "text",
+                  "description": "<p>is odd</p>",
+                  "isCorrect": false,
+                  "isAnswer": false,
+                  "_id": "664c32dbfbc04ed7b04576d3"
+                }
+              ]
+            },
+            "lz": {
+              "title": [],
+              "options": []
+            },
+            "range": {
+              "r1": 0,
+              "r2": 0
+            },
+            "section": {
+              "examPatternId": "652543c96cdd552d365f2923",
+              "sectionId": "652543c96cdd552d365f2924",
+              "partId": "652543c96cdd552d365f2925"
+            },
+            "questionType": 1,
+            "marks": 2,
+            "negativeMarks": 0.5,
+            "decimalPlaces": 0,
+            "isAnswerInRange": false,
+            "order": 10,
+            "questionStatus": 0,
+            "timeSpent": 0,
+            "ansType": 0,
+            "ansStatus": 0,
+            "answer": [],
+            "_id": "664c32dbfbc04ed7b04576ce"
+          }
+        ],
+        "sectionAnalysis": {
+          "sectionName": "SECTION A",
+          "sectionId": "652543c96cdd552d365f2924",
+          "correct": 3,
+          "incorrect": 0,
+          "skipped": 7,
+          "marksObtained": 6,
+          "totalTimeSpent": 431.15099999999995,
+          "totalMarks": 20,
+          "negativeMark": 0,
+          "attempted": 30,
+          "totalQuestion": 10,
+          "accuracy": 100
+        },
+        "submittedOn": "2024-11-16T00:00:00.000Z"
+      }
+    ]
+  }
+}
