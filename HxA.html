@@ -786,6 +786,11 @@
       /* Gallery Section */
       .gallery-section {
         background: var(--cream);
+        display: none; /* hidden by default; shown when ?gallery=1 */
+      }
+
+      .gallery-section.show {
+        display: block;
       }
 
       .gallery-grid {
@@ -1667,6 +1672,26 @@
       reveal();
 
       // RSVP Form submission
+      // Show gallery if URL param gallery=1
+      (function () {
+        try {
+          const params = new URLSearchParams(window.location.search);
+          if (params.get("gallery") === "1") {
+            const gallery = document.getElementById("gallery");
+            if (gallery) {
+              // Show gallery (hidden by default)
+              gallery.classList.add("show");
+              // Reveal any hidden/revealed parts inside the gallery
+              gallery.querySelectorAll(".reveal").forEach((el) =>
+                el.classList.add("active")
+              );
+            }
+          }
+        } catch (e) {
+          // ignore errors
+          console.error(e);
+        }
+      })();
     </script>
   </body>
 </html>
