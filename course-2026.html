@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSIR NET Life Sciences - Course Lectures</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      .unit-section {
+        margin-bottom: 30px;
+      }
+      .unit-heading {
+        font-size: 1.8em;
+        font-weight: bold;
+        margin: 25px 0 0 0;
+        padding: 10px 15px;
+        background-color: #333;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .unit-content {
+        display: none;
+        padding-top: 10px;
+      }
+      .topic-group {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        background-color: #f9f9f9;
+      }
+      .group-title {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 15px;
+        cursor: pointer;
+        background-color: #e0e0e0;
+        border: 1px solid #ddd;
+        border-radius: 5px 5px 0 0;
+      }
+      .topic-content {
+        display: none;
+        padding: 15px;
+      }
+      .topic {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 5px;
+        background-color: #ffffff;
+      }
+      .subtitle {
+        color: #555;
+      }
+      .links a {
+        display: block;
+        margin: 5px 0;
+        color: #1a73e8;
+        text-decoration: none;
+      }
+      .links a:hover {
+        text-decoration: underline;
+      }
+      video {
+        max-width: 100%;
+        width: 400px;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSIR NET Life Sciences - Course Lectures</h1>
+    <div id="topics-container"></div>
+
+    <script>
+      const allUnits = {"UNIT 3 : MOLECULAR BIOLOGY": [{"lectureTitle": "L01 : BASICS OF DNA REPLICATION", "duration": 128.6, "groupName": "DNA REPLICATION", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/EMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/bcda7c52-7d0b-442e-b6fb-988590225f73.pdf", "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FEMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/L01%20BASICS%20OF%20DNA%20REPLICATION%201755503353/360/L01%20BASICS%20OF%20DNA%20REPLICATION%201755503353.mp4"}, {"lectureTitle": "L02 : ENZYMES IN DNA REPLICATION", "duration": 103.03, "groupName": "DNA REPLICATION", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/EMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/8e3a4fff-4666-43e8-b757-fdcfd1ba9414.pdf", "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FEMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025%2FL02%20PROTEIN/ENZYMES%20INVOLVED%20IN%20REPLICATION%201755589598/360/ENZYMES%20INVOLVED%20IN%20REPLICATION%201755589598.mp4"}, {"lectureTitle": "L03 : DNA REPLICATION IN BACTERIA", "duration": 128.15, "groupName": "DNA REPLICATION", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/EMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/e50fac88-bc7d-4121-9f4a-911fbbff76eb.pdf", "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FEMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/L03_DNA_REPLICATION_IN_BACTERIA_1755676867/360/L03_DNA_REPLICATION_IN_BACTERIA_1755676867.mp4"}, {"lectureTitle": "L04 : EXTRACHROMOSOMAL REPLICONS AND DNA DAMAGE", "duration": 114.2, "groupName": "DNA DAMAGE & REPAIR", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/EMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/633a25d7-0b2e-44a9-9686-86307fc19201.pdf", "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FEMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/L04%20EUKARYOTIC%20REPLICATION%201755761897/360/L04%20EUKARYOTIC%20REPLICATION%201755761897.mp4"}, {"lectureTitle": "L05 : DNA REPAIR MECHANISM", "duration": 134.47, "groupName": "DNA DAMAGE & REPAIR", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/EMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/f5d06c17-2e33-4f57-a5a5-d28a459c79f5.pdf", "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FEMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/L05%20EXTRACHROMOSOMAL%20REPLICONS%20AND%20DNA%20DAMAGE%201755850611/360/L05%20EXTRACHROMOSOMAL%20REPLICONS%20AND%20DNA%20DAMAGE%201755850611.mp4"}, {"lectureTitle": "L06 : BASICS OF TRANSCRIPTION", "duration": 150.1, "groupName": "TRANSCRIPTION", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/EMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/ed18dfa0-1f8c-4afa-9c25-bb02e550228f.pdf", "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FEMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/L07%20PROKARYOTIC%20TRANSCRIPTION%201756110867/360/L07%20PROKARYOTIC%20TRANSCRIPTION%201756110867.mp4"}, {"lectureTitle": "L07 : EUKARYOTIC TRANSCRIPTION", "duration": 121.27, "groupName": "TRANSCRIPTION", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/EMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/3671738a-554d-44e2-8115-ca3ce96effae.pdf", "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FEMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/L08%20EUKARYOTIC%20TRANSCRIPTION%201756194789/360/L08%20EUKARYOTIC%20TRANSCRIPTION%201756194789.mp4"}, {"lectureTitle": "L08 : EUKARYOTIC POST TRANSCRIPTIONAL EVENTS", "duration": 133.63, "groupName": "TRANSCRIPTION", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/EMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/e4a5a488-5e5d-4f9c-8617-a36bb140f6ac.pdf", "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FEMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/L09%20EUKARYOTIC%20POST%20TRANSCRIPTIONAL%20EVENTS%201756281838/360/L09%20EUKARYOTIC%20POST%20TRANSCRIPTIONAL%20EVENTS%201756281838.mp4"}, {"lectureTitle": "L09 : TRANSLATION REQUIREMENTS AND MECHANISM 01", "duration": 125.52, "groupName": "TRANSLATION", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/EMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/6ff79947-a0d2-4c9d-b1d1-9bac30883c1c.pdf", "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FEMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/L10%20TRANSLATION%20REQUIREMENTS%201756367849/360/L10%20TRANSLATION%20REQUIREMENTS%201756367849.mp4"}, {"lectureTitle": "L10 : TRANSLATION REQUIREMENTS AND MECHANISM 02", "duration": 123.15, "groupName": "TRANSLATION", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/EMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/17e48c3a-1f9a-47ce-8c10-1d890792a9c7.pdf", "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FEMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/L11%20PROKARYOTIC%20TRANSLATION%201756454228/360/L11%20PROKARYOTIC%20TRANSLATION%201756454228.mp4"}, {"lectureTitle": "L11 : GENE REGULATION PROKARYOTES 01", "duration": 128.77, "groupName": "GENE REGULATION", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/EMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/b6721645-3b00-4cca-b8cf-6e0fddbd3e69.pdf", "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FEMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/L12%20EUKARYOTIC%20TRANSLATION%201756540831/360/L12%20EUKARYOTIC%20TRANSLATION%201756540831.mp4"}, {"lectureTitle": "L12 : GENE REGULATION PROKARYOTES 02", "duration": 124.72, "groupName": "GENE REGULATION", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/EMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/c082dc7f-00d6-4845-8a3e-a679986c47a3.pdf", "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FEMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/Molecular%20Biology%20Class%201756714579/360/Molecular%20Biology%20Class%201756714579.mp4"}, {"lectureTitle": "L13 : PROKARYOTIC GENE REGULATION (λ - BACTERIOPHAGE)", "duration": 129.83, "groupName": "GENE REGULATION", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/EMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/1427be93-8f43-452f-b9b4-9784e0a99fc2.pdf", "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FEMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/L14%20TRP%20OPERON%20AND%20LAMBDA%20PHAGE%201756800003/360/L14%20TRP%20OPERON%20AND%20LAMBDA%20PHAGE%201756800003.mp4"}, {"lectureTitle": "L14 : EUKARYOTIC REGULATION AND REGULATORY RNA", "duration": 110.8, "groupName": "GENE REGULATION", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/EMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/ef0e9b5f-33b8-4225-a144-ff21b6ab9b7f.pdf", "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FEMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/L15%20EUKARYOTIC%20REGULATION%201756884806/360/L15%20EUKARYOTIC%20REGULATION%201756884806.mp4"}, {"lectureTitle": "L15 : EUKARYOTIC REGULATION AND REGULATORY RNA", "duration": 92.22, "groupName": "GENE REGULATION", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/UNIT_3_MOLECULAR_BIOLOGY/EMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/c28e4b30-740a-43cd-ac47-6b943e14e8bf.pdf", "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FUNIT_3_MOLECULAR_BIOLOGY%2FEMOTION_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_14_APR_2025/L16%20REGULATORY%20RNA%20AND%20MOLECULAR%20TECHNIQUES%201756970186/720/L16%20REGULATORY%20RNA%20AND%20MOLECULAR%20TECHNIQUES%201756970186.mp4"}], "UNIT 6 : PLANT PHYSIOLOGY": [{"lectureTitle": "L01 : PHOTOSYNTHESIS", "duration": 159.68, "groupName": "PHOTOSYNTHESIS", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/TOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/5fb39b83-2d23-42b0-b40b-0e7400e0e1a2.pdf", "s3LinkLow": "https://s3convertedcdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FTOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY/L01%20PHOTOSYNTHESIS%20INTRO%20LIGHT%20HARVESTING%20COMPLEXES%20AND%20PIGMENTS%201762762956/360/L01%20PHOTOSYNTHESIS%20INTRO%20LIGHT%20HARVESTING%20COMPLEXES%20AND%20PIGMENTS%201762762956.mp4"}, {"lectureTitle": "L02 : LIGHT REACTION", "duration": 156.71, "groupName": "PHOTOSYNTHESIS", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/SUPER_EMOTION_BATCH_5_O_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_20_OCT_2025/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/f9cf543d-655c-4c2e-b30b-c2acf47003e6.pdf", "s3LinkLow": "https://m3u8cdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FSUPER_EMOTION_BATCH_5_O_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_20_OCT_2025%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY/ifas-liveclass-6912c03bdb163dc392d9f3de_2025-11-11.mp4"}, {"lectureTitle": "L03 : LIGHT AND DARK REACTION", "duration": 179.51, "groupName": "PHOTOSYNTHESIS", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/SUPER_EMOTION_BATCH_5_O_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_20_OCT_2025/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/c8396922-f98d-4b58-9c27-28ad6932d4aa.pdf", "s3LinkLow": "https://m3u8cdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FSUPER_EMOTION_BATCH_5_O_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_20_OCT_2025%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY/ifas-liveclass-6912c03bdb163dc392d9f3df_2025-11-12.mp4"}, {"lectureTitle": "L04 : REGULATION OF C3 CYCLE / C2 CYCLE", "duration": 127.53, "groupName": "PHOTOSYNTHESIS", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/SUPER_EMOTION_BATCH_5_O_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_20_OCT_2025/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/a5303b70-edeb-4812-ac19-9ca0577f86e1.pdf", "s3LinkLow": "https://m3u8cdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FSUPER_EMOTION_BATCH_5_O_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_20_OCT_2025%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY/ifas-liveclass-6912c03bdb163dc392d9f3e0_2025-11-13.mp4"}, {"lectureTitle": "L05 : C4 AND CAM PATHWAY", "duration": 160.03, "groupName": "PHOTOSYNTHESIS", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/SUPER_EMOTION_BATCH_5_O_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_20_OCT_2025/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/ef70f176-7409-42b7-b6c4-902dafc17270.pdf", "s3LinkLow": "https://m3u8cdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FSUPER_EMOTION_BATCH_5_O_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_20_OCT_2025%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY/ifas-liveclass-6912c03bdb163dc392d9f3e1_2025-11-14.mp4"}, {"lectureTitle": "L06 : NITROGEN METABOLISM", "duration": 149.58, "groupName": "NITROGEN METABOLISM", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/SUPER_EMOTION_BATCH_5_O_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_20_OCT_2025/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/fbcd2850-df1b-4809-a91b-082ec2c5fff4.pdf", "s3LinkLow": "https://m3u8cdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FSUPER_EMOTION_BATCH_5_O_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_20_OCT_2025%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY/ifas-liveclass-6912c03bdb163dc392d9f3e2_2025-11-15.mp4"}, {"lectureTitle": "L07 : NITROGEN FIXATION", "duration": 118.31, "groupName": "NITROGEN METABOLISM", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/TOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/23c21f43-a72a-4cd9-aacb-f0ca3439f323.pdf", "s3LinkLow": "https://m3u8cdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FTOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY/ifas-liveclass-691710b648e2408f92567e62_2025-11-17.mp4"}, {"lectureTitle": "L08 : TRANSPORT IN PLANTS 01", "duration": 129.83, "groupName": "TRANSPORT IN PLANTS", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/TOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/233ed136-abc9-4d1d-99bc-c1c45b547180.pdf", "s3LinkLow": "https://m3u8cdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FTOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY/ifas-liveclass-691710b648e2408f92567e63_2025-11-18.mp4"}, {"lectureTitle": "L09 : TRANSPORT IN PLANTS 02", "duration": 144.04, "groupName": "TRANSPORT IN PLANTS", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/TOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/5460622e-01d1-43f4-8c53-1ca3fcf227b9.pdf", "s3LinkLow": "https://m3u8cdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FTOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY/ifas-liveclass-691710b648e2408f92567e64_2025-11-19.mp4"}, {"lectureTitle": "L10 : PHOTOSENSORY BIOLOGY 01", "duration": 126.56, "groupName": "PHOTOSENSORY BIOLOGY & PHOTOPERIODISM", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/TOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/831f6abd-a8d3-41af-8966-24dad96a1ff8.pdf", "s3LinkLow": "https://m3u8cdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FTOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY/ifas-liveclass-691710b648e2408f92567e65_2025-11-20.mp4"}, {"lectureTitle": "L11 : PHOTOSENSORY BIOLOGY 02", "duration": 156.06, "groupName": "PHOTOSENSORY BIOLOGY & PHOTOPERIODISM", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/TOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/4a50078f-a0a3-4cb7-b227-ec62dd2c1af7.pdf", "s3LinkLow": "https://m3u8cdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FTOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY/ifas-liveclass-691710b648e2408f92567e66_2025-11-21.mp4"}, {"lectureTitle": "L12 : PHOTOPERIODISM, SECONDARY METABOLITES", "duration": 154.07, "groupName": "PHOTOSENSORY BIOLOGY & PHOTOPERIODISM", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/TOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/186c8062-4a87-47a2-ba39-54a7ee229d68.pdf", "s3LinkLow": "https://m3u8cdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FTOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY/ifas-liveclass-691710b648e2408f92567e67_2025-11-22.mp4"}, {"lectureTitle": "L13 : PHYTO-HORMONES – IAA , CK", "duration": 155.97, "groupName": "PHYTO-HORMONES", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/TOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/7973b346-63c8-4783-973d-ac0943f77262.pdf", "s3LinkLow": "https://m3u8cdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FTOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY/ifas-liveclass-69200f371b0ffd11d8b37821_2025-11-24.mp4"}, {"lectureTitle": "L14 : PHYTO-HORMONES – GA, ET, BL", "duration": 147.06, "groupName": "PHYTO-HORMONES", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/TOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/23faaafb-6eb7-431a-8574-bb1946996719.pdf", "s3LinkLow": "https://m3u8cdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FTOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY/ifas-liveclass-69200f371b0ffd11d8b37822_2025-11-25.mp4"}, {"lectureTitle": "L15 : PHYTO-HORMONES", "duration": 139.78, "groupName": "PHYTO-HORMONES", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/TOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/6a93f38d-66cb-44ef-9967-6377bd6e745a.pdf", "s3LinkLow": "https://m3u8cdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FTOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY/ifas-liveclass-69200f371b0ffd11d8b37823_2025-11-26.mp4"}, {"lectureTitle": "L16 : STRESS PHYSIOLOGY - ABIOTIC", "duration": 158.96, "groupName": "STRESS PHYSIOLOGY", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/TOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/cdb2ffc0-a133-4ded-b54d-466cf84efac4.pdf", "s3LinkLow": "https://m3u8cdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FTOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY/ifas-liveclass-69200f371b0ffd11d8b37824_2025-11-27.mp4"}, {"lectureTitle": "L17 : BIOTIC STRESS – PATHOGENS, PTI", "duration": 143.83, "groupName": "STRESS PHYSIOLOGY", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/TOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/8f9d3630-cfbd-4298-83be-307e6719f2b1.pdf", "s3LinkLow": "https://m3u8cdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FTOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY/ifas-liveclass-69200f371b0ffd11d8b37825_2025-11-28.mp4"}, {"lectureTitle": "L18 : BIOTIC STRESS – PTI, ETS, ETI", "duration": 91.83, "groupName": "STRESS PHYSIOLOGY", "handout1Url": "https://media.ifasonline.com/production/CSIR_NET/LIFE_SCIENCE/TOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/UNIT_6_PLANT_PHYSIOLOGY/69a969d7-cfc8-4257-892c-51be9b61bb41.pdf", "s3LinkLow": "https://m3u8cdn.ifasonline.com/MP4_Compressed_Video/CSIR_NET%2FLIFE_SCIENCE%2FTOPPERS_CSIR_NET_LIFE_SCIENCES_LIVE_ONLINE_COURSE_HINGLISH_7_July_2025%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY%2FUNIT_6_PLANT_PHYSIOLOGY/ifas-liveclass-69200f371b0ffd11d8b37826_2025-11-29.mp4"}]};
+
+      let currentVideo = null;
+
+      function PlayVideo(button) {
+        const videoUrl = button.getAttribute("data-url");
+        if (currentVideo) {
+          currentVideo.pause();
+          currentVideo.remove();
+          currentVideo = null;
+        }
+        const videoElement = document.createElement("video");
+        videoElement.src = videoUrl;
+        videoElement.controls = true;
+        videoElement.autoplay = true;
+        videoElement.style.display = "block";
+        button.parentElement.appendChild(videoElement);
+        currentVideo = videoElement;
+      }
+
+      function formatDuration(minutes) {
+        const hrs = Math.floor(minutes / 60);
+        const mins = Math.round(minutes % 60);
+        if (hrs > 0) return hrs + "h " + mins + "m";
+        return mins + " min";
+      }
+
+      function groupByTopic(lectures) {
+        const groups = {};
+        lectures.forEach((item) => {
+          const g = item.groupName || "GENERAL";
+          if (!groups[g]) groups[g] = [];
+          groups[g].push(item);
+        });
+        return groups;
+      }
+
+      function renderAll() {
+        const container = document.getElementById("topics-container");
+        container.innerHTML = "";
+
+        for (const [unitName, lectures] of Object.entries(allUnits)) {
+          const unitSection = document.createElement("div");
+          unitSection.classList.add("unit-section");
+
+          const unitHeading = document.createElement("div");
+          unitHeading.classList.add("unit-heading");
+          unitHeading.textContent = unitName + " (" + lectures.length + " lectures)";
+          unitSection.appendChild(unitHeading);
+
+          const unitContent = document.createElement("div");
+          unitContent.classList.add("unit-content");
+
+          unitHeading.addEventListener("click", () => {
+            unitContent.style.display = unitContent.style.display === "block" ? "none" : "block";
+          });
+
+          const groups = groupByTopic(lectures);
+
+          for (const [title, topics] of Object.entries(groups)) {
+            const groupElement = document.createElement("div");
+            groupElement.classList.add("topic-group");
+
+            const titleElement = document.createElement("div");
+            titleElement.classList.add("group-title");
+            titleElement.textContent = title + " (" + topics.length + " lectures)";
+            titleElement.addEventListener("click", () => {
+              const content = groupElement.querySelector(".topic-content");
+              content.style.display = content.style.display === "block" ? "none" : "block";
+            });
+
+            const contentElement = document.createElement("div");
+            contentElement.classList.add("topic-content");
+
+            topics.forEach((topic) => {
+              const topicElement = document.createElement("div");
+              topicElement.classList.add("topic");
+              let linksHTML = "";
+              if (topic.handout1Url) {
+                linksHTML += '<a href="' + topic.handout1Url + '" rel="noreferrer" target="_blank">PDF Link</a>';
+              }
+              if (topic.s3LinkLow) {
+                linksHTML += '<a href="' + topic.s3LinkLow + '" rel="noreferrer" target="_blank">Video Link</a>';
+                linksHTML += '<button onclick="PlayVideo(this)" data-url="' + topic.s3LinkLow + '">Play</button>';
+              }
+              topicElement.innerHTML =
+                '<div class="subtitle">' + topic.lectureTitle + ' <span style="color:#888; font-size:0.85em;">(' + formatDuration(topic.duration) + ')</span></div>' +
+                '<div class="links">' + linksHTML + '</div>';
+              contentElement.appendChild(topicElement);
+            });
+
+            groupElement.appendChild(titleElement);
+            groupElement.appendChild(contentElement);
+            unitContent.appendChild(groupElement);
+          }
+
+          unitSection.appendChild(unitContent);
+          container.appendChild(unitSection);
+        }
+      }
+
+      renderAll();
+    </script>
+  </body>
+</html>
