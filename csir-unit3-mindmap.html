@@ -30,7 +30,7 @@
 html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);font-family:'DM Sans',sans-serif;color:var(--text)}
 
 /* Canvas */
-#canvas{width:100%;height:100%;position:relative;cursor:grab}
+#canvas{width:100%;height:100%;position:relative;cursor:grab;touch-action:none;-webkit-user-select:none;user-select:none;overflow:hidden}
 #canvas.grabbing{cursor:grabbing}
 #world{position:absolute;top:0;left:0;transform-origin:0 0;transition:none}
 
@@ -68,7 +68,7 @@ html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);font-famil
 
 /* SVG lines */
 #lines{position:absolute;top:0;left:0;pointer-events:none;overflow:visible}
-#lines path{fill:none;stroke:var(--border);stroke-width:1.8;transition:opacity .3s}
+#lines path{fill:none;stroke:var(--border);stroke-width:1.8;transition:d var(--transition),opacity .3s}
 
 /* Node */
 .node{
@@ -76,12 +76,13 @@ html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);font-famil
   padding:10px 18px;border-radius:var(--radius);
   background:var(--surface);border:1px solid var(--border);
   cursor:pointer;user-select:none;
-  transition:transform var(--transition),box-shadow var(--transition),opacity var(--transition),background var(--transition);
-  opacity:0;animation:nodeIn .5s ease forwards;
+  transition:left var(--transition),top var(--transition),transform var(--transition),box-shadow var(--transition),opacity .3s ease,background var(--transition);
+  opacity:1;
 }
+.node.hidden{opacity:0;pointer-events:none}
 .node:hover{transform:translateY(-2px)!important;z-index:10}
-.node .label{font-size:13px;font-weight:500;line-height:1.3}
-.node .sub{font-size:11px;color:var(--text-dim);margin-top:2px}
+.node .label{font-size:13px;font-weight:500;line-height:1.3;display:block}
+.node .sub{font-size:11px;color:var(--text-dim);margin-top:2px;display:block}
 .node .toggle{
   position:absolute;right:-10px;top:50%;transform:translateY(-50%);
   width:20px;height:20px;border-radius:50%;
@@ -122,11 +123,6 @@ html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);font-famil
 
 /* Mid-level */
 .node.mid .label{font-size:14px;font-weight:600}
-
-@keyframes nodeIn{
-  from{opacity:0;transform:scale(.92) translateY(6px)}
-  to{opacity:1;transform:scale(1) translateY(0)}
-}
 
 /* Tooltip */
 #tooltip{
@@ -278,7 +274,7 @@ const DATA = {
 };
 
 // ── Layout Engine ──
-const GAP_X = 220, GAP_Y = 10, NODE_H = 42, MID_H = 48, ROOT_H = 56;
+const GAP_X = 220, GAP_Y = 20, NODE_H = 42, MID_H = 48, ROOT_H = 56;
 let nodes = [], edges = [];
 let idCounter = 0;
 
@@ -290,7 +286,7 @@ function buildTree(data, depth=0, branch=0, parent=null) {
   const node = {
     id, label: data.label, sub: data.sub||'', depth, branch,
     parent, children: [], isRoot, isMid, isLeaf,
-    collapsed: false, x:0, y:0,
+    collapsed: depth >= 1 && !isLeaf, x:0, y:0,
     h: isRoot ? ROOT_H : isMid ? MID_H : NODE_H,
     el: null
   };
@@ -357,19 +353,68 @@ function measureNode(n) {
   world.removeChild(el);
 }
 
-function render() {
-  // clear
-  world.querySelectorAll('.node').forEach(e=>e.remove());
-  svg.innerHTML = '';
+function render() { update(); }
 
+// Create all DOM nodes once
+function createAllNodes() {
+  nodes.forEach(n => {
+    const el = document.createElement('div');
+    el.className = 'node' + (n.isRoot?' root':'') + (n.isMid?' mid':'') + (n.isLeaf?' leaf':'') + ` branch-${n.branch%5}`;
+    el.classList.add('hidden'); // start hidden, update() will reveal
+    let html = `<span class="label">${n.label}</span>`;
+    if(n.sub) html += `<span class="sub">${n.sub}</span>`;
+    if(n.children.length>0) html += `<span class="toggle">▾</span>`;
+    el.innerHTML = html;
+    el.style.left = '0px';
+    el.style.top = '0px';
+    el.dataset.id = n.id;
+    n.el = el;
+
+    // click to collapse/expand
+    el.addEventListener('click', (ev) => {
+      if(n.children.length > 0) {
+        n.collapsed = !n.collapsed;
+        update();
+      }
+    });
+
+    // hover tooltip for leaves with sub
+    if(n.isLeaf && n.sub) {
+      el.addEventListener('mouseenter', () => {
+        tooltip.textContent = `${n.label}: ${n.sub}`;
+        tooltip.classList.add('visible');
+      });
+      el.addEventListener('mousemove', (ev) => {
+        tooltip.style.left = (ev.clientX+14)+'px';
+        tooltip.style.top = (ev.clientY+14)+'px';
+      });
+      el.addEventListener('mouseleave', () => tooltip.classList.remove('visible'));
+    }
+
+    world.appendChild(el);
+  });
+
+  // Create all SVG edge paths once
+  edges.forEach((e, i) => {
+    const path = document.createElementNS('http://www.w3.org/2000/svg','path');
+    path.setAttribute('d','M0,0 C0,0 0,0 0,0');
+    const fromNode = nodes[e.from];
+    path.style.stroke = [`var(--accent-1)`,`var(--accent-2)`,`var(--accent-3)`,`var(--accent-4)`,`var(--accent-5)`][fromNode.branch%5];
+    path.style.opacity = 0;
+    e.pathEl = path;
+    svg.appendChild(path);
+  });
+}
+
+function update() {
   layout();
 
-  // determine bounds
-  let minX=Infinity,minY=Infinity,maxX=-Infinity,maxY=-Infinity;
-  nodes.forEach(n=>{
+  // Determine bounds from visible nodes
+  let minX=Infinity, minY=Infinity, maxX=-Infinity, maxY=-Infinity;
+  nodes.forEach(n => {
     if(!isVisible(n.id)) return;
-    minX=Math.min(minX,n.x); minY=Math.min(minY,n.y);
-    maxX=Math.max(maxX,n.x+(n.measuredW||180)); maxY=Math.max(maxY,n.y+n.h);
+    minX=Math.min(minX, n.x); minY=Math.min(minY, n.y);
+    maxX=Math.max(maxX, n.x+(n.measuredW||180)); maxY=Math.max(maxY, n.y+n.h);
   });
   const pad=80;
   svg.setAttribute('width', maxX+pad);
@@ -379,61 +424,39 @@ function render() {
   world.style.width = (maxX+pad)+'px';
   world.style.height = (maxY+pad)+'px';
 
-  // edges
-  edges.forEach(e=>{
-    if(!isVisible(e.from)||!isVisible(e.to)) return;
-    const from=nodes[e.from], to=nodes[e.to];
-    const x1=from.x+(from.measuredW||160), y1=from.y+from.h/2;
-    const x2=to.x, y2=to.y+to.h/2;
-    const mx = x1 + (x2-x1)*0.5;
-    const path = document.createElementNS('http://www.w3.org/2000/svg','path');
-    path.setAttribute('d',`M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}`);
-    path.setAttribute('class',`edge-branch-${from.branch%5}`);
-    path.style.stroke = [`var(--accent-1)`,`var(--accent-2)`,`var(--accent-3)`,`var(--accent-4)`,`var(--accent-5)`][from.branch%5];
-    path.style.opacity = 0.35;
-    svg.appendChild(path);
+  // Update node positions and visibility
+  nodes.forEach(n => {
+    const vis = isVisible(n.id);
+    if(vis) {
+      n.el.style.left = n.x + 'px';
+      n.el.style.top = n.y + 'px';
+      n.el.classList.remove('hidden');
+    } else {
+      // Move hidden nodes to their parent's position for a smooth collapse
+      const parent = n.parent !== null ? nodes[n.parent] : n;
+      n.el.style.left = parent.x + 'px';
+      n.el.style.top = parent.y + 'px';
+      n.el.classList.add('hidden');
+    }
+    // Update collapsed toggle
+    if(n.children.length > 0) {
+      n.el.classList.toggle('collapsed', n.collapsed);
+    }
   });
 
-  // nodes
-  let delay = 0;
-  nodes.forEach(n=>{
-    if(!isVisible(n.id)) return;
-    const el = document.createElement('div');
-    el.className = 'node' + (n.isRoot?' root':'') + (n.isMid?' mid':'') + (n.isLeaf?' leaf':'') + ` branch-${n.branch%5}`;
-    if(n.collapsed) el.classList.add('collapsed');
-    let html = `<span class="label">${n.label}</span>`;
-    if(n.sub) html += `<span class="sub">${n.sub}</span>`;
-    if(n.children.length>0) html += `<span class="toggle">▾</span>`;
-    el.innerHTML = html;
-    el.style.left = n.x+'px';
-    el.style.top = n.y+'px';
-    el.style.animationDelay = (delay*20)+'ms';
-    el.dataset.id = n.id;
-    n.el = el;
-
-    // click to collapse/expand
-    el.addEventListener('click',(ev)=>{
-      if(n.children.length>0) {
-        n.collapsed = !n.collapsed;
-        render();
-      }
-    });
-
-    // hover tooltip for leaves with sub
-    if(n.isLeaf && n.sub) {
-      el.addEventListener('mouseenter',(ev)=>{
-        tooltip.textContent = `${n.label}: ${n.sub}`;
-        tooltip.classList.add('visible');
-      });
-      el.addEventListener('mousemove',(ev)=>{
-        tooltip.style.left = (ev.clientX+14)+'px';
-        tooltip.style.top = (ev.clientY+14)+'px';
-      });
-      el.addEventListener('mouseleave',()=>tooltip.classList.remove('visible'));
+  // Update edge paths and visibility
+  edges.forEach(e => {
+    const vis = isVisible(e.from) && isVisible(e.to);
+    if(vis) {
+      const from = nodes[e.from], to = nodes[e.to];
+      const x1 = from.x + (from.measuredW||160), y1 = from.y + from.h/2;
+      const x2 = to.x, y2 = to.y + to.h/2;
+      const mx = x1 + (x2-x1)*0.5;
+      e.pathEl.setAttribute('d', `M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}`);
+      e.pathEl.style.opacity = 0.35;
+    } else {
+      e.pathEl.style.opacity = 0;
     }
-
-    world.appendChild(el);
-    delay++;
   });
 }
 
@@ -446,22 +469,27 @@ function isVisible(nid) {
 }
 
 // ── Pan & Zoom ──
-let scale=1, tx=0, ty=0, dragging=false, dragX=0, dragY=0;
+let scale=1, tx=0, ty=0;
 function applyTransform(){
   world.style.transform = `translate(${tx}px,${ty}px) scale(${scale})`;
 }
-canvas.addEventListener('pointerdown',(e)=>{
+
+// --- Mouse drag (desktop) ---
+let mouseDrag=false, mouseStartX=0, mouseStartY=0;
+canvas.addEventListener('mousedown',(e)=>{
   if(e.target.closest('.node')) return;
-  dragging=true; dragX=e.clientX-tx; dragY=e.clientY-ty;
+  mouseDrag=true;
+  mouseStartX=e.clientX-tx; mouseStartY=e.clientY-ty;
   canvas.classList.add('grabbing');
-  canvas.setPointerCapture(e.pointerId);
 });
-canvas.addEventListener('pointermove',(e)=>{
-  if(!dragging) return;
-  tx=e.clientX-dragX; ty=e.clientY-dragY;
+window.addEventListener('mousemove',(e)=>{
+  if(!mouseDrag) return;
+  tx=e.clientX-mouseStartX; ty=e.clientY-mouseStartY;
   applyTransform();
 });
-canvas.addEventListener('pointerup',()=>{dragging=false;canvas.classList.remove('grabbing')});
+window.addEventListener('mouseup',()=>{mouseDrag=false;canvas.classList.remove('grabbing')});
+
+// --- Mouse wheel zoom (desktop) ---
 canvas.addEventListener('wheel',(e)=>{
   e.preventDefault();
   const rect=canvas.getBoundingClientRect();
@@ -474,33 +502,77 @@ canvas.addEventListener('wheel',(e)=>{
   applyTransform();
 },{passive:false});
 
-// Touch pinch
-let lastTouchDist=0, lastTouchMid={x:0,y:0};
+// --- Touch handling (mobile) ---
+let activeTouches=[];
+let touchState=null; // null | 'pan' | 'pinch'
+let panStartX=0, panStartY=0, panTxStart=0, panTyStart=0;
+let pinchStartDist=0, pinchStartScale=1, pinchStartTx=0, pinchStartTy=0;
+let pinchMidX=0, pinchMidY=0;
+
+function getTouchDist(t){
+  const dx=t[0].clientX-t[1].clientX, dy=t[0].clientY-t[1].clientY;
+  return Math.sqrt(dx*dx+dy*dy);
+}
+function getTouchMid(t){
+  return {x:(t[0].clientX+t[1].clientX)/2, y:(t[0].clientY+t[1].clientY)/2};
+}
+
 canvas.addEventListener('touchstart',(e)=>{
-  if(e.touches.length===2){
-    const dx=e.touches[0].clientX-e.touches[1].clientX;
-    const dy=e.touches[0].clientY-e.touches[1].clientY;
-    lastTouchDist=Math.sqrt(dx*dx+dy*dy);
-    lastTouchMid={x:(e.touches[0].clientX+e.touches[1].clientX)/2,y:(e.touches[0].clientY+e.touches[1].clientY)/2};
-  }
-},{passive:true});
-canvas.addEventListener('touchmove',(e)=>{
-  if(e.touches.length===2){
+  const touches = Array.from(e.touches);
+  if(touches.length===1 && !e.target.closest('.node')){
+    touchState='pan';
+    panStartX=touches[0].clientX; panStartY=touches[0].clientY;
+    panTxStart=tx; panTyStart=ty;
     e.preventDefault();
-    const dx=e.touches[0].clientX-e.touches[1].clientX;
-    const dy=e.touches[0].clientY-e.touches[1].clientY;
-    const dist=Math.sqrt(dx*dx+dy*dy);
-    const d=dist/lastTouchDist;
-    const ns=Math.max(0.15,Math.min(3,scale*d));
-    const mx=(e.touches[0].clientX+e.touches[1].clientX)/2;
-    const my=(e.touches[0].clientY+e.touches[1].clientY)/2;
-    tx=mx-(mx-tx)*(ns/scale);
-    ty=my-(my-ty)*(ns/scale);
+  } else if(touches.length===2){
+    touchState='pinch';
+    pinchStartDist=getTouchDist(touches);
+    pinchStartScale=scale;
+    pinchStartTx=tx; pinchStartTy=ty;
+    const mid=getTouchMid(touches);
+    pinchMidX=mid.x; pinchMidY=mid.y;
+    e.preventDefault();
+  }
+},{passive:false});
+
+canvas.addEventListener('touchmove',(e)=>{
+  const touches=Array.from(e.touches);
+  if(touchState==='pan' && touches.length===1){
+    e.preventDefault();
+    const dx=touches[0].clientX-panStartX, dy=touches[0].clientY-panStartY;
+    tx=panTxStart+dx; ty=panTyStart+dy;
+    applyTransform();
+  } else if(touchState==='pinch' && touches.length===2){
+    e.preventDefault();
+    // Zoom
+    const dist=getTouchDist(touches);
+    const ratio=dist/pinchStartDist;
+    const ns=Math.max(0.15, Math.min(3, pinchStartScale*ratio));
+    // Pan from midpoint movement
+    const mid=getTouchMid(touches);
+    const midDx=mid.x-pinchMidX, midDy=mid.y-pinchMidY;
+    // Apply zoom centered on original pinch midpoint, plus pan delta
+    const rect=canvas.getBoundingClientRect();
+    const ox=pinchMidX-rect.left, oy=pinchMidY-rect.top;
+    tx = ox - (ox-pinchStartTx)*(ns/pinchStartScale) + midDx;
+    ty = oy - (oy-pinchStartTy)*(ns/pinchStartScale) + midDy;
     scale=ns;
-    lastTouchDist=dist;
     applyTransform();
   }
 },{passive:false});
+
+canvas.addEventListener('touchend',(e)=>{
+  if(e.touches.length===0){
+    touchState=null;
+  } else if(e.touches.length===1 && touchState==='pinch'){
+    // Transitioned from pinch to single finger — restart pan from current state
+    touchState='pan';
+    panStartX=e.touches[0].clientX; panStartY=e.touches[0].clientY;
+    panTxStart=tx; panTyStart=ty;
+  }
+},{passive:true});
+
+canvas.addEventListener('touchcancel',()=>{touchState=null},{passive:true});
 
 // ── Toolbar ──
 document.getElementById('btn-zin').onclick=()=>{scale=Math.min(3,scale*1.2);applyTransform()};
@@ -546,7 +618,8 @@ searchInput.addEventListener('input',()=>{
 // ── Init ──
 buildTree(DATA);
 nodes.forEach(n=>measureNode(n));
-render();
+createAllNodes();
+update();
 requestAnimationFrame(()=>fitView());
 </script>
 </body>
