@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Molecular Biology – Interactive Mind Map</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0c0f14;
+  --surface:#161b24;
+  --surface-hover:#1e2530;
+  --border:#2a3140;
+  --text:#e2e6ed;
+  --text-dim:#8891a0;
+  --accent-1:#4a9e7e;
+  --accent-2:#3b7dd8;
+  --accent-3:#c8a24e;
+  --accent-4:#c75d5d;
+  --accent-5:#8b6fc0;
+  --glow-1:rgba(74,158,126,.25);
+  --glow-2:rgba(59,125,216,.25);
+  --glow-3:rgba(200,162,78,.25);
+  --glow-4:rgba(199,93,93,.25);
+  --glow-5:rgba(139,111,192,.25);
+  --radius:10px;
+  --transition:0.35s cubic-bezier(.4,0,.2,1);
+}
+html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);font-family:'DM Sans',sans-serif;color:var(--text)}
+
+/* Canvas */
+#canvas{width:100%;height:100%;position:relative;cursor:grab}
+#canvas.grabbing{cursor:grabbing}
+#world{position:absolute;top:0;left:0;transform-origin:0 0;transition:none}
+
+/* Toolbar */
+#toolbar{
+  position:fixed;bottom:24px;left:50%;transform:translateX(-50%);
+  display:flex;gap:6px;padding:6px;
+  background:rgba(22,27,36,.85);backdrop-filter:blur(16px);
+  border:1px solid var(--border);border-radius:14px;z-index:100;
+}
+#toolbar button{
+  width:40px;height:40px;border:none;border-radius:10px;
+  background:transparent;color:var(--text-dim);font-size:18px;
+  cursor:pointer;display:grid;place-items:center;transition:var(--transition);
+}
+#toolbar button:hover{background:var(--surface-hover);color:var(--text)}
+#toolbar .sep{width:1px;background:var(--border);margin:6px 0}
+
+/* Title bar */
+#titlebar{
+  position:fixed;top:0;left:0;right:0;padding:18px 24px;
+  display:flex;align-items:center;gap:14px;z-index:90;
+  background:linear-gradient(180deg,var(--bg) 60%,transparent);
+  pointer-events:none;
+}
+#titlebar h1{
+  font-family:'Instrument Serif',serif;font-size:clamp(18px,3vw,26px);
+  font-weight:400;letter-spacing:-.02em;pointer-events:auto;
+}
+#titlebar .badge{
+  font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;
+  padding:4px 10px;border-radius:20px;
+  background:rgba(74,158,126,.15);color:var(--accent-1);
+}
+
+/* SVG lines */
+#lines{position:absolute;top:0;left:0;pointer-events:none;overflow:visible}
+#lines path{fill:none;stroke:var(--border);stroke-width:1.8;transition:opacity .3s}
+
+/* Node */
+.node{
+  position:absolute;white-space:nowrap;
+  padding:10px 18px;border-radius:var(--radius);
+  background:var(--surface);border:1px solid var(--border);
+  cursor:pointer;user-select:none;
+  transition:transform var(--transition),box-shadow var(--transition),opacity var(--transition),background var(--transition);
+  opacity:0;animation:nodeIn .5s ease forwards;
+}
+.node:hover{transform:translateY(-2px)!important;z-index:10}
+.node .label{font-size:13px;font-weight:500;line-height:1.3}
+.node .sub{font-size:11px;color:var(--text-dim);margin-top:2px}
+.node .toggle{
+  position:absolute;right:-10px;top:50%;transform:translateY(-50%);
+  width:20px;height:20px;border-radius:50%;
+  background:var(--surface);border:1px solid var(--border);
+  display:grid;place-items:center;font-size:11px;color:var(--text-dim);
+  transition:var(--transition);
+}
+.node .toggle:hover{background:var(--surface-hover);color:var(--text)}
+.node.collapsed .toggle{transform:translateY(-50%) rotate(-90deg)}
+
+/* Root node */
+.node.root{
+  background:linear-gradient(135deg,#1a2332,#1e2a3a);
+  border-color:var(--accent-2);
+  box-shadow:0 0 30px var(--glow-2),0 4px 20px rgba(0,0,0,.4);
+  padding:16px 28px;
+}
+.node.root .label{font-family:'Instrument Serif',serif;font-size:18px;font-weight:400}
+
+/* Branch colors */
+.node.branch-0{border-color:var(--accent-1)}
+.node.branch-0:hover{box-shadow:0 4px 20px var(--glow-1)}
+.node.branch-1{border-color:var(--accent-2)}
+.node.branch-1:hover{box-shadow:0 4px 20px var(--glow-2)}
+.node.branch-2{border-color:var(--accent-3)}
+.node.branch-2:hover{box-shadow:0 4px 20px var(--glow-3)}
+.node.branch-3{border-color:var(--accent-4)}
+.node.branch-3:hover{box-shadow:0 4px 20px var(--glow-4)}
+.node.branch-4{border-color:var(--accent-5)}
+.node.branch-4:hover{box-shadow:0 4px 20px var(--glow-5)}
+
+/* Leaf */
+.node.leaf{
+  background:rgba(22,27,36,.7);border-style:dashed;
+  padding:7px 14px;
+}
+.node.leaf .label{font-size:12px;font-weight:400}
+
+/* Mid-level */
+.node.mid .label{font-size:14px;font-weight:600}
+
+@keyframes nodeIn{
+  from{opacity:0;transform:scale(.92) translateY(6px)}
+  to{opacity:1;transform:scale(1) translateY(0)}
+}
+
+/* Tooltip */
+#tooltip{
+  position:fixed;pointer-events:none;z-index:200;
+  padding:8px 14px;border-radius:8px;font-size:12px;
+  background:rgba(22,27,36,.95);border:1px solid var(--border);
+  backdrop-filter:blur(12px);color:var(--text);max-width:260px;
+  white-space:normal;opacity:0;transition:opacity .2s;
+  box-shadow:0 8px 30px rgba(0,0,0,.5);
+}
+#tooltip.visible{opacity:1}
+
+/* Search */
+#search-wrap{
+  position:fixed;top:18px;right:24px;z-index:100;
+}
+#search{
+  width:180px;padding:8px 14px 8px 34px;border-radius:10px;
+  border:1px solid var(--border);background:rgba(22,27,36,.85);
+  backdrop-filter:blur(12px);color:var(--text);font-size:13px;
+  font-family:inherit;outline:none;transition:var(--transition);
+}
+#search:focus{border-color:var(--accent-2);width:240px}
+#search-icon{
+  position:absolute;left:11px;top:50%;transform:translateY(-50%);
+  color:var(--text-dim);font-size:14px;pointer-events:none;
+}
+.node.highlight{
+  box-shadow:0 0 0 2px var(--accent-3),0 0 20px var(--glow-3)!important;
+  z-index:20!important;
+}
+.node.dimmed{opacity:.25!important}
+
+/* Mobile */
+@media(max-width:600px){
+  #toolbar{bottom:12px;padding:4px;gap:4px}
+  #toolbar button{width:36px;height:36px;font-size:16px}
+  #titlebar{padding:12px 16px}
+  #search{width:140px;font-size:12px}
+  #search:focus{width:180px}
+  .node{padding:7px 12px}
+  .node .label{font-size:11px}
+  .node.root{padding:12px 20px}
+  .node.root .label{font-size:15px}
+}
+</style>
+</head>
+<body>
+<div id="titlebar">
+  <h1>Fundamental Processes in Molecular Biology</h1>
+  <span class="badge">CSIR NET Unit 3</span>
+</div>
+<div id="search-wrap">
+  <span id="search-icon">⌕</span>
+  <input id="search" type="text" placeholder="Search nodes…" autocomplete="off">
+</div>
+<div id="canvas">
+  <div id="world">
+    <svg id="lines"></svg>
+  </div>
+</div>
+<div id="toolbar">
+  <button id="btn-zin" title="Zoom In">+</button>
+  <button id="btn-zout" title="Zoom Out">−</button>
+  <button id="btn-fit" title="Fit View">⊡</button>
+  <div class="sep"></div>
+  <button id="btn-expand" title="Expand All">⊞</button>
+  <button id="btn-collapse" title="Collapse All">⊟</button>
+</div>
+<div id="tooltip"></div>
+
+<script>
+// ── Data ──
+const DATA = {
+  label: "Fundamental Processes",
+  sub: "Molecular Biology",
+  children: [
+    {
+      label: "DNA Replication", children: [
+        { label: "Prokaryotes", children: [
+          {label:"Single Origin (oriC)"},{label:"DnaA Initiator"},{label:"DNA Pol III",sub:"Main polymerase"},
+          {label:"DNA Pol I",sub:"Primer removal"},{label:"Rapid",sub:"~1000 bp/sec"},{label:"Circular DNA"}
+        ]},
+        { label: "Eukaryotes", children: [
+          {label:"Multiple Origins"},{label:"ORC Initiator"},{label:"Pol Epsilon",sub:"Leading strand"},
+          {label:"Pol Delta",sub:"Lagging strand"},{label:"Slower",sub:"50–100 bp/sec"},{label:"Linear DNA",sub:"Telomeres"}
+        ]},
+        { label: "Enzymes", children: [
+          {label:"Helicase",sub:"Unwinding"},{label:"Primase",sub:"RNA Primers"},{label:"Ligase",sub:"Joining fragments"},
+          {label:"Topoisomerase",sub:"Supercoiling"},{label:"SSBPs",sub:"Stabilizing ssDNA"}
+        ]}
+      ]
+    },
+    {
+      label: "Transcription", sub:"RNA Synthesis", children: [
+        { label: "Prokaryotic", children: [
+          {label:"Single RNA Polymerase"},{label:"Sigma Factors"},{label:"Coupled with Translation"},
+          {label:"Rho-dependent / independent",sub:"Termination"}
+        ]},
+        { label: "Eukaryotic", children: [
+          {label:"Pol I",sub:"rRNA"},{label:"Pol II",sub:"mRNA"},{label:"Pol III",sub:"tRNA"},
+          {label:"Occurs in Nucleus"}
+        ]},
+        { label: "Processing", children: [
+          {label:"5' Capping"},{label:"Splicing",sub:"Intron removal"},{label:"Polyadenylation",sub:"Poly-A tail"},
+          {label:"RNA Editing"}
+        ]}
+      ]
+    },
+    {
+      label: "Translation", sub:"Protein Synthesis", children: [
+        { label: "Ribosome Structure", children: [
+          {label:"Prokaryotic 70S",sub:"50S + 30S"},{label:"Eukaryotic 80S",sub:"60S + 40S"}
+        ]},
+        { label: "Initiation", children: [
+          {label:"Shine-Dalgarno",sub:"Prokaryotes"},{label:"5' Cap Recognition",sub:"Eukaryotes"},
+          {label:"fMet",sub:"Prokaryotes"},{label:"Met",sub:"Eukaryotes"}
+        ]},
+        { label: "Phases", children: [
+          {label:"Aminoacylation",sub:"tRNA charging"},{label:"Elongation"},{label:"Termination",sub:"Release Factors"}
+        ]}
+      ]
+    },
+    {
+      label: "Gene Regulation", children: [
+        { label: "Lac Operon", sub:"Inducible", children: [
+          {label:"Allolactose Inducer"},{label:"Negative Control",sub:"LacI Repressor"},
+          {label:"Positive Control",sub:"CAP-cAMP"},{label:"Glucose Effect"}
+        ]},
+        { label: "Trp Operon", sub:"Repressible", children: [
+          {label:"Trp Corepressor"},{label:"Attenuation",sub:"Leader peptide"},
+          {label:"Terminator / Anti-terminator",sub:"Loops"}
+        ]},
+        { label: "Eukaryotic Control", children: [
+          {label:"Chromatin Remodeling"},{label:"Epigenetics",sub:"Methylation"},{label:"Gene Silencing",sub:"RNAi"}
+        ]}
+      ]
+    },
+    {
+      label: "DNA Repair", children: [
+        {label:"Direct Reversal",sub:"Photoreactivation"},
+        {label:"BER",sub:"Base Excision Repair"},
+        {label:"NER",sub:"Nucleotide Excision Repair"},
+        {label:"MMR",sub:"Mismatch Repair"},
+        {label:"DSB Repair",sub:"NHEJ & HDR"}
+      ]
+    }
+  ]
+};
+
+// ── Layout Engine ──
+const GAP_X = 220, GAP_Y = 10, NODE_H = 42, MID_H = 48, ROOT_H = 56;
+let nodes = [], edges = [];
+let idCounter = 0;
+
+function buildTree(data, depth=0, branch=0, parent=null) {
+  const id = idCounter++;
+  const isRoot = depth === 0;
+  const isMid = depth === 1;
+  const isLeaf = !data.children || data.children.length === 0;
+  const node = {
+    id, label: data.label, sub: data.sub||'', depth, branch,
+    parent, children: [], isRoot, isMid, isLeaf,
+    collapsed: false, x:0, y:0,
+    h: isRoot ? ROOT_H : isMid ? MID_H : NODE_H,
+    el: null
+  };
+  nodes.push(node);
+  if(data.children) {
+    data.children.forEach((c,i)=>{
+      const child = buildTree(c, depth+1, depth===0? i : branch, id);
+      node.children.push(child.id);
+      edges.push({from:id,to:child.id});
+    });
+  }
+  return node;
+}
+
+function getSubtreeHeight(nid) {
+  const n = nodes[nid];
+  if(n.collapsed || n.children.length===0) return n.h;
+  let total = 0;
+  n.children.forEach((cid,i)=>{
+    total += getSubtreeHeight(cid);
+    if(i < n.children.length-1) total += GAP_Y;
+  });
+  return Math.max(total, n.h);
+}
+
+function layoutNode(nid, x, y) {
+  const n = nodes[nid];
+  const subtreeH = getSubtreeHeight(nid);
+  n.x = x;
+  n.y = y + subtreeH/2 - n.h/2;
+  if(!n.collapsed && n.children.length>0) {
+    let cy = y;
+    n.children.forEach((cid,i)=>{
+      const ch = getSubtreeHeight(cid);
+      layoutNode(cid, x + GAP_X, cy);
+      cy += ch + GAP_Y;
+    });
+  }
+}
+
+function layout() {
+  layoutNode(0, 60, 60);
+}
+
+// ── Rendering ──
+const world = document.getElementById('world');
+const svg = document.getElementById('lines');
+const canvas = document.getElementById('canvas');
+const tooltip = document.getElementById('tooltip');
+
+function measureNode(n) {
+  const el = document.createElement('div');
+  el.className = 'node' + (n.isRoot?' root':'') + (n.isMid?' mid':'') + (n.isLeaf?' leaf':'') + ` branch-${n.branch%5}`;
+  let html = `<span class="label">${n.label}</span>`;
+  if(n.sub) html += `<span class="sub">${n.sub}</span>`;
+  if(n.children.length>0) html += `<span class="toggle">▾</span>`;
+  el.innerHTML = html;
+  el.style.position = 'absolute';
+  el.style.visibility = 'hidden';
+  world.appendChild(el);
+  const w = el.offsetWidth, h = el.offsetHeight;
+  n.h = h;
+  n.measuredW = w;
+  world.removeChild(el);
+}
+
+function render() {
+  // clear
+  world.querySelectorAll('.node').forEach(e=>e.remove());
+  svg.innerHTML = '';
+
+  layout();
+
+  // determine bounds
+  let minX=Infinity,minY=Infinity,maxX=-Infinity,maxY=-Infinity;
+  nodes.forEach(n=>{
+    if(!isVisible(n.id)) return;
+    minX=Math.min(minX,n.x); minY=Math.min(minY,n.y);
+    maxX=Math.max(maxX,n.x+(n.measuredW||180)); maxY=Math.max(maxY,n.y+n.h);
+  });
+  const pad=80;
+  svg.setAttribute('width', maxX+pad);
+  svg.setAttribute('height', maxY+pad);
+  svg.style.width = (maxX+pad)+'px';
+  svg.style.height = (maxY+pad)+'px';
+  world.style.width = (maxX+pad)+'px';
+  world.style.height = (maxY+pad)+'px';
+
+  // edges
+  edges.forEach(e=>{
+    if(!isVisible(e.from)||!isVisible(e.to)) return;
+    const from=nodes[e.from], to=nodes[e.to];
+    const x1=from.x+(from.measuredW||160), y1=from.y+from.h/2;
+    const x2=to.x, y2=to.y+to.h/2;
+    const mx = x1 + (x2-x1)*0.5;
+    const path = document.createElementNS('http://www.w3.org/2000/svg','path');
+    path.setAttribute('d',`M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}`);
+    path.setAttribute('class',`edge-branch-${from.branch%5}`);
+    path.style.stroke = [`var(--accent-1)`,`var(--accent-2)`,`var(--accent-3)`,`var(--accent-4)`,`var(--accent-5)`][from.branch%5];
+    path.style.opacity = 0.35;
+    svg.appendChild(path);
+  });
+
+  // nodes
+  let delay = 0;
+  nodes.forEach(n=>{
+    if(!isVisible(n.id)) return;
+    const el = document.createElement('div');
+    el.className = 'node' + (n.isRoot?' root':'') + (n.isMid?' mid':'') + (n.isLeaf?' leaf':'') + ` branch-${n.branch%5}`;
+    if(n.collapsed) el.classList.add('collapsed');
+    let html = `<span class="label">${n.label}</span>`;
+    if(n.sub) html += `<span class="sub">${n.sub}</span>`;
+    if(n.children.length>0) html += `<span class="toggle">▾</span>`;
+    el.innerHTML = html;
+    el.style.left = n.x+'px';
+    el.style.top = n.y+'px';
+    el.style.animationDelay = (delay*20)+'ms';
+    el.dataset.id = n.id;
+    n.el = el;
+
+    // click to collapse/expand
+    el.addEventListener('click',(ev)=>{
+      if(n.children.length>0) {
+        n.collapsed = !n.collapsed;
+        render();
+      }
+    });
+
+    // hover tooltip for leaves with sub
+    if(n.isLeaf && n.sub) {
+      el.addEventListener('mouseenter',(ev)=>{
+        tooltip.textContent = `${n.label}: ${n.sub}`;
+        tooltip.classList.add('visible');
+      });
+      el.addEventListener('mousemove',(ev)=>{
+        tooltip.style.left = (ev.clientX+14)+'px';
+        tooltip.style.top = (ev.clientY+14)+'px';
+      });
+      el.addEventListener('mouseleave',()=>tooltip.classList.remove('visible'));
+    }
+
+    world.appendChild(el);
+    delay++;
+  });
+}
+
+function isVisible(nid) {
+  const n = nodes[nid];
+  if(n.parent === null) return true;
+  const p = nodes[n.parent];
+  if(p.collapsed) return false;
+  return isVisible(n.parent);
+}
+
+// ── Pan & Zoom ──
+let scale=1, tx=0, ty=0, dragging=false, dragX=0, dragY=0;
+function applyTransform(){
+  world.style.transform = `translate(${tx}px,${ty}px) scale(${scale})`;
+}
+canvas.addEventListener('pointerdown',(e)=>{
+  if(e.target.closest('.node')) return;
+  dragging=true; dragX=e.clientX-tx; dragY=e.clientY-ty;
+  canvas.classList.add('grabbing');
+  canvas.setPointerCapture(e.pointerId);
+});
+canvas.addEventListener('pointermove',(e)=>{
+  if(!dragging) return;
+  tx=e.clientX-dragX; ty=e.clientY-dragY;
+  applyTransform();
+});
+canvas.addEventListener('pointerup',()=>{dragging=false;canvas.classList.remove('grabbing')});
+canvas.addEventListener('wheel',(e)=>{
+  e.preventDefault();
+  const rect=canvas.getBoundingClientRect();
+  const mx=e.clientX-rect.left, my=e.clientY-rect.top;
+  const d = e.deltaY > 0 ? 0.9 : 1.1;
+  const ns = Math.max(0.15, Math.min(3, scale*d));
+  tx = mx - (mx-tx)*(ns/scale);
+  ty = my - (my-ty)*(ns/scale);
+  scale = ns;
+  applyTransform();
+},{passive:false});
+
+// Touch pinch
+let lastTouchDist=0, lastTouchMid={x:0,y:0};
+canvas.addEventListener('touchstart',(e)=>{
+  if(e.touches.length===2){
+    const dx=e.touches[0].clientX-e.touches[1].clientX;
+    const dy=e.touches[0].clientY-e.touches[1].clientY;
+    lastTouchDist=Math.sqrt(dx*dx+dy*dy);
+    lastTouchMid={x:(e.touches[0].clientX+e.touches[1].clientX)/2,y:(e.touches[0].clientY+e.touches[1].clientY)/2};
+  }
+},{passive:true});
+canvas.addEventListener('touchmove',(e)=>{
+  if(e.touches.length===2){
+    e.preventDefault();
+    const dx=e.touches[0].clientX-e.touches[1].clientX;
+    const dy=e.touches[0].clientY-e.touches[1].clientY;
+    const dist=Math.sqrt(dx*dx+dy*dy);
+    const d=dist/lastTouchDist;
+    const ns=Math.max(0.15,Math.min(3,scale*d));
+    const mx=(e.touches[0].clientX+e.touches[1].clientX)/2;
+    const my=(e.touches[0].clientY+e.touches[1].clientY)/2;
+    tx=mx-(mx-tx)*(ns/scale);
+    ty=my-(my-ty)*(ns/scale);
+    scale=ns;
+    lastTouchDist=dist;
+    applyTransform();
+  }
+},{passive:false});
+
+// ── Toolbar ──
+document.getElementById('btn-zin').onclick=()=>{scale=Math.min(3,scale*1.2);applyTransform()};
+document.getElementById('btn-zout').onclick=()=>{scale=Math.max(.15,scale/1.2);applyTransform()};
+document.getElementById('btn-fit').onclick=fitView;
+document.getElementById('btn-expand').onclick=()=>{nodes.forEach(n=>n.collapsed=false);render()};
+document.getElementById('btn-collapse').onclick=()=>{nodes.forEach(n=>{if(n.depth>=1)n.collapsed=true});render()};
+
+function fitView(){
+  let minX=Infinity,minY=Infinity,maxX=-Infinity,maxY=-Infinity;
+  nodes.forEach(n=>{
+    if(!isVisible(n.id))return;
+    minX=Math.min(minX,n.x);minY=Math.min(minY,n.y);
+    maxX=Math.max(maxX,n.x+(n.measuredW||180));maxY=Math.max(maxY,n.y+n.h);
+  });
+  const pad=100;
+  const cw=canvas.clientWidth, ch=canvas.clientHeight;
+  const tw=maxX-minX+pad*2, th=maxY-minY+pad*2;
+  scale=Math.min(cw/tw, ch/th, 1.2);
+  tx=cw/2 - (minX+maxX)/2*scale;
+  ty=ch/2 - (minY+maxY)/2*scale;
+  applyTransform();
+}
+
+// ── Search ──
+const searchInput = document.getElementById('search');
+searchInput.addEventListener('input',()=>{
+  const q = searchInput.value.trim().toLowerCase();
+  if(!q){
+    document.querySelectorAll('.node').forEach(el=>{el.classList.remove('highlight','dimmed')});
+    return;
+  }
+  let anyMatch=false;
+  nodes.forEach(n=>{
+    if(!n.el) return;
+    const match = n.label.toLowerCase().includes(q) || (n.sub&&n.sub.toLowerCase().includes(q));
+    n.el.classList.toggle('highlight',match);
+    n.el.classList.toggle('dimmed',!match);
+    if(match) anyMatch=true;
+  });
+});
+
+// ── Init ──
+buildTree(DATA);
+nodes.forEach(n=>measureNode(n));
+render();
+requestAnimationFrame(()=>fitView());
+</script>
+</body>
+</html>
