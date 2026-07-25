@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rajasthan SET Paper 01 - Study Material</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:#f0f2f5;color:#1a1a2e;line-height:1.6}
+  .header{background:linear-gradient(135deg,#4B4DED 0%,#3a3cc0 100%);color:#fff;padding:40px 20px;text-align:center}
+  .header h1{font-size:28px;font-weight:700;margin-bottom:6px}
+  .header p{opacity:.85;font-size:15px}
+  .stats{display:flex;justify-content:center;gap:24px;margin-top:16px;flex-wrap:wrap}
+  .stat{background:rgba(255,255,255,.15);padding:8px 20px;border-radius:20px;font-size:14px;font-weight:600}
+  .container{max-width:960px;margin:0 auto;padding:20px}
+  .search-box{position:sticky;top:0;z-index:10;background:#f0f2f5;padding:12px 0}
+  .search-box input{width:100%;padding:12px 20px;border:2px solid #e0e0e0;border-radius:10px;font-size:15px;outline:none;transition:border .2s}
+  .search-box input:focus{border-color:#4B4DED}
+  .folder{background:#fff;border-radius:12px;margin-bottom:16px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+  .folder-head{padding:16px 20px;background:#f8f9fa;display:flex;justify-content:space-between;align-items:center;cursor:pointer;user-select:none;border-bottom:1px solid #eee}
+  .folder-head:hover{background:#f0f1f3}
+  .folder-head h2{font-size:16px;font-weight:600;display:flex;align-items:center;gap:10px}
+  .folder-head h2::before{content:'';display:inline-block;width:4px;height:20px;border-radius:2px;background:#4B4DED}
+  .badge{background:#4B4DED;color:#fff;padding:2px 12px;border-radius:12px;font-size:13px;font-weight:600}
+  .chevron{transition:transform .2s;font-size:18px;color:#888}
+  .folder.collapsed .chevron{transform:rotate(-90deg)}
+  .folder.collapsed .folder-body{display:none}
+  .folder-body{padding:0}
+  .pdf-item{display:flex;align-items:center;padding:12px 20px;border-top:1px solid #f0f0f0;gap:12px;transition:background .15s}
+  .pdf-item:hover{background:#f8f9ff}
+  .pdf-num{color:#999;font-size:13px;min-width:28px;text-align:right;font-weight:500}
+  .pdf-icon{width:32px;height:32px;background:#fee2e2;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0}
+  .pdf-info{flex:1;min-width:0}
+  .pdf-title{font-size:14px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .pdf-size{font-size:12px;color:#888;margin-top:2px}
+  .pdf-actions{display:flex;gap:8px;flex-shrink:0}
+  .btn{padding:6px 14px;border:none;border-radius:6px;cursor:pointer;font-size:13px;font-weight:500;text-decoration:none;display:inline-flex;align-items:center;gap:4px;transition:background .15s}
+  .btn-view{background:#e0e7ff;color:#4B4DED}
+  .btn-view:hover{background:#c7d2fe}
+  .btn-dl{background:#d1fae5;color:#065f46}
+  .btn-dl:hover{background:#a7f3d0}
+  .footer{text-align:center;padding:30px;color:#999;font-size:13px}
+  .hidden{display:none!important}
+  @media(max-width:600px){
+    .header h1{font-size:22px}
+    .pdf-actions{flex-direction:column;gap:4px}
+    .btn{padding:5px 10px;font-size:12px}
+    .pdf-item{padding:10px 14px}
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Rajasthan SET Paper 01</h1>
+  <p>Complete Study Material - Notes & PDFs</p>
+  <div class="stats">
+    <span class="stat">93 PDFs</span>
+    <span class="stat">7 Subjects</span>
+  </div>
+</div>
+
+<div class="container">
+  <div class="search-box">
+    <input type="text" id="search" placeholder="Search PDFs..." autocomplete="off">
+  </div>
+  <div id="folders"></div>
+</div>
+
+<div class="footer">Rajasthan SET Paper 01 Batch - Study Material</div>
+
+<script>
+const DATA = [
+  {folder:"01 Teaching Aptitude", files:[
+    {title:"01 Teaching Introduction",file:"01 Teaching Aptitude__01_01 Teaching Introduction.pdf",size:"16.5 MB"},
+    {title:"02 Teaching Approach",file:"01 Teaching Aptitude__02_02 Teaching approach.pdf",size:"17.0 MB"},
+    {title:"03 Teaching Models",file:"01 Teaching Aptitude__03_03 Teaching models.pdf",size:"18.9 MB"},
+    {title:"04 Level of Teaching",file:"01 Teaching Aptitude__04_04 Leval of teaching.pdf",size:"9.3 MB"},
+    {title:"05 Types of Teaching & Bloom Taxonomy",file:"01 Teaching Aptitude__05_05 Types of teaching And bloom taxonomy.pdf",size:"11.7 MB"},
+    {title:"06 Bloom Taxonomy",file:"01 Teaching Aptitude__06_06 bloom taxonomy.pdf",size:"24.8 MB"},
+    {title:"08 Type of Evaluation Test",file:"01 Teaching Aptitude__08_08 Type of evaluation test.pdf",size:"1.6 MB"},
+    {title:"09 Learning Meaning & Principles",file:"01 Teaching Aptitude__09_09 Learning meaning and principles.pdf",size:"601 KB"},
+    {title:"10 Learning Theory",file:"01 Teaching Aptitude__10_10 Learning theory.pdf",size:"1.2 MB"},
+    {title:"11 Learning Theory Part 2",file:"01 Teaching Aptitude__11_11 Learning theory part 2.pdf",size:"24.5 MB"},
+    {title:"12 Jean Piaget & Vygotsky Theory",file:"01 Teaching Aptitude__12_12 Jean piaget and vygosky theory.pdf",size:"16.0 MB"},
+    {title:"13 Question Practice",file:"01 Teaching Aptitude__13_13 Question practice.pdf",size:"32.4 MB"}
+  ]},
+  {folder:"02 Research Aptitude", files:[
+    {title:"01 Research Aptitude",file:"02 Research Aptitude__14_01 Research Aptitide.pdf",size:"56.1 MB"},
+    {title:"02 Research Aptitude",file:"02 Research Aptitude__15_02 Research Aptitide.pdf",size:"61.7 MB"},
+    {title:"03 Research Aptitude",file:"02 Research Aptitude__16_03 Research Aptitide.pdf",size:"40.7 MB"},
+    {title:"07 Research Aptitude",file:"02 Research Aptitude__20_07 Research Aptitide.pdf",size:"27.4 MB"},
+    {title:"09 Research Aptitude",file:"02 Research Aptitude__22_09 Research Aptitide.pdf",size:"52.9 MB"},
+    {title:"10 Research Aptitude",file:"02 Research Aptitude__23_10 Research Aptitide.pdf",size:"62.0 MB"},
+    {title:"11 Research Aptitude",file:"02 Research Aptitude__24_11 Research Aptitide.pdf",size:"41.5 MB"},
+    {title:"12 Research Aptitude",file:"02 Research Aptitude__25_12 Research Aptitide.pdf",size:"20.2 MB"},
+    {title:"13 Research Aptitude",file:"02 Research Aptitude__26_13 Research Aptitide.pdf",size:"26.7 MB"},
+    {title:"14 Research Aptitude",file:"02 Research Aptitude__27_14 Research Aptitude.pdf",size:"53.5 MB"}
+  ]},
+  {folder:"05 Mathematical Reasoning & Aptitude", files:[
+    {title:"01 Introduction",file:"05 Mathematical Reasoning__28_01 Introduction.pdf",size:"586 KB"},
+    {title:"02 Series",file:"05 Mathematical Reasoning__29_02 series.pdf",size:"924 KB"},
+    {title:"03 Series",file:"05 Mathematical Reasoning__30_03 series.pdf",size:"929 KB"},
+    {title:"04 Series",file:"05 Mathematical Reasoning__31_04 series.pdf",size:"952 KB"},
+    {title:"05 Coding & Decoding",file:"05 Mathematical Reasoning__32_05 Coding & decoding.pdf",size:"696 KB"},
+    {title:"06 Coding & Decoding",file:"05 Mathematical Reasoning__33_06 Coding & decoding.pdf",size:"7.3 MB"},
+    {title:"07 Direction Sense",file:"05 Mathematical Reasoning__34_07 Direction sense.pdf",size:"1.0 MB"},
+    {title:"08 Direction Sense",file:"05 Mathematical Reasoning__35_08 Direction sense.pdf",size:"667 KB"},
+    {title:"09 Direction Sense",file:"05 Mathematical Reasoning__36_09 Direction sense.pdf",size:"13.4 MB"},
+    {title:"10 Time & Work",file:"05 Mathematical Reasoning__37_10 Time & Work.pdf",size:"10.0 MB"},
+    {title:"11 Time & Work",file:"05 Mathematical Reasoning__38_11 Time & Work.pdf",size:"9.9 MB"},
+    {title:"12 Percentage",file:"05 Mathematical Reasoning__39_12 Percentage.pdf",size:"21.7 MB"},
+    {title:"13 Percentage",file:"05 Mathematical Reasoning__40_13 Percentage.pdf",size:"4.0 MB"},
+    {title:"14 Profit & Loss",file:"05 Mathematical Reasoning__41_14 Profit & loss.pdf",size:"1015 KB"},
+    {title:"15 Discount",file:"05 Mathematical Reasoning__42_15 Discount.pdf",size:"3.4 MB"},
+    {title:"16 Discount",file:"05 Mathematical Reasoning__43_16 Discount.pdf",size:"6.9 MB"},
+    {title:"17 Practice Session",file:"05 Mathematical Reasoning__44_17 Practice session.pdf",size:"9.4 MB"},
+    {title:"18 Average",file:"05 Mathematical Reasoning__45_18 Average.pdf",size:"435 KB"},
+    {title:"19 Average",file:"05 Mathematical Reasoning__46_19 Average.pdf",size:"80.8 MB"}
+  ]},
+  {folder:"06 Logical Reasoning", files:[
+    {title:"01 Logical Reasoning",file:"06 Logical Reasoning__47_01 Logical Reasoning.pdf",size:"30.2 MB"},
+    {title:"02 Logical Reasoning",file:"06 Logical Reasoning__48_02 Logical Reasoning.pdf",size:"25.4 MB"},
+    {title:"03 Logical Reasoning",file:"06 Logical Reasoning__49_03 Logical Reasoning.pdf",size:"19.1 MB"},
+    {title:"04 Logical Reasoning",file:"06 Logical Reasoning__50_04 Logical Reasoning.pdf",size:"34.7 MB"},
+    {title:"05 Logical Reasoning",file:"06 Logical Reasoning__51_05 Logical Reasoning.pdf",size:"31.2 MB"},
+    {title:"06 Logical Reasoning",file:"06 Logical Reasoning__52_06 Logical Reasoning.pdf",size:"22.5 MB"},
+    {title:"07 Logical Reasoning",file:"06 Logical Reasoning__53_07 Logical Reasoning.pdf",size:"40.6 MB"},
+    {title:"08 Logical Reasoning",file:"06 Logical Reasoning__54_08 Logical Reasoning.pdf",size:"86.7 MB"}
+  ]},
+  {folder:"08 Information & Communication Technology (ICT)", files:[
+    {title:"02 PYQ Analysis",file:"08 ICT__55_02 PYQ analysis.pdf",size:"3.8 MB"},
+    {title:"03 ICT, Generation & Classification of Computers",file:"08 ICT__56_03 ICT, Generation of Computer and Classification of Computers.pdf",size:"18.7 MB"},
+    {title:"04 ICT, Generation & Classification of Computers",file:"08 ICT__57_04 ICT, Generation of Computer and Classification of Computers.pdf",size:"21.6 MB"},
+    {title:"05 Structure of a Computer",file:"08 ICT__58_05 Structure of a Computer.pdf",size:"33.1 MB"},
+    {title:"06 CPU (MU + CU + ALU)",file:"08 ICT__59_06 CPU (MU + CU + ALU).pdf",size:"18.6 MB"},
+    {title:"07 CPU Part 2",file:"08 ICT__60_07 CPU part 2.pdf",size:"36.2 MB"},
+    {title:"08 Motherboard",file:"08 ICT__61_08 Motherboard.pdf",size:"42.9 MB"},
+    {title:"09 Output Devices",file:"08 ICT__62_09 Output devices.pdf",size:"29.3 MB"},
+    {title:"10 Hardware & Software",file:"08 ICT__63_10 Hadware and Software.pdf",size:"18.4 MB"},
+    {title:"11 Software",file:"08 ICT__64_11 Software.pdf",size:"20.0 MB"},
+    {title:"12 CPU PYQs",file:"08 ICT__65_12 CPU PYQs.pdf",size:"17.6 MB"}
+  ]},
+  {folder:"09 People, Development & Environment", files:[
+    {title:"01 MDG and SDG Goal",file:"09 People Dev _ Env__66_01 MDG and SDG Goal.pdf",size:"56.8 MB"},
+    {title:"02 MDG and SDG Goal",file:"09 People Dev _ Env__67_02 MDG and SDG Goal.pdf",size:"56.5 MB"},
+    {title:"03 Introduction to Environment",file:"09 People Dev _ Env__68_03 Introduction to Environment (पर्यावरण का परिचय).pdf",size:"13.8 MB"},
+    {title:"04 Introduction to Environment",file:"09 People Dev _ Env__69_04 Introduction to Environment (पर्यावरण का परिचय).pdf",size:"6.0 MB"},
+    {title:"06 Characteristics of Community",file:"09 People Dev _ Env__70_06 Characteristics of Community -like succession and startification.pdf",size:"8.5 MB"},
+    {title:"07 Biotic Factor Food Chain & Pyramid",file:"09 People Dev _ Env__71_07 Biotic Factor Food Chain and Pyramid.pdf",size:"21.8 MB"},
+    {title:"08 Environment Abiotic Factor",file:"09 People Dev _ Env__72_08 Enviornment Abiotic factor.pdf",size:"36.2 MB"},
+    {title:"09 Environment Abiotic Factor",file:"09 People Dev _ Env__73_09 Enviornment Abiotic factor.pdf",size:"49.7 MB"},
+    {title:"10 Biome",file:"09 People Dev _ Env__74_10 Biome.pdf",size:"50.0 MB"},
+    {title:"11 Environmental Data - Rajasthan",file:"09 People Dev _ Env__75_11 All Environmental Data with Reference to Rajasthan.pdf",size:"47.7 MB"},
+    {title:"12 Pollution",file:"09 People Dev _ Env__76_12 Pollution.pdf",size:"11.2 MB"},
+    {title:"13 Water Pollution",file:"09 People Dev _ Env__77_13 Water Pollution.pdf",size:"13.6 MB"},
+    {title:"14 Water Pollution & Diseases",file:"09 People Dev _ Env__78_14 Water pollution and it's disease.pdf",size:"59.0 MB"},
+    {title:"15 Soil Pollution",file:"09 People Dev _ Env__79_15 Soil Pollution.pdf",size:"16.9 MB"}
+  ]},
+  {folder:"10 Higher Education System", files:[
+    {title:"01 Introduction to Higher Education",file:"10 Higher Education__80_01 Introduction to Higher education.pdf",size:"24.3 MB"},
+    {title:"02 Vedic Education",file:"10 Higher Education__81_02 Vedic Education.pdf",size:"21.4 MB"},
+    {title:"03 Vedic Education",file:"10 Higher Education__82_03 Vedic Education.pdf",size:"27.3 MB"},
+    {title:"04 Vedic Education",file:"10 Higher Education__83_04 Vedic Education.pdf",size:"21.0 MB"},
+    {title:"05 Buddhist Education",file:"10 Higher Education__84_05 Buddhist Education.pdf",size:"32.0 MB"},
+    {title:"06 Buddhist Education",file:"10 Higher Education__85_06 Buddhist Education.pdf",size:"26.9 MB"},
+    {title:"07 Ancient Universities",file:"10 Higher Education__86_07 Ancient universities.pdf",size:"45.6 MB"},
+    {title:"08 Ancient Universities",file:"10 Higher Education__87_08 Ancient universities.pdf",size:"48.4 MB"},
+    {title:"09 Pre Independence Commissions",file:"10 Higher Education__88_09 Pre Independence Commissions.pdf",size:"34.8 MB"},
+    {title:"10 Pre Independence Commissions",file:"10 Higher Education__89_10 Pre Independence Commissions.pdf",size:"38.5 MB"},
+    {title:"11 Post Independence Commissions",file:"10 Higher Education__90_11 Post Independence Commissions.pdf",size:"28.5 MB"},
+    {title:"12 Post Independence Commissions",file:"10 Higher Education__91_12 Post Independence Commissions.pdf",size:"77.4 MB"},
+    {title:"13 Post Independence Commissions",file:"10 Higher Education__92_13 Post Independence Commissions.pdf",size:"30.7 MB"},
+    {title:"14 Five Year Plan",file:"10 Higher Education__93_14 Five Year Plan.pdf",size:"33.9 MB"},
+    {title:"15 NEP 2020",file:"10 Higher Education__94_15 NEP 2020.pdf",size:"50.1 MB"},
+    {title:"16 Regulating Bodies",file:"10 Higher Education__95_16 Regulating bodies.pdf",size:"43.6 MB"},
+    {title:"17 Regulating Bodies",file:"10 Higher Education__96_17 Regulating bodies.pdf",size:"23.7 MB"},
+    {title:"18 Types of Universities",file:"10 Higher Education__97_18 Types of Universities.pdf",size:"29.3 MB"}
+  ]}
+];
+
+const container = document.getElementById('folders');
+
+function render(filter) {
+  container.innerHTML = '';
+  const q = (filter || '').toLowerCase();
+  DATA.forEach((section, si) => {
+    const filtered = q ? section.files.filter(f => f.title.toLowerCase().includes(q) || section.folder.toLowerCase().includes(q)) : section.files;
+    if (!filtered.length) return;
+    const div = document.createElement('div');
+    div.className = 'folder';
+    div.innerHTML =
+      '<div class="folder-head" onclick="this.parentElement.classList.toggle(\'collapsed\')">' +
+        '<h2>' + section.folder + '</h2>' +
+        '<div style="display:flex;align-items:center;gap:10px"><span class="badge">' + filtered.length + '</span><span class="chevron">&#9662;</span></div>' +
+      '</div>' +
+      '<div class="folder-body">' +
+        filtered.map((f, i) =>
+          '<div class="pdf-item">' +
+            '<span class="pdf-num">' + (i + 1) + '</span>' +
+            '<div class="pdf-icon">PDF</div>' +
+            '<div class="pdf-info"><div class="pdf-title">' + f.title + '</div><div class="pdf-size">' + f.size + '</div></div>' +
+            '<div class="pdf-actions">' +
+              '<a class="btn btn-view" href="' + encodeURI(f.file) + '" target="_blank">View</a>' +
+              '<a class="btn btn-dl" href="' + encodeURI(f.file) + '" download>Download</a>' +
+            '</div>' +
+          '</div>'
+        ).join('') +
+      '</div>';
+    container.appendChild(div);
+  });
+}
+
+render();
+
+let debounce;
+document.getElementById('search').addEventListener('input', function() {
+  clearTimeout(debounce);
+  debounce = setTimeout(() => render(this.value), 200);
+});
+</script>
+
+</body>
+</html>
