@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Invitation Card</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cinzel+Decorative:wght@700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Great+Vibes&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+<style>
+@page{size:1080px 1920px;margin:0}
+:root{--gold:#D4AF37;--gl:#F5D78E;--gd:#8C6A1C;--cream:#F3E6C4;--muted:#C9B287;
+  --gg:linear-gradient(100deg,#9C7722 0%,#D4AF37 25%,#F8E3A3 48%,#D4AF37 68%,#9C7722 100%)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#000;font-family:"Cormorant Garamond",serif;color:var(--cream)}
+.card{width:1080px;height:1920px;position:relative;overflow:hidden;page-break-after:always;
+  background:radial-gradient(ellipse at 50% 38%,#3D2614 0%,#1C1009 55%,#0B0806 100%)}
+.card::before{content:"";position:absolute;inset:0;opacity:.06;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='90'%3E%3Cg fill='none' stroke='%23D4AF37'%3E%3Cpath d='M45 5 L85 45 L45 85 L5 45Z'/%3E%3Ccircle cx='45' cy='45' r='11'/%3E%3C/g%3E%3C/svg%3E")}
+.border{position:absolute;inset:34px;border:3px solid var(--gold);border-radius:28px}
+.border::after{content:"";position:absolute;inset:12px;border:1px solid rgba(212,175,55,.5);border-radius:20px}
+.corner{position:absolute;width:190px;height:190px}
+.corner.tl{left:22px;top:22px}.corner.tr{right:22px;top:22px;transform:scaleX(-1)}
+.corner.bl{left:22px;bottom:22px;transform:scaleY(-1)}.corner.br{right:22px;bottom:22px;transform:scale(-1,-1)}
+.in{position:absolute;inset:80px 90px;display:flex;flex-direction:column;align-items:center;text-align:center}
+.g{background:var(--gg);-webkit-background-clip:text;background-clip:text;color:transparent}
+.deva{font-family:"Tiro Devanagari Hindi",serif;font-size:42px}
+.ey{font-family:Cinzel,serif;letter-spacing:.38em;font-size:22px;color:var(--gold);text-transform:uppercase}
+.lead{font-size:31px;font-style:italic;line-height:1.4;max-width:800px}
+.script{font-family:"Great Vibes",cursive;line-height:1}
+.svc{font-family:Cinzel,serif;letter-spacing:.3em;font-size:22px;color:var(--muted)}
+.arch{position:relative;width:470px;height:640px;margin:24px 0 10px}
+.arch .ph{position:absolute;inset:14px;border-radius:999px 999px 16px 16px;overflow:hidden}
+.arch img{width:100%;height:100%;object-fit:cover;object-position:50% 30%}
+.arch .fr{position:absolute;inset:0;border:3px solid var(--gold);border-radius:999px 999px 24px 24px;box-shadow:0 0 0 9px rgba(212,175,55,.1),0 0 0 10px var(--gd),0 0 70px rgba(212,175,55,.25)}
+.div{width:420px;margin:16px 0}
+.date{display:flex;align-items:center;gap:26px;font-family:Cinzel,serif}
+.date .d{font-family:"Cinzel Decorative",serif;font-size:118px;line-height:1}
+.date .s{font-size:24px;letter-spacing:.3em;padding:10px 0;border-top:1.5px solid var(--gd);border-bottom:1.5px solid var(--gd);width:200px}
+.h2{font-family:"Cinzel Decorative",serif;font-size:56px;line-height:1.1}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:34px;width:100%}
+.box{border:1.5px solid rgba(212,175,55,.55);border-radius:20px;padding:30px 20px;background:rgba(11,8,6,.45)}
+.box h4{font-family:Cinzel,serif;font-weight:400;font-size:18px;letter-spacing:.3em;color:var(--muted);margin:18px 0 4px}
+.box p{font-size:28px;line-height:1.35}
+.box .addr{font-style:italic;color:var(--muted);font-size:24px;margin-top:16px}
+ul{list-style:none}li{font-size:28px;padding:5px 0}
+.ph-n{font-family:Cinzel,serif;font-size:27px;letter-spacing:.08em;color:var(--gl)}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute"><defs>
+ <symbol id="corner" viewBox="0 0 190 190"><g fill="none" stroke="#D4AF37" stroke-width="2"><path d="M10 180 V40 Q10 10 40 10 H180"/><path d="M26 180 V56 Q26 26 56 26 H180" opacity=".5"/><path d="M40 40 Q90 40 90 90 Q40 90 40 40Z" fill="rgba(212,175,55,.18)"/><circle cx="66" cy="66" r="7" fill="#D4AF37"/><path d="M95 40 Q120 30 140 45" /><path d="M40 95 Q30 120 45 140"/><circle cx="148" cy="48" r="4" fill="#D4AF37"/><circle cx="48" cy="148" r="4" fill="#D4AF37"/></g></symbol>
+ <symbol id="divider" viewBox="0 0 420 24"><g stroke="#D4AF37" fill="none" stroke-width="1.5"><path d="M0 12 H175"/><path d="M245 12 H420"/><path d="M210 2 L220 12 L210 22 L200 12Z" fill="#D4AF37"/><circle cx="186" cy="12" r="4"/><circle cx="234" cy="12" r="4"/></g></symbol>
+ <symbol id="mandala" viewBox="0 0 200 200"><g fill="none" stroke="#D4AF37" stroke-width="1"><circle cx="100" cy="100" r="96"/><circle cx="100" cy="100" r="86" stroke-dasharray="2 5"/><circle cx="100" cy="100" r="30"/>
+  <g id="pt"><path d="M100 30 Q118 60 100 70 Q82 60 100 30Z"/><path d="M100 6 Q112 22 100 30 Q88 22 100 6Z" opacity=".7"/></g>
+  <use href="#pt" transform="rotate(30 100 100)"/><use href="#pt" transform="rotate(60 100 100)"/><use href="#pt" transform="rotate(90 100 100)"/><use href="#pt" transform="rotate(120 100 100)"/><use href="#pt" transform="rotate(150 100 100)"/><use href="#pt" transform="rotate(180 100 100)"/><use href="#pt" transform="rotate(210 100 100)"/><use href="#pt" transform="rotate(240 100 100)"/><use href="#pt" transform="rotate(270 100 100)"/><use href="#pt" transform="rotate(300 100 100)"/><use href="#pt" transform="rotate(330 100 100)"/></g>
+  <text x="100" y="112" text-anchor="middle" font-size="34" fill="#F5D78E" font-family="Tiro Devanagari Hindi">ॐ</text></symbol>
+</defs></svg>
+
+<!-- ================= CARD 1 ================= -->
+<div class="card">
+  <div class="border"></div>
+  <svg class="corner tl"><use href="#corner"/></svg><svg class="corner tr"><use href="#corner"/></svg><svg class="corner bl"><use href="#corner"/></svg><svg class="corner br"><use href="#corner"/></svg>
+  <div class="in" style="padding-top:20px">
+    <svg width="130" height="130"><use href="#mandala"/></svg>
+    <p class="deva g" style="margin-top:12px">॥ श्री गणेशाय नमः ॥</p>
+    <p class="lead" style="margin-top:14px">With the blessings of Lord Ganesha, we cordially invite you to the wedding celebration of our beloved son</p>
+    <div class="script g" style="font-size:150px;margin-top:22px">Virendra</div>
+    <div class="svc">MEENA · IRMS</div>
+    <div class="h2 g" style="margin:6px 0">&amp;</div>
+    <div class="script g" style="font-size:150px">Poonam</div>
+    <div class="svc">KAMBOJ · IRPFS</div>
+    <div class="arch"><div class="ph"><img src="../assets/couple.jpg" alt=""></div><div class="fr"></div></div>
+    <p class="ey" style="margin-top:6px">Reception &amp; Dinner</p>
+    <div class="date" style="margin-top:8px"><div class="s">MONDAY</div><div class="d g">14</div><div class="s">DEC · 2026</div></div>
+    <p class="ey" style="font-size:20px;color:var(--gl);margin-top:8px">7:00 PM onwards</p>
+    <svg class="div" height="24"><use href="#divider"/></svg>
+    <p style="font-size:34px;font-weight:600">S.L. Resort</p>
+    <p style="font-size:26px;color:var(--muted)">Chandresal Road, Kota, Rajasthan</p>
+  </div>
+</div>
+
+<!-- ================= CARD 2 ================= -->
+<div class="card">
+  <div class="border"></div>
+  <svg class="corner tl"><use href="#corner"/></svg><svg class="corner tr"><use href="#corner"/></svg><svg class="corner bl"><use href="#corner"/></svg><svg class="corner br"><use href="#corner"/></svg>
+  <div class="in" style="padding-top:30px">
+    <p class="ey">With the blessings of our elders</p>
+    <p class="h2 g" style="margin:14px 0 6px">Our Families</p>
+    <svg class="div" height="24"><use href="#divider"/></svg>
+    <div class="cols" style="margin-top:14px">
+      <div class="box">
+        <p class="ey" style="font-size:17px">The Groom</p>
+        <div class="script g" style="font-size:54px;margin:8px 0 4px">Virendra Meena</div>
+        <p class="svc" style="font-size:18px">IRMS</p>
+        <h4>GRANDSON OF</h4><p>Late Smt. Jhuta Bai<br>Late Shri Gopal Ji Meena</p>
+        <h4>SON OF</h4><p>Smt. Usha Rani<br>Shri Pawan Lal Meena</p>
+        <p class="addr">Dadwara, Kota, Rajasthan</p>
+      </div>
+      <div class="box">
+        <p class="ey" style="font-size:17px">The Bride</p>
+        <div class="script g" style="font-size:54px;margin:8px 0 4px">Poonam Kamboj</div>
+        <p class="svc" style="font-size:18px">IRPFS</p>
+        <h4>GRANDDAUGHTER OF</h4><p>Smt. Jinda Bai<br>Shri Chaudhary Jhangi Ram</p>
+        <h4>DAUGHTER OF</h4><p>Smt. Suresh Rani<br>Shri Chaudhary Suraj Prakash</p>
+        <p class="addr">Village Rana, District Fazilka, Punjab</p>
+      </div>
+    </div>
+    <div class="cols" style="margin-top:60px">
+      <div><p class="ey" style="font-size:19px;margin-bottom:10px">Special Requests</p><ul><li>Laxmi Bai – Raja Ram Ji</li><li>Kalavati Bai – Devilal Ji</li><li>Anjali – Hemant Ji</li></ul></div>
+      <div><p class="ey" style="font-size:19px;margin-bottom:10px">Awaited to Welcome</p><ul><li>Rahul</li><li>Piyush</li><li>Mohani</li></ul></div>
+    </div>
+    <svg class="div" height="24" style="margin-top:40px"><use href="#divider"/></svg>
+    <p class="ey" style="margin-top:10px">Invitation From</p>
+    <p style="font-size:34px;font-weight:600;margin-top:10px">Shri Pawan Lal Meena <span style="font-size:24px;font-weight:500;color:var(--muted)">(Retd. Loco Pilot, W.C.R.)</span></p>
+    <p style="font-size:34px;font-weight:600">&amp; Smt. Usha Rani</p>
+    <p style="font-size:25px;color:var(--muted);margin-top:12px;max-width:820px">H.No. 216, near Machis Factory Road, New Kota, Dadwara, Kota, Rajasthan</p>
+    <p class="ey" style="margin-top:36px">RSVP · Pawan Lal Meena &amp; Usha Rani</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px 60px;margin-top:16px">
+      <span class="ph-n">74249 12336</span><span class="ph-n">89496 60357</span><span class="ph-n">90042 13306</span><span class="ph-n">94622 79027</span>
+    </div>
+    <p class="lead" style="margin-top:auto;font-size:34px">Awaiting your gracious presence</p><svg width="150" height="150" style="margin-top:18px"><use href="#mandala"/></svg><div class="script g" style="font-size:80px;margin-top:6px">V &amp; P</div>
+  </div>
+</div>
+</body>
+</html>
