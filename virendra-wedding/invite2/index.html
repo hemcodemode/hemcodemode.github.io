@@ -42,7 +42,7 @@ svg.doodle{fill:none;stroke:var(--line);stroke-width:1.6;stroke-linecap:round;st
 #cover{position:fixed;inset:0;z-index:50;display:flex;justify-content:center;background:#000;transition:opacity 1.2s ease,visibility 1.2s}
 #cover.gone{opacity:0;visibility:hidden}
 #cover .inner{position:relative;width:min(480px,100vw);height:100%;overflow:hidden}
-#cover .bgph{position:absolute;inset:0;background:url(../assets/couple.jpg) 50% 30%/cover;filter:grayscale(.35) sepia(.35) brightness(.55) contrast(1.05);transform:scale(1.08);animation:kb 18s ease-in-out infinite alternate}
+#cover .bgph{position:absolute;inset:17% 0 0 0;-webkit-mask-image:linear-gradient(180deg,transparent,#000 14%);mask-image:linear-gradient(180deg,transparent,#000 14%);background:url(../assets/couple.jpg) 50% 30%/cover;filter:grayscale(.35) sepia(.35) brightness(.55) contrast(1.05);transform:scale(1.08);animation:kb 18s ease-in-out infinite alternate}
 @keyframes kb{to{transform:scale(1.18) translate(-2%,-2%)}}
 #cover .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.55),rgba(0,0,0,.05) 35%,rgba(0,0,0,.25) 60%,rgba(0,0,0,.85))}
 #cover .yi{position:absolute;top:13%;left:0;right:0;text-align:center}
@@ -65,7 +65,7 @@ svg.doodle{fill:none;stroke:var(--line);stroke-width:1.6;stroke-linecap:round;st
 @keyframes pulse{50%{opacity:.45}}
 .strip{position:absolute;right:-6px;top:28px;width:52px;padding:5px 5px 14px;background:#EFE6D3;transform:rotate(9deg);box-shadow:0 4px 12px rgba(0,0,0,.5);z-index:5}
 .strip div{height:44px;margin-bottom:4px;background:url(../assets/couple.jpg) center/cover;filter:grayscale(1) contrast(1.1)}
-.strip div:nth-child(1){background-position:20% 25%}.strip div:nth-child(2){background-position:80% 25%}.strip div:nth-child(3){background-position:50% 60%}
+.strip div:nth-child(1){background-position:48% 18%}.strip div:nth-child(2){background-position:68% 26%}.strip div:nth-child(3){background-position:50% 45%}
 #cover.opened .flap{transform:rotateX(180deg)}
 #cover.opened .wax{opacity:0;transform:translate(-50%,-50%) scale(.5)}
 #cover.opened .letter{transform:translateY(-120px)}
@@ -108,6 +108,22 @@ svg.doodle{fill:none;stroke:var(--line);stroke-width:1.6;stroke-linecap:round;st
 .sketchframe{position:relative;width:290px;margin:26px auto 0;padding:16px}
 .sketchframe .ph{aspect-ratio:4/5;background:url(../assets/couple.jpg) 50% 30%/cover;filter:grayscale(1) contrast(1.1) brightness(.95)}
 .sketchframe svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+
+/* ---------- story polaroids ---------- */
+.story{padding-left:10px;padding-right:10px}
+.line{position:relative;display:flex;justify-content:center;gap:6px;margin-top:18px;padding-top:6px}
+.line > svg{position:absolute;left:0;right:0;top:0;width:100%;height:60px}
+.pg{position:relative;flex:0 0 31%;margin:0;padding:6px 6px 26px;background:#EFE6D3;box-shadow:0 10px 22px rgba(0,0,0,.55);transform:translateY(var(--y)) rotate(var(--r));transform-origin:50% -8px;animation:sway 5s ease-in-out infinite;cursor:zoom-in}
+.pg:nth-child(3){animation-delay:-1.6s}.pg:nth-child(4){animation-delay:-3.2s}
+@keyframes sway{50%{transform:translateY(var(--y)) rotate(calc(var(--r) * -0.6))}}
+.pg .ph{aspect-ratio:3/4;background-size:cover;filter:sepia(.15) contrast(1.03)}
+.pg figcaption{position:absolute;left:0;right:0;bottom:4px;font-family:Caveat;font-size:16px;color:#3A2A18;line-height:1}
+.pin{position:absolute;left:50%;top:-14px;width:10px;height:24px;margin-left:-5px;border-radius:2px;background:linear-gradient(90deg,#C9A04A,#F2DC9B,#9C7F3C);box-shadow:0 2px 3px rgba(0,0,0,.4)}
+#lightbox{position:fixed;inset:0;z-index:70;background:rgba(8,6,4,.92);display:none;align-items:center;justify-content:center;flex-direction:column;padding:24px;cursor:zoom-out}
+#lightbox.show{display:flex}
+#lightbox img{max-width:min(440px,92vw);max-height:76vh;border:8px solid #EFE6D3;border-bottom-width:40px;box-shadow:0 20px 60px rgba(0,0,0,.7);animation:pop .4s cubic-bezier(.2,1.4,.4,1)}
+#lightbox p{font-family:Caveat;font-size:26px;color:#3A2A18;margin-top:-36px;position:relative}
+@keyframes pop{from{transform:scale(.8) rotate(-4deg);opacity:0}}
 
 /* ---------- calendar ---------- */
 .month{font-family:"Josefin Sans";font-weight:300;font-size:40px;letter-spacing:.2em;margin:4px 0 6px}
@@ -152,8 +168,8 @@ svg.doodle{fill:none;stroke:var(--line);stroke-width:1.6;stroke-linecap:round;st
 .pc:nth-child(2) .lab{transform:rotate(5deg)}
 .pc .pol{background:#EFE6D3;padding:7px 7px 30px;box-shadow:0 8px 20px rgba(0,0,0,.5);transform:rotate(-3deg);margin-top:6px;position:relative}
 .pc:nth-child(2) .pol{transform:rotate(3deg)}
-.pc .pol div{aspect-ratio:3/4;background:url(../assets/couple.jpg) 22% 22%/260% auto;filter:sepia(.2)}
-.pc:nth-child(2) .pol div{background-position:74% 22%}
+.pc .pol div{aspect-ratio:3/4;background:url(../assets/couple.jpg) 42% 20%/260% auto;filter:sepia(.2)}
+.pc:nth-child(2) .pol div{background-position:79% 32%}
 .pc .pol span{position:absolute;bottom:6px;left:0;right:0;font-family:Caveat;font-size:19px;color:#3A2A18}
 .pc .nm{font-family:"Josefin Sans";font-weight:600;letter-spacing:.12em;font-size:15px;margin-top:16px}
 .pc .svc{font-family:"Josefin Sans";font-size:10px;letter-spacing:.3em;color:var(--soft)}
@@ -257,6 +273,19 @@ svg.doodle{fill:none;stroke:var(--line);stroke-width:1.6;stroke-linecap:round;st
       </svg>
     </div>
     <p class="caps rv" style="font-size:13px;margin-top:22px;color:var(--gl)">Let's celebrate together</p>
+  </section>
+
+  <!-- ================= OUR STORY (pegged polaroids) ================= -->
+  <section class="story">
+    <p class="caps rv" style="font-size:12px;color:var(--soft)">Little pieces of</p>
+    <p class="script g rv d1" style="font-size:60px;line-height:1">our story</p>
+    <div class="line rv d2">
+      <svg class="doodle" viewBox="0 0 420 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 8 C120 52 300 52 420 8"/></svg>
+      <figure class="pg" style="--r:-7deg;--y:26px"><span class="pin"></span><div class="ph" style="background-image:url(../assets/story-2.jpg);background-position:50% 40%"></div><figcaption>a touch of tradition</figcaption></figure>
+      <figure class="pg" style="--r:4deg;--y:44px"><span class="pin"></span><div class="ph" style="background-image:url(../assets/story-3.jpg);background-position:40% 62%"></div><figcaption>golden hours</figcaption></figure>
+      <figure class="pg" style="--r:-3deg;--y:24px"><span class="pin"></span><div class="ph" style="background-image:url(../assets/story-4.jpg);background-position:55% 40%"></div><figcaption>laughing, always</figcaption></figure>
+    </div>
+    <p class="hand rv" style="font-size:20px;color:var(--soft);margin-top:46px">tap a photo ✦</p>
   </section>
 
   <!-- ================= CALENDAR ================= -->
@@ -377,6 +406,13 @@ const $=s=>document.querySelector(s),reduce=matchMedia('(prefers-reduced-motion:
 document.querySelectorAll('.draw').forEach(svg=>svg.querySelectorAll('path,circle,rect,ellipse,line,polyline').forEach(el=>{try{const L=Math.ceil(el.getTotalLength());el.style.strokeDasharray=L;el.style.strokeDashoffset=L;el.style.setProperty('--len',L)}catch(e){}}));
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');e.target.querySelectorAll&&e.target.querySelectorAll('path,circle,rect,ellipse,line,polyline').forEach(el=>{if(e.target.classList.contains('draw'))el.style.strokeDashoffset=0});io.unobserve(e.target)}}),{threshold:.2});
 function arm(){document.querySelectorAll('.rv,.draw').forEach(el=>io.observe(el))}
+
+/* story lightbox */
+(function(){const lb=document.createElement('div');lb.id='lightbox';lb.setAttribute('role','dialog');lb.setAttribute('aria-label','Photo');lb.innerHTML='<img alt=""><p></p>';document.body.appendChild(lb);
+  document.querySelectorAll('.pg').forEach(f=>{f.tabIndex=0;f.setAttribute('role','button');const open=()=>{const u=f.querySelector('.ph').style.backgroundImage.slice(5,-2);lb.querySelector('img').src=u;lb.querySelector('img').alt=f.querySelector('figcaption').textContent;lb.querySelector('p').textContent=f.querySelector('figcaption').textContent;lb.classList.add('show')};
+    f.addEventListener('click',open);f.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open()}})});
+  lb.addEventListener('click',()=>lb.classList.remove('show'));addEventListener('keydown',e=>{if(e.key==='Escape')lb.classList.remove('show')});
+})();
 
 /* calendar Dec 2026 — 1 Dec is Tuesday */
 (function(){const c=$('#cal');let h='';['MON','TUE','WED','THU','FRI','SAT','SUN'].forEach(d=>h+=`<span class="h">${d}</span>`);

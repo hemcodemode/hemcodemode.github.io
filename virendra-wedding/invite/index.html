@@ -115,6 +115,20 @@ body::after{content:"";position:fixed;inset:0;z-index:0;opacity:.06;background-i
 .photo .bloom{position:absolute;width:110px;bottom:-26px}
 .photo .bloom.l{left:-44px}.photo .bloom.r{right:-44px;transform:scaleX(-1)}
 
+/* moments carousel */
+.moments{background:linear-gradient(180deg,var(--paper),var(--paper2));padding-left:0;padding-right:0}
+.reel{position:relative;display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:14px 60px 6px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.reel::-webkit-scrollbar{display:none}
+.reel figure{flex:0 0 72%;scroll-snap-align:center;margin:0}
+.reel .af{aspect-ratio:3/4;border-radius:999px 999px 12px 12px;overflow:hidden;box-shadow:0 0 0 2px var(--gold),0 0 0 7px rgba(201,160,74,.15),0 14px 30px rgba(59,36,22,.3);transition:transform .5s}
+.reel .af img{width:100%;height:100%;object-fit:cover}
+.reel figure:hover .af{transform:translateY(-4px)}
+.reel figcaption{font-family:"Great Vibes",cursive;font-size:30px;color:var(--rose);margin-top:12px}
+.rdots{display:flex;justify-content:center;gap:8px;margin-top:6px}
+.rdots i{width:7px;height:7px;border-radius:50%;background:rgba(140,106,28,.3);transition:background .3s,transform .3s}
+.rdots i.on{background:var(--gold);transform:scale(1.3)}
+.swipe{font-family:Cinzel,serif;font-size:10px;letter-spacing:.3em;color:var(--soft);margin-top:8px}
+
 /* save the date */
 .std{background:linear-gradient(180deg,var(--paper2),var(--paper))}
 .heart{position:relative;width:250px;height:230px;margin:18px auto 10px}
@@ -322,6 +336,20 @@ body::after{content:"";position:fixed;inset:0;z-index:0;opacity:.06;background-i
     </div>
   </section>
 
+  <!-- ========== OUR MOMENTS ========== -->
+  <section class="sec moments">
+    <p class="ey2 rv">A few of our</p>
+    <h2 class="h rv d1">Moments</h2>
+    <svg class="divi rv d1" viewBox="0 0 200 24"><use href="#flourish"/></svg>
+    <div class="reel rv d2" id="reel" tabindex="0" aria-label="Photo story — swipe to see more">
+      <figure><div class="af"><img src="../assets/story-2.jpg" alt="Poonam in a yellow dupatta and Virendra in a white kurta" loading="lazy" style="object-position:50% 40%"></div><figcaption>A touch of tradition</figcaption></figure>
+      <figure><div class="af"><img src="../assets/story-3.jpg" alt="Virendra and Poonam on a heritage terrace at sunset" loading="lazy" style="object-position:40% 60%"></div><figcaption>Golden hours</figcaption></figure>
+      <figure><div class="af"><img src="../assets/story-4.jpg" alt="Virendra and Poonam laughing in a garden" loading="lazy" style="object-position:55% 40%"></div><figcaption>Laughing, always</figcaption></figure>
+    </div>
+    <div class="rdots" id="rdots" aria-hidden="true"><i class="on"></i><i></i><i></i></div>
+    <p class="swipe rv">swipe ⟷</p>
+  </section>
+
   <!-- ========== SAVE THE DATE ========== -->
   <section class="sec std">
     <p class="ey2 rv">Mark your calendar</p>
@@ -423,6 +451,14 @@ function open(){if(gate.classList.contains('open'))return;gate.classList.add('op
   setTimeout(()=>gate.classList.add('gone'),2100)}
 $('#openBtn').addEventListener('click',open);
 if(location.hash==='#open'){gate.classList.add('open','gone');document.body.classList.remove('locked');document.querySelectorAll('.rv,#photo').forEach(e=>e.classList.add('in'))}
+
+/* moments carousel dots + gentle autoplay until the guest touches it */
+(function(){const r=$('#reel'),dots=[...document.querySelectorAll('#rdots i')];let touched=false,idx=0;
+  const cur=()=>{const f=[...r.children];let b=0,bd=1e9;f.forEach((el,i)=>{const d=Math.abs(el.offsetLeft+el.offsetWidth/2-(r.scrollLeft+r.clientWidth/2));if(d<bd){bd=d;b=i}});return b};
+  r.addEventListener('scroll',()=>{idx=cur();dots.forEach((d,i)=>d.classList.toggle('on',i===idx))},{passive:true});
+  ['pointerdown','touchstart','wheel','keydown'].forEach(e=>r.addEventListener(e,()=>touched=true,{passive:true}));
+  if(!reduce)setInterval(()=>{if(touched||document.body.classList.contains('locked'))return;const f=r.children[(idx+1)%r.children.length];r.scrollTo({left:f.offsetLeft-(r.clientWidth-f.offsetWidth)/2,behavior:'smooth'})},3800);
+})();
 
 /* countdown */
 const T=new Date('2026-12-14T19:00:00+05:30').getTime(),pad=n=>String(n).padStart(2,'0');

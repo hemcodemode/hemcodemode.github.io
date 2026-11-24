@@ -84,6 +84,15 @@ h2{font-family:"Cinzel Decorative",serif;font-size:clamp(24px,6.4vw,52px);overfl
 .arch .crown{position:absolute;left:50%;top:-34px;transform:translateX(-50%);width:120px}
 .caption{font-family:"Great Vibes",cursive;font-size:clamp(36px,6vw,52px);margin-top:28px}
 
+/* moments */
+.moments{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:22px}
+.moments figure{margin:0}
+.moments .mf{aspect-ratio:3/4;border-radius:999px 999px 12px 12px;overflow:hidden;border:2px solid var(--gold);box-shadow:0 0 0 6px rgba(212,175,55,.08),0 20px 50px rgba(0,0,0,.6);transition:transform .5s}
+.moments .mf img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s}
+.moments figure:hover .mf img{transform:scale(1.06)}
+.moments figcaption{font-family:"Great Vibes",cursive;font-size:30px;margin-top:10px}
+@media (max-width:640px){.moments{grid-template-columns:1fr;max-width:300px;margin-left:auto;margin-right:auto}}
+
 /* families */
 .fam{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:20px;text-align:center}
 .card{position:relative;border:1px solid rgba(212,175,55,.45);border-radius:18px;padding:36px 22px 30px;background:linear-gradient(180deg,rgba(61,38,20,.55),rgba(11,8,6,.6));backdrop-filter:blur(2px)}
@@ -203,6 +212,19 @@ footer p{color:var(--muted);font-size:15px;letter-spacing:.1em}
       <svg class="crown" viewBox="0 0 120 50" aria-hidden="true"><g fill="none" stroke="#D4AF37" stroke-width="1.4"><path d="M10 44 Q60 -10 110 44"/><path d="M30 44 Q60 10 90 44"/><circle cx="60" cy="14" r="6" fill="#D4AF37"/><path d="M60 26 L60 44"/></g></svg>
     </div>
     <p class="caption gold reveal">Two hearts, one journey</p>
+  </div>
+</section>
+
+<!-- MOMENTS -->
+<section style="min-height:auto">
+  <div class="wrap">
+    <p class="eyebrow reveal">Our Moments</p>
+    <h2 class="gold reveal d1">Little Pieces Of Us</h2>
+    <div class="moments">
+      <figure class="reveal d2"><div class="mf"><img src="../assets/story-2.jpg" alt="Poonam in a yellow dupatta and Virendra in a white kurta" loading="lazy" style="object-position:50% 40%"></div><figcaption class="gold">A touch of tradition</figcaption></figure>
+      <figure class="reveal d3"><div class="mf"><img src="../assets/story-3.jpg" alt="Virendra and Poonam on a heritage terrace at sunset" loading="lazy" style="object-position:40% 62%"></div><figcaption class="gold">Golden hours</figcaption></figure>
+      <figure class="reveal d4"><div class="mf"><img src="../assets/story-4.jpg" alt="Virendra and Poonam laughing in a garden" loading="lazy" style="object-position:55% 40%"></div><figcaption class="gold">Laughing, always</figcaption></figure>
+    </div>
   </div>
 </section>
 

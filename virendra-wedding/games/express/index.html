@@ -10,7 +10,7 @@
 <meta property="og:description" content="Virendra weds Poonam · Reception & Dinner · Monday, 14 December 2026 · 7:00 PM onwards · S.L. Resort, Kota">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Great+Vibes&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Cinzel:wght@400;600;700;900&family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Great+Vibes&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
 <style>
 :root{
   --ink:#0B0806;--brown:#2A1A0E;--brown2:#3D2614;--gold:#D4AF37;--gold2:#F5D78E;--maroon:#5A1414;--cream:#F7ECD2;
@@ -381,7 +381,7 @@ a{color:var(--gold2)}
 
     <div class="foot">
       <button class="gbtn ghost" id="again" type="button">↻ Ride again</button>
-      <a class="gbtn ghost" href="../">← All versions</a>
+      <a class="gbtn ghost" href="../../">← All versions</a>
     </div>
   </article>
 </section>
@@ -750,11 +750,11 @@ function update(dt) {
       if (d <= 6) { G.v = 0; G.creep = false; arrive(G.next); }
       msg = 'Easing up to the platform…';
     } else {
-      if (L > 0.04 && !braking) a = L * 150 - 0.5 * Math.max(G.v, 0);
+      if (L > 0.04 && !braking) a = L * 270 - 0.46 * Math.max(G.v, 0);
       else {
         let dec = 12 + 0.06 * G.v;
         if (braking) dec = Math.max(dec, 210);
-        if (d > 0 && d < 1150 && G.v > 0) dec = Math.max(dec, Math.min(G.v * G.v / (2 * Math.max(d, 3)), 330));
+        if (d > 0 && d < 1500 && G.v > 0) dec = Math.max(dec, Math.min(G.v * G.v / (2 * Math.max(d, 3)), 330));
         if (d < -TOL) dec = Math.max(dec, 240);
         a = -dec;
       }
@@ -767,8 +767,8 @@ function update(dt) {
       const nm = titleCase(st.name);
       if (d < -TOL && L <= 0.04) msg = 'Past the platform — braking…';
       else if (d < -TOL) { msg = 'Release the throttle — we passed ' + nm + '!'; urgent = true; }
-      else if (d <= 1150 && L > 0.04) { msg = 'Approaching ' + nm + ' — <b>release the throttle</b> to stop at the gold mark'; urgent = true; }
-      else if (d <= 1150 && G.v > 0) msg = 'Coasting into ' + nm + '…';
+      else if (d <= 1500 && L > 0.04) { msg = 'Approaching ' + nm + ' — <b>release the throttle</b> to stop at the gold mark'; urgent = true; }
+      else if (d <= 1500 && G.v > 0) msg = 'Coasting into ' + nm + '…';
       else if (G.v < 1 && L <= 0.04) msg = 'Push the <b>THROTTLE</b> up to steam ahead<span class="keys">or hold → / Space · brake ← · horn H</span>';
     }
     G.x += G.v * dt;
@@ -1120,7 +1120,7 @@ const STN_STYLE = {
 };
 function drawStation(i, front) {
   const st = STATIONS[i], sx = SX(st.x, 1);
-  if (sx < -200 * s || sx > W + 560 * s) return;
+  if (sx < -420 * s || sx > W + 560 * s) return;
   const S = STN_STYLE[st.style], next = G.next === i && (G.state === 'ride');
   ctx.save(); ctx.translate(sx, trackY); ctx.scale(s, s);
   const lit = (i === 3 ? Math.max(G.lights, smooth(6000, 8000, G.x)) : smooth(6000, 8000, G.x));
@@ -1166,6 +1166,13 @@ function drawStation(i, front) {
       ctx.fillStyle = '#2A1A0E'; ctx.fillRect(lx - 1.5, -150, 3, 126); ctx.fillRect(lx - 8, -150, 16, 3);
       ctx.fillStyle = lit > 0.1 ? '#FFE9A8' : '#C9B38A'; ctx.beginPath(); ctx.arc(lx, -144, 5, 0, 7); ctx.fill();
       if (lit > 0.05) LIGHTS.push({ x: SX(st.x, 1) + lx * s, y: trackY - 144 * s, r: 34 * s, c: '255,220,140', a: lit });
+    }
+    // food stall just past the platform end, in view when the train stops
+    if (i < 3) {
+      ctx.fillStyle = '#9A8068'; ctx.fillRect(px1, -24, 300, 20);
+      ctx.fillStyle = '#7A6250'; ctx.fillRect(px1, -10, 300, 6);
+      ctx.fillStyle = '#E8C547'; ctx.fillRect(px1, -24, 300, 2.5);
+      stall(px1 - 60, ['chai', 'jalebi', 'kachori'][i], lit, st.x);
     }
     // stop zone highlight
     if (next) {
@@ -1221,6 +1228,95 @@ function toran(x0, x1, y, n) {
     }
     ctx.fillStyle = '#3F7A2A'; ctx.beginPath(); ctx.ellipse(a + w / 2, y + 14, 2.2, 5, 0, 0, 7); ctx.fill();
   }
+}
+
+/* platform food stalls: chai, jalebi, Kota kachori */
+const STALLS = {
+  chai:    { sign: 'चाय · CHAI',          call: 'Chai garam! Kadak chai!', awn: ['#B3201E', '#F3E6C4'] },
+  jalebi:  { sign: 'जलेबी · JALEBI',       call: 'Garma-garam jalebi!',     awn: ['#E2791B', '#F3E6C4'] },
+  kachori: { sign: 'कोटा कचौरी · KACHORI', call: 'Famous Kota kachori!',    awn: ['#2F6B3A', '#F3E6C4'] }
+};
+function stall(x, type, lit, worldX) {
+  const S = STALLS[type], t = G.t, W0 = 142;
+  ctx.save(); ctx.translate(x, 0);
+  // posts + counter
+  ctx.fillStyle = '#4A2E18'; ctx.fillRect(4, -132, 5, 108); ctx.fillRect(W0 - 9, -132, 5, 108);
+  ctx.fillStyle = '#6B4325'; ctx.fillRect(0, -64, W0, 40);
+  ctx.fillStyle = '#D4AF37'; ctx.fillRect(0, -64, W0, 3); ctx.fillRect(0, -27, W0, 3);
+  ctx.strokeStyle = 'rgba(0,0,0,.25)'; ctx.lineWidth = 1;
+  for (let k = 20; k < W0; k += 22) { ctx.beginPath(); ctx.moveTo(k, -61); ctx.lineTo(k, -27); ctx.stroke(); }
+  // vendor (behind counter)
+  const wave = Math.sin(t * 3) * 0.5;
+  ctx.fillStyle = '#F3E6C4'; rr(ctx, 98, -100, 30, 38, 6); ctx.fill();               // kurta
+  ctx.fillStyle = '#C68B59'; ctx.beginPath(); ctx.arc(113, -110, 10, 0, 7); ctx.fill(); // face
+  ctx.fillStyle = type === 'kachori' ? '#E2791B' : '#B3201E';                              // pagdi
+  ctx.beginPath(); ctx.ellipse(113, -119, 12, 6, 0, 0, 7); ctx.fill();
+  ctx.fillStyle = '#2A1A0E'; ctx.fillRect(108, -112, 2, 2); ctx.fillRect(116, -112, 2, 2);
+  ctx.strokeStyle = '#2A1A0E'; ctx.lineWidth = 1.2; ctx.beginPath(); ctx.arc(113, -107, 3, 0.2, Math.PI - 0.2); ctx.stroke();
+  ctx.save(); ctx.translate(126, -94); ctx.rotate(-1.1 + wave); ctx.fillStyle = '#F3E6C4'; ctx.fillRect(0, -3, 22, 6); ctx.fillStyle = '#C68B59'; ctx.beginPath(); ctx.arc(23, 0, 4, 0, 7); ctx.fill(); ctx.restore();
+  // goods on the counter
+  if (type === 'chai') {
+    ctx.fillStyle = '#3A3A3A'; ctx.fillRect(18, -72, 34, 8);                                 // stove
+    ctx.fillStyle = '#B8B8B8'; ctx.beginPath(); ctx.ellipse(35, -84, 16, 13, 0, 0, 7); ctx.fill(); // kettle
+    ctx.fillStyle = '#8E8E8E'; ctx.fillRect(28, -100, 14, 5);
+    ctx.strokeStyle = '#B8B8B8'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(50, -86); ctx.lineTo(60, -96); ctx.stroke();
+    for (let k = 0; k < 4; k++) { ctx.fillStyle = '#B5562E'; const cx = 64 + k * 9; ctx.beginPath(); ctx.moveTo(cx, -76); ctx.lineTo(cx + 7, -76); ctx.lineTo(cx + 5.5, -64); ctx.lineTo(cx + 1.5, -64); ctx.fill(); }
+    steam(58, -100, t);
+  } else if (type === 'jalebi') {
+    ctx.fillStyle = '#1C1C1C'; ctx.beginPath(); ctx.ellipse(40, -70, 24, 9, 0, 0, Math.PI); ctx.fill(); // kadhai
+    ctx.fillStyle = '#C89A3C'; ctx.fillRect(16, -72, 48, 3);
+    for (let k = 0; k < 5; k++) jalebi(64 + (k % 3) * 11, -72 - Math.floor(k / 3) * 9);
+    steam(40, -80, t);
+  } else {
+    ctx.fillStyle = '#1C1C1C'; ctx.beginPath(); ctx.ellipse(38, -70, 24, 9, 0, 0, Math.PI); ctx.fill(); // kadhai
+    ctx.fillStyle = '#C89A3C'; ctx.fillRect(14, -72, 48, 3);
+    for (let k = 0; k < 3; k++) kachori(28 + k * 10, -73 + (k % 2) * 2);
+    ctx.fillStyle = '#C89A3C'; ctx.fillRect(60, -66, 34, 3);                                    // tray
+    [[66, -71], [76, -71], [86, -71], [71, -79], [81, -79], [76, -87]].forEach(([a, b]) => kachori(a, b));
+    steam(38, -80, t);
+  }
+  // striped awning with scallops
+  const [c1, c2] = S.awn;
+  for (let k = 0; k < 10; k++) {
+    ctx.fillStyle = k % 2 ? c2 : c1; const ax = -8 + k * ((W0 + 16) / 10), aw = (W0 + 16) / 10;
+    ctx.fillRect(ax, -150, aw, 20); ctx.beginPath(); ctx.arc(ax + aw / 2, -130, aw / 2, 0, Math.PI); ctx.fill();
+  }
+  // sign board
+  ctx.fillStyle = '#2A1A0E'; rr(ctx, 14, -176, W0 - 28, 24, 4); ctx.fill(); ctx.strokeStyle = '#D4AF37'; ctx.lineWidth = 1.5; ctx.stroke();
+  ctx.fillStyle = '#F5D78E'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  ctx.font = '600 10px "Tiro Devanagari Hindi", Cinzel, serif'; ctx.fillText(S.sign, W0 / 2, -163);
+  // string bulbs at night
+  if (lit > 0.05) for (let q = 6; q < W0; q += 18) LIGHTS.push({ x: SX(worldX, 1) + (x + q) * s, y: trackY - 152 * s, r: 9 * s, c: '255,210,130', a: lit });
+  // the vendor calls out when the train is near
+  const near = Math.abs(G.x - worldX) < 700;
+  if (near) {
+    const bob = Math.sin(t * 3.2) * 2, bw = 132, bx = 4;
+    ctx.fillStyle = 'rgba(255,248,230,.96)'; rr(ctx, bx, -232 + bob, bw, 30, 12); ctx.fill();
+    ctx.beginPath(); ctx.moveTo(98, -203 + bob); ctx.lineTo(108, -190 + bob); ctx.lineTo(114, -203 + bob); ctx.fill();
+    ctx.strokeStyle = '#D4AF37'; ctx.lineWidth = 1.2; rr(ctx, bx, -232 + bob, bw, 30, 12); ctx.stroke();
+    ctx.fillStyle = '#5A1414'; ctx.font = '700 15px Caveat, "Comic Sans MS", cursive'; ctx.fillText(S.call, bx + bw / 2, -216 + bob);
+  }
+  ctx.restore();
+}
+function steam(x, y, t) {
+  if (RM) return;
+  ctx.strokeStyle = 'rgba(255,255,255,.55)'; ctx.lineWidth = 2;
+  for (let k = 0; k < 3; k++) {
+    const p = ((t * 0.6 + k / 3) % 1), yy = y - p * 34;
+    ctx.globalAlpha = 1 - p; ctx.beginPath();
+    for (let q = 0; q <= 10; q++) { const py = yy - q * 1.6, px = x + k * 6 + Math.sin(q * 0.7 + t * 3 + k) * 3; q ? ctx.lineTo(px, py) : ctx.moveTo(px, py); }
+    ctx.stroke();
+  }
+  ctx.globalAlpha = 1;
+}
+function jalebi(x, y) {
+  ctx.strokeStyle = '#F28C28'; ctx.lineWidth = 2.4; ctx.beginPath();
+  for (let a = 0; a < Math.PI * 5; a += 0.3) { const r = 1 + a * 0.32; const px = x + Math.cos(a) * r, py = y + Math.sin(a) * r * 0.7; a ? ctx.lineTo(px, py) : ctx.moveTo(px, py); }
+  ctx.stroke();
+}
+function kachori(x, y) {
+  ctx.fillStyle = '#C9862E'; ctx.beginPath(); ctx.ellipse(x, y, 5.5, 4, 0, 0, 7); ctx.fill();
+  ctx.fillStyle = '#E8B25A'; ctx.beginPath(); ctx.ellipse(x - 1, y - 1.2, 3, 1.8, 0, 0, 7); ctx.fill();
 }
 
 /* the royal train */
@@ -1397,7 +1493,7 @@ function drawParts() {
 /* ------------------------------------------------------------------ HUD sync */
 let lastHud = { kmh: -1, lv: -1, info: '', eng: -1 };
 function syncHud() {
-  const kmh = Math.round(Math.abs(G.v) * 0.4);
+  const kmh = Math.round(Math.abs(G.v) * 0.21);
   if (kmh !== lastHud.kmh) { $('#kmh').textContent = kmh; const n = needle(); if (n) n.style.transform = `rotate(${-90 + 180 * clamp(kmh / 120, 0, 1)}deg)`; lastHud.kmh = kmh; }
   const lv = Math.round(G.lever * 100);
   if (lv !== lastHud.lv) {
