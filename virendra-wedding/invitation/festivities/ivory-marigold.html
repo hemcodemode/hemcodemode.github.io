@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ivory Marigold — Virendra & Poonam</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Great+Vibes&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+<style>
+@page{size:1080px 1920px;margin:0}
+:root{--mar:#7A1F2B;--gold:#B8892E;--ink:#3D1A12;--sf:#E8891C}
+*{box-sizing:border-box;margin:0;padding:0}
+body{-webkit-print-color-adjust:exact;print-color-adjust:exact;font-family:"Cormorant Garamond",serif;color:var(--ink);background:#fff}
+.page{width:1080px;height:1920px;position:relative;overflow:hidden;page-break-after:always;
+  background:radial-gradient(ellipse at 50% 40%,#FFFDF6 0,#FFF6E4 55%,#F7E6C4 100%)}
+.page:last-child{page-break-after:auto}
+.page::before{content:"";position:absolute;inset:34px;border:3px solid var(--gold);border-radius:6px;pointer-events:none}
+.page::after{content:"";position:absolute;inset:46px;border:1.5px solid rgba(184,137,46,.6);border-radius:4px;pointer-events:none}
+svg.bg{position:absolute;inset:0;width:100%;height:100%}
+.c{position:absolute;left:0;right:0;text-align:center}
+.dev{font-family:"Tiro Devanagari Hindi",serif;color:var(--mar)}
+.k{font-family:Cinzel,serif;letter-spacing:.32em;font-size:22px;color:#8A5A1E}
+.sm{font-size:30px;line-height:1.42;font-weight:500}
+.photo{position:absolute;left:300px;top:450px;width:480px;height:480px;border-radius:50%;overflow:hidden;border:8px solid #D9AE52;box-shadow:0 0 0 4px #FFF6E4,0 0 0 7px var(--mar),0 20px 40px rgba(61,26,18,.3)}
+.mono{display:flex;align-items:center;justify-content:center;background:radial-gradient(circle,#FFFDF6 0,#FBEBC8 70%,#F3D9A0 100%)}
+.mono>div{display:flex;align-items:center;gap:6px;font-family:"Great Vibes",cursive;color:var(--mar)}
+.mono span{font-size:165px;line-height:1}
+.mono i{font-family:Cinzel,serif;font-style:normal;font-size:60px;color:var(--gold)}
+.mono::after{content:"";position:absolute;inset:18px;border-radius:50%;border:2px dashed rgba(184,137,46,.7)}
+.nm{font-family:"Great Vibes",cursive;font-size:130px;line-height:1;color:var(--mar)}
+.role{font-family:Cinzel,serif;font-size:23px;letter-spacing:.34em;color:#8A5A1E;margin-top:4px}
+.rel{font-size:26px;font-style:italic;color:#5B3424;line-height:1.35;margin-top:4px}
+.amp{font-family:Cinzel,serif;font-size:46px;color:var(--gold);line-height:1;margin:8px 0 0}
+.ribbon{display:inline-block;background:linear-gradient(180deg,#8E2634,#6B1823);color:#FBE6B0;padding:18px 60px 16px;font-family:Cinzel,serif;font-weight:600;font-size:34px;letter-spacing:.14em;position:relative;box-shadow:0 8px 20px rgba(107,24,35,.3)}
+.ribbon::before,.ribbon::after{content:"";position:absolute;top:10px;width:40px;height:100%;background:#5A121C;z-index:-1}
+.ribbon::before{left:-30px;clip-path:polygon(0 0,100% 0,100% 100%,0 100%,30% 50%)}
+.ribbon::after{right:-30px;clip-path:polygon(0 0,100% 0,70% 50%,100% 100%,0 100%)}
+/* page 2 */
+.grid{position:absolute;left:80px;right:80px;top:350px;display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
+.card{background:rgba(255,253,246,.92);border:2px solid #D9B36A;border-radius:18px;overflow:hidden;box-shadow:0 10px 24px rgba(122,31,43,.12);text-align:center}
+.card h3{font-family:Cinzel,serif;font-weight:700;font-size:30px;letter-spacing:.1em;padding:16px 10px 12px;color:#FFF3D6}
+.card h3 small{display:block;font-weight:500;font-size:18px;letter-spacing:.38em;opacity:.9;margin-top:2px}
+.ev{padding:20px 16px 18px;border-top:1.5px dashed rgba(184,137,46,.45)}
+.card h3+.ev{border-top:0}
+.ev b{display:block;font-family:Cinzel,serif;font-weight:600;font-size:30px;color:var(--mar);letter-spacing:.04em}
+.ev span{font-size:28px;font-style:italic;font-weight:600}
+.ev em{display:block;font-size:23px;color:#5B3424}
+.fl{display:inline-block;width:16px;height:16px;border-radius:50%;background:radial-gradient(circle,#FFD34D 0 35%,#F08A12 40% 100%);vertical-align:middle;margin:0 10px 4px}
+.lbl{font-family:Cinzel,serif;font-size:20px;letter-spacing:.32em;color:#8A5A1E;margin-bottom:6px}
+.cols{display:grid;grid-template-columns:1fr 1fr;width:780px;margin:0 auto;gap:20px}
+.ph{font-family:Cinzel,serif;font-size:25px;letter-spacing:.06em;font-weight:600;color:var(--mar)}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+   <radialGradient id="mg" cx=".4" cy=".35" r=".7"><stop offset="0" stop-color="#FFD84D"/><stop offset=".55" stop-color="#F7A21B"/><stop offset="1" stop-color="#D9620C"/></radialGradient>
+   <radialGradient id="my" cx=".4" cy=".35" r=".7"><stop offset="0" stop-color="#FFF08A"/><stop offset=".6" stop-color="#F6C21C"/><stop offset="1" stop-color="#D99A0A"/></radialGradient>
+  </defs>
+</svg>
+<template id="backdrop">
+ <svg class="bg" viewBox="0 0 1080 1920">
+  <g class="mandala" opacity=".13"></g>
+  <g class="toran"></g>
+ </svg>
+</template>
+
+<!-- ================= PAGE 1 ================= -->
+<section class="page" id="p1">
+ <div class="c dev" style="top:168px;font-size:30px">॥ श्री गणेशाय नमः ॥</div>
+ <div class="c dev" style="top:210px;font-size:84px;line-height:1.2">शुभ विवाह</div>
+ <div class="c sm" style="top:330px;font-size:28px">With the blessings of Lord Ganesha, <b>Smt. Usha Rani &amp; Shri Pawan Lal Meena</b><br>invite you to the wedding festivities of their son</div>
+ <div class="photo mono"><div><span>V</span><i>&amp;</i><span>P</span></div></div>
+ <div class="c" style="top:975px">
+  <div class="nm">Virendra</div><div class="role">MEENA · IRMS</div>
+  <div class="rel">Grandson of Late Smt. Jhuta Bai &amp; Late Shri Gopal Ji Meena</div>
+  <div class="amp">&amp;</div>
+  <div class="nm">Poonam</div><div class="role">KAMBOJ · IRPFS</div>
+  <div class="rel">Daughter of Smt. Suresh Rani &amp; Shri Chaudhary Suraj Prakash<br>Granddaughter of Smt. Jinda Bai &amp; Shri Chaudhary Jhangi Ram</div>
+ </div>
+ <div class="c" style="top:1585px"><span class="ribbon">10 – 14 DECEMBER 2026</span></div>
+ <div class="c sm" style="top:1685px;font-size:28px"><b>Phera</b> 11:00 AM &nbsp;·&nbsp; <b>Reception &amp; Dinner</b> 7:00 PM<br><i>Monday, 14 December · S.L. Resort, Chandresal Road, Kota</i></div>
+</section>
+
+<!-- ================= PAGE 2 ================= -->
+<section class="page" id="p2">
+ <div class="c dev" style="top:168px;font-size:30px">॥ मंगल उत्सव ॥</div>
+ <div class="c" style="top:205px;font-family:'Great Vibes',cursive;font-size:100px;color:var(--mar);line-height:1.1">The Festivities</div>
+ <div class="grid">
+  <div style="display:grid;gap:28px">
+   <div class="card"><h3 style="background:linear-gradient(#EE9A2E,#D9700E)">10 DECEMBER<small>THURSDAY</small></h3>
+    <div class="ev"><b><i class="fl"></i>Vinayak Sthapna<i class="fl"></i></b><span>10:00 AM</span></div></div>
+   <div class="card"><h3 style="background:linear-gradient(#C0485A,#962A3A)">11 DECEMBER<small>FRIDAY</small></h3>
+    <div class="ev"><b><i class="fl"></i>Mata Pujan<i class="fl"></i></b><span>8:00 AM</span></div>
+    <div class="ev"><b><i class="fl"></i>Chak Basan<i class="fl"></i></b><span>4:00 PM</span></div></div>
+  </div>
+  <div class="card"><h3 style="background:linear-gradient(#E9BC2A,#C9920A);color:#4A2A06">13 DECEMBER<small>SUNDAY</small></h3>
+   <div class="ev"><b><i class="fl"></i>Haldi<i class="fl"></i></b><span>12:00 PM</span></div>
+   <div class="ev"><b><i class="fl"></i>Mehandi<i class="fl"></i></b><span>3:00 PM</span></div>
+   <div class="ev"><b><i class="fl"></i>Engagement<i class="fl"></i></b><span>7:00 PM</span></div>
+   <div class="ev"><b><i class="fl"></i>DJ Party<i class="fl"></i></b><span>8:00 PM</span></div></div>
+ </div>
+ <div class="c" style="top:960px">
+  <div class="card" style="width:920px;margin:0 auto;border-width:3px"><h3 style="background:linear-gradient(#8E2634,#5E1520);color:#FBE6B0">14 DECEMBER · THE WEDDING DAY<small>MONDAY</small></h3>
+   <div style="display:grid;grid-template-columns:1fr 1fr">
+    <div class="ev"><b><i class="fl"></i>Phera<i class="fl"></i></b><span>11:00 AM</span></div>
+    <div class="ev" style="border-left:1.5px dashed rgba(184,137,46,.45)"><b><i class="fl"></i>Reception &amp; Dinner<i class="fl"></i></b><span>7:00 PM onwards</span><em>S.L. Resort, Chandresal Road, Kota, Rajasthan</em></div>
+   </div></div>
+ </div>
+ <div class="c" style="top:1310px">
+  <div class="cols">
+   <div><div class="lbl">SPECIAL REQUESTS</div><div class="sm" style="font-size:27px;line-height:1.35">Laxmi Bai – Raja Ram Ji<br>Kalavati Bai – Devilal Ji<br>Anjali – Hemant Ji</div></div>
+   <div><div class="lbl">AWAITED TO WELCOME</div><div class="sm" style="font-size:27px;line-height:1.35">Rahul<br>Piyush<br>Mohani</div></div>
+  </div>
+  <div style="margin:26px auto 18px;width:320px;height:2px;background:linear-gradient(90deg,transparent,#B8892E,transparent)"></div>
+  <div class="lbl">INVITATION FROM</div>
+  <div class="sm" style="font-size:30px;font-weight:700">Shri Pawan Lal Meena <span style="font-weight:500;font-size:25px">(Retd. Loco Pilot, W.C.R.)</span><br>&amp; Smt. Usha Rani</div>
+  <div class="sm" style="font-size:25px;font-style:italic">H.No. 216, near Machis Factory Road, New Kota, Dadwara, Kota, Rajasthan</div>
+  <div class="lbl" style="margin-top:16px">RSVP</div>
+  <div class="ph">74249 12336 · 89496 60357 · 90042 13306 · 94622 79027</div>
+ </div>
+</section>
+
+<script>
+document.querySelectorAll('.page').forEach(pg=>{pg.prepend(document.getElementById('backdrop').content.cloneNode(true));});
+const NS='http://www.w3.org/2000/svg';
+function el(n,a,p){const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);p&&p.appendChild(e);return e}
+function flower(g,x,y,r,alt){el('circle',{cx:x,cy:y,r,fill:alt?'url(#my)':'url(#mg)'},g);el('circle',{cx:x,cy:y,r:r*.45,fill:'none',stroke:'rgba(160,60,0,.35)','stroke-width':1.2},g);}
+function leaf(g,x,y,a,s){el('path',{d:'M0 0C10 14 10 40 0 56C-10 40-10 14 0 0Z',fill:'#4F8A3A',stroke:'#2F5E24','stroke-width':1,transform:`translate(${x} ${y}) rotate(${a}) scale(${s})`},g);}
+document.querySelectorAll('svg.bg').forEach((svg,pi)=>{
+ // mandala
+ const m=svg.querySelector('.mandala'),cx=540,cy=pi?1000:690;
+ for(let ring=0;ring<6;ring++){const R=120+ring*80,n=12+ring*6;
+  el('circle',{cx,cy,r:R,fill:'none',stroke:'#B8892E','stroke-width':2},m);
+  for(let i=0;i<n;i++){const a=i/n*Math.PI*2;
+   el('path',{d:`M0 0C${-14-ring*2} -20 ${-8} -50 0 -64C8 -50 ${14+ring*2} -20 0 0Z`,fill:'none',stroke:'#B8892E','stroke-width':2,
+    transform:`translate(${cx+Math.cos(a)*R} ${cy+Math.sin(a)*R}) rotate(${a*180/Math.PI+90})`},m);}}
+ const t=svg.querySelector('.toran');
+ // top swags
+ const sw=6,w=1080/sw;
+ for(let s=0;s<sw;s++){const x0=s*w,x1=x0+w;const N=13;
+  for(let i=0;i<=N;i++){const u=i/N,x=x0+u*w,y=18+Math.sin(u*Math.PI)*70;flower(t,x,y,15,(i+s)%2);}
+ }
+ // mango leaves between swags
+ for(let s=0;s<=sw;s++){const x=s*w;[-30,-10,10,30].forEach((a,j)=>leaf(t,x+(j-1.5)*6,10,a,1.05));
+  for(let j=1;j<=4;j++)flower(t,x,40+j*26,11,j%2);
+  el('path',{d:`M${x-12} ${160}h24l-6 22h-12z`,fill:'#C9952E',stroke:'#8A5A1E'},t);el('circle',{cx:x,cy:188,r:5,fill:'#8A5A1E'},t);}
+ // side hanging strings
+ [70,1010].forEach(x=>{for(let j=0;j<22;j++)flower(t,x,120+j*24,11,j%2);
+   for(let j=0;j<3;j++)leaf(t,x,650+j*4,(j-1)*28,.8);
+ });
+ // bottom garland
+ for(let i=0;i<=40;i++){const x=i*27,y=1900-Math.abs(Math.sin(i/40*Math.PI*3))*36;flower(t,x,y,13,i%2);}
+ [[90,1830],[990,1830]].forEach(([x,y])=>{for(let k=0;k<6;k++)leaf(t,x,y,k*60,1);el('circle',{cx:x,cy:y,r:22,fill:'url(#mg)'},t);el('circle',{cx:x,cy:y,r:10,fill:'url(#my)'},t);});
+});
+if(location.hash){document.querySelectorAll('.page').forEach(p=>{if('#'+p.id!==location.hash)p.style.display='none'})}
+</script>
+</body>
+</html>
