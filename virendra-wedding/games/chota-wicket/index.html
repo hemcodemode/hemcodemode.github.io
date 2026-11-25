@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>Chota Wicket Wala Cricket</title>
+<meta name="description" content="Virendra's gully cricket — 5 cm wicket, 15 cm ruler bat, tape ball. Chase the target in 3 overs!">
+<meta property="og:title" content="Chota Wicket Wala Cricket — starring Virendra">
+<meta property="og:description" content="5 cm ka wicket, 15 cm ka ruler, tape wali ball. Can you chase 30?">
+<meta property="og:image" content="https://hemcodemode.github.io/virendra-wedding/games/assets/virendra-photo.jpg">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/cricket.css">
+</head>
+<body>
+<canvas id="cv"></canvas>
+
+<div class="hud" id="hud">
+  <div class="board">
+    <div class="nm">VIRENDRA · BATTING</div>
+    <div class="sc" id="score">0/0</div>
+    <div class="ov" id="overs">Overs 0.0 / 3</div>
+    <div class="balls" id="balls"></div>
+  </div>
+  <div class="need" id="need">Target 30<small>3 overs · 3 wickets</small></div>
+  <div class="ctr"><button class="icon" id="mute" aria-label="Sound on or off">🔊</button></div>
+</div>
+<div class="comm" id="comm">Ghar ke andar ka World Cup!</div>
+<div class="tip hidden" id="tip">Tap / Space = shot maaro!</div>
+<div class="rot">📱↻ Phone ghumao — bada screen</div>
+
+<!-- title -->
+<div class="ov-screen" id="title">
+  <div class="panel">
+    <div class="top">
+      <div class="photo"><div class="tape"></div><img src="../assets/virendra-photo.jpg" alt="Virendra"><div class="cap">STARRING VIRENDRA</div></div>
+      <div>
+        <span class="chip">GHAR KA WORLD CUP</span>
+        <h1><span class="hi">छोटा विकेट वाला क्रिकेट</span><span class="en">Chota Wicket Wala Cricket</span></h1>
+        <p class="lead">Wahi game jo bachpan mein ghar ke andar khela tha — floor pe chalk ki line, chhote wicket, aur Mummy ki khidki ka darr.</p>
+      </div>
+    </div>
+    <div class="kit">
+      <div><em>🏏</em><span><b>5 cm</b>Wicket — matchbox jitna chhota</span></div>
+      <div><em>📏</em><span><b>15 cm</b>Bat — school wala ruler</span></div>
+      <div><em>⚾</em><span><b>Tape ball</b>Plastic + bijli wala tape</span></div>
+    </div>
+    <div class="rules">
+      <h3>GHAR KE RULES</h3>
+      <div>⬆️ Upar se gaya = <b>6</b></div>
+      <div>🧱 Seedha deewar = <b>4</b></div>
+      <div>✋ One-tip-one-hand = <b>OUT</b></div>
+      <div>🪟 Khidki toot gayi = <b>6 + daant</b></div>
+    </div>
+    <div class="go">
+      <button class="btn" id="play">Khelo! ▶</button>
+      <a class="btn alt" href="../deewar/">🧱 Deewar wala cricket</a>
+    </div>
+    <p class="hint">Target ~30 runs · 3 overs · 3 wickets · <b>Tap / Space</b> se shot — timing hi sab kuch hai!</p>
+  </div>
+</div>
+
+<!-- end -->
+<div class="ov-screen hidden" id="end">
+  <div class="panel end">
+    <h2 id="endH">Match jeet liya!</h2>
+    <p class="big" id="endP"></p>
+    <div class="stats" id="stats"></div>
+    <div class="wed"><b>Agla match: 14 December 2026</b>Virendra &amp; Poonam ki lifetime partnership shuru — aap sab invited ho! 💍</div>
+    <div class="go">
+      <button class="btn" id="again">Phir se khelo ↻</button>
+      <a class="btn alt" href="../deewar/">🧱 Deewar wala cricket</a>
+      <a class="btn alt" href="../../">💌 Invitation</a>
+    </div>
+  </div>
+</div>
+
+<script src="../assets/cricket-common.js"></script>
+<script>
+(() => {
+const { rand, pick, clamp, sfx } = CC;
+const cv = document.getElementById('cv');
+const view = CC.setupCanvas(cv);
+const ctx = view.ctx;
+const $ = id => document.getElementById(id);
+
+/* ---------- layout ---------- */
+const G = 468;               // floor line where players stand
+const BX = 250, BS = 1.42;   // batsman
+const STX = 196, STH = 17;   // stumps: x and height (5 cm)
+const KX = 112;              // keeper
+const BOWLX = 800;
+const WIN = { x: 600, y: 150, w: 150, h: 140 };
+const R0 = CC.rig(BX, G, BS, { crouch: 1, batA: Math.PI / 2, bat: 'ruler' });
+const HITX = R0.world.sweet.x;
+const REACH_TOP = R0.world.hands.y - 6;
+const GRAV = 1500;
+
+/* ---------- static scenery ---------- */
+const speck = Array.from({ length: 260 }, () => ({ x: rand(-600, 1560), y: rand(382, 900), r: rand(.8, 2.2), c: pick(['#b89c74', '#efe1c4', '#a98b62', '#d7c09a']) }));
+const toran = [];
+for (let x = -560; x < 1540; x += 26) toran.push(x);
+
+function floorX(i, y) { return 480 + i * 92 * (y - 110) / (620 - 110); }
+function drawRoom(b) {
+  // wall
+  const wg = ctx.createLinearGradient(0, b.y0, 0, 380);
+  wg.addColorStop(0, '#F7E3B8'); wg.addColorStop(1, '#EFD39C');
+  ctx.fillStyle = wg; ctx.fillRect(b.x0, b.y0, b.x1 - b.x0, 380 - b.y0);
+  ctx.fillStyle = '#E2BF7E'; ctx.fillRect(b.x0, 30, b.x1 - b.x0, 10);
+  // marigold toran along the top
+  ctx.strokeStyle = '#3E7C3A'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(b.x0, 46); ctx.lineTo(b.x1, 46); ctx.stroke();
+  for (const x of toran) {
+    if (x < b.x0 - 30 || x > b.x1 + 30) continue;
+    const k = Math.abs(Math.round(x / 26)) % 2;
+    ctx.fillStyle = k ? '#F7931E' : '#F9C80E';
+    for (let j = 0; j < 4; j++) { ctx.beginPath(); ctx.arc(x, 52 + j * 11, 6, 0, 7); ctx.fill(); }
+    ctx.fillStyle = '#3E8E41'; ctx.beginPath(); ctx.ellipse(x + 13, 54, 5, 9, .4, 0, 7); ctx.fill();
+  }
+  // door with curtain (left)
+  ctx.fillStyle = '#7A4B23'; ctx.fillRect(-60, 120, 130, 262);
+  ctx.fillStyle = '#F6B7C6'; ctx.fillRect(-50, 130, 110, 250);
+  ctx.fillStyle = '#E3829C'; for (let x = -46; x < 60; x += 18) ctx.fillRect(x, 130, 7, 250);
+  // tube light
+  ctx.fillStyle = 'rgba(255,255,230,.5)'; ctx.beginPath(); ctx.ellipse(400, 92, 150, 26, 0, 0, 7); ctx.fill();
+  ctx.fillStyle = '#ddd'; CC.rr(ctx, 290, 84, 220, 14, 7); ctx.fill();
+  ctx.fillStyle = '#fff'; CC.rr(ctx, 296, 86, 208, 10, 5); ctx.fill();
+  // calendar — 14 Dec circled
+  ctx.save(); ctx.translate(150, 150); ctx.rotate(-.03);
+  ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, 100, 120); ctx.strokeStyle = '#ccc'; ctx.strokeRect(0, 0, 100, 120);
+  ctx.fillStyle = '#D62828'; ctx.fillRect(0, 0, 100, 26);
+  ctx.fillStyle = '#fff'; ctx.font = '800 11px "Baloo 2",sans-serif'; ctx.textAlign = 'center'; ctx.fillText('DECEMBER 2026', 50, 17);
+  ctx.fillStyle = '#555'; ctx.font = '600 9px "Baloo 2",sans-serif';
+  let d = 1; const start = 2; // Tue
+  for (let r = 0; r < 5; r++) for (let c = 0; c < 7; c++) {
+    const idx = r * 7 + c; if (idx < start || d > 31) continue;
+    const x = 9 + c * 13.5, y = 40 + r * 16;
+    if (d === 14) { ctx.strokeStyle = '#D62828'; ctx.lineWidth = 1.8; ctx.beginPath(); ctx.arc(x, y - 3, 7, 0, 7); ctx.stroke(); ctx.fillStyle = '#D62828'; ctx.fillText('♥', x + 8, y - 9); ctx.fillStyle = '#555'; }
+    ctx.fillText(d, x, y); d++;
+  }
+  ctx.restore();
+  // wall clock
+  ctx.fillStyle = '#7A4B23'; ctx.beginPath(); ctx.arc(510, 160, 30, 0, 7); ctx.fill();
+  ctx.fillStyle = '#fff'; ctx.beginPath(); ctx.arc(510, 160, 25, 0, 7); ctx.fill();
+  const now = performance.now() / 1000;
+  ctx.strokeStyle = '#222'; ctx.lineWidth = 2.5; ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(510, 160); ctx.lineTo(510 + Math.cos(-1.2) * 13, 160 + Math.sin(-1.2) * 13); ctx.stroke();
+  ctx.lineWidth = 1.5; ctx.beginPath(); ctx.moveTo(510, 160); ctx.lineTo(510 + Math.cos(now) * 20, 160 + Math.sin(now) * 20); ctx.stroke();
+  // window
+  drawWindow();
+  // cooler
+  ctx.fillStyle = '#E8DCC2'; CC.rr(ctx, 840, 240, 110, 140, 8); ctx.fill();
+  ctx.fillStyle = '#C9B78F'; for (let y = 262; y < 360; y += 9) ctx.fillRect(852, y, 86, 4);
+  ctx.fillStyle = '#8A7A55'; ctx.fillRect(850, 240, 90, 10);
+  // skirting
+  ctx.fillStyle = '#B0653F'; ctx.fillRect(b.x0, 372, b.x1 - b.x0, 10);
+  // floor tiles
+  const y0 = 382, y1 = b.y1;
+  ctx.fillStyle = '#D8C3A0'; ctx.fillRect(b.x0, y0, b.x1 - b.x0, y1 - y0);
+  const rows = [];
+  for (let z = 1.95; ; z -= .17) { const y = 110 + 510 / z; if (y < y0) continue; rows.push(Math.min(y, y1 + 5)); if (y > y1) break; }
+  rows.unshift(y0);
+  for (let r = 0; r < rows.length - 1; r++) {
+    for (let i = -24; i < 24; i++) {
+      if ((i + r) % 2) continue;
+      const ya = rows[r], yb = rows[r + 1];
+      ctx.fillStyle = '#CDB48C';
+      ctx.beginPath(); ctx.moveTo(floorX(i, ya), ya); ctx.lineTo(floorX(i + 1, ya), ya); ctx.lineTo(floorX(i + 1, yb), yb); ctx.lineTo(floorX(i, yb), yb); ctx.fill();
+    }
+  }
+  for (const s of speck) { if (s.y > y1) continue; ctx.fillStyle = s.c; ctx.beginPath(); ctx.arc(s.x, s.y, s.r, 0, 7); ctx.fill(); }
+  // chalk creases + doodle
+  ctx.strokeStyle = 'rgba(255,255,255,.85)'; ctx.lineWidth = 3; ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(244, 438); ctx.lineTo(236, 506); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(150, 452); ctx.lineTo(300, 452); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(744, 438); ctx.lineTo(752, 506); ctx.stroke();
+  ctx.font = '700 30px "Baloo 2",sans-serif'; ctx.fillStyle = 'rgba(255,255,255,.55)'; ctx.textAlign = 'center';
+  ctx.save(); ctx.translate(500, 522); ctx.scale(1, .55); ctx.fillText('V ♥ P', 0, 0); ctx.restore();
+}
+
+let glass = 1;      // 1 = window intact
+let auntyT = 0;     // mummy-at-window timer
+function drawWindow() {
+  const { x, y, w, h } = WIN;
+  ctx.fillStyle = '#2F6F8F'; ctx.fillRect(x - 8, y - 8, w + 16, h + 16);
+  const g = ctx.createLinearGradient(x, y, x + w, y + h);
+  g.addColorStop(0, '#BFE3F2'); g.addColorStop(1, '#7FB8D6');
+  ctx.fillStyle = g; ctx.fillRect(x, y, w, h);
+  if (auntyT > 0) {   // mummy peeps in
+    const rise = auntyT > 2.3 ? (2.6 - auntyT) / .3 : auntyT < .3 ? auntyT / .3 : 1;
+    ctx.save(); ctx.beginPath(); ctx.rect(x, y, w, h); ctx.clip();
+    const py = y + h + 10 - 100 * rise;
+    ctx.fillStyle = '#7B2CBF'; CC.rr(ctx, x + 40, py + 40, 70, 80, 20); ctx.fill();
+    ctx.fillStyle = '#C68B62'; ctx.beginPath(); ctx.arc(x + 75, py + 22, 24, 0, 7); ctx.fill();
+    ctx.fillStyle = '#1b120c'; ctx.beginPath(); ctx.arc(x + 75, py + 14, 24, Math.PI, 0); ctx.fill();
+    ctx.beginPath(); ctx.arc(x + 75, py - 10, 9, 0, 7); ctx.fill();
+    ctx.fillStyle = '#d0142c'; ctx.beginPath(); ctx.arc(x + 75, py + 12, 2.5, 0, 7); ctx.fill();
+    ctx.strokeStyle = '#111'; ctx.lineWidth = 2.5; ctx.beginPath(); ctx.moveTo(x + 64, py + 18); ctx.lineTo(x + 71, py + 21); ctx.moveTo(x + 86, py + 18); ctx.lineTo(x + 79, py + 21); ctx.stroke();
+    ctx.beginPath(); ctx.arc(x + 75, py + 36, 6, 3.5, 5.9); ctx.stroke();
+    ctx.restore();
+  }
+  if (glass) {
+    ctx.fillStyle = 'rgba(255,255,255,.35)'; ctx.beginPath(); ctx.moveTo(x + 14, y + h - 10); ctx.lineTo(x + 50, y + 10); ctx.lineTo(x + 64, y + 10); ctx.lineTo(x + 28, y + h - 10); ctx.fill();
+  } else {
+    ctx.strokeStyle = 'rgba(255,255,255,.9)'; ctx.lineWidth = 1.5;
+    const cx = x + w * .55, cy = y + h * .45;
+    for (let i = 0; i < 9; i++) { const a = i * .7; ctx.beginPath(); ctx.moveTo(cx, cy); ctx.lineTo(cx + Math.cos(a) * 80, cy + Math.sin(a) * 80); ctx.stroke(); }
+    ctx.fillStyle = '#2b2b2b'; ctx.beginPath(); ctx.arc(cx, cy, 12, 0, 7); ctx.fill();
+  }
+  ctx.strokeStyle = '#2F6F8F'; ctx.lineWidth = 6; ctx.beginPath(); ctx.moveTo(x + w / 2, y); ctx.lineTo(x + w / 2, y + h); ctx.stroke();
+  ctx.strokeStyle = '#444'; ctx.lineWidth = 2;
+  for (let gx = x + 18; gx < x + w; gx += 19) { ctx.beginPath(); ctx.moveTo(gx, y); ctx.lineTo(gx, y + h); ctx.stroke(); }
+  ctx.fillStyle = '#E2BF7E'; ctx.fillRect(x - 14, y + h + 8, w + 28, 8);
+}
+
+/* ---------- stumps ---------- */
+let stumps = null; // flying stumps after bowled
+function resetStumps() { stumps = null; }
+function drawStumps() {
+  if (stumps) {
+    for (const s of stumps) { ctx.save(); ctx.translate(s.x, s.y); ctx.rotate(s.r); ctx.fillStyle = s.bail ? '#F2C94C' : '#F5E6C8'; ctx.fillRect(-1.6, -s.h / 2, 3.2, s.h); ctx.restore(); }
+    return;
+  }
+  for (let i = 0; i < 3; i++) {
+    const x = STX - 4 + i * 4;
+    ctx.fillStyle = 'rgba(0,0,0,.15)'; ctx.fillRect(x - 1, G - 1, 4, 2);
+    ctx.fillStyle = '#F5E6C8'; ctx.fillRect(x - 1.6, G - STH, 3.2, STH);
+    ctx.fillStyle = '#C04A2A'; ctx.fillRect(x - 1.6, G - STH + 3, 3.2, 2);
+  }
+  ctx.fillStyle = '#F2C94C'; ctx.fillRect(STX - 6, G - STH - 2, 6, 2); ctx.fillRect(STX + 1, G - STH - 2, 6, 2);
+}
+function drawDims(alpha) {
+  if (alpha <= 0) return;
+  ctx.save(); ctx.globalAlpha = alpha;
+  // 5 cm marker
+  ctx.strokeStyle = '#D62828'; ctx.fillStyle = '#D62828'; ctx.lineWidth = 1.5;
+  const x = STX - 20;
+  ctx.beginPath(); ctx.moveTo(x, G); ctx.lineTo(x, G - STH); ctx.moveTo(x - 4, G); ctx.lineTo(x + 4, G); ctx.moveTo(x - 4, G - STH); ctx.lineTo(x + 4, G - STH); ctx.stroke();
+  label('5 cm wicket!', x - 34, G - 46, x, G - STH / 2);
+  if (game.state === 'title' || game.labelT > 0) {
+    const t = CC.rig(BX, G, BS, { crouch: 1, batA: batAngle(), bat: 'ruler' }).world;
+    label('15 cm ruler = bat', t.tip.x + 90, t.tip.y - 70, t.sweet.x + 6, t.sweet.y);
+  }
+  ctx.restore();
+}
+function label(text, x, y, px, py) {
+  ctx.strokeStyle = '#2B1A0E'; ctx.lineWidth = 1.5; ctx.setLineDash([4, 3]);
+  ctx.beginPath(); ctx.moveTo(x, y + 10); ctx.lineTo(px, py); ctx.stroke(); ctx.setLineDash([]);
+  ctx.font = '800 15px "Baloo 2",sans-serif'; const w = ctx.measureText(text).width + 16;
+  ctx.fillStyle = '#FFF6E3'; CC.rr(ctx, x - w / 2, y - 12, w, 24, 12); ctx.fill(); ctx.stroke();
+  ctx.fillStyle = '#2B1A0E'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(text, x, y + 1); ctx.textBaseline = 'alphabetic';
+}
+
+/* ---------- match state ---------- */
+const BOWLERS = [
+  { name: 'Rahul', shirt: '#E4572E', legs: '#2E3A59', intro: 'Rahul ki seedhi-saadhi bowling' },
+  { name: 'Piyush', shirt: '#2A9D8F', legs: '#3A3A3A', intro: 'Piyush — mohalle ka Bumrah' },
+  { name: 'Poonam', shirt: '#D6336C', legs: '#D6336C', girl: true, dupatta: '#F7B32B', bindi: true, skin: '#D9A07A', intro: 'Aakhri over… Poonam bowling! Shaadi se pehle ka test 😄' }
+];
+const OVERS = 3, WKTS = 3;
+const game = { state: 'title', t: 0, runs: 0, wk: 0, balls: 0, target: 30, log: [], resT: 0, labelT: 0, mood: null, moodT: 0, overT: 0 };
+let ball = null, swing = null, bowler = { x: BOWLX, armA: 1.6, run: 0, t: 0 }, keeper = { hands: .2, catchT: 0 };
+
+function bowlerNow() { return BOWLERS[Math.min(OVERS - 1, Math.floor(game.balls / 6))]; }
+function comm(t) { $('comm').textContent = t; }
+function updHud() {
+  $('score').textContent = `${game.runs}/${game.wk}`;
+  $('overs').textContent = `Overs ${Math.floor(game.balls / 6)}.${game.balls % 6} / ${OVERS}`;
+  const need = game.target - game.runs, left = OVERS * 6 - game.balls;
+  $('need').innerHTML = need > 0 ? `Need ${need}<small>off ${left} ball${left === 1 ? '' : 's'} · target ${game.target}</small>` : `Jeet gaye! 🎉<small>target ${game.target}</small>`;
+  const cur = game.log.slice(Math.floor((game.balls - (game.balls % 6 === 0 && game.balls ? 6 : game.balls % 6))), game.balls);
+  $('balls').innerHTML = cur.map(r => `<i class="${r === 'W' ? 'w' : r === 0 ? 'd' : 'r' + r}">${r === 0 ? '•' : r}</i>`).join('');
+}
+
+function startMatch() {
+  Object.assign(game, { state: 'intro', t: 0, runs: 0, wk: 0, balls: 0, target: 28 + Math.floor(Math.random() * 6), log: [], resT: 0, labelT: 4.5, mood: null, overT: 0 });
+  glass = 1; resetStumps(); ball = null; swing = null;
+  $('title').classList.add('hidden'); $('end').classList.add('hidden');
+  updHud(); comm(`Target ${game.target}! ${BOWLERS[0].intro}`);
+  $('tip').classList.remove('hidden');
+}
+
+const TYPES = [
+  { n: 'Lurka (zameen pe)', ground: true },
+  { n: 'Tappa ball', b: [.45, .62] },
+  { n: 'Yorker!', b: [.04, .12] },
+  { n: 'Full toss', full: true },
+  { n: 'Uchhal tappa', b: [.7, .8], e: .62 }
+];
+function nextBall() {
+  if (game.state === 'end') return;
+  resetStumps(); swing = null; ball = null; game.mood = null;
+  game.state = 'runup'; game.t = 0;
+  bowler.x = BOWLX + 70; bowler.armA = 1.6;
+  const ov = Math.floor(game.balls / 6);
+  const ty = game.balls === 0 ? TYPES[1] : pick(TYPES);
+  game.pending = ty;
+  game.speed = (1.15 - ov * .14) * rand(.9, 1.1);
+}
+function release() {
+  const ty = game.pending, T = game.speed;
+  const hx = bowler.x - 34, hy = G - 46;
+  const D = hx - HITX, vx = -D / T, r = 7;
+  ball = { x: hx, y: hy, vx, vy: 0, r, rot: 0, state: 'bowl', e: ty.e || .5, line: Math.random() < .62, bounces: 0, type: ty.n };
+  if (ty.ground) { ball.y = G - r; ball.vy = -140; ball.e = .55; }
+  else if (ty.full) { const t = T; ball.vy = ((G - 22) - hy - .5 * GRAV * t * t) / t; }
+  else {
+    const xb = HITX + D * rand(ty.b[0], ty.b[1]); const t1 = (hx - xb) / -vx;
+    ball.vy = ((G - r) - hy - .5 * GRAV * t1 * t1) / t1;
+  }
+  game.state = 'flight';
+  CC.pop(ty.n, 760, 360, '#FFF6E3', 22, 1.1);
+}
+
+function batAngle() {
+  if (game.mood === 'happy') return -1.25;
+  if (game.mood === 'sad') return 1.9;
+  if (swing) { const p = clamp(swing.t / .26, 0, 1); return 3.6 - p * 4.4; }
+  return 1.85 + Math.sin(performance.now() / 260) * .08;
+}
+
+function doSwing() {
+  sfx.unlock();
+  if (game.state === 'title' || game.state === 'end') return;
+  if (swing || !(game.state === 'flight' || game.state === 'runup')) return;
+  swing = { t: 0, checked: false };
+  sfx.swish();
+  $('tip').classList.add('hidden');
+}
+
+function evaluateContact() {
+  swing.checked = true;
+  if (!ball || ball.state !== 'bowl') return;
+  if (ball.x < STX - 8) return;
+  const err = (ball.x - HITX) / Math.abs(ball.vx);
+  const reach = ball.y > REACH_TOP;
+  const a = Math.abs(err);
+  if (!reach || a > .15) return; // clean miss
+  let runs;
+  if (a < .032) runs = 6; else if (a < .058) runs = 4; else if (a < .088) runs = 2; else if (a < .118) runs = 1; else runs = 'edge';
+  ball.state = 'hit'; ball.hitRuns = runs;
+  if (runs === 'edge') {
+    sfx.tock(.5);
+    ball.vx = -rand(230, 300); ball.vy = -rand(330, 420);
+    ball.caught = Math.random() < .45;
+    CC.pop(err > 0 ? 'Jaldi!' : 'Late!', BX + 40, G - 130, '#FFD166', 24, .9);
+    return;
+  }
+  sfx.tock(runs >= 4 ? 1 : .7);
+  CC.burst(ball.x, ball.y, 10, ['#fff', '#F2C94C'], 160, 300, .4);
+  const perfect = runs === 6;
+  CC.pop(perfect ? 'PERFECT!' : runs === 4 ? 'Badhiya!' : err > 0 ? 'Thoda jaldi' : 'Thoda late', BX + 40, G - 140, perfect ? '#7CFFB2' : '#FFF6E3', perfect ? 30 : 22, .9);
+  if (runs === 6) {
+    if (glass && Math.random() < .3) {
+      ball.window = true; ball.vx = 720;
+      const tx = WIN.x + WIN.w * .55, ty = WIN.y + WIN.h * .45, t = (tx - ball.x) / ball.vx;
+      ball.vy = (ty - ball.y - .5 * GRAV * t * t) / t;
+    } else { ball.vx = rand(560, 700); ball.vy = -rand(900, 1000); }
+  } else if (runs === 4) { ball.vx = rand(980, 1120); ball.vy = -rand(90, 170); ball.e = .45; }
+  else if (runs === 2) { ball.vx = rand(500, 560); ball.vy = -rand(90, 140); ball.e = .4; }
+  else { ball.vx = rand(260, 310); ball.vy = -rand(50, 90); ball.e = .35; }
+}
+
+function result(r, text, col) {
+  if (game.state === 'result') return;
+  game.state = 'result'; game.resT = 1.7;
+  game.balls++; game.log.push(r);
+  if (r === 'W') { game.wk++; game.mood = 'sad'; sfx.aww(); }
+  else { game.runs += r; if (r >= 4) { game.mood = 'happy'; sfx.cheer(r === 6); } }
+  comm(text);
+  const big = r === 'W' ? 'OUT!' : r === 6 ? 'SIX!' : r === 4 ? 'FOUR!' : r === 0 ? 'Dot ball' : `${r} run${r > 1 ? 's' : ''}`;
+  CC.pop(big, 480, 250, col, r === 'W' || r >= 4 ? 64 : 40, 1.5);
+  if (r === 6) CC.burst(480, 250, 60, ['#F7931E', '#F9C80E', '#D62828', '#2A9D8F', '#7B2CBF'], 420, 400, 1.4);
+  updHud();
+}
+const LINES = {
+  6: ['Seedha chhat pe! Tube-light bach gayi 😅', '15 cm ke ruler se chhakka! Kya baat hai!', 'Ball padosi ki chhat pe… SIX!'],
+  4: ['Direct deewar! Chaar run.', 'Ruler se cover drive — FOUR!', 'Kadak shot! Cooler ne roka, 4 runs.'],
+  2: ['Achha push — 2 runs.', 'Gap mein daala, do run.'],
+  1: ['Halka sa tap — ek run.', 'Ek run, strike rotate.'],
+  0: ['Beaten! Ball nikal gayi.', 'Dot ball. Bowler muskura raha hai 😏', 'Kuch nahi hua — Chintu ne pakad li.'],
+  bowled: ['BOWLED! 5 cm ka wicket bhi ud gaya!', 'Gilli udd gayi! Itna chhota wicket… phir bhi!', 'Clean bowled! Ruler dekhta reh gaya.'],
+  caught: ['CAUGHT! One-tip-one-hand — Chintu ka kamaal!', 'Edge aur catch! Ghar ka rule hai bhai.'],
+  window: ['CHHANAAK! Khidki toot gayi — SIX… par Mummy aa rahi hai 😬']
+};
+
+function endMatch() {
+  game.state = 'end';
+  const won = game.runs >= game.target;
+  $('endH').textContent = won ? 'Match jeet liya! 🏆' : 'Arre yaar… haar gaye!';
+  const left = OVERS * 6 - game.balls;
+  $('endP').textContent = won ? `Virendra ne ${game.target} ka target ${left ? left + ' ball pehle' : 'aakhri ball pe'} chase kar liya — ruler se!` : `${game.target - game.runs} run kam pad gaye. Mummy ne ball rakh li — kal phir khelenge.`;
+  const sixes = game.log.filter(r => r === 6).length, fours = game.log.filter(r => r === 4).length;
+  const sr = game.balls ? Math.round(game.runs / game.balls * 100) : 0;
+  $('stats').innerHTML = `<div><b>${game.runs}/${game.wk}</b>Score</div><div><b>${game.balls}</b>Balls</div><div><b>${sixes}</b>Sixes</div><div><b>${fours}</b>Fours</div><div><b>${sr}</b>Strike rate</div>`;
+  try { const best = +localStorage.getItem('cw-best') || 0; if (game.runs > best) localStorage.setItem('cw-best', game.runs); } catch (e) { }
+  if (won) { sfx.cheer(true); CC.burst(480, 200, 120, ['#F7931E', '#F9C80E', '#D62828', '#2A9D8F', '#7B2CBF', '#fff'], 520, 300, 2); }
+  setTimeout(() => $('end').classList.remove('hidden'), 1100);
+}
+
+/* ---------- update ---------- */
+const AUTO = location.hash.startsWith('#auto') || location.hash.startsWith('#sim');
+function update(dt) {
+  game.t += dt;
+  if (AUTO && game.state === 'flight' && ball && ball.state === 'bowl' && !swing && (ball.x - HITX) / -ball.vx < .124 + (game.autoOff ?? (game.autoOff = location.hash.includes('wild') ? rand(-.25, .2) : rand(-.06, .06)))) { game.autoOff = null; doSwing(); }
+  if (game.labelT > 0) game.labelT -= dt;
+  if (auntyT > 0) auntyT -= dt;
+  if (keeper.catchT > 0) keeper.catchT -= dt;
+  if (swing) { swing.t += dt; if (!swing.checked && swing.t >= .124) evaluateContact(); if (swing.t > .5 && game.state !== 'result') swing = null; }
+
+  if (game.state === 'runup') {
+    bowler.x = BOWLX + 70 - Math.min(1, game.t / .6) * 70; bowler.run = game.t * 14;
+    bowler.armA = game.t < .6 ? 1.6 + Math.min(1, game.t / .6) * 1.1 : 2.7 - (game.t - .6) / .18 * 2.1;
+    if (game.t >= .78) { bowler.armA = .6; bowler.run = 0; release(); }
+  } else if (game.state !== 'runup' && bowler.armA < 1.6) bowler.armA = Math.min(1.6, bowler.armA + dt * 3);
+
+  if (ball && ball.state !== 'dead') {
+    ball.vy += GRAV * dt; ball.x += ball.vx * dt; ball.y += ball.vy * dt; ball.rot += ball.vx * dt / ball.r * .5;
+    if (ball.y > G - ball.r) {
+      ball.y = G - ball.r;
+      if (ball.vy > 60) {           // real bounce
+        if (ball.vy > 90) sfx.bounce();
+        ball.vy = -ball.vy * ball.e; ball.vx *= ball.state === 'hit' ? .82 : .96; ball.bounces++;
+      } else {                      // rolling
+        ball.vy = 0; ball.vx *= 1 - dt * (ball.state === 'hit' ? .5 : .12);
+      }
+    }
+    if (ball.state === 'bowl') {
+      // stumps
+      if (ball.line && ball.x - ball.r <= STX + 5 && ball.x > STX - 6 && ball.y > G - STH - ball.r) {
+        ball.state = 'dead'; sfx.stumps();
+        stumps = [-4, 0, 4].map(o => ({ x: STX + o, y: G - STH / 2, vx: rand(-220, -90), vy: rand(-420, -260), r: 0, vr: rand(-14, -6), h: STH }))
+          .concat([{ x: STX - 3, y: G - STH, vx: -150, vy: -520, r: 0, vr: 20, h: 6, bail: 1 }, { x: STX + 3, y: G - STH, vx: -60, vy: -600, r: 0, vr: -24, h: 6, bail: 1 }]);
+        CC.burst(STX, G - 10, 14, ['#F5E6C8', '#F2C94C'], 200, 600, .7);
+        result('W', pick(LINES.bowled), '#FF6B6B');
+      } else if (ball.x < KX + 26) {
+        ball.state = 'dead'; ball.x = KX + 26; ball.y = G - 30; keeper.catchT = .6;
+        result(0, pick(LINES[0]), '#FFF6E3');
+      }
+    } else if (ball.state === 'hit') {
+      const r = ball.hitRuns;
+      if (r === 'edge') {
+        if (ball.x < KX + 30 && game.state !== 'result') {
+          if (ball.caught) { ball.state = 'dead'; ball.x = KX + 24; ball.y = G - 70; keeper.catchT = 1.6; sfx.ding(); result('W', pick(LINES.caught), '#FF6B6B'); }
+          else { keeper.catchT = .4; result(1, 'Edge laga… Chintu se chhoot gayi! 1 run.', '#FFF6E3'); }
+        }
+        if (ball.x < KX - 80) ball.state = 'dead';
+      } else if (ball.window && ball.x >= WIN.x + 20) {
+        ball.state = 'dead'; glass = 0; auntyT = 2.6; sfx.glass();
+        CC.burst(ball.x, ball.y, 40, Object.assign(['#E8F6FF', '#BFE3F2', '#ffffff'], { shard: 1 }), 320, 900, 1.2);
+        result(6, LINES.window[0], '#C77DFF');
+      } else if (r === 6 && ball.y < -60) { ball.state = 'dead'; result(6, pick(LINES[6]), '#C77DFF'); }
+      else if (r === 4 && ball.x > 835) { ball.state = 'dead'; sfx.wall(); CC.burst(840, ball.y, 12, ['#E8DCC2', '#fff'], 150, 500, .5); result(4, pick(LINES[4]), '#7CFFB2'); }
+      else if ((r === 1 || r === 2) && Math.abs(ball.vx) < 30) { ball.state = 'dead'; result(r, pick(LINES[r]), '#FFF6E3'); }
+      else if (r === 1 || r === 2) { ball.vx *= (1 - dt * 1.6); if (ball.x > 820) ball.vx = Math.min(ball.vx, 20); }
+      if (ball.state === 'hit' && (ball.x > 1000 || ball.y < -300)) { ball.state = 'dead'; if (typeof r === 'number') result(r, pick(LINES[r]), '#FFF6E3'); }
+    }
+  }
+  if (stumps) for (const s of stumps) { s.vy += GRAV * dt; s.x += s.vx * dt; s.y += s.vy * dt; s.r += s.vr * dt; if (s.y > G - 2) { s.y = G - 2; s.vy *= -.3; s.vx *= .6; s.vr *= .5; } }
+
+  if (game.state === 'result') {
+    game.resT -= dt;
+    if (game.resT <= 0) {
+      if (game.runs >= game.target || game.wk >= WKTS || game.balls >= OVERS * 6) return endMatch();
+      if (game.balls % 6 === 0) { game.state = 'over'; game.overT = 1.8; const b = bowlerNow(); comm(`Over khatam! Ab ${b.intro}`); CC.pop(`${b.name} bowling`, 480, 220, '#FFD166', 36, 1.6); glass = 1; }
+      else nextBall();
+    }
+  }
+  if (game.state === 'over') { game.overT -= dt; if (game.overT <= 0) nextBall(); }
+  if (game.state === 'intro' && game.t > 1.4) nextBall();
+  CC.updateFx(dt);
+}
+
+/* ---------- draw ---------- */
+function draw() {
+  view.begin();
+  const b = view.bounds();
+  drawRoom(b);
+  drawStumps();
+  // keeper
+  const kc = keeper.catchT > 0;
+  CC.drawKid(ctx, KX, G, 1.0, { face: 1, crouch: kc ? .2 : 1, shirt: '#F4A261', legs: '#264653', armA: kc ? -1.2 : .3, hands2: kc ? -1.0 : .5 });
+  nameTag('Chintu', KX + 4, G + 22);
+  // bowler
+  const bw = bowlerNow();
+  CC.drawKid(ctx, bowler.x, G, 1.12, { face: -1, shirt: bw.shirt, legs: bw.legs, girl: bw.girl, dupatta: bw.dupatta, bindi: bw.bindi, skin: bw.skin, armA: bowler.armA, run: game.state === 'runup' ? bowler.run : 0, ball: game.state === 'runup' || game.state === 'over' || game.state === 'intro', sad: game.mood === 'happy' });
+  nameTag(bw.name, bowler.x, G + 22);
+  // batsman
+  CC.drawVirendra(ctx, BX, G, BS, { crouch: 1, batA: batAngle(), bat: 'ruler', mood: game.mood, bob: Math.sin(performance.now() / 300) * 1.2 });
+  nameTag('Virendra', BX + 30, G + 22, true);
+  if (ball && !(ball.state === 'dead' && ball.hitRuns === 6)) CC.tapeBall(ctx, ball.x, ball.y, ball.r, ball.rot);
+  drawDims(game.state === 'title' ? 1 : clamp(game.labelT, 0, 1));
+  CC.drawFx(ctx);
+}
+function nameTag(t, x, y, hero) {
+  ctx.font = `800 ${hero ? 15 : 13}px "Baloo 2",sans-serif`; const w = ctx.measureText(t).width + 14;
+  ctx.fillStyle = hero ? '#D62828' : 'rgba(43,26,14,.75)'; CC.rr(ctx, x - w / 2, y - 10, w, 20, 10); ctx.fill();
+  ctx.fillStyle = '#fff'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(t, x, y + 1); ctx.textBaseline = 'alphabetic';
+}
+
+let last = performance.now();
+function loop(now) {
+  const dt = Math.min(.04, (now - last) / 1000); last = now;
+  update(dt); draw();
+  requestAnimationFrame(loop);
+}
+if (!location.hash.startsWith('#sim')) requestAnimationFrame(loop);
+
+/* ---------- input ---------- */
+cv.addEventListener('pointerdown', e => { e.preventDefault(); doSwing(); });
+window.addEventListener('keydown', e => {
+  if (e.code === 'Space' || e.code === 'Enter') {
+    e.preventDefault();
+    if (game.state === 'title') return startMatch();
+    if (game.state === 'end' && !$('end').classList.contains('hidden')) return startMatch();
+    doSwing();
+  }
+});
+$('play').onclick = () => { sfx.unlock(); startMatch(); };
+$('again').onclick = () => { sfx.unlock(); startMatch(); };
+const mb = $('mute'); mb.textContent = sfx.muted ? '🔇' : '🔊';
+mb.onclick = e => { e.stopPropagation(); mb.textContent = sfx.toggle() ? '🔇' : '🔊'; };
+updHud();
+if (AUTO) startMatch();
+const SIM = location.hash.match(/#sim=([\d.]+)/);
+if (SIM) { const tr = []; for (let i = 0; i < +SIM[1] * 60; i++) { const st = game.state + (ball ? ':' + ball.state + ':' + (ball.hitRuns ?? '') : ''); if (tr[tr.length - 1]?.s !== st) tr.push({ s: st, t: (i / 60).toFixed(2), x: ball ? Math.round(ball.x) + ',' + Math.round(ball.y) + ',' + Math.round(ball.vx) : '' }); update(1 / 60); } document.body.dataset.trace = JSON.stringify(tr); const d = () => { draw(); requestAnimationFrame(d); }; d(); }
+})();
+</script>
+</body>
+</html>
